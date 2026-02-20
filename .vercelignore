@@ -1,0 +1,7 @@
+optimize-images.mjs
+upload-hero-image.sh
+*.md
+!README.md
+.bolt
+supabase/migrations
+supabase/functions
