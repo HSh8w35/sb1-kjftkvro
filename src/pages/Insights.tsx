@@ -181,7 +181,7 @@ function Insights() {
       />
       <section className="pt-20 pb-20 px-6 lg:px-8 bg-gradient-to-br from-[#FFF8F0] to-[#F6F1E8] relative overflow-hidden min-h-screen">
       <div className="max-w-7xl mx-auto relative z-10">
-        <div className="text-center mb-8 relative">
+        <div className="text-center mb-16 relative">
           {/* Watermark Background */}
           <div className="absolute inset-x-0 -top-44 bottom-0 flex items-center justify-center pointer-events-none overflow-hidden">
             <img
@@ -191,25 +191,14 @@ function Insights() {
             />
           </div>
 
-          <div className="mb-2 relative z-10">
-            <div className="flex items-center justify-center mb-2">
+          <div className="relative z-10">
+            <div className="flex items-center justify-center">
               <img
-                src="/v_2_transparent_perspectives.webp"
+                src="/V_2_Transparent_Perspectives.png"
                 alt="Perspectives"
-                className="w-auto h-40 md:h-52 mix-blend-multiply"
+                className="w-auto h-40 md:h-52"
               />
             </div>
-          </div>
-          <div className="max-w-4xl mx-auto space-y-3 text-center mb-6 relative z-10 bg-transparent">
-            <p className="font-montserrat text-lg text-[#2E2A26] leading-snug bg-transparent">
-              Perspectives are foundational statements that define how we think about leadership, independence, and long-term value in hospitality. They are not reactions to trends or commentary on the moment. They are positions shaped by experience, tested under pressure, and refined through years of executive leadership in independent hotels and resorts.
-            </p>
-            <p className="font-montserrat text-lg text-[#2E2A26] leading-snug bg-transparent">
-              This body of work challenges conventional industry assumptions—particularly the belief that scale, affiliation, or standardization are the inevitable answers to complexity. Each Perspective is written for owners, boards, and senior leaders. Together, they form a framework for decision-making that prioritizes stewardship over speed, clarity over convenience, and leadership accountability over delegation.
-            </p>
-            <p className="font-montserrat text-lg text-[#2E2A26] leading-snug font-semibold bg-transparent">
-              This is where we articulate the principles that guide our work—and the thinking we believe will shape the future of independent hospitality.
-            </p>
           </div>
         </div>
 
