@@ -228,7 +228,6 @@ function Home() {
                   </h3>
                 </div>
                 <div className="space-y-4 text-base text-[#2E2A26] leading-relaxed text-center flex-grow">
-                  <p className="h-4"></p>
                   <p>
                     The strongest independent hotels are not manufactured. They are rooted—shaped by place, history, culture, and intention.
                   </p>
