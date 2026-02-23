@@ -196,7 +196,7 @@ function Insights() {
               <img
                 src="/v_2_transparent_perspectives.webp"
                 alt="Perspectives"
-                className="w-auto h-40 md:h-52"
+                className="w-auto h-40 md:h-52 mix-blend-multiply"
               />
             </div>
           </div>
