@@ -74,7 +74,7 @@ function Home() {
               key={image}
               className="absolute top-0 left-0 w-full h-full transition-opacity duration-1000"
               style={{
-                opacity: imagesLoaded && currentImageIndex === index ? 0.2 : 0,
+                opacity: imagesLoaded && currentImageIndex === index ? 0.35 : 0,
               }}
             >
               <img
