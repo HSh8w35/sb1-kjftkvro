@@ -121,10 +121,10 @@ function About() {
               </div>
               <div className="space-y-4 text-xl text-[#2E2A26] leading-relaxed">
                 <p>
-                  Independent hotels are operating in an environment defined by economic pressure, labor volatility, and renewed brand consolidation. Many are being told—explicitly or implicitly—that independence is untenable without corporate flags, algorithms, or fee structures that quietly erode both margin and identity.
+                  Independent hotels are operating in an environment defined by economic pressure, labor volatility, and accelerated brand consolidation. Owners are increasingly presented with options that promise scale and relief, often at the expense of margin control and long-term autonomy.
                 </p>
                 <p className="font-semibold">
-                  Stone's work exists in direct response: to ensure independent hotels remain truly independent—financially fortified, strategically assured, and sovereign in their direction.
+                  Stone's work ensures independent hotels remain financially fortified, strategically assured, and sovereign in their direction—without compromising identity or stewardship.
                 </p>
               </div>
             </div>
