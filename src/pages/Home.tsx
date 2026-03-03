@@ -93,7 +93,7 @@ function Home() {
               <img
                 src="/Translucent_Logo_on_home_page.webp"
                 alt="Heidi Stone Hospitality"
-                className="h-[5rem] md:h-[7rem] w-auto p-4"
+                className="h-[6.25rem] md:h-[8.75rem] w-auto p-4"
               />
             </div>
             <div className="mb-6">
