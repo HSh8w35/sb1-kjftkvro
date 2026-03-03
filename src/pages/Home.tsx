@@ -212,7 +212,7 @@ function Home() {
                     <Users className="w-7 h-7 text-white" />
                   </div>
                   <h3 className="text-2xl font-bold text-[#2E2A26] leading-tight text-center">
-                    Leadership That Is Sustained
+                    Leadership That Holds
                   </h3>
                 </div>
                 <div className="space-y-4 text-base text-[#2E2A26] leading-relaxed text-center flex-grow">
