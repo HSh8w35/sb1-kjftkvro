@@ -305,7 +305,7 @@ function Home() {
         </div>
         <div className="max-w-6xl mx-auto px-6 lg:px-8 text-center relative z-10">
           <p className="text-3xl md:text-4xl font-light text-[#D4C5A9] italic leading-relaxed">
-            Ensuring independence remains a strategic choice—not a compromise.
+            Ensuring independence remains intentional—not reactive.
           </p>
         </div>
       </section>
