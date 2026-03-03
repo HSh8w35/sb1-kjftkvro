@@ -98,7 +98,7 @@ function Home() {
             </div>
             <div className="mb-12">
               <p className="text-3xl md:text-4xl lg:text-5xl font-semibold text-[#2E2A26] mb-6 leading-tight">
-                When the Weight of a Hotel Rests on You
+                Clarity at Critical Moments
               </p>
               <p className="text-3xl md:text-4xl text-[#2E2A26]/70 font-light italic">
                 Independent guidance for privately held, historic, and destination hotels at pivotal moments.
