@@ -32,27 +32,27 @@ function Story() {
             </div>
 
             <div className="max-w-2xl mx-auto">
-              <div className="text-center mb-20 space-y-8">
-                <p className="text-lg md:text-xl text-[#2E2A26] leading-loose">
+              <div className="text-center mb-20 space-y-4">
+                <p className="text-lg md:text-xl text-[#2E2A26] leading-relaxed">
                   Not because they are easy.
                 </p>
-                <p className="text-lg md:text-xl text-[#2E2A26] leading-loose">
+                <p className="text-lg md:text-xl text-[#2E2A26] leading-relaxed">
                   Not because they are tidy.
                 </p>
-                <p className="text-lg md:text-xl text-[#2E2A26] leading-loose">
+                <p className="text-lg md:text-xl text-[#2E2A26] leading-relaxed">
                   But because inside complexity, neglect, and uncertainty, I see something others often miss: possibility.
                 </p>
-                <p className="text-lg md:text-xl text-[#2E2A26] leading-loose pt-6">
+                <p className="text-lg md:text-xl text-[#2E2A26] leading-relaxed pt-4">
                   Places with history carry memory.
                 </p>
-                <p className="text-lg md:text-xl text-[#2E2A26] leading-loose">
+                <p className="text-lg md:text-xl text-[#2E2A26] leading-relaxed">
                   Places with memory deserve stewardship.
                 </p>
-                <div className="space-y-6 pt-12">
-                  <p className="text-lg md:text-xl text-[#2E2A26] leading-loose">
+                <div className="space-y-4 pt-8">
+                  <p className="text-lg md:text-xl text-[#2E2A26] leading-relaxed">
                     I have not advised from the sidelines. I have led from inside the weight of privately held, high-risk hospitality assets—where payroll, debt service, capital investment, and community impact were not abstract concepts, but daily realities.
                   </p>
-                  <p className="text-lg md:text-xl text-[#2E2A26] leading-loose">
+                  <p className="text-lg md:text-xl text-[#2E2A26] leading-relaxed">
                     For more than two decades, I have carried that weight.
                   </p>
                 </div>
