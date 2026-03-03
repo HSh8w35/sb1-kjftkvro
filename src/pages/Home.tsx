@@ -62,7 +62,7 @@ function Home() {
         description={seoData?.description || "Strategic hospitality advisory for independent hotel owners navigating complexity, growth, and leadership decisions."}
         keywords={seoData?.keywords}
       />
-      <section className="min-h-[85vh] flex items-center px-6 lg:px-8 relative overflow-hidden bg-[#F6F1E8]">
+      <section className="min-h-screen md:min-h-[85vh] flex items-center px-6 lg:px-8 relative overflow-hidden bg-[#F6F1E8]">
         {!imagesLoaded && (
           <div className="absolute inset-0 flex items-center justify-center">
             <div className="text-[#8B6F47] text-lg font-semibold">Loading images...</div>
@@ -87,25 +87,25 @@ function Home() {
           ))}
         </div>
         <div className="absolute inset-0 bg-gradient-to-b from-[#F6F1E8]/50 via-transparent to-[#F6F1E8]/70" />
-        <div className="max-w-7xl mx-auto relative z-10 w-full h-full flex flex-col justify-center py-20">
-          <div className="max-w-4xl mx-auto text-center">
-            <div className="inline-block relative mb-4">
+        <div className="max-w-7xl mx-auto relative z-10 w-full h-full flex flex-col justify-center py-12 md:py-20">
+          <div className="max-w-4xl mx-auto text-center px-4">
+            <div className="inline-block relative mb-6 md:mb-4">
               <img
                 src="/Translucent_Logo_on_home_page.webp"
                 alt="Heidi Stone Hospitality"
-                className="h-[6.25rem] md:h-[8.75rem] w-auto p-4"
+                className="h-20 md:h-[6.25rem] lg:h-[8.75rem] w-auto p-4"
               />
             </div>
-            <div className="mb-6">
+            <div className="mb-4 md:mb-6">
               <img
                 src="/Clarity_at_Critical_Moments_script.png"
                 alt="Clarity in Critical Moments"
-                className="mx-auto mb-2 w-full max-w-xl h-auto"
+                className="mx-auto mb-2 w-full max-w-sm md:max-w-xl h-auto px-4"
                 style={{ filter: 'brightness(0)' }}
               />
             </div>
-            <div className="mt-2">
-              <p className="text-xl md:text-2xl text-[#2E2A26]/70 font-bold italic whitespace-nowrap">
+            <div className="mt-2 px-4">
+              <p className="text-lg md:text-xl lg:text-2xl text-[#2E2A26]/70 font-bold italic leading-snug">
                 Independent guidance for privately held, historic, and destination hotel owners.
               </p>
             </div>
