@@ -101,7 +101,7 @@ function Home() {
                 Stewardship for Independent & Historic Destination Hotels
               </p>
               <p className="text-3xl md:text-4xl text-[#2E2A26]/70 font-light italic">
-                Representing hotel owners when decisions carry long-term consequences.
+                Representing hotel owners when decisions shape legacy.
               </p>
             </div>
           </div>
