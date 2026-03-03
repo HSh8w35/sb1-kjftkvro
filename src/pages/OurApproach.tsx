@@ -217,10 +217,10 @@ function OurApproach() {
 
                 <div className="mt-4 px-6 py-6 border-l-8 border-[#8B6F47] bg-gradient-to-r from-[#F6F1E8] to-white">
                   <p className="text-xl md:text-2xl text-[#2E2A26] leading-relaxed font-light mb-3">
-                    In these moments, leadership does not need more information.
+                    In these moments, organizations do not need more information.
                   </p>
                   <p className="text-xl md:text-2xl text-[#8B6F47] leading-tight font-semibold">
-                    It needs clarity, alignment, and an experienced voice at the table.
+                    They need perspective.
                   </p>
                 </div>
 
