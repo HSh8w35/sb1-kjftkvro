@@ -151,7 +151,7 @@ function Home() {
               </div>
               <div className="space-y-6 text-lg md:text-xl text-white/95 leading-relaxed text-center">
                 <p>
-                  Historic and independent destination hotels are facing inflection points. Ownership transitions are accelerating. Capital demands are rising. Brand consolidation is intensifying. And too often, decisions are made under pressure rather than clarity.
+                  Independent, historic, and destination hotels are facing inflection points. Ownership transitions are accelerating. Capital demands are rising. Brand consolidation is intensifying. And too often, decisions are made under pressure rather than clarity.
                 </p>
                 <p className="font-semibold text-white text-xl md:text-2xl pt-4">
                   Legacy assets deserve better.
