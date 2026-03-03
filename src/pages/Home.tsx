@@ -193,10 +193,13 @@ function Home() {
                 </div>
                 <div className="space-y-4 text-base text-[#2E2A26] leading-relaxed text-center flex-grow">
                   <p>
-                    Independent properties thrive when leadership is clear, aligned, and decisive. With the right perspective and discipline in place, independence becomes an advantage—unlocking stronger performance, new revenue pathways, and long-term stability.
+                    Independent, historic, and destination hotels thrive when clarity exists at the top.
                   </p>
                   <p>
-                    Our work reshapes how leadership teams think, decide, and act, so momentum is no longer maintained—but directed.
+                    When ownership and leadership are aligned in direction and discipline, independence becomes strength—unlocking sustainable performance, capital confidence, and long-term stability.
+                  </p>
+                  <p>
+                    Our work brings measured perspective at pivotal moments, ensuring decisions strengthen the asset rather than strain it.
                   </p>
                 </div>
               </div>
