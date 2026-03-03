@@ -122,7 +122,7 @@ function Home() {
             </div>
 
             <p className="text-xl md:text-2xl text-[#2E2A26]/80 leading-relaxed max-w-3xl mx-auto font-light">
-              With the right support, clarity, and leadership, an independent hotel operates with confidence—where innovation is intentional, the guest experience is cohesive, and every department moves with shared purpose and disciplined execution.
+              Historic and destination hotels are more than assets—they are legacies shaped by place, leadership, and time. When stewardship is intentional, independence becomes strength. Strategy aligns with story. Governance supports clarity. Performance sustains what matters most.
             </p>
 
             <div className="pt-6">
