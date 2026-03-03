@@ -105,7 +105,7 @@ function Home() {
               />
             </div>
             <div className="mt-8">
-              <p className="text-2xl md:text-3xl text-[#2E2A26]/70 font-light italic">
+              <p className="text-xl md:text-2xl text-[#2E2A26]/70 font-light italic whitespace-nowrap">
                 Independent guidance for privately held, historic, and destination hotel owners.
               </p>
             </div>
