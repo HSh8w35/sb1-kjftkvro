@@ -79,73 +79,46 @@ function Story() {
                     High Peaks was opening as a brand-new independent hotel at the precise moment corporate travel evaporated, discretionary spending froze, and fear overtook optimism.
                   </p>
                   <p>
+                    The decision to remove a global flag in the midst of economic collapse was not operational—it was existential. Ownership was betting on independence when the world was retreating to safety.
+                  </p>
+                  <p>
                     We were unplugging from a brand that had handled marketing, reservations, and data. Overnight, we had no guest database. No independent demand history. No institutional muscle memory for what independence required.
                   </p>
                   <p className="font-semibold">
                     We were starting from zero.
                   </p>
                   <p>
-                    The original sales and marketing plans became irrelevant almost immediately. Compounding the challenge, we had chosen to call ourselves a "resort" just as the word became radioactive in corporate America. Meetings and conferences disappeared. Phones stopped ringing.
+                    The decisions we made were not marketing experiments. They were survival decisions—capital decisions, staffing decisions, brand decisions that would either preserve ownership confidence or erode it.
                   </p>
                   <p>
-                    What we did have was resolve.
-                  </p>
-                  <p>
-                    We abandoned rigid planning in favor of a multi-layered, adaptive strategy.
-                  </p>
-                  <p>
-                    We used emerging social platforms—Facebook in its earliest days—not to sell rooms, but to educate potential guests about the Adirondacks and Lake Placid, pairing storytelling with value-based promotions. We rebuilt digital infrastructure from scratch: website, email marketing, video, database, and brand voice.
-                  </p>
-                  <p>
-                    We leaned into grassroots outreach. I personally met with travel writers and media across New York City, Montreal, Boston, and Ottawa. If guests were not coming to us, we went to them.
-                  </p>
-                  <p>
-                    Within a short period, High Peaks appeared in USA Today, Travel + Leisure, The New York Times, and on The Today Show.
-                  </p>
-                  <p>
-                    Internally, we rebuilt culture. Language shifted. Presentation shifted. Standards shifted. A new senior leadership team with deep independent-hotel experience was assembled. The sales organization expanded and became a regional force.
-                  </p>
-                  <p>
-                    We stopped talking about "amenities" and started focusing on authentic experiences—long before that phrase became fashionable.
+                    We rebuilt digital infrastructure from scratch. We rebuilt culture. We rebuilt confidence.
                   </p>
                   <p>
                     By the end of 2010, we exceeded budget by more than 30 percent.
                   </p>
                   <p className="font-semibold">
-                    The lesson was indelible: independence is not a vulnerability. When led well, it is a competitive advantage.
+                    The lesson was indelible: independence is not a vulnerability when guided by disciplined judgment at the ownership level.
                   </p>
                   <p>
                     One moment from that period still stays with me.
                   </p>
                   <p>
-                    During the 2010 Winter Olympics, we hosted Al Michaels and members of the 1980 "Miracle on Ice" team. I arranged for a custom USA Hockey jersey to be waiting in Mr. Michaels' room. He later sought me out personally to say thank you. I then walked him through our private "Legends Room," covered in photographs from the 1980 Games.
+                    During the 2010 Winter Olympics, we hosted Al Michaels and members of the 1980 "Miracle on Ice" team. I arranged for a custom USA Hockey jersey to be waiting in Mr. Michaels' room. I then walked him through our private "Legends Room," covered in photographs from the 1980 Olympic Games.
                   </p>
                   <p>
-                    He paused quietly, gazing at the photographs as if stepping back in time. I could see his eyes fill as he took it all in.
+                    He paused quietly, gazing at the photographs as if stepping back in time.
                   </p>
                   <p>
                     "These guys were my friends," he said.
                   </p>
                   <p>
-                    In that moment, I understood the weight behind his words. Not all of those friends were still with us.
+                    In that moment, I felt his pride — and I felt his loss. Not all of those friends were still with us. The room felt still.
                   </p>
                   <p>
-                    It was deeply moving. And I will never forget it.
+                    It struck me then that destination and historic hotels are more than properties. They are keepers of stories. They are treasured vaults of sacred memory.
                   </p>
                   <p>
-                    It affirmed something I have always believed: that kindness, thoughtfulness, and intention matter. That the smallest gestures, when rooted in care, can leave a lasting imprint.
-                  </p>
-                  <p>
-                    That is the power of independent hospitality.
-                  </p>
-                  <p>
-                    Not transactions.
-                  </p>
-                  <p>
-                    Not checklists.
-                  </p>
-                  <p>
-                    But moments that live with people.
+                    And the responsibility we carry as hoteliers runs far deeper than ADR, STR reports, or the color of the floors in the bathroom.
                   </p>
                 </div>
               </div>
