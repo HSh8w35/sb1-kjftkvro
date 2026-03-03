@@ -82,13 +82,13 @@ function About() {
               <h2 className="text-3xl font-bold text-[#2E2A26] mb-6 text-center">Leadership Grounded in Lived Experience</h2>
               <div className="space-y-4 text-xl text-[#2E2A26] leading-relaxed">
                 <p>
-                  For more than a decade, Stone served as President & CEO of Mountain Lake Lodge, leading one of the most notable turnarounds in the independent lodging sector.
+                  For more than a decade, Stone served as President & CEO of Mountain Lake Lodge, leading one of the most notable independent lodging transformations of the past decade.
                 </p>
                 <p>
-                  Under her leadership, the historic Virginia property—once slated for closure—was stabilized, re-imagined, and rebuilt into a thriving independent hotel through disciplined, long-term leadership. The 2,600-acre resort emerged as a nationally recognized destination, shaped by disciplined reinvestment, cultural stewardship, and a leadership philosophy that balanced creativity with operational rigor.
+                  Under her leadership, the historic Virginia property—once slated for closure—was stabilized, re-imagined, and repositioned into a thriving, nationally recognized destination through disciplined long-term leadership. The 2,600-acre resort evolved through structured reinvestment, cultural stewardship, and a leadership philosophy that balanced creativity with operational rigor.
                 </p>
                 <p className="italic">
-                  This work was not driven by trend or circumstance, but by clarity of direction, accountable leadership, and a deep respect for place.
+                  This work was not driven by trend or circumstance, but by clarity of direction, accountable governance, and sustained execution.
                 </p>
               </div>
             </div>
