@@ -242,21 +242,22 @@ function Story() {
                 </h2>
                 <div className="space-y-6 text-[#3A3632] leading-relaxed text-lg">
                   <p>
-                    Independent hotel owners are operating in one of the most complex environments the industry has ever faced.
+                    Independent hotel owners are operating in one of the most complex environments the industry has faced.
                   </p>
                   <p>
                     What they are often offered are tools.
                   </p>
-                  <p className="font-semibold">
-                    What they actually need is seasoned, disciplined judgment.
+                  <p>
+                    What they often need is seasoned, independent judgment.
                   </p>
                   <p>
-                    Someone who has carried weight before.<br />
-                    Someone who understands both the romance and the rigor.<br />
-                    Someone who knows that reports do not save hotels—leaders do.
+                    Someone who understands what it means when the weight of a hotel rests on you.<br />
+                    When the decisions are yours.<br />
+                    When the consequences are yours.<br />
+                    When there is no corporate safety net.
                   </p>
                   <p>
-                    Heidi Stone Hospitality exists to serve as that partner.
+                    I formed Heidi Stone Hospitality to serve as that steady voice at the table.
                   </p>
                   <p>
                     Not a vendor.<br />
@@ -264,17 +265,17 @@ function Story() {
                     Not a theoretical model.
                   </p>
                   <p>
-                    A thinking partner embedded in the hard work of leadership.
+                    A partner who has carried similar weight before.
+                  </p>
+                  <p>
+                    Because independence, when led with clarity and discipline, is not a risk.
+                  </p>
+                  <p>
+                    It is strength.
                   </p>
                 </div>
               </div>
 
-              <div className="my-12 py-8 text-center">
-                <p className="text-xl md:text-2xl font-serif italic text-[#2E2A26] leading-relaxed">
-                  Because independence, when led well, is not a risk.<br />
-                  It is power.
-                </p>
-              </div>
 
               <div className="text-center mt-20 pt-12 border-t border-[#8B6F47]/30">
                 <Link
