@@ -96,6 +96,14 @@ function Home() {
                 className="h-[6.25rem] md:h-[8.75rem] w-auto p-4"
               />
             </div>
+            <div className="mb-6">
+              <img
+                src="/Clarity_at_Critical_Moments_script.png"
+                alt="Clarity in Critical Moments"
+                className="mx-auto mb-2 w-full max-w-xl h-auto"
+                style={{ filter: 'brightness(0)' }}
+              />
+            </div>
             <div className="mt-8">
               <p className="text-xl md:text-2xl text-[#2E2A26]/70 font-bold italic whitespace-nowrap">
                 Independent guidance for privately held, historic, and destination hotel owners.
