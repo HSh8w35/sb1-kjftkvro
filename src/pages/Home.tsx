@@ -98,7 +98,7 @@ function Home() {
             </div>
             <div className="mb-12">
               <p className="text-5xl md:text-6xl lg:text-7xl font-semibold text-[#2E2A26] mb-6 leading-tight">
-                Stewardship for Independent & Historic Destination Hotels
+                When the Weight of a Hotel Rests on You
               </p>
               <p className="text-3xl md:text-4xl text-[#2E2A26]/70 font-light italic">
                 Representing hotel owners when decisions shape legacy.
