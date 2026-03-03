@@ -89,21 +89,21 @@ function Home() {
         <div className="absolute inset-0 bg-gradient-to-b from-[#F6F1E8]/50 via-transparent to-[#F6F1E8]/70" />
         <div className="max-w-7xl mx-auto relative z-10 w-full py-20">
           <div className="max-w-4xl mx-auto text-center">
-            <div className="inline-block relative mb-8">
+            <div className="inline-block relative mb-6">
               <img
                 src="/Translucent_Logo_on_home_page.webp"
                 alt="Heidi Stone Hospitality"
-                className="h-[9.2rem] md:h-[13.8rem] w-auto p-6"
+                className="h-[7rem] md:h-[10rem] w-auto p-4"
               />
             </div>
-            <div className="mb-12">
+            <div className="mb-8">
               <img
                 src="/Clarity_at_Critical_Moments_script.png"
                 alt="Clarity at Critical Moments"
-                className="mx-auto mb-6 w-full max-w-3xl h-auto"
+                className="mx-auto mb-5 w-full max-w-2xl h-auto"
                 style={{ filter: 'brightness(0)' }}
               />
-              <p className="text-3xl md:text-4xl text-[#2E2A26]/70 font-light italic">
+              <p className="text-2xl md:text-3xl text-[#2E2A26]/70 font-light italic">
                 Independent guidance for privately held, historic, and destination hotel owners.
               </p>
             </div>
