@@ -218,7 +218,7 @@ function Story() {
                     Looking back, the pattern is clear.
                   </p>
                   <p>
-                    I am drawn to complex, high-risk, emotionally complicated assets with history.
+                    I am drawn to complex, high-risk, emotionally complicated assets—often privately held, often historic or destination-driven—where the weight of stewardship rests squarely on ownership.
                   </p>
                   <p>
                     Not to preserve them as museums.
@@ -227,9 +227,10 @@ function Story() {
                     But to make them viable, relevant, and profitable again—without stripping away their soul.
                   </p>
                   <p>
+                    I do not rescue buildings.<br />
                     I rebuild belief systems.<br />
                     Leadership structures.<br />
-                    Operating disciplines.<br />
+                    Operating discipline.<br />
                     Cultures that sustain performance long after the initial turnaround.
                   </p>
                 </div>
