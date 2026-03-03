@@ -97,9 +97,12 @@ function Home() {
               />
             </div>
             <div className="mb-12">
-              <p className="text-3xl md:text-4xl lg:text-5xl font-semibold text-[#2E2A26] mb-6 leading-tight">
-                Clarity at Critical Moments
-              </p>
+              <img
+                src="/Clarity_at_Critical_Moments_script.png"
+                alt="Clarity at Critical Moments"
+                className="mx-auto mb-6 w-full max-w-3xl h-auto"
+                style={{ filter: 'brightness(0)' }}
+              />
               <p className="text-3xl md:text-4xl text-[#2E2A26]/70 font-light italic">
                 Independent guidance for privately held, historic, and destination hotel owners.
               </p>
