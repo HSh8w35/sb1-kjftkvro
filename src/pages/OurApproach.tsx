@@ -45,7 +45,7 @@ function OurApproach() {
                 Independent hospitality does not suffer from a lack of ideas.
               </p>
               <p className="text-xl text-[#2E2A26] leading-relaxed mb-4">
-                It suffers from moments when leadership, clarity, and discipline are stretched thin.
+                Independent, historic, and destination properties face moments when clarity at the ownership and leadership level becomes strained—by growth, transition, capital pressure, or complexity.
               </p>
               <p className="text-xl font-semibold text-[#8B6F47] leading-relaxed">
                 Our work begins there.
@@ -54,7 +54,7 @@ function OurApproach() {
 
             <div className="space-y-6 text-xl text-[#2E2A26] leading-relaxed mb-12 text-center">
               <p>
-                We do not lead with tools, frameworks, or programs. We lead with perspective—earned through decades of executive leadership inside independent hospitality assets, where decisions carry weight and outcomes matter.
+                We do not lead with tools, frameworks, or programs. We lead with perspective—earned through decades of executive leadership inside independent hospitality assets, where decisions carry weight and outcomes endure.
               </p>
             </div>
 
