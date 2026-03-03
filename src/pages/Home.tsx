@@ -105,7 +105,7 @@ function Home() {
               />
             </div>
           </div>
-          <div className="max-w-4xl mx-auto text-center mt-auto">
+          <div className="max-w-4xl mx-auto text-center mt-auto -mb-16">
             <p className="text-2xl md:text-3xl text-[#2E2A26]/70 font-light italic">
               Independent guidance for privately held, historic, and destination hotel owners.
             </p>
