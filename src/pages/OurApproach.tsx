@@ -137,51 +137,43 @@ function OurApproach() {
               </div>
             </div>
 
-            <div className="relative bg-[#F6F1E8]/90 backdrop-blur-sm rounded-2xl p-10 mb-12 border border-[#8B6F47]/10 shadow-sm overflow-hidden">
-              <div className="absolute inset-0 opacity-[0.03] pointer-events-none"
-                   style={{
-                     backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%238B6F47' fill-opacity='1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
-                     backgroundSize: '60px 60px'
-                   }}
-              />
-              <div className="relative text-center">
-                <h2 className="text-3xl font-bold text-[#2E2A26] mb-6">Brand as Lived Experience</h2>
+            <div className="mb-12 text-center">
+              <h2 className="text-3xl font-bold text-[#2E2A26] mb-6">Brand as Lived Experience</h2>
 
-                <div className="space-y-6 text-xl text-[#2E2A26] leading-relaxed">
-                  <p>
-                    Independent hospitality is at its strongest when it offers something that cannot be replicated.
-                  </p>
-                  <div className="my-6 inline-block pl-6 border-l-4 border-[#8B6F47] text-left">
-                    <p className="font-semibold text-[#8B6F47]">
-                      Not themed.<br />
-                      Not manufactured.<br />
-                      But rooted—deeply and authentically—in place.
-                    </p>
-                  </div>
-                  <p>
-                    The most enduring brands are expressions of culture, geography, history, and intention. They are not created through aesthetics alone, but through leadership choices that shape how a property shows up in the world.
-                  </p>
-                  <p className="font-semibold text-[#2E2A26]">
-                    Our work helps organizations clarify and inhabit their identity so that:
-                  </p>
-                  <ul className="space-y-3 text-lg inline-block text-left">
-                    <li className="flex items-start">
-                      <span className="mr-3 text-[#8B6F47] font-bold">•</span>
-                      <span>Brand reflects values, not trends</span>
-                    </li>
-                    <li className="flex items-start">
-                      <span className="mr-3 text-[#8B6F47] font-bold">•</span>
-                      <span>Experience feels cohesive rather than curated</span>
-                    </li>
-                    <li className="flex items-start">
-                      <span className="mr-3 text-[#8B6F47] font-bold">•</span>
-                      <span>The property becomes a gathering place—not just a destination</span>
-                    </li>
-                  </ul>
-                  <p className="italic pt-4">
-                    When done well, an independent hotel becomes part of the story of its region—respected locally and recognized globally.
+              <div className="space-y-6 text-xl text-[#2E2A26] leading-relaxed">
+                <p>
+                  Independent hospitality is strongest when it offers something that cannot be replicated.
+                </p>
+                <div className="my-6 inline-block pl-6 border-l-4 border-[#8B6F47] text-left">
+                  <p className="font-semibold text-[#8B6F47]">
+                    Not themed.<br />
+                    Not manufactured.<br />
+                    But rooted in place.
                   </p>
                 </div>
+                <p>
+                  The most enduring brands are expressions of culture, geography, history, and intention. They are shaped by leadership choices—not aesthetics alone.
+                </p>
+                <p>
+                  Our work helps organizations clarify and inhabit their identity so that:
+                </p>
+                <ul className="space-y-3 my-6 inline-block text-left">
+                  <li className="flex items-start">
+                    <span className="mr-3 text-[#8B6F47] font-bold">•</span>
+                    <span className="font-semibold text-[#2E2A26] text-lg">Brand reflects conviction, not trends</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="mr-3 text-[#8B6F47] font-bold">•</span>
+                    <span className="font-semibold text-[#2E2A26] text-lg">Experience reflects identity, not imitation</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="mr-3 text-[#8B6F47] font-bold">•</span>
+                    <span className="font-semibold text-[#2E2A26] text-lg">The property becomes part of the story of its region</span>
+                  </li>
+                </ul>
+                <p className="italic">
+                  When done well, an independent or destination hotel becomes more than a place to stay—it becomes part of where people return.
+                </p>
               </div>
             </div>
 
