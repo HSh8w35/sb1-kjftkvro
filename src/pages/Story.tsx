@@ -48,6 +48,14 @@ function Story() {
                 <p className="text-xl md:text-2xl text-[#2E2A26] leading-loose">
                   Places with memory deserve stewardship.
                 </p>
+                <div className="space-y-6 pt-12">
+                  <p className="text-xl md:text-2xl text-[#2E2A26] leading-loose">
+                    I have not advised from the sidelines. I have led from inside the weight of privately held, high-risk hospitality assets—where payroll, debt service, capital investment, and community impact were not abstract concepts, but daily realities.
+                  </p>
+                  <p className="text-xl md:text-2xl text-[#2E2A26] leading-loose">
+                    For more than two decades, I have carried that weight.
+                  </p>
+                </div>
               </div>
 
               <div className="mb-20">
