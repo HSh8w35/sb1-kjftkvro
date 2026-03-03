@@ -97,7 +97,7 @@ function Home() {
               />
             </div>
             <div className="mb-12">
-              <p className="text-5xl md:text-6xl lg:text-7xl font-semibold text-[#2E2A26] mb-6 leading-tight">
+              <p className="text-4xl md:text-5xl lg:text-6xl font-semibold text-[#2E2A26] mb-6 leading-tight">
                 When the Weight of a Hotel Rests on You
               </p>
               <p className="text-3xl md:text-4xl text-[#2E2A26]/70 font-light italic">
