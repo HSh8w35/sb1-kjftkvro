@@ -104,7 +104,7 @@ function Home() {
                 style={{ filter: 'brightness(0)' }}
               />
             </div>
-            <div className="mt-8">
+            <div className="mt-2">
               <p className="text-xl md:text-2xl text-[#2E2A26]/70 font-bold italic whitespace-nowrap">
                 Independent guidance for privately held, historic, and destination hotel owners.
               </p>
