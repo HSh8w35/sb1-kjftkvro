@@ -226,7 +226,7 @@ function OurApproach() {
 
                 <div className="mt-4 px-5 py-4 bg-white/80 rounded-xl">
                   <p className="text-lg text-[#2E2A26] leading-relaxed">
-                    Depending on the moment, our work may engage owners and boards, executive leadership, or senior operating teams. While strategic intent is often set at the ownership level, much of the work of building sustainable revenue, authentic brands, and high-performing organizations happens with the leaders closest to the business.
+                    Depending on the situation, our work may engage ownership, boards, executive leadership, or senior operating teams. Strategic clarity often begins at the ownership level—but sustainable performance is built across the organization.
                   </p>
                 </div>
             </div>
