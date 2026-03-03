@@ -143,7 +143,7 @@ function About() {
 
             <div className="bg-[#F6F1E8] rounded-2xl p-10 shadow-xl border-4 border-[#1F2A44]">
               <p className="text-2xl leading-relaxed font-light text-center text-[#2E2A26]">
-                At Heidi Stone Hospitality, we support independent owners and boards at the moments when decisions carry long-term consequence—and the cost of getting them wrong is high.
+                At Heidi Stone Hospitality, we partner with independent owners and boards when decisions carry long-term consequence—where clarity is essential and misalignment is costly.
               </p>
             </div>
           </div>
