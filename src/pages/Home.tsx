@@ -151,10 +151,16 @@ function Home() {
               </div>
               <div className="space-y-6 text-lg md:text-xl text-white/95 leading-relaxed">
                 <p>
-                  Independent hotels are operating in an environment defined by economic pressure, labor volatility, and renewed brand consolidation. Many are being told—explicitly or implicitly—that independence is untenable without corporate flags, algorithms, or fee structures that quietly erode both margin and identity.
+                  Historic and independent destination hotels are facing inflection points. Ownership transitions are accelerating. Capital demands are rising. Brand consolidation is intensifying. And too often, decisions are made under pressure rather than clarity.
                 </p>
                 <p className="font-semibold text-white text-xl md:text-2xl pt-4">
-                  Our work exists in direct response: to ensure independent hotels remain truly independent—financially fortified, strategically assured, and sovereign in their direction.
+                  Legacy assets deserve better.
+                </p>
+                <p>
+                  They require steady, independent stewardship—ensuring that governance, strategy, and performance align to protect both identity and long-term value.
+                </p>
+                <p className="font-semibold text-white text-xl md:text-2xl pt-4">
+                  This is why our work matters now.
                 </p>
               </div>
             </div>
