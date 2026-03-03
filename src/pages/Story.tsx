@@ -123,12 +123,6 @@ function Story() {
                 </div>
               </div>
 
-              <div className="my-12 py-8 text-center">
-                <p className="text-3xl md:text-4xl font-serif italic text-[#2E2A26] leading-relaxed">
-                  I do not rescue buildings.<br />
-                  I rebuild belief systems.
-                </p>
-              </div>
 
               <div className="mb-20">
                 <h2 className="text-base uppercase tracking-widest text-[#8B6F47] font-semibold mb-8 text-left">
@@ -247,9 +241,6 @@ function Story() {
                   </p>
                   <p>
                     But to make them viable, relevant, and profitable again—without stripping away their soul.
-                  </p>
-                  <p className="font-semibold">
-                    I do not rescue buildings.
                   </p>
                   <p>
                     I rebuild belief systems.<br />
