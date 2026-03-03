@@ -98,7 +98,7 @@ function Home() {
             </div>
             <div className="mb-12">
               <p className="text-5xl md:text-6xl lg:text-7xl font-semibold text-[#2E2A26] mb-6 leading-tight">
-                Transforming Independent Hotels & Resorts
+                Stewardship for Independent & Historic Destination Hotels
               </p>
               <p className="text-3xl md:text-4xl text-[#2E2A26]/70 font-light italic">
                 Where leadership, culture, and strategy align - because independence demands more than experience.
