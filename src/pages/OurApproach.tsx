@@ -256,8 +256,8 @@ function OurApproach() {
                 <div className="flex-1 h-0.5 bg-gradient-to-l from-transparent to-[#8B6F47]"></div>
               </div>
 
-              <div className="flex gap-6">
-                <div className="space-y-4 text-xl text-[#2E2A26] leading-relaxed flex-1">
+              <div className="text-center">
+                <div className="space-y-4 text-xl text-[#2E2A26] leading-relaxed">
                   <p className="text-xl font-semibold text-[#8B6F47]">
                     This is not consulting from the sidelines.
                   </p>
