@@ -63,34 +63,34 @@ function OurApproach() {
 
               <div className="space-y-6 text-xl leading-relaxed">
                 <p className="text-white/95">
-                  Independent properties possess something rare: agility.
+                  Independent and destination hotels possess something rare: the ability to define their own direction.
                 </p>
                 <p className="text-white/95">
-                  Without layers of corporate mandate, independent hotels and resorts have the ability to respond decisively—to their guests, their markets, and their moment. When guided with clarity and strategic intention, independence becomes a competitive edge rather than a constraint.
+                  Without layers of corporate mandate, these properties can respond with intention—to their markets, their guests, and their long-term vision. When guided with disciplined clarity, independence becomes strength rather than strain.
                 </p>
                 <p className="text-white font-semibold">
-                  When leadership is aligned, independence unlocks:
+                  When alignment exists at the top, independence unlocks:
                 </p>
                 <ul className="space-y-3 text-lg inline-block text-left">
                   <li className="flex items-start">
                     <span className="mr-3 text-[#E8DCC8] font-bold">•</span>
-                    <span>New revenue pathways</span>
+                    <span>Strategic flexibility grounded in purpose</span>
                   </li>
                   <li className="flex items-start">
                     <span className="mr-3 text-[#E8DCC8] font-bold">•</span>
-                    <span>Sharper positioning</span>
+                    <span>Sharper positioning in competitive markets</span>
                   </li>
                   <li className="flex items-start">
                     <span className="mr-3 text-[#E8DCC8] font-bold">•</span>
-                    <span>Faster, more confident decision-making</span>
+                    <span>Confident, timely decision-making</span>
                   </li>
                   <li className="flex items-start">
                     <span className="mr-3 text-[#E8DCC8] font-bold">•</span>
-                    <span>Long-term stability grounded in purpose</span>
+                    <span>Long-term stability anchored in clear direction</span>
                   </li>
                 </ul>
                 <p className="text-white/95 italic pt-4">
-                  Our role is to help leadership teams harness that advantage—so momentum is no longer maintained, but directed.
+                  Our role is to ensure independence remains intentional—not reactive.
                 </p>
               </div>
             </div>
