@@ -227,8 +227,8 @@ function Story() {
                     But to make them viable, relevant, and profitable again—without stripping away their soul.
                   </p>
                   <p>
-                    I do not rescue buildings.<br />
-                    I rebuild belief systems.<br />
+                    <span className="font-semibold">I do not rescue buildings.<br />
+                    I rebuild belief systems.</span><br />
                     Leadership structures.<br />
                     Operating discipline.<br />
                     Cultures that sustain performance long after the initial turnaround.
