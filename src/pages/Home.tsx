@@ -97,15 +97,15 @@ function Home() {
               />
             </div>
             <div className="mb-6">
+              <p className="text-2xl md:text-3xl text-[#2E2A26]/70 font-light italic whitespace-nowrap mb-4">
+                Independent guidance for privately held, historic, and destination hotel owners.
+              </p>
               <img
                 src="/Clarity_at_Critical_Moments_script.png"
                 alt="Clarity at Critical Moments"
-                className="mx-auto mb-2 w-full max-w-xl h-auto"
+                className="mx-auto w-full max-w-xl h-auto"
                 style={{ filter: 'brightness(0)' }}
               />
-              <p className="text-2xl md:text-3xl text-[#2E2A26]/70 font-light italic whitespace-nowrap">
-                Independent guidance for privately held, historic, and destination hotel owners.
-              </p>
             </div>
           </div>
         </div>
