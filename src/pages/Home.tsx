@@ -101,7 +101,7 @@ function Home() {
                 Clarity at Critical Moments
               </p>
               <p className="text-3xl md:text-4xl text-[#2E2A26]/70 font-light italic">
-                Independent guidance for privately held, historic, and destination hotels at pivotal moments.
+                Independent guidance for privately held, historic, and destination hotel owners.
               </p>
             </div>
           </div>
