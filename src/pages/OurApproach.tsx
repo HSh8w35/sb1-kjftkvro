@@ -206,10 +206,10 @@ function OurApproach() {
                 <div className="flex justify-center max-w-5xl mx-auto">
                   <div className="max-w-md">
                     <ul className="space-y-2 text-xl text-[#2E2A26]">
-                      <li>When growth introduces complexity —</li>
-                      <li>When leadership transition creates uncertainty —</li>
-                      <li>When performance plateaus despite effort —</li>
-                      <li>When brand and culture feel misaligned —</li>
+                      <li>When ownership transition introduces uncertainty —</li>
+                      <li>When growth outpaces structure —</li>
+                      <li>When brand affiliation is being evaluated —</li>
+                      <li>When capital allocation demands discipline —</li>
                       <li>When independence needs clearer direction —</li>
                     </ul>
                   </div>
