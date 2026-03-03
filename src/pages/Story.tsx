@@ -23,10 +23,7 @@ function Story() {
               <p className="text-2xl md:text-3xl font-serif italic text-[#2E2A26]/80 mb-10 font-light">
                 Why I Do This Work
               </p>
-              <p className="text-2xl md:text-3xl text-[#2E2A26] leading-relaxed mb-8">
-                I have spent my career being drawn to places the world once loved—and had begun to forget.
-              </p>
-              <div className="flex justify-center">
+              <div className="flex justify-center mb-8">
                 <div className="h-px w-48 bg-[#8B6F47]" />
               </div>
             </div>
@@ -34,28 +31,26 @@ function Story() {
             <div className="max-w-2xl mx-auto">
               <div className="text-center mb-20 space-y-4">
                 <p className="text-lg md:text-xl text-[#2E2A26] leading-relaxed">
-                  Not because they are easy.
+                  I have spent my career being drawn to places the world once loved—and had begun to forget.
                 </p>
-                <p className="text-lg md:text-xl text-[#2E2A26] leading-relaxed">
+                <p className="text-lg md:text-xl text-[#2E2A26] leading-relaxed pt-4">
+                  Not because they are easy.<br />
                   Not because they are tidy.
                 </p>
                 <p className="text-lg md:text-xl text-[#2E2A26] leading-relaxed">
                   But because inside complexity, neglect, and uncertainty, I see something others often miss: possibility.
                 </p>
                 <p className="text-lg md:text-xl text-[#2E2A26] leading-relaxed pt-4">
-                  Places with history carry memory.
+                  Places with history carry memory.<br />
+                  Places with memory deserve stewardship.<br />
+                  And stewardship requires decisions that carry consequence.
+                </p>
+                <p className="text-lg md:text-xl text-[#2E2A26] leading-relaxed pt-4">
+                  I have not advised from the sidelines. I have led from inside the weight of privately held, high-risk hospitality assets—where payroll, debt service, capital investment, and community impact were not abstract concepts, but daily realities.
                 </p>
                 <p className="text-lg md:text-xl text-[#2E2A26] leading-relaxed">
-                  Places with memory deserve stewardship.
+                  For more than two decades, I have carried that weight.
                 </p>
-                <div className="space-y-4 pt-8">
-                  <p className="text-lg md:text-xl text-[#2E2A26] leading-relaxed">
-                    I have not advised from the sidelines. I have led from inside the weight of privately held, high-risk hospitality assets—where payroll, debt service, capital investment, and community impact were not abstract concepts, but daily realities.
-                  </p>
-                  <p className="text-lg md:text-xl text-[#2E2A26] leading-relaxed">
-                    For more than two decades, I have carried that weight.
-                  </p>
-                </div>
               </div>
 
               <div className="mb-20">
