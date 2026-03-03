@@ -34,11 +34,11 @@ function About() {
             <div className="space-y-6">
               <div className="bg-white/60 backdrop-blur-sm rounded-2xl p-8 border-2 border-[#8B6F47]/20 shadow-md space-y-6">
                 <p className="text-xl text-[#2E2A26] leading-relaxed">
-                  Heidi Stone is an independent hospitality executive and advisor whose work centers on one core belief: independent hotels perform best when leadership, identity, and discipline are aligned.
+                  Heidi Stone is an independent hospitality executive and advisor whose work centers on one core belief: independent hotels perform best when leadership, identity, and disciplined execution are aligned.
                 </p>
 
                 <p className="text-xl text-[#2E2A26] leading-relaxed">
-                  In 2026, she formalized this work with the launch of <span className="font-semibold">Heidi Stone Hospitality LLC</span>, a boutique advisory practice partnering with owners and executive teams of independent hotels and resorts at moments that require clarity, judgment, and decisive leadership.
+                  In 2026, she formalized this work with the launch of <span className="font-semibold">Heidi Stone Hospitality LLC</span>, a boutique advisory practice partnering with owners and executive teams of independent hotels and resorts at moments requiring clarity, sound judgment, and decisive leadership.
                 </p>
               </div>
             </div>
