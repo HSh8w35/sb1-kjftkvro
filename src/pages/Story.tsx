@@ -33,26 +33,26 @@ function Story() {
 
             <div className="max-w-2xl mx-auto">
               <div className="text-center mb-20 space-y-8">
-                <p className="text-xl md:text-2xl text-[#2E2A26] leading-loose">
+                <p className="text-lg md:text-xl text-[#2E2A26] leading-loose">
                   Not because they are easy.
                 </p>
-                <p className="text-xl md:text-2xl text-[#2E2A26] leading-loose">
+                <p className="text-lg md:text-xl text-[#2E2A26] leading-loose">
                   Not because they are tidy.
                 </p>
-                <p className="text-xl md:text-2xl text-[#2E2A26] leading-loose">
+                <p className="text-lg md:text-xl text-[#2E2A26] leading-loose">
                   But because inside complexity, neglect, and uncertainty, I see something others often miss: possibility.
                 </p>
-                <p className="text-xl md:text-2xl text-[#2E2A26] leading-loose pt-6">
+                <p className="text-lg md:text-xl text-[#2E2A26] leading-loose pt-6">
                   Places with history carry memory.
                 </p>
-                <p className="text-xl md:text-2xl text-[#2E2A26] leading-loose">
+                <p className="text-lg md:text-xl text-[#2E2A26] leading-loose">
                   Places with memory deserve stewardship.
                 </p>
                 <div className="space-y-6 pt-12">
-                  <p className="text-xl md:text-2xl text-[#2E2A26] leading-loose">
+                  <p className="text-lg md:text-xl text-[#2E2A26] leading-loose">
                     I have not advised from the sidelines. I have led from inside the weight of privately held, high-risk hospitality assets—where payroll, debt service, capital investment, and community impact were not abstract concepts, but daily realities.
                   </p>
-                  <p className="text-xl md:text-2xl text-[#2E2A26] leading-loose">
+                  <p className="text-lg md:text-xl text-[#2E2A26] leading-loose">
                     For more than two decades, I have carried that weight.
                   </p>
                 </div>
@@ -139,10 +139,16 @@ function Story() {
                     The famous Kellerman's Mountain House from <em>Dirty Dancing</em> stood cold, tired, and neglected.
                   </p>
                   <p>
-                    The lake was gone. A massive dry crater sat at the center of the property. More than 50 buildings across 2,600 acres were in serious disrepair. Many should have been condemned. Mountain Lake Lodge was owned by an endowment. The last owner stipulated in her will that the property could never be sold. It must operate as a hotel - or close permanently.
+                    The lake was gone. A massive dry crater sat at the center of the property. More than 50 buildings across 2,600 acres were in serious disrepair. Many should have been condemned.
                   </p>
                   <p>
-                    By 2012, closure was very close.
+                    Mountain Lake Lodge was owned by an endowment. The last owner stipulated in her will that the property could never be sold. It must operate as a hotel—or close permanently.
+                  </p>
+                  <p>
+                    There was no exit strategy. No safety net. No reset button. The mandate was clear: operate successfully—or close permanently.
+                  </p>
+                  <p>
+                    The responsibility was not simply to improve operations. It was to protect a mandate.
                   </p>
                   <p>
                     Consultants recommended eliminating <em>Dirty Dancing</em> entirely, believing the property was trapped by the film.
@@ -158,69 +164,52 @@ function Story() {
                     But it needed to be treated with respect, discipline, and professionalism.
                   </p>
                   <p>
-                    We paused the existing <em>Dirty Dancing</em> weekends. I personally called Lionsgate—one of the largest film rights holders in the world—and established a proper licensing agreement. Programming was completely reimagined. Events were limited, elevated, and curated.
+                    We paused the existing <em>Dirty Dancing</em> weekends. I personally called Lionsgate and established a proper licensing agreement. Programming was completely reimagined. Events were limited, elevated, and curated.
                   </p>
                   <p>
                     Demand surged.
                   </p>
                   <p>
-                    Weekends sold out a year in advance. A <em>Dirty Dancing</em> Festival was created. A one-of-a-kind Kellerman's gift shop followed. That single strategic decision has generated millions in revenue, two television mini-series, and billions of global impressions.
+                    Weekends sold out a year in advance. A festival was created. A one-of-a-kind Kellerman's gift shop followed. That single strategic decision has generated millions in revenue and renewed global awareness.
                   </p>
                   <p>
                     At the same time, we rebuilt everything else from the ground up.
                   </p>
                   <p>
-                    There were no modern systems.<br />
-                    No true management team.<br />
-                    Four year-round employees.<br />
-                    No uniforms. No name tags. No procedures.<br />
-                    One salesperson. No marketing.<br />
-                    Frozen food. Two-inch mattresses. Musty rooms.
+                    There were no modern systems.
                   </p>
                   <p>
-                    Funding was minimal.
+                    No true management team.
                   </p>
                   <p>
-                    So we started with what costs nothing: culture.
+                    Four year-round employees.
                   </p>
                   <p>
-                    We trained relentlessly. Established standards. Built leaders. I personally curated and hosted leadership retreats focused on honest, uncomfortable conversations.
+                    Minimal funding.
                   </p>
                   <p>
-                    Within five years, Mountain Lake Lodge went from arguably the most condemnable hotel in Virginia to Virginia Restaurant Lodging Travel Association's Hotel of the Year. That same year I was honored as the Hotelier of the Year.
+                    Every decision carried consequence. Capital was scarce. Margin for error was thin. The responsibility was daily and personal.
                   </p>
                   <p>
-                    More importantly, we changed how people felt about the place.
+                    So we began with what costs nothing: culture.
                   </p>
                   <p>
-                    By the time the pandemic arrived, our team was seasoned at pivoting, adapting, and making decisions quickly. Independence allowed us to control our destiny. We filmed multiple television productions during the pandemic years and accelerated global brand recognition with billions seeing the resort for the first time in over 35 years.
+                    We trained relentlessly. Established standards. Built leaders. Made hard decisions.
                   </p>
                   <p>
-                    Slowly, the narrative changed.
-                  </p>
-                  <p>
-                    Mountain Lake Lodge was no longer a liability.
-                  </p>
-                  <p>
-                    It became an economic engine.
-                  </p>
-                  <p>
-                    An asset.
-                  </p>
-                  <p>
-                    A place with a future.
+                    Within five years, Mountain Lake Lodge moved from near condemnation to Hotel of the Year. Over time, the property became an economic engine.
                   </p>
                   <p>
                     Perhaps the most meaningful moment came in October 2025, when Mountain Lake Lodge was formally inducted into Historic Hotels of America.
                   </p>
                   <p>
-                    To witness a property once considered among the most condemnable in Virginia recognized among the nation's most storied historic hotels was deeply personal.
+                    Recognition not simply of architecture—but of disciplined stewardship and long-term belief.
                   </p>
                   <p>
                     Not because of a plaque.
                   </p>
                   <p>
-                    But because it affirmed what our team had always believed: that this place mattered, that its history deserved protection, and that stewardship, when done with intention, can bring a legacy back to life.
+                    Because it affirmed that this place mattered, that its history deserved protection, and that stewardship, when done with intention, can bring a legacy back to life.
                   </p>
                 </div>
               </div>
