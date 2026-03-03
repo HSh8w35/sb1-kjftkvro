@@ -137,6 +137,25 @@ function OurApproach() {
               </div>
             </div>
 
+            {/* Decorative Page Break */}
+            <div className="my-16 relative">
+              <div className="absolute inset-0 bg-gradient-to-r from-transparent via-[#8B6F47]/5 to-transparent rounded-xl" style={{ height: '120px', top: '-20px' }}></div>
+              <div className="relative flex items-center justify-center gap-4">
+                <div className="flex-1 h-px bg-gradient-to-r from-transparent via-[#8B6F47]/30 to-[#8B6F47]"></div>
+                <img
+                  src="/Transl_Key_only.webp"
+                  alt="Decorative divider"
+                  className="w-24 h-auto opacity-60"
+                />
+                <div className="flex-1 h-px bg-gradient-to-l from-transparent via-[#8B6F47]/30 to-[#8B6F47]"></div>
+              </div>
+              <div className="mt-2 flex items-center justify-center gap-2">
+                <div className="w-2 h-2 rounded-full bg-[#8B6F47]/40"></div>
+                <div className="w-1.5 h-1.5 rounded-full bg-[#8B6F47]/30"></div>
+                <div className="w-1 h-1 rounded-full bg-[#8B6F47]/20"></div>
+              </div>
+            </div>
+
             <div className="mb-12 text-center">
               <h2 className="text-3xl font-bold text-[#2E2A26] mb-6">Brand as Lived Experience</h2>
 
