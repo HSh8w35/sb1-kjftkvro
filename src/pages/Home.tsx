@@ -217,10 +217,13 @@ function Home() {
                 </div>
                 <div className="space-y-4 text-base text-[#2E2A26] leading-relaxed text-center flex-grow">
                   <p>
-                    In many independent hotels, the weight of performance rests on one executive carrying everything at once. Over time, even the most capable leaders can lose clarity, energy, and perspective.
+                    In many privately held hotels, the responsibility for performance rests heavily on a small group of decision-makers—often one person.
                   </p>
                   <p>
-                    We serve as the discreet strategic partner that senior leaders rarely have but deeply need—restoring confidence, focus, and creative stamina so leadership is renewed, not depleted.
+                    Over time, even capable leaders can find clarity diluted by complexity.
+                  </p>
+                  <p>
+                    We serve as a steady, independent voice at the table—restoring perspective, reinforcing discipline, and ensuring leadership energy is directed forward, not consumed by reaction.
                   </p>
                 </div>
               </div>
