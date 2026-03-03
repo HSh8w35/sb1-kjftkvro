@@ -96,30 +96,26 @@ function OurApproach() {
             </div>
 
             <div className="mb-12 text-center">
-              <h2 className="text-3xl font-bold text-[#2E2A26] mb-6">Leadership as the Constraint—or the Multiplier</h2>
+              <h2 className="text-3xl font-bold text-[#2E2A26] mb-6">Leadership & Governance at Critical Moments</h2>
 
               <div className="space-y-6 text-xl text-[#2E2A26] leading-relaxed">
                 <p>
-                  In many independent hotels, the responsibility for performance rests heavily on one individual. That leader carries operations, finance, revenue strategy, technology, brand, culture, guest experience, people, and reputation—often simultaneously.
+                  In many independent and destination properties, responsibility for performance and direction rests heavily on a small group of decision-makers—often ownership itself.
                 </p>
                 <p className="font-semibold text-[#8B6F47]">
-                  Even the most capable visionaries can lose clarity under sustained pressure.
+                  When growth introduces complexity, when leadership transitions occur, or when strategic choices carry lasting impact, clarity becomes harder to sustain.
                 </p>
                 <p>
-                  We serve as the discreet strategic partner that senior leaders rarely have, but deeply need.
+                  We serve as a steady, independent voice at the table—ensuring that governance, strategy, and performance remain aligned.
                 </p>
                 <p>
-                  Through calm perspective, direct counsel, and disciplined thinking, leadership regains:
+                  Through calm counsel and disciplined thinking, decision-makers regain:
                 </p>
 
                 <ul className="space-y-3 my-6 inline-block text-left">
                   <li className="flex items-start">
                     <span className="mr-3 text-[#8B6F47] font-bold">—</span>
-                    <span className="font-semibold text-[#2E2A26] text-lg">Confidence in decision-making</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="mr-3 text-[#8B6F47] font-bold">—</span>
-                    <span className="font-semibold text-[#2E2A26] text-lg">Creative stamina</span>
+                    <span className="font-semibold text-[#2E2A26] text-lg">Confidence in direction</span>
                   </li>
                   <li className="flex items-start">
                     <span className="mr-3 text-[#8B6F47] font-bold">—</span>
@@ -127,12 +123,16 @@ function OurApproach() {
                   </li>
                   <li className="flex items-start">
                     <span className="mr-3 text-[#8B6F47] font-bold">—</span>
-                    <span className="font-semibold text-[#2E2A26] text-lg">The ability to lead forward, not reactively</span>
+                    <span className="font-semibold text-[#2E2A26] text-lg">Alignment across stakeholders</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="mr-3 text-[#8B6F47] font-bold">—</span>
+                    <span className="font-semibold text-[#2E2A26] text-lg">The ability to act deliberately rather than reactively</span>
                   </li>
                 </ul>
 
                 <p className="italic">
-                  The result is not incremental improvement, but renewal—an executive reenergized and prepared to guide the organization into its next phase of excellence.
+                  The result is not incremental improvement, but continuity and forward momentum.
                 </p>
               </div>
             </div>
