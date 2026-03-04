@@ -49,7 +49,7 @@ function Story() {
                   I have not advised from the sidelines. I have led from inside the weight of privately held, high-risk hospitality assets—where payroll, debt service, capital investment, and community impact were not abstract concepts, but daily realities.
                 </p>
                 <p className="text-lg md:text-xl text-[#2E2A26] leading-relaxed">
-                  For more than two decades, I have carried that weight.
+                  For more than three decades, I have carried that weight.
                 </p>
               </div>
 
