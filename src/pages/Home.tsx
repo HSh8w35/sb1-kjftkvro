@@ -98,12 +98,12 @@ function Home() {
             </div>
 
             <div className="space-y-6 md:space-y-8">
-              <h1 className="text-2xl md:text-4xl lg:text-5xl font-serif italic text-black/90 leading-relaxed px-4">
+              <h1 className="text-2xl md:text-3xl lg:text-4xl font-serif italic text-black/90 leading-relaxed px-4">
                 Seeing Possibility Where Others See Limits
               </h1>
 
               <div className="space-y-4">
-                <h2 className="text-2xl md:text-3xl lg:text-4xl font-serif text-black leading-snug px-4">
+                <h2 className="text-2xl md:text-4xl lg:text-5xl font-serif text-black leading-snug px-4">
                   For Owners Who Believe<br />
                   <span className="italic">Their Hotels Can Be More</span>
                 </h2>
