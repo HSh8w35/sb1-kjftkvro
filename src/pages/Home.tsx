@@ -98,7 +98,7 @@ function Home() {
             </div>
 
             <div className="space-y-6 md:space-y-8">
-              <h1 className="text-2xl md:text-3xl lg:text-4xl italic text-black/90 leading-relaxed px-4 font-normal" style={{ fontFamily: "'Playfair Display', serif" }}>
+              <h1 className="text-2xl md:text-3xl lg:text-4xl italic text-black/90 leading-relaxed px-4 font-normal" style={{ fontFamily: "'Monotype Corsiva', cursive" }}>
                 Seeing Possibility Where Others See Limits
               </h1>
 
