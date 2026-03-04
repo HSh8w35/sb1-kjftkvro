@@ -89,25 +89,31 @@ function Home() {
         <div className="absolute inset-0 bg-gradient-to-b from-[#F6F1E8]/50 via-transparent to-[#F6F1E8]/70" />
         <div className="max-w-7xl mx-auto relative z-10 w-full h-full flex flex-col justify-center py-12 md:py-20">
           <div className="max-w-4xl mx-auto text-center px-4">
-            <div className="inline-block relative mb-6 md:mb-4">
+            <div className="inline-block relative mb-8 md:mb-10">
               <img
                 src="/Translucent_Logo_on_home_page.webp"
                 alt="Heidi Stone Hospitality"
                 className="h-20 md:h-[6.25rem] lg:h-[8.75rem] w-auto p-4"
               />
             </div>
-            <div className="mb-4 md:mb-6">
-              <img
-                src="/Clarity_at_Critical_Moments_script.png"
-                alt="Clarity in Critical Moments"
-                className="mx-auto mb-2 w-full max-w-sm md:max-w-xl h-auto px-4"
-                style={{ filter: 'brightness(0)' }}
-              />
-            </div>
-            <div className="mt-2 px-4">
-              <p className="text-lg md:text-xl lg:text-2xl text-[#2E2A26]/70 font-bold italic leading-snug">
-                Independent guidance for privately held, historic, and destination hotel owners.
-              </p>
+
+            <div className="space-y-6 md:space-y-8">
+              <h1 className="text-2xl md:text-4xl lg:text-5xl font-serif italic text-black/90 leading-relaxed px-4">
+                Seeing Possibility Where Others See Limits
+              </h1>
+
+              <div className="space-y-4">
+                <h2 className="text-2xl md:text-3xl lg:text-4xl font-serif text-black leading-snug px-4">
+                  For Owners Who Believe<br />
+                  <span className="italic">Their Hotels Can Be More</span>
+                </h2>
+
+                <div className="w-32 h-px bg-black/30 mx-auto my-6" />
+
+                <p className="text-lg md:text-xl lg:text-2xl text-black/80 leading-relaxed max-w-3xl mx-auto px-4">
+                  Independent guidance and stewardship for privately held, historic, and destination hotels.
+                </p>
+              </div>
             </div>
           </div>
         </div>
