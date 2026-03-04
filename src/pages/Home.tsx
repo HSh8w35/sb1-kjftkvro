@@ -58,7 +58,7 @@ function Home() {
   return (
     <>
       <SEO
-        title={seoData?.title || "Hospitality Leadership Advisory for Independent Hotels"}
+        title={seoData?.title || "Independent Hotel Advisor for Independent, Historic & Destination Hotels | Heidi Stone Hospitality"}
         description={seoData?.description || "Strategic hospitality advisory for independent hotel owners navigating complexity, growth, and leadership decisions."}
         keywords={seoData?.keywords}
       />
