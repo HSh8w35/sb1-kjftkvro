@@ -199,6 +199,46 @@ function About() {
         </div>
       </section>
 
+      <section className="pt-12 pb-20 bg-white px-6 lg:px-8">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-[#8B6F47] mb-4">
+              Industry Recognition
+            </h2>
+            <div className="flex justify-center mb-6">
+              <div className="h-1 w-24 bg-gradient-to-r from-transparent via-[#8B6F47] to-transparent" />
+            </div>
+          </div>
+
+          <div className="max-w-4xl mx-auto space-y-6 text-[#2E2A26] text-center">
+            <div>
+              <p className="text-lg font-semibold mb-1">President's Award</p>
+              <p className="text-base text-[#2E2A26]/70">Virginia Restaurant, Lodging & Travel Association — 2025</p>
+            </div>
+
+            <div>
+              <p className="text-lg font-semibold mb-1">Hotelier of the Year</p>
+              <p className="text-base text-[#2E2A26]/70">Virginia Restaurant, Lodging & Travel Association — 2018</p>
+            </div>
+
+            <div>
+              <p className="text-lg font-semibold mb-1">Hotel of the Year</p>
+              <p className="text-base text-[#2E2A26]/70">Virginia Restaurant, Lodging & Travel Association — 2018</p>
+            </div>
+
+            <div>
+              <p className="text-lg font-semibold mb-1">Best in Show</p>
+              <p className="text-base text-[#2E2A26]/70">Public Relations Society of America — 2017, 2013</p>
+            </div>
+
+            <div>
+              <p className="text-lg font-semibold mb-1">Social Media / PR Tactics Award</p>
+              <p className="text-base text-[#2E2A26]/70">Public Relations Society of America — 2017</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="py-12 px-6 lg:px-8 bg-gradient-to-b from-white to-[#F6F1E8]">
         <div className="max-w-5xl mx-auto">
           <div className="bg-white/60 backdrop-blur-sm rounded-2xl p-10 border-2 border-[#D4AF37] shadow-sm">
