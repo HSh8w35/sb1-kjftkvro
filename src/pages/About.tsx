@@ -199,7 +199,7 @@ function About() {
         </div>
       </section>
 
-      <section className="pt-12 pb-20 bg-white px-6 lg:px-8">
+      <section className="pt-6 pb-20 bg-white px-6 lg:px-8">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-[#8B6F47] mb-4">
