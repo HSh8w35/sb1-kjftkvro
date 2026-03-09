@@ -162,67 +162,33 @@ function About() {
             </p>
           </div>
 
-          <div className="max-w-4xl mx-auto space-y-4">
-            <a
-              href="https://www.ahla.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-start gap-3 bg-white p-5 rounded-xl shadow-sm hover:shadow-md transition-shadow group"
-            >
-              <CheckCircle className="w-6 h-6 text-[#8B6F47] flex-shrink-0 mt-1" />
-              <div>
-                <p className="text-lg font-semibold text-[#2E2A26] group-hover:text-[#8B6F47] transition-colors">American Hotel & Lodging Association</p>
-                <p className="text-base text-[#2E2A26]/60">Inaugural Member, Independent & Boutique Committee (2024–Present)</p>
-              </div>
-            </a>
-            <a
-              href="https://www.nsbaadvocate.org"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-start gap-3 bg-white p-5 rounded-xl shadow-sm hover:shadow-md transition-shadow group"
-            >
-              <CheckCircle className="w-6 h-6 text-[#8B6F47] flex-shrink-0 mt-1" />
-              <div>
-                <p className="text-lg font-semibold text-[#2E2A26] group-hover:text-[#8B6F47] transition-colors">National Small Business Association</p>
-                <p className="text-base text-[#2E2A26]/60">Executive Committee (2026)<br />Vice Chair, Membership (2026)<br />Board Member (2025–Present)</p>
-              </div>
-            </a>
-            <a
-              href="https://www.vrlta.org"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-start gap-3 bg-white p-5 rounded-xl shadow-sm hover:shadow-md transition-shadow group"
-            >
-              <CheckCircle className="w-6 h-6 text-[#8B6F47] flex-shrink-0 mt-1" />
-              <div>
-                <p className="text-lg font-semibold text-[#2E2A26] group-hover:text-[#8B6F47] transition-colors">Virginia Restaurant, Lodging & Travel Association</p>
-                <p className="text-base text-[#2E2A26]/60">Chair, Blue Ridge Chapter (2025–2027)</p>
-              </div>
-            </a>
-            <a
-              href="https://www.historichotels.org"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-start gap-3 bg-white p-5 rounded-xl shadow-sm hover:shadow-md transition-shadow group"
-            >
-              <CheckCircle className="w-6 h-6 text-[#8B6F47] flex-shrink-0 mt-1" />
-              <div>
-                <p className="text-lg font-semibold text-[#2E2A26] group-hover:text-[#8B6F47] transition-colors">Historic Hotels of America</p>
-                <p className="text-base text-[#2E2A26]/60">Mountain Lake Lodge inducted into the Historic Hotels of America program (2025)</p>
-              </div>
-            </a>
-            <a
-              href="https://www.4174club.org"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-start gap-3 bg-white p-5 rounded-xl shadow-sm hover:shadow-md transition-shadow group"
-            >
-              <CheckCircle className="w-6 h-6 text-[#8B6F47] flex-shrink-0 mt-1" />
-              <div>
-                <p className="text-lg font-semibold text-[#2E2A26] group-hover:text-[#8B6F47] transition-colors">41-74 Club of New York — Executive Women in Travel</p>
-                <p className="text-base text-[#2E2A26]/60">Member since 2008</p>
-              </div>
-            </a>
+          <div className="max-w-4xl mx-auto space-y-6 text-[#2E2A26]">
+            <div>
+              <p className="text-lg font-semibold mb-1">American Hotel & Lodging Association</p>
+              <p className="text-base text-[#2E2A26]/70">Inaugural Member, Independent & Boutique Committee (2024–Present)</p>
+            </div>
+
+            <div>
+              <p className="text-lg font-semibold mb-1">National Small Business Association</p>
+              <p className="text-base text-[#2E2A26]/70">Executive Committee (2026)</p>
+              <p className="text-base text-[#2E2A26]/70">Vice Chair, Membership (2026)</p>
+              <p className="text-base text-[#2E2A26]/70">Board Member (2025–Present)</p>
+            </div>
+
+            <div>
+              <p className="text-lg font-semibold mb-1">Virginia Restaurant, Lodging & Travel Association</p>
+              <p className="text-base text-[#2E2A26]/70">Chair, Blue Ridge Chapter (2025–2027)</p>
+            </div>
+
+            <div>
+              <p className="text-lg font-semibold mb-1">Historic Hotels of America</p>
+              <p className="text-base text-[#2E2A26]/70">Mountain Lake Lodge inducted into the Historic Hotels of America program (2025)</p>
+            </div>
+
+            <div>
+              <p className="text-lg font-semibold mb-1">41-74 Club of New York — Executive Women in Travel</p>
+              <p className="text-base text-[#2E2A26]/70">Member since 2008</p>
+            </div>
           </div>
         </div>
       </section>
