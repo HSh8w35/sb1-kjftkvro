@@ -191,6 +191,15 @@ function Home() {
       <section className="py-12 bg-gradient-to-br from-white to-[#F6F1E8] relative overflow-hidden">
         <div className="max-w-3xl mx-auto px-6 lg:px-8 relative z-10">
           <div className="text-center space-y-4">
+            <div className="flex justify-center mb-3">
+              <svg className="w-20 h-6 text-[#8B6F47]" viewBox="0 0 80 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8 12L16 4M16 4L24 12M16 4V20" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                <path d="M56 12L64 4M64 4L72 12M64 4V20" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                <circle cx="40" cy="12" r="4" stroke="currentColor" strokeWidth="1.5" fill="none"/>
+                <path d="M0 12h6M74 12h6" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
+              </svg>
+            </div>
+
             <h2 className="text-2xl md:text-3xl font-bold text-[#2E2A26] leading-tight">
               Who We Work With
             </h2>
@@ -219,6 +228,15 @@ function Home() {
                   <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
                 </svg>
               </Link>
+            </div>
+
+            <div className="flex justify-center mt-3">
+              <svg className="w-20 h-6 text-[#8B6F47]" viewBox="0 0 80 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8 12L16 20M16 20L24 12M16 20V4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                <path d="M56 12L64 20M64 20L72 12M64 20V4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                <circle cx="40" cy="12" r="4" stroke="currentColor" strokeWidth="1.5" fill="none"/>
+                <path d="M0 12h6M74 12h6" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
+              </svg>
             </div>
           </div>
         </div>
