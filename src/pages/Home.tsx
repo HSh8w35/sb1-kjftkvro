@@ -145,7 +145,7 @@ function Home() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8 relative z-10">
           <div className="text-center space-y-10">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#2E2A26] leading-tight">
-              The <strong>Possibility Assessment</strong>™
+              The <strong>Possibility Assessment</strong>
             </h2>
 
             <div className="flex justify-center">
