@@ -292,13 +292,7 @@ function Home() {
                 </div>
                 <div className="space-y-4 text-base text-[#2E2A26] leading-relaxed text-center flex-grow">
                   <p>
-                    The strongest independent hotels are not manufactured.
-                  </p>
-                  <p>
-                    They are rooted—shaped by place, history, culture, and conviction.
-                  </p>
-                  <p>
-                    When governance, strategy, and identity align, a property becomes more than a destination. It becomes part of the story of its region—respected locally and recognized beyond it.
+                    The strongest independent hotels are rooted in place. When identity, governance, and strategy align, a property becomes more than a destination—it becomes part of the story of its region.
                   </p>
                 </div>
               </div>
