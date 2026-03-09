@@ -125,21 +125,44 @@ function Home() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8 relative z-10">
           <div className="text-center space-y-10">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#2E2A26] leading-tight">
-              Independence should never feel like isolation.
+              The <strong>Possibility Assessment</strong>™
             </h2>
 
             <div className="flex justify-center">
               <div className="h-px w-32 bg-gradient-to-r from-transparent via-[#8B6F47] to-transparent" />
             </div>
 
-            <p className="text-xl md:text-2xl text-[#2E2A26]/80 leading-relaxed max-w-3xl mx-auto font-light">
-              Historic and destination hotels are more than assets—they are legacies shaped by place, leadership, and time. When stewardship is intentional, independence becomes strength. Strategy aligns with story. Governance supports clarity. Performance sustains what matters most.
-            </p>
-
-            <div className="pt-6">
-              <p className="text-lg md:text-xl text-[#8B6F47] font-semibold italic">
-                This belief shapes how we work.
+            <div className="space-y-6">
+              <p className="text-xl md:text-2xl text-[#2E2A26]/90 leading-relaxed max-w-3xl mx-auto font-semibold">
+                Most independent hotels contain revenue and opportunity that has simply never been uncovered.
               </p>
+
+              <p className="text-lg md:text-xl text-[#2E2A26]/80 leading-relaxed max-w-3xl mx-auto">
+                Over time, even the most distinctive properties can begin to operate within patterns. Certain assumptions become fixed. Operational habits settle in. Owners may hear that meaningful change requires major capital investment, brand affiliation, or structural transformation.
+              </p>
+
+              <div className="bg-gradient-to-r from-[#8B6F47]/10 to-[#8B6F47]/5 rounded-xl p-6 my-6 max-w-3xl mx-auto border-l-4 border-[#8B6F47]">
+                <p className="text-lg md:text-xl text-[#8B6F47] font-semibold">
+                  In many cases, the most powerful opportunities already exist within the property itself.
+                </p>
+              </div>
+
+              <p className="text-lg md:text-xl text-[#2E2A26]/80 leading-relaxed max-w-3xl mx-auto">
+                The <strong>Possibility Assessment</strong> is designed to uncover those opportunities.
+              </p>
+
+              <div className="pt-6">
+                <Link
+                  to="/possibilities"
+                  onClick={() => window.scrollTo(0, 0)}
+                  className="inline-flex items-center gap-2 bg-gradient-to-r from-[#8B6F47] to-[#6F5838] text-white px-8 py-4 rounded-xl hover:from-[#6F5838] hover:to-[#5A4A2D] transition-all shadow-lg hover:shadow-xl text-lg font-semibold transform hover:scale-105 duration-300"
+                >
+                  Learn More About the Possibility Assessment
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor" className="w-5 h-5">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                  </svg>
+                </Link>
+              </div>
             </div>
           </div>
         </div>
