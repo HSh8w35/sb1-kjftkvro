@@ -227,23 +227,27 @@ function About() {
           </div>
 
           <div className="max-w-4xl mx-auto">
-            <div className="bg-white/40 backdrop-blur-sm rounded-lg p-8 shadow-sm border border-[#8B6F47]/10">
-              <div className="grid md:grid-cols-2 gap-6 text-center">
-                <div>
-                  <p className="font-semibold text-[#8B6F47] mb-1">President's Award</p>
-                  <p className="text-sm text-[#2E2A26]/70">VRLTA — 2025</p>
+            <div className="bg-white/40 backdrop-blur-sm rounded-lg p-10 shadow-sm border border-[#8B6F47]/10">
+              <div className="grid md:grid-cols-2 gap-x-12 gap-y-8">
+                <div className="text-center">
+                  <p className="text-lg font-semibold text-[#8B6F47] mb-2">President's Award</p>
+                  <p className="text-base text-[#2E2A26]/70">Virginia Restaurant, Lodging & Travel Association</p>
+                  <p className="text-sm text-[#8B6F47] mt-1">2025</p>
                 </div>
-                <div>
-                  <p className="font-semibold text-[#8B6F47] mb-1">Hotelier of the Year</p>
-                  <p className="text-sm text-[#2E2A26]/70">VRLTA — 2018</p>
+                <div className="text-center">
+                  <p className="text-lg font-semibold text-[#8B6F47] mb-2">Hotelier of the Year</p>
+                  <p className="text-base text-[#2E2A26]/70">Virginia Restaurant, Lodging & Travel Association</p>
+                  <p className="text-sm text-[#8B6F47] mt-1">2018</p>
                 </div>
-                <div>
-                  <p className="font-semibold text-[#8B6F47] mb-1">Hotel of the Year</p>
-                  <p className="text-sm text-[#2E2A26]/70">VRLTA — 2018</p>
+                <div className="text-center">
+                  <p className="text-lg font-semibold text-[#8B6F47] mb-2">Hotel of the Year</p>
+                  <p className="text-base text-[#2E2A26]/70">Virginia Restaurant, Lodging & Travel Association</p>
+                  <p className="text-sm text-[#8B6F47] mt-1">2018</p>
                 </div>
-                <div>
-                  <p className="font-semibold text-[#8B6F47] mb-1">Best in Show</p>
-                  <p className="text-sm text-[#2E2A26]/70">PRSA — 2017, 2013</p>
+                <div className="text-center">
+                  <p className="text-lg font-semibold text-[#8B6F47] mb-2">Best in Show</p>
+                  <p className="text-base text-[#2E2A26]/70">Public Relations Society of America</p>
+                  <p className="text-sm text-[#8B6F47] mt-1">2017, 2013</p>
                 </div>
               </div>
             </div>
