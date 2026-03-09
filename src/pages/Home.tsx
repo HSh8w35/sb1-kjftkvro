@@ -233,13 +233,13 @@ function Home() {
             <div className="absolute bottom-0 right-0 w-16 h-16 border-b-4 border-r-4 border-white/90" />
 
             <div className="relative">
-              <h2 className="text-3xl md:text-4xl font-bold text-white mb-8 text-center">
+              <h2 className="text-3xl md:text-4xl font-bold text-white mb-6 text-center">
                 Why This Work Matters Now
               </h2>
-              <div className="flex justify-center mb-8">
+              <div className="flex justify-center mb-6">
                 <div className="h-px w-24 bg-white/60" />
               </div>
-              <div className="space-y-6 text-lg md:text-xl text-white/95 leading-relaxed text-center">
+              <div className="space-y-4 text-lg md:text-xl text-white/95 leading-relaxed text-center">
                 <p>
                   Independent, historic, and destination hotels are increasingly facing pivotal decisions.
                 </p>
