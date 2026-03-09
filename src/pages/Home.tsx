@@ -256,13 +256,7 @@ function Home() {
                 </div>
                 <div className="space-y-4 text-base text-[#2E2A26] leading-relaxed text-center flex-grow">
                   <p>
-                    Independent, historic, and destination hotels thrive when clarity exists at the top.
-                  </p>
-                  <p>
-                    When ownership and leadership are aligned in direction and discipline, independence becomes strength—unlocking sustainable performance, capital confidence, and long-term stability.
-                  </p>
-                  <p>
-                    Our work brings measured perspective at pivotal moments, ensuring decisions strengthen the asset rather than strain it.
+                    When strategy, market positioning, and operational discipline align, independent hotels unlock their full potential—delivering sustainable performance and long-term asset strength.
                   </p>
                 </div>
               </div>
