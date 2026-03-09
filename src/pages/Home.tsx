@@ -274,13 +274,7 @@ function Home() {
                 </div>
                 <div className="space-y-4 text-base text-[#2E2A26] leading-relaxed text-center flex-grow">
                   <p>
-                    In many privately held hotels, the responsibility for performance rests heavily on a small group of decision-makers—often one person.
-                  </p>
-                  <p>
-                    Over time, even capable leaders can find clarity diluted by complexity.
-                  </p>
-                  <p>
-                    We serve as a steady, independent voice at the table—restoring perspective, reinforcing discipline, and ensuring leadership energy is directed forward, not consumed by reaction.
+                    Privately held hotels often place enormous responsibility on a small group of leaders. We serve as an experienced, independent voice—helping ownership and leadership maintain clarity and discipline during pivotal moments.
                   </p>
                 </div>
               </div>
