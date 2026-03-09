@@ -189,6 +189,12 @@ function About() {
               <p className="text-lg font-semibold mb-1">41-74 Club of New York — Executive Women in Travel</p>
               <p className="text-base text-[#2E2A26]/70">Member since 2008</p>
             </div>
+
+            <div className="mt-8 pt-8 border-t-2 border-[#8B6F47]/20">
+              <p className="text-lg text-[#2E2A26] leading-relaxed max-w-3xl mx-auto">
+                Through these roles, Heidi Stone contributes to conversations shaping the future of independent hotels and small business leadership in the United States.
+              </p>
+            </div>
           </div>
         </div>
       </section>
