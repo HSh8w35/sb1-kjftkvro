@@ -46,7 +46,7 @@ function Possibilities() {
                   </p>
                 </div>
                 <p>
-                  The Possibility Assessment is designed to uncover those opportunities.
+                  The <strong>Possibility Assessment</strong> is designed to uncover those opportunities.
                 </p>
                 <p>
                   Drawing on more than three decades in the hospitality industry—including leadership inside complex independent destination hotels—the assessment brings the perspective of someone who has spent decades responsible for the performance of those properties, examining how a hotel's identity, experiences, operations, and market position can be activated in new ways.
@@ -69,12 +69,12 @@ function Possibilities() {
               <div className="flex items-center gap-3 mb-6">
                 <Lightbulb className="w-10 h-10 text-[#8B6F47]" />
                 <h2 className="text-3xl md:text-4xl font-bold text-[#8B6F47]">
-                  Why Owners Invite a Possibility Assessment
+                  Why Owners Invite a <strong>Possibility Assessment</strong>
                 </h2>
               </div>
               <div className="space-y-4 text-lg text-[#2E2A26] leading-relaxed">
                 <p>
-                  Owners often explore a Possibility Assessment when they believe their property is capable of more but want an experienced perspective before committing to major decisions.
+                  Owners often explore a <strong>Possibility Assessment</strong> when they believe their property is capable of more but want an experienced perspective before committing to major decisions.
                 </p>
                 <p className="font-semibold">The assessment is particularly valuable when:</p>
                 <div className="grid md:grid-cols-2 gap-4 my-6">
@@ -123,7 +123,7 @@ function Possibilities() {
 
             <section className="bg-white/80 backdrop-blur-sm rounded-2xl p-8 md:p-12 shadow-xl border border-[#8B6F47]/20 hover:shadow-2xl transition-shadow duration-300">
               <h2 className="text-3xl md:text-4xl font-bold text-[#8B6F47] mb-6 text-center">
-                What the Possibility Assessment Explores
+                What the <strong>Possibility Assessment</strong> Explores
               </h2>
               <div className="space-y-6 text-lg text-[#2E2A26] leading-relaxed">
                 <p className="text-center">
@@ -282,7 +282,7 @@ function Possibilities() {
               </div>
               <div className="space-y-4 text-lg text-[#2E2A26] leading-relaxed">
                 <p className="text-center">
-                  Owners who invite a Possibility Assessment often walk away with opportunities capable of influencing performance immediately.
+                  Owners who invite a <strong>Possibility Assessment</strong> often walk away with opportunities capable of influencing performance immediately.
                 </p>
                 <p className="font-semibold pt-4">The work frequently reveals:</p>
                 <ul className="space-y-3 my-6 pl-6">
@@ -327,7 +327,7 @@ function Possibilities() {
               </div>
               <div className="space-y-4 text-lg text-[#2E2A26] leading-relaxed">
                 <p>
-                  The Possibility Assessment is intentionally designed as a starting point.
+                  The <strong>Possibility Assessment</strong> is intentionally designed as a starting point.
                 </p>
                 <p>
                   It allows ownership to explore the opportunities within the property before committing to major structural change, significant capital investment, or long-term advisory relationships.
@@ -355,10 +355,10 @@ function Possibilities() {
               </div>
               <div className="space-y-5 text-xl leading-relaxed text-center">
                 <p>
-                  Every Possibility Assessment begins with a conversation.
+                  Every <strong>Possibility Assessment</strong> begins with a conversation.
                 </p>
                 <p>
-                  The purpose of that conversation is simply to understand your property, the questions currently facing ownership, and whether a Possibility Assessment would provide meaningful value.
+                  The purpose of that conversation is simply to understand your property, the questions currently facing ownership, and whether a <strong>Possibility Assessment</strong> would provide meaningful value.
                 </p>
                 <p>
                   In some cases it makes sense to move forward. In others, the conversation itself may offer useful perspective.
