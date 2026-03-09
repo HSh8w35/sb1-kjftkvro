@@ -29,6 +29,9 @@ function Possibilities() {
             <p className="text-xl md:text-2xl text-[#2E2A26]/80 leading-relaxed max-w-4xl mx-auto font-semibold">
               Most independent hotels contain revenue and opportunity that has simply never been uncovered.
             </p>
+            <p className="text-lg md:text-xl text-[#2E2A26] leading-relaxed max-w-4xl mx-auto mt-6">
+              The Possibility Assessment is a structured engagement designed to evaluate the true potential of an independent hotel or resort.
+            </p>
           </div>
 
           <div className="space-y-12">
