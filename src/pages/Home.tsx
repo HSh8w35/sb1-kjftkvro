@@ -188,6 +188,42 @@ function Home() {
         </div>
       </section>
 
+      <section className="py-20 bg-gradient-to-br from-white to-[#F6F1E8] relative overflow-hidden">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8 relative z-10">
+          <div className="text-center space-y-8">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#2E2A26] leading-tight">
+              Who We Work With
+            </h2>
+
+            <div className="flex justify-center">
+              <div className="h-px w-32 bg-gradient-to-r from-transparent via-[#8B6F47] to-transparent" />
+            </div>
+
+            <div className="space-y-6 text-lg md:text-xl text-[#2E2A26]/80 leading-relaxed">
+              <p>
+                Heidi Stone Hospitality works with owners and boards stewarding distinctive independent properties—hotels where identity, place, and long-term value matter as much as performance.
+              </p>
+              <p>
+                Our work is most valuable for privately held hotels facing pivotal decisions around leadership, positioning, capital investment, or brand affiliation.
+              </p>
+            </div>
+
+            <div className="pt-6">
+              <Link
+                to="/who-we-work-with"
+                onClick={() => window.scrollTo(0, 0)}
+                className="inline-flex items-center gap-2 text-[#8B6F47] hover:text-[#6F5838] transition-colors text-lg font-semibold group"
+              >
+                Learn more about who we work with
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor" className="w-5 h-5 group-hover:translate-x-1 transition-transform">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                </svg>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="py-20 bg-gradient-to-br from-[#8B6F47] via-[#A08558] to-[#8B6F47] relative overflow-hidden">
         <div className="max-w-5xl mx-auto px-6 lg:px-8 relative z-10">
           <div className="relative p-12 md:p-16">
