@@ -234,11 +234,17 @@ function Home() {
 
         <div className="px-6 lg:px-8 relative z-10">
           <h2 className="text-3xl md:text-4xl font-bold text-[#8B6F47] text-center mb-4">
-            What Our Work Makes Possible
+            When Clarity Exists at the Top, Independent Hotels Thrive
           </h2>
-          <div className="flex justify-center mb-16">
+          <div className="flex justify-center mb-8">
             <div className="h-1 w-24 bg-gradient-to-r from-transparent via-[#8B6F47] to-transparent" />
           </div>
+          <p className="text-lg md:text-xl text-[#2E2A26]/80 leading-relaxed max-w-4xl mx-auto text-center mb-16">
+            Independent, historic, and destination hotels perform best when leadership direction, strategy, and identity are aligned.
+          </p>
+          <p className="text-lg md:text-xl text-[#2E2A26]/80 leading-relaxed max-w-4xl mx-auto text-center mb-16">
+            Our work helps owners restore that clarity—ensuring decisions strengthen the asset and support long-term performance.
+          </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 max-w-7xl mx-auto">
             <div className="group relative bg-gradient-to-br from-white to-[#F6F1E8] p-8 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-500 hover:-translate-y-1 border border-[#8B6F47]/10 overflow-hidden h-full flex flex-col">
