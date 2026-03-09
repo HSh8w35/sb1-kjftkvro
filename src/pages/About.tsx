@@ -91,7 +91,7 @@ function About() {
                   This work was not driven by trend or circumstance, but by clarity of direction, accountable governance, and sustained execution.
                 </p>
                 <p>
-                  Years of evaluating complex decisions around leadership, investment, and positioning ultimately shaped the framework now used in the Possibility Assessment, the structured engagement that often begins advisory work with hotel owners.
+                  Years of evaluating complex decisions around leadership, investment, and positioning ultimately shaped the framework now used in the <span className="font-semibold">Possibility Assessment</span>, the structured engagement that often begins advisory work with hotel owners.
                 </p>
               </div>
             </div>
