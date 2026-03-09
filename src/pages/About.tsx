@@ -284,6 +284,16 @@ function About() {
         </div>
       </section>
 
+      <section className="py-12 px-6 lg:px-8 bg-gradient-to-b from-white to-[#F6F1E8]">
+        <div className="max-w-5xl mx-auto">
+          <div className="bg-white/60 backdrop-blur-sm rounded-2xl p-10 border border-[#8B6F47]/10 shadow-sm">
+            <p className="text-xl text-[#2E2A26] leading-relaxed">
+              Today, through Heidi Stone Hospitality, she works with owners and boards of independent, historic, and destination hotels facing pivotal moments—providing clear strategic perspective, leadership alignment, and stewardship that protects both identity and long-term value.
+            </p>
+          </div>
+        </div>
+      </section>
+
       <section className="py-16 bg-gradient-to-br from-[#8B6F47] to-[#6F5838] relative overflow-hidden">
         <div className="absolute inset-0 opacity-5">
           <div className="absolute inset-0" style={{
