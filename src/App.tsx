@@ -4,6 +4,7 @@ import Layout from './components/Layout';
 import ScrollToTop from './components/ScrollToTop';
 import ProtectedRoute from './components/ProtectedRoute';
 import Home from './pages/Home';
+import Possibilities from './pages/Possibilities';
 import About from './pages/About';
 import Story from './pages/Story';
 import OurApproach from './pages/OurApproach';
@@ -25,6 +26,7 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route element={<Layout />}>
             <Route path="/" element={<Home />} />
+            <Route path="/possibilities" element={<Possibilities />} />
             <Route path="/our-approach" element={<OurApproach />} />
             <Route path="/about" element={<About />} />
             <Route path="/story" element={<Story />} />

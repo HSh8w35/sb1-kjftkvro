@@ -33,6 +33,23 @@ function Layout() {
               </div>
               <div className="relative flex flex-col items-center">
                 <Link
+                  to="/possibilities"
+                  className={`transition-colors font-medium ${
+                    isActive('/possibilities') ? 'text-[#8B6F47]' : 'text-[#2E2A26] hover:text-[#1F2A44]'
+                  }`}
+                >
+                  Possibilities
+                </Link>
+                {isActive('/possibilities') && (
+                  <img
+                    src="/Transl_Key_only.webp"
+                    alt=""
+                    className="h-9 w-auto opacity-80 mt-1"
+                  />
+                )}
+              </div>
+              <div className="relative flex flex-col items-center">
+                <Link
                   to="/our-approach"
                   className={`transition-colors font-medium ${
                     isActive('/our-approach') ? 'text-[#8B6F47]' : 'text-[#2E2A26] hover:text-[#1F2A44]'
@@ -155,6 +172,11 @@ function Layout() {
                 <li>
                   <Link to="/" className="hover:text-[#8B6F47] transition-colors">
                     Welcome
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/possibilities" className="hover:text-[#8B6F47] transition-colors">
+                    Possibilities
                   </Link>
                 </li>
                 <li>
