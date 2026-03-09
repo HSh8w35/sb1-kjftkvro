@@ -81,37 +81,37 @@ function Possibilities() {
                   <div className="bg-gradient-to-br from-[#8B6F47]/5 to-[#8B6F47]/10 rounded-lg p-4 border border-[#8B6F47]/20 hover:border-[#8B6F47]/40 transition-colors">
                     <div className="flex items-start gap-3">
                       <div className="w-2 h-2 rounded-full bg-[#8B6F47] mt-2 flex-shrink-0"></div>
-                      <span>performance has plateaued</span>
+                      <span>Performance has plateaued</span>
                     </div>
                   </div>
                   <div className="bg-gradient-to-br from-[#8B6F47]/5 to-[#8B6F47]/10 rounded-lg p-4 border border-[#8B6F47]/20 hover:border-[#8B6F47]/40 transition-colors">
                     <div className="flex items-start gap-3">
                       <div className="w-2 h-2 rounded-full bg-[#8B6F47] mt-2 flex-shrink-0"></div>
-                      <span>new revenue opportunities are needed</span>
+                      <span>New revenue opportunities are needed</span>
                     </div>
                   </div>
                   <div className="bg-gradient-to-br from-[#8B6F47]/5 to-[#8B6F47]/10 rounded-lg p-4 border border-[#8B6F47]/20 hover:border-[#8B6F47]/40 transition-colors">
                     <div className="flex items-start gap-3">
                       <div className="w-2 h-2 rounded-full bg-[#8B6F47] mt-2 flex-shrink-0"></div>
-                      <span>reinvestment decisions are approaching</span>
+                      <span>Reinvestment decisions are approaching</span>
                     </div>
                   </div>
                   <div className="bg-gradient-to-br from-[#8B6F47]/5 to-[#8B6F47]/10 rounded-lg p-4 border border-[#8B6F47]/20 hover:border-[#8B6F47]/40 transition-colors">
                     <div className="flex items-start gap-3">
                       <div className="w-2 h-2 rounded-full bg-[#8B6F47] mt-2 flex-shrink-0"></div>
-                      <span>a management company relationship is being evaluated</span>
+                      <span>A management company relationship is being evaluated</span>
                     </div>
                   </div>
                   <div className="bg-gradient-to-br from-[#8B6F47]/5 to-[#8B6F47]/10 rounded-lg p-4 border border-[#8B6F47]/20 hover:border-[#8B6F47]/40 transition-colors">
                     <div className="flex items-start gap-3">
                       <div className="w-2 h-2 rounded-full bg-[#8B6F47] mt-2 flex-shrink-0"></div>
-                      <span>leadership transitions are occurring</span>
+                      <span>Leadership transitions are occurring</span>
                     </div>
                   </div>
                   <div className="bg-gradient-to-br from-[#8B6F47]/5 to-[#8B6F47]/10 rounded-lg p-4 border border-[#8B6F47]/20 hover:border-[#8B6F47]/40 transition-colors">
                     <div className="flex items-start gap-3">
                       <div className="w-2 h-2 rounded-full bg-[#8B6F47] mt-2 flex-shrink-0"></div>
-                      <span>the property's long-term direction is under consideration</span>
+                      <span>The property's long-term direction is under consideration</span>
                     </div>
                   </div>
                 </div>
