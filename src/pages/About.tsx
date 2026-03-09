@@ -152,7 +152,7 @@ function About() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-[#8B6F47] mb-4">
-              Professional Context & Recognition
+              Industry Leadership
             </h2>
             <div className="flex justify-center mb-6">
               <div className="h-1 w-24 bg-gradient-to-r from-transparent via-[#8B6F47] to-transparent" />
