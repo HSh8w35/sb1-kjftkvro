@@ -162,7 +162,7 @@ function About() {
             </p>
           </div>
 
-          <div className="max-w-4xl mx-auto space-y-6 text-[#2E2A26]">
+          <div className="max-w-4xl mx-auto space-y-6 text-[#2E2A26] text-center">
             <div>
               <p className="text-lg font-semibold mb-1">American Hotel & Lodging Association</p>
               <p className="text-base text-[#2E2A26]/70">Inaugural Member, Independent & Boutique Committee (2024–Present)</p>
