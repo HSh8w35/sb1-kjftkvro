@@ -268,6 +268,9 @@ function Story() {
                     A partner who has carried similar weight before.
                   </p>
                   <p>
+                    Having led a historic resort property through years of complex operational, financial, and strategic decisions, Heidi understands the weight of responsibility carried by owners and the leaders entrusted with protecting these assets.
+                  </p>
+                  <p>
                     Because independence, when led with clarity and discipline, is not a risk.
                   </p>
                   <p>
