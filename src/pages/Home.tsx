@@ -224,22 +224,22 @@ function Home() {
         </div>
       </section>
 
-      <section className="py-20 bg-gradient-to-br from-[#8B6F47] via-[#A08558] to-[#8B6F47] relative overflow-hidden">
-        <div className="max-w-5xl mx-auto px-6 lg:px-8 relative z-10">
-          <div className="relative p-12 md:p-16">
-            <div className="absolute top-0 left-0 w-16 h-16 border-t-4 border-l-4 border-white/90" />
-            <div className="absolute top-0 right-0 w-16 h-16 border-t-4 border-r-4 border-white/90" />
-            <div className="absolute bottom-0 left-0 w-16 h-16 border-b-4 border-l-4 border-white/90" />
-            <div className="absolute bottom-0 right-0 w-16 h-16 border-b-4 border-r-4 border-white/90" />
+      <section className="py-12 bg-gradient-to-br from-[#8B6F47] via-[#A08558] to-[#8B6F47] relative overflow-hidden">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8 relative z-10">
+          <div className="relative p-8 md:p-10">
+            <div className="absolute top-0 left-0 w-12 h-12 border-t-4 border-l-4 border-white/90" />
+            <div className="absolute top-0 right-0 w-12 h-12 border-t-4 border-r-4 border-white/90" />
+            <div className="absolute bottom-0 left-0 w-12 h-12 border-b-4 border-l-4 border-white/90" />
+            <div className="absolute bottom-0 right-0 w-12 h-12 border-b-4 border-r-4 border-white/90" />
 
             <div className="relative">
-              <h2 className="text-3xl md:text-4xl font-bold text-white mb-6 text-center">
+              <h2 className="text-2xl md:text-3xl font-bold text-white mb-4 text-center">
                 Why This Work Matters Now
               </h2>
-              <div className="flex justify-center mb-6">
-                <div className="h-px w-24 bg-white/60" />
+              <div className="flex justify-center mb-4">
+                <div className="h-px w-20 bg-white/60" />
               </div>
-              <div className="space-y-4 text-lg md:text-xl text-white/95 leading-relaxed text-center">
+              <div className="space-y-3 text-base md:text-lg text-white/95 leading-snug text-center">
                 <p>
                   Independent, historic, and destination hotels are increasingly facing pivotal decisions.
                 </p>
@@ -249,13 +249,13 @@ function Home() {
                 <p>
                   Many of these properties are deeply personal assets—built over decades, rooted in place, and closely tied to the identity of their communities.
                 </p>
-                <p className="font-semibold text-white text-xl md:text-2xl pt-4">
+                <p className="font-semibold text-white text-lg md:text-xl pt-2">
                   They deserve thoughtful stewardship.
                 </p>
                 <p>
                   Stewardship that protects the character of the property while strengthening its long-term performance and value.
                 </p>
-                <p className="font-semibold text-white text-xl md:text-2xl pt-4">
+                <p className="font-semibold text-white text-lg md:text-xl pt-2">
                   This is the work of Heidi Stone Hospitality.
                 </p>
               </div>
