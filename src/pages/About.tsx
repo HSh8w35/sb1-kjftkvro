@@ -214,7 +214,7 @@ function About() {
         <div className="hidden lg:block absolute left-8 top-24 bottom-24 w-1 bg-gradient-to-b from-transparent via-[#8B6F47]/30 to-transparent" />
         <div className="hidden lg:block absolute right-8 top-24 bottom-24 w-1 bg-gradient-to-b from-transparent via-[#8B6F47]/30 to-transparent" />
         <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-16">
+          <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold text-[#8B6F47] mb-4">
               Industry Recognition
             </h2>
@@ -226,30 +226,26 @@ function About() {
             </p>
           </div>
 
-          <div className="max-w-4xl mx-auto space-y-8 text-[#2E2A26]">
-            <div className="bg-white/40 backdrop-blur-sm rounded-lg p-8 shadow-sm border border-[#8B6F47]/10 text-center">
-              <p className="text-lg font-semibold mb-2 text-[#8B6F47]">President's Award</p>
-              <p className="text-base text-[#2E2A26]/70">Virginia Restaurant, Lodging & Travel Association — 2025</p>
-            </div>
-
-            <div className="bg-white/40 backdrop-blur-sm rounded-lg p-8 shadow-sm border border-[#8B6F47]/10 text-center">
-              <p className="text-lg font-semibold mb-2 text-[#8B6F47]">Hotelier of the Year</p>
-              <p className="text-base text-[#2E2A26]/70">Virginia Restaurant, Lodging & Travel Association — 2018</p>
-            </div>
-
-            <div className="bg-white/40 backdrop-blur-sm rounded-lg p-8 shadow-sm border border-[#8B6F47]/10 text-center">
-              <p className="text-lg font-semibold mb-2 text-[#8B6F47]">Hotel of the Year</p>
-              <p className="text-base text-[#2E2A26]/70">Virginia Restaurant, Lodging & Travel Association — 2018</p>
-            </div>
-
-            <div className="bg-white/40 backdrop-blur-sm rounded-lg p-8 shadow-sm border border-[#8B6F47]/10 text-center">
-              <p className="text-lg font-semibold mb-2 text-[#8B6F47]">Best in Show</p>
-              <p className="text-base text-[#2E2A26]/70">Public Relations Society of America — 2017, 2013</p>
-            </div>
-
-            <div className="bg-white/40 backdrop-blur-sm rounded-lg p-8 shadow-sm border border-[#8B6F47]/10 text-center">
-              <p className="text-lg font-semibold mb-2 text-[#8B6F47]">Social Media / PR Tactics Award</p>
-              <p className="text-base text-[#2E2A26]/70">Public Relations Society of America — 2017</p>
+          <div className="max-w-4xl mx-auto">
+            <div className="bg-white/40 backdrop-blur-sm rounded-lg p-8 shadow-sm border border-[#8B6F47]/10">
+              <div className="grid md:grid-cols-2 gap-6 text-center">
+                <div>
+                  <p className="font-semibold text-[#8B6F47] mb-1">President's Award</p>
+                  <p className="text-sm text-[#2E2A26]/70">VRLTA — 2025</p>
+                </div>
+                <div>
+                  <p className="font-semibold text-[#8B6F47] mb-1">Hotelier of the Year</p>
+                  <p className="text-sm text-[#2E2A26]/70">VRLTA — 2018</p>
+                </div>
+                <div>
+                  <p className="font-semibold text-[#8B6F47] mb-1">Hotel of the Year</p>
+                  <p className="text-sm text-[#2E2A26]/70">VRLTA — 2018</p>
+                </div>
+                <div>
+                  <p className="font-semibold text-[#8B6F47] mb-1">Best in Show</p>
+                  <p className="text-sm text-[#2E2A26]/70">PRSA — 2017, 2013</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
