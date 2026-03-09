@@ -329,7 +329,7 @@ function OurApproach() {
                 </p>
 
                 <Link
-                  to="/services"
+                  to="/possibilities"
                   onClick={() => window.scrollTo(0, 0)}
                   className="inline-flex items-center gap-3 bg-gradient-to-r from-[#8B6F47] to-[#6F5838] text-white px-8 py-4 rounded-full font-semibold hover:from-[#6F5838] hover:to-[#8B6F47] transition-all duration-300 shadow-lg hover:shadow-xl group"
                 >
