@@ -346,14 +346,14 @@ function Possibilities() {
               </div>
             </section>
 
-            <section className="bg-gradient-to-br from-[#8B6F47] to-[#6F5838] rounded-2xl p-8 md:p-12 shadow-xl text-white">
+            <section className="bg-gradient-to-br from-[#8B6F47] to-[#6F5838] rounded-2xl p-8 md:p-10 shadow-xl text-white max-w-3xl mx-auto">
               <h2 className="text-3xl md:text-4xl font-bold mb-6 text-center">
                 Start the Conversation
               </h2>
-              <div className="flex justify-center mb-8">
+              <div className="flex justify-center mb-6">
                 <div className="h-px w-24 bg-white/60" />
               </div>
-              <div className="space-y-6 text-lg leading-relaxed">
+              <div className="space-y-5 text-xl leading-relaxed text-center">
                 <p>
                   Every Possibility Assessment begins with a conversation.
                 </p>
@@ -363,10 +363,10 @@ function Possibilities() {
                 <p>
                   In some cases it makes sense to move forward. In others, the conversation itself may offer useful perspective.
                 </p>
-                <p className="text-xl font-semibold pt-4 text-center">
+                <p className="text-2xl font-semibold pt-2">
                   Either way, the goal is the same: clarity about the opportunities that may exist within your property.
                 </p>
-                <p className="text-center text-white/90 italic pt-4">
+                <p className="text-white/90 italic pt-2 text-lg">
                   Discreet. Confidential. Intentional.
                 </p>
               </div>
