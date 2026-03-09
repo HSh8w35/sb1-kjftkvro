@@ -1,4 +1,5 @@
-import { Building2, Users, TrendingUp, Clock, Shield, Target } from 'lucide-react';
+import { Building2, Users, TrendingUp, Clock, Shield, Target, ArrowLeft } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
 import { useSEOData } from '../hooks/useSEOData';
 
@@ -14,6 +15,14 @@ function WhoWeWorkWith() {
       />
       <section className="py-20 bg-gradient-to-br from-[#F6F1E8] to-[#E8DCC8] relative overflow-hidden">
         <div className="max-w-5xl mx-auto px-6 lg:px-8 relative z-10">
+          <Link
+            to="/"
+            onClick={() => window.scrollTo(0, 0)}
+            className="inline-flex items-center gap-2 text-[#8B6F47] hover:text-[#6F5838] transition-colors mb-8 group"
+          >
+            <ArrowLeft className="w-5 h-5 group-hover:-translate-x-1 transition-transform" />
+            <span className="font-semibold">Back to Home</span>
+          </Link>
           <div className="text-center space-y-8 mb-16">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#2E2A26] leading-tight">
               Who We Work With
