@@ -56,6 +56,12 @@ function OurApproach() {
               <p>
                 We do not lead with tools, frameworks, or programs. We lead with perspective—earned through decades of executive leadership inside independent hospitality assets, where decisions carry weight and outcomes endure.
               </p>
+              <p>
+                In many cases, our work begins with a Possibility Assessment—a structured engagement designed to evaluate the true potential of an independent hotel or resort.
+              </p>
+              <p>
+                This process allows ownership to step back from day-to-day complexity and gain a clear, independent perspective before significant decisions are made.
+              </p>
             </div>
 
             <div className="bg-gradient-to-br from-[#8B6F47] to-[#6F5838] text-white rounded-2xl p-10 mb-12 shadow-xl text-center">
