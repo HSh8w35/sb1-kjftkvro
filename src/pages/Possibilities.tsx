@@ -193,13 +193,16 @@ function Possibilities() {
                       <Sparkles className="w-8 h-8 text-[#8B6F47] flex-shrink-0" />
                       <h3 className="text-2xl font-bold text-[#8B6F47]">Strategic Opportunity</h3>
                     </div>
-                    <p className="mb-3">
+                    <p>
                       Finally, the assessment identifies opportunities that may exist within the property's current assets—ideas capable of unlocking new revenue, strengthening positioning, and activating the hotel's full potential.
                     </p>
-                    <p className="italic text-[#8B6F47]/80">
-                      Often these opportunities are hiding in plain sight—overlooked not because they lack potential, but because the property has grown accustomed to seeing its limitations more clearly than its possibilities.
-                    </p>
                   </div>
+                </div>
+
+                <div className="mt-8 bg-gradient-to-r from-[#8B6F47]/10 via-[#8B6F47]/15 to-[#8B6F47]/10 rounded-xl p-8 border-y-4 border-[#8B6F47]/30 shadow-lg">
+                  <p className="italic text-[#8B6F47] text-xl text-center leading-relaxed font-medium">
+                    Often these opportunities are hiding in plain sight—overlooked not because they lack potential, but because the property has grown accustomed to seeing its limitations more clearly than its possibilities.
+                  </p>
                 </div>
               </div>
             </section>
