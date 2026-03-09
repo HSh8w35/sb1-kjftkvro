@@ -321,24 +321,19 @@ function OurApproach() {
                      backgroundSize: '60px 60px'
                    }}
               />
-              <div className="relative">
-                <h2 className="text-3xl font-bold mb-6 text-[#2E2A26] text-center">Moving Forward</h2>
+              <div className="relative text-center">
+                <h2 className="text-3xl font-bold mb-6 text-[#2E2A26]">Moving Forward</h2>
 
-                <div className="space-y-6 text-xl leading-relaxed mb-8">
-                  <p className="text-[#2E2A26]">
-                    When this way of thinking resonates, the next step is not a proposal—it is a conversation.
-                  </p>
-                  <p className="text-[#2E2A26]">
-                    That conversation determines whether alignment exists and whether partnership makes sense.
-                  </p>
-                </div>
+                <p className="text-xl text-[#2E2A26] leading-relaxed mb-8">
+                  For many owners, the work begins with a <span className="font-bold">Possibility Assessment</span>, providing a clear understanding of the property's opportunity before strategic decisions are made.
+                </p>
 
                 <Link
-                  to="/lets-talk"
+                  to="/services"
                   onClick={() => window.scrollTo(0, 0)}
                   className="inline-flex items-center gap-3 bg-gradient-to-r from-[#8B6F47] to-[#6F5838] text-white px-8 py-4 rounded-full font-semibold hover:from-[#6F5838] hover:to-[#8B6F47] transition-all duration-300 shadow-lg hover:shadow-xl group"
                 >
-                  Let's Start the Conversation
+                  Explore the Possibility Assessment
                   <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </Link>
               </div>
