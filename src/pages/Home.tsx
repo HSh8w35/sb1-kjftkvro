@@ -185,16 +185,22 @@ function Home() {
               </div>
               <div className="space-y-6 text-lg md:text-xl text-white/95 leading-relaxed text-center">
                 <p>
-                  Independent, historic, and destination hotels are facing inflection points. Ownership transitions are accelerating. Capital demands are rising. Brand consolidation is intensifying. And too often, decisions are made under pressure rather than clarity.
-                </p>
-                <p className="font-semibold text-white text-xl md:text-2xl pt-4">
-                  Legacy assets deserve better.
+                  Independent, historic, and destination hotels are increasingly facing pivotal decisions.
                 </p>
                 <p>
-                  They require steady, independent stewardship—ensuring that governance, strategy, and performance align to protect both identity and long-term value.
+                  Ownership transitions are accelerating. Capital demands are rising. Brand consolidation continues to reshape the landscape. And too often, important decisions are made under pressure rather than clarity.
+                </p>
+                <p>
+                  Many of these properties are deeply personal assets—built over decades, rooted in place, and closely tied to the identity of their communities.
                 </p>
                 <p className="font-semibold text-white text-xl md:text-2xl pt-4">
-                  This is why our work matters now.
+                  They deserve thoughtful stewardship.
+                </p>
+                <p>
+                  Stewardship that protects the character of the property while strengthening its long-term performance and value.
+                </p>
+                <p className="font-semibold text-white text-xl md:text-2xl pt-4">
+                  This is the work of Heidi Stone Hospitality.
                 </p>
               </div>
             </div>
