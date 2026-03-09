@@ -208,6 +208,9 @@ function About() {
             <div className="flex justify-center mb-6">
               <div className="h-1 w-24 bg-gradient-to-r from-transparent via-[#8B6F47] to-transparent" />
             </div>
+            <p className="text-xl text-[#2E2A26]/70 max-w-3xl mx-auto">
+              Throughout her career, Heidi's leadership and work in hospitality strategy, preservation, and communications have been recognized by regional and national industry organizations.
+            </p>
           </div>
 
           <div className="max-w-4xl mx-auto space-y-6 text-[#2E2A26] text-center">
