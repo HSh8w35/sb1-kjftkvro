@@ -127,7 +127,7 @@ function Home() {
               <circle cx="32" cy="8" r="3" fill="currentColor"/>
             </svg>
           </div>
-          <p className="text-2xl md:text-3xl lg:text-4xl font-light text-[#2E2A26] leading-relaxed">
+          <p className="text-xl md:text-2xl lg:text-3xl font-light text-[#2E2A26] leading-relaxed">
             The <strong className="font-bold">Possibility Assessment</strong> reveals the opportunity already present within independent and historic hotels—<span className="whitespace-nowrap">often where others see only limitations.</span>
           </p>
           <div className="flex justify-center mt-6">
