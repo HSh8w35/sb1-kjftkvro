@@ -285,38 +285,28 @@ function Possibilities() {
                   Owners who invite a Possibility Assessment often walk away with opportunities capable of influencing performance immediately.
                 </p>
                 <p className="font-semibold pt-4">The work frequently reveals:</p>
-                <div className="grid md:grid-cols-2 gap-4 my-6">
-                  <div className="bg-white/80 rounded-lg p-5 shadow-md hover:shadow-lg transition-shadow border-l-4 border-[#8B6F47]">
-                    <div className="flex items-start gap-3">
-                      <div className="w-2 h-2 rounded-full bg-[#8B6F47] mt-2 flex-shrink-0"></div>
-                      <span className="font-medium">new revenue opportunities that can be implemented quickly</span>
-                    </div>
-                  </div>
-                  <div className="bg-white/80 rounded-lg p-5 shadow-md hover:shadow-lg transition-shadow border-l-4 border-[#8B6F47]">
-                    <div className="flex items-start gap-3">
-                      <div className="w-2 h-2 rounded-full bg-[#8B6F47] mt-2 flex-shrink-0"></div>
-                      <span className="font-medium">programming concepts that generate fresh demand</span>
-                    </div>
-                  </div>
-                  <div className="bg-white/80 rounded-lg p-5 shadow-md hover:shadow-lg transition-shadow border-l-4 border-[#8B6F47]">
-                    <div className="flex items-start gap-3">
-                      <div className="w-2 h-2 rounded-full bg-[#8B6F47] mt-2 flex-shrink-0"></div>
-                      <span className="font-medium">operational refinements that improve profitability</span>
-                    </div>
-                  </div>
-                  <div className="bg-white/80 rounded-lg p-5 shadow-md hover:shadow-lg transition-shadow border-l-4 border-[#8B6F47]">
-                    <div className="flex items-start gap-3">
-                      <div className="w-2 h-2 rounded-full bg-[#8B6F47] mt-2 flex-shrink-0"></div>
-                      <span className="font-medium">positioning adjustments that elevate the guest experience</span>
-                    </div>
-                  </div>
-                  <div className="md:col-span-2 bg-white/80 rounded-lg p-5 shadow-md hover:shadow-lg transition-shadow border-l-4 border-[#8B6F47]">
-                    <div className="flex items-start gap-3">
-                      <div className="w-2 h-2 rounded-full bg-[#8B6F47] mt-2 flex-shrink-0"></div>
-                      <span className="font-medium">strategic clarity around future reinvestment</span>
-                    </div>
-                  </div>
-                </div>
+                <ul className="space-y-3 my-6 pl-6">
+                  <li className="flex items-start gap-3">
+                    <span className="text-[#8B6F47] text-2xl leading-none">-</span>
+                    <span>New revenue opportunities that can be implemented quickly</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="text-[#8B6F47] text-2xl leading-none">-</span>
+                    <span>Programming concepts that generate fresh demand</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="text-[#8B6F47] text-2xl leading-none">-</span>
+                    <span>Operational refinements that improve profitability</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="text-[#8B6F47] text-2xl leading-none">-</span>
+                    <span>Positioning adjustments that elevate the guest experience</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="text-[#8B6F47] text-2xl leading-none">-</span>
+                    <span>Strategic clarity around future reinvestment</span>
+                  </li>
+                </ul>
                 <div className="bg-white/80 rounded-xl p-6 my-6 border-2 border-[#8B6F47]/30">
                   <p className="text-center italic text-[#8B6F47]">
                     In many cases, a single idea uncovered through the assessment can generate returns that far exceed the investment in the work itself.
