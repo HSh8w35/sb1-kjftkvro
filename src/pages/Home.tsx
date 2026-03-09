@@ -119,9 +119,9 @@ function Home() {
         </div>
       </section>
 
-      <section className="py-16 bg-gradient-to-br from-[#2E2A26] to-[#3A352F] relative overflow-hidden">
+      <section className="py-16 bg-[#2E2A26]/30 relative overflow-hidden">
         <div className="max-w-5xl mx-auto px-6 lg:px-8 text-center relative z-10">
-          <p className="text-2xl md:text-3xl lg:text-4xl font-light text-[#D4C5A9] leading-relaxed">
+          <p className="text-2xl md:text-3xl lg:text-4xl font-light text-[#2E2A26] leading-relaxed">
             The Possibility Assessment reveals the opportunity already present within independent and historic hotels—often where others see only limitations.
           </p>
         </div>
