@@ -148,7 +148,9 @@ function About() {
         </div>
       </section>
 
-      <section className="pt-12 pb-20 bg-[#F6F1E8] px-6 lg:px-8">
+      <section className="pt-12 pb-20 bg-[#F6F1E8] px-6 lg:px-8 relative">
+        <div className="hidden lg:block absolute left-8 top-24 bottom-24 w-1 bg-gradient-to-b from-transparent via-[#8B6F47]/30 to-transparent" />
+        <div className="hidden lg:block absolute right-8 top-24 bottom-24 w-1 bg-gradient-to-b from-transparent via-[#8B6F47]/30 to-transparent" />
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-[#8B6F47] mb-4">
@@ -199,7 +201,9 @@ function About() {
         </div>
       </section>
 
-      <section className="pt-6 pb-20 bg-white px-6 lg:px-8">
+      <section className="pt-6 pb-20 bg-white px-6 lg:px-8 relative">
+        <div className="hidden lg:block absolute left-8 top-24 bottom-24 w-1 bg-gradient-to-b from-transparent via-[#8B6F47]/30 to-transparent" />
+        <div className="hidden lg:block absolute right-8 top-24 bottom-24 w-1 bg-gradient-to-b from-transparent via-[#8B6F47]/30 to-transparent" />
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-[#8B6F47] mb-4">
