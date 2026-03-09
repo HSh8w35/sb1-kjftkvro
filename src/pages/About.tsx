@@ -148,6 +148,15 @@ function About() {
         </div>
       </section>
 
+      <div className="bg-[#F6F1E8] py-12 flex justify-center">
+        <img
+          src="/Transl_Key_only.png"
+          alt=""
+          className="h-16 md:h-20 w-auto opacity-80"
+          aria-hidden="true"
+        />
+      </div>
+
       <section className="pt-12 pb-20 bg-[#F6F1E8] px-6 lg:px-8 relative">
         <div className="hidden lg:block absolute left-8 top-24 bottom-24 w-1 bg-gradient-to-b from-transparent via-[#8B6F47]/30 to-transparent" />
         <div className="hidden lg:block absolute right-8 top-24 bottom-24 w-1 bg-gradient-to-b from-transparent via-[#8B6F47]/30 to-transparent" />
