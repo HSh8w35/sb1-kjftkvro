@@ -261,6 +261,9 @@ function About() {
             <p className="text-xl text-[#2E2A26] leading-relaxed">
               Today, through Heidi Stone Hospitality, she works with owners and boards of independent, historic, and destination hotels facing pivotal moments—providing clear strategic perspective, leadership alignment, and stewardship that protects both identity and long-term value.
             </p>
+            <p className="text-xl text-[#2E2A26] leading-relaxed mt-6">
+              Having led a historic resort property through years of complex operational, financial, and strategic decisions, Heidi understands the weight of responsibility carried by owners and the leaders entrusted with protecting these assets.
+            </p>
           </div>
         </div>
       </section>
