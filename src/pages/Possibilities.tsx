@@ -16,109 +16,125 @@ function Possibilities() {
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-16">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#2E2A26] mb-6">
-              The Possibility Assessment
+              The Possibility Assessment™
             </h1>
             <div className="flex justify-center mb-8">
               <div className="h-1 w-32 bg-gradient-to-r from-transparent via-[#8B6F47] to-transparent" />
             </div>
-            <p className="text-xl md:text-2xl text-[#2E2A26]/80 leading-relaxed max-w-4xl mx-auto">
-              A structured process for gaining clarity on what is working, what is stalling, and what is possible.
+            <p className="text-xl md:text-2xl text-[#2E2A26]/80 leading-relaxed max-w-4xl mx-auto font-semibold">
+              Most independent hotels contain revenue and opportunity that has simply never been uncovered.
             </p>
           </div>
 
           <div className="space-y-12">
             <section className="bg-white/70 backdrop-blur-sm rounded-2xl p-8 md:p-12 shadow-lg border border-[#8B6F47]/10">
-              <h2 className="text-3xl md:text-4xl font-bold text-[#8B6F47] mb-6">
-                What It Is
-              </h2>
               <div className="space-y-4 text-lg text-[#2E2A26] leading-relaxed">
                 <p>
-                  The Possibility Assessment is a focused, diagnostic engagement designed to surface clarity at critical junctures.
+                  Independent and historic hotels are rarely ordinary assets. They carry history, identity, and meaning that extend far beyond the balance sheet. Many have been shaped by decades of stewardship, evolving through changing markets, leadership transitions, and shifting guest expectations.
                 </p>
                 <p>
-                  It is not a generic audit. It is not consulting theater. It is a pragmatic, grounded process for examining how governance, strategy, and operations are functioning today—and what adjustments are needed to stabilize and strengthen the business moving forward.
+                  Over time, however, even the most distinctive properties can begin to operate within patterns. Certain assumptions become fixed. Operational habits settle in. Owners may hear that meaningful change requires major capital investment, brand affiliation, or structural transformation.
+                </p>
+                <p className="font-semibold">
+                  In many cases, the most powerful opportunities already exist within the property itself.
                 </p>
                 <p>
-                  It is for owners and leaders who know something must shift—but need an independent, experienced perspective to define what that shift should be.
+                  The Possibility Assessment is designed to uncover those opportunities.
+                </p>
+                <p>
+                  Drawing on more than three decades in the hospitality industry—including leadership inside complex independent destination hotels—the assessment brings the perspective of someone who has spent decades responsible for the performance of those properties, examining how a hotel's identity, experiences, operations, and market position can be activated in new ways.
+                </p>
+                <p>
+                  Much of the transformation achieved throughout that career was not driven by massive capital investment, but by uncovering opportunities already present within the property itself.
+                </p>
+                <p className="font-semibold pt-4">
+                  The work begins with a simple premise:
+                </p>
+                <p className="italic text-[#8B6F47] text-xl">
+                  The most meaningful opportunities often emerge not from what a hotel lacks, but from what it has never fully activated.
                 </p>
               </div>
             </section>
 
             <section className="bg-white/70 backdrop-blur-sm rounded-2xl p-8 md:p-12 shadow-lg border border-[#8B6F47]/10">
               <h2 className="text-3xl md:text-4xl font-bold text-[#8B6F47] mb-6">
-                When It's Needed
+                Why Owners Invite a Possibility Assessment
               </h2>
               <div className="space-y-4 text-lg text-[#2E2A26] leading-relaxed">
-                <p>This assessment is most valuable during inflection points:</p>
+                <p>
+                  Owners often explore a Possibility Assessment when they believe their property is capable of more but want an experienced perspective before committing to major decisions.
+                </p>
+                <p>The assessment is particularly valuable when:</p>
                 <ul className="list-disc pl-6 space-y-2">
-                  <li>
-                    <strong>Before or After Leadership Transitions</strong>
-                    <br />
-                    When a General Manager or senior leader is departing or has recently arrived—and ownership needs to understand what is being inherited, what must be stabilized, and what must be addressed immediately.
-                  </li>
-                  <li>
-                    <strong>Following Capital Investment or Renovation</strong>
-                    <br />
-                    When significant investment has been made—but financial performance has not yet responded as expected. Clarity is needed on what is working operationally, what requires refinement, and whether the strategy is positioned to deliver.
-                  </li>
-                  <li>
-                    <strong>Amidst Performance Drift or Strategic Uncertainty</strong>
-                    <br />
-                    When the business is not in crisis—but performance has plateaued, roles have become unclear, or decision-making has become reactive rather than intentional. Owners know adjustments are needed but lack the objective perspective to act with confidence.
-                  </li>
-                  <li>
-                    <strong>Ahead of Ownership or Structural Change</strong>
-                    <br />
-                    When a property is preparing for sale, transition to the next generation, or a shift in ownership structure—and leadership needs an independent evaluation of readiness, gaps, and risk.
-                  </li>
+                  <li>performance has plateaued</li>
+                  <li>new revenue opportunities are needed</li>
+                  <li>reinvestment decisions are approaching</li>
+                  <li>a management company relationship is being evaluated</li>
+                  <li>leadership transitions are occurring</li>
+                  <li>the property's long-term direction is under consideration</li>
                 </ul>
+                <p>
+                  In these moments, an independent perspective brings clarity to what the property is capable of becoming.
+                </p>
               </div>
             </section>
 
             <section className="bg-white/70 backdrop-blur-sm rounded-2xl p-8 md:p-12 shadow-lg border border-[#8B6F47]/10">
               <h2 className="text-3xl md:text-4xl font-bold text-[#8B6F47] mb-6">
-                How It Works
+                What the Possibility Assessment Explores
               </h2>
               <div className="space-y-6 text-lg text-[#2E2A26] leading-relaxed">
                 <p>
-                  The Possibility Assessment is conducted over 6–8 weeks and is structured in three phases:
+                  Each engagement is tailored to the specific property, but the exploration typically includes several key dimensions.
                 </p>
 
                 <div className="space-y-6">
                   <div>
-                    <h3 className="text-2xl font-bold text-[#8B6F47] mb-3">Phase 1: Discovery & Observation</h3>
-                    <p className="mb-3">
-                      We begin by observing how decisions are being made, how information is flowing, and where accountability is clear—or unclear.
+                    <h3 className="text-2xl font-bold text-[#8B6F47] mb-3">Identity & Place</h3>
+                    <p>
+                      Every independent hotel has a narrative shaped by its geography, history, and the community around it. Over time that identity can become diluted or underutilized.
                     </p>
-                    <ul className="list-disc pl-6 space-y-2">
-                      <li>Confidential conversations with ownership, leadership, and key operational staff.</li>
-                      <li>Review of financial performance, organizational structure, and operational documentation.</li>
-                      <li>On-site observation to understand how processes, culture, and leadership dynamics are functioning in practice.</li>
-                    </ul>
+                    <p>
+                      The assessment explores how the property's setting, regional character, and history can shape a clearer sense of place—allowing the hotel to operate not just as lodging, but as a natural gathering point for the region it serves.
+                    </p>
                   </div>
 
                   <div>
-                    <h3 className="text-2xl font-bold text-[#8B6F47] mb-3">Phase 2: Diagnostic Analysis</h3>
-                    <p className="mb-3">
-                      We distill what we've learned and assess what is supporting the business—and what is constraining it.
+                    <h3 className="text-2xl font-bold text-[#8B6F47] mb-3">Revenue & Market Opportunities</h3>
+                    <p>
+                      Independent hotels often rely on familiar patterns of business. The assessment examines where new sources of revenue may exist, particularly through programming, partnerships, experiences, and strategic positioning that create new reasons for guests to visit.
                     </p>
-                    <ul className="list-disc pl-6 space-y-2">
-                      <li>Identification of structural misalignment, role confusion, or gaps in execution.</li>
-                      <li>Clarity on where leadership energy is being consumed—and where it needs to be redirected.</li>
-                      <li>Assessment of whether current strategy is actionable, realistic, and sufficiently supported.</li>
-                    </ul>
                   </div>
 
                   <div>
-                    <h3 className="text-2xl font-bold text-[#8B6F47] mb-3">Phase 3: Recommendations & Path Forward</h3>
-                    <p className="mb-3">
-                      We present findings and recommendations—not as abstract strategy, but as practical, prioritized actions.
+                    <h3 className="text-2xl font-bold text-[#8B6F47] mb-3">Seasonality</h3>
+                    <p>
+                      Many destination properties experience pronounced seasonal fluctuations that place pressure on revenue, staffing, and operations. The assessment explores how programming, partnerships, and strategic operational planning can create stronger performance across the full calendar year—stabilizing demand beyond traditional peak periods.
                     </p>
-                    <ul className="list-disc pl-6 space-y-2">
-                      <li>Clear identification of what is working and should be preserved.</li>
-                      <li>Direct recommendations on what must change—and in what sequence.</li>
-                      <li>A practical roadmap for restoring clarity, strengthening execution, and positioning the business for sustainable performance.</li>
-                    </ul>
+                  </div>
+
+                  <div>
+                    <h3 className="text-2xl font-bold text-[#8B6F47] mb-3">Guest Experience</h3>
+                    <p>
+                      Memorable experiences are often what differentiate independent properties from branded hotels. The assessment considers how amenities, signature experiences, and the overall guest journey contribute to both reputation and revenue.
+                    </p>
+                  </div>
+
+                  <div>
+                    <h3 className="text-2xl font-bold text-[#8B6F47] mb-3">Operational Alignment</h3>
+                    <p>
+                      Operational structures quietly shape performance over time. Leadership alignment, staffing patterns, and organizational clarity are explored to identify opportunities for improvement.
+                    </p>
+                  </div>
+
+                  <div>
+                    <h3 className="text-2xl font-bold text-[#8B6F47] mb-3">Strategic Opportunity</h3>
+                    <p>
+                      Finally, the assessment identifies opportunities that may exist within the property's current assets—ideas capable of unlocking new revenue, strengthening positioning, and activating the hotel's full potential.
+                    </p>
+                    <p>
+                      Often these opportunities are hiding in plain sight—overlooked not because they lack potential, but because the property has grown accustomed to seeing its limitations more clearly than its possibilities.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -126,43 +142,109 @@ function Possibilities() {
 
             <section className="bg-white/70 backdrop-blur-sm rounded-2xl p-8 md:p-12 shadow-lg border border-[#8B6F47]/10">
               <h2 className="text-3xl md:text-4xl font-bold text-[#8B6F47] mb-6">
-                What You Receive
+                How the Assessment Works
+              </h2>
+              <div className="space-y-6 text-lg text-[#2E2A26] leading-relaxed">
+                <div>
+                  <h3 className="text-2xl font-bold text-[#8B6F47] mb-3">Initial Conversation</h3>
+                  <p>
+                    The process begins with a confidential conversation with ownership to understand the property, its history, and the questions currently being considered.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-2xl font-bold text-[#8B6F47] mb-3">On-Site Exploration</h3>
+                  <p>
+                    A multi-day visit allows the property to be experienced fully—from guest arrival through operations, amenities, and leadership conversations.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-2xl font-bold text-[#8B6F47] mb-3">Opportunity Mapping</h3>
+                  <p>
+                    Following the visit, observations and insights are synthesized to identify potential opportunities and strategic considerations.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-2xl font-bold text-[#8B6F47] mb-3">Owner Conversation</h3>
+                  <p>
+                    The assessment concludes with a detailed conversation with ownership, along with a written summary outlining key observations and opportunities.
+                  </p>
+                </div>
+              </div>
+            </section>
+
+            <section className="bg-white/70 backdrop-blur-sm rounded-2xl p-8 md:p-12 shadow-lg border border-[#8B6F47]/10">
+              <h2 className="text-3xl md:text-4xl font-bold text-[#8B6F47] mb-6">
+                What Owners Gain
               </h2>
               <div className="space-y-4 text-lg text-[#2E2A26] leading-relaxed">
-                <p>At the conclusion of the assessment, ownership and leadership receive:</p>
+                <p>
+                  Owners who invite a Possibility Assessment often walk away with opportunities capable of influencing performance immediately.
+                </p>
+                <p>The work frequently reveals:</p>
                 <ul className="list-disc pl-6 space-y-2">
-                  <li>
-                    <strong>A Diagnostic Summary</strong> identifying what is functioning, what is fragile, and what requires immediate attention.
-                  </li>
-                  <li>
-                    <strong>Prioritized Recommendations</strong> outlining specific adjustments to governance, strategy, operations, or leadership.
-                  </li>
-                  <li>
-                    <strong>A Roadmap for Action</strong> defining what should be addressed in the next 90 days, 6 months, and 12 months.
-                  </li>
-                  <li>
-                    <strong>A Clear Decision Point</strong> on whether deeper, sustained advisory support is warranted—or if the business is positioned to move forward independently.
-                  </li>
+                  <li>new revenue opportunities that can be implemented quickly</li>
+                  <li>programming concepts that generate fresh demand</li>
+                  <li>operational refinements that improve profitability</li>
+                  <li>positioning adjustments that elevate the guest experience</li>
+                  <li>strategic clarity around future reinvestment</li>
                 </ul>
+                <p>
+                  In many cases, a single idea uncovered through the assessment can generate returns that far exceed the investment in the work itself.
+                </p>
+                <p className="font-semibold">
+                  More importantly, owners gain a renewed understanding of the potential already present within their property.
+                </p>
+              </div>
+            </section>
+
+            <section className="bg-white/70 backdrop-blur-sm rounded-2xl p-8 md:p-12 shadow-lg border border-[#8B6F47]/10">
+              <h2 className="text-3xl md:text-4xl font-bold text-[#8B6F47] mb-6">
+                A Thoughtful Starting Point
+              </h2>
+              <div className="space-y-4 text-lg text-[#2E2A26] leading-relaxed">
+                <p>
+                  The Possibility Assessment is intentionally designed as a starting point.
+                </p>
+                <p>
+                  It allows ownership to explore the opportunities within the property before committing to major structural change, significant capital investment, or long-term advisory relationships.
+                </p>
+                <p>
+                  Sometimes the insights stand on their own. In other cases, they lead to deeper strategic collaboration.
+                </p>
+                <p className="font-semibold">
+                  Either way, the purpose remains the same:
+                </p>
+                <p className="italic text-[#8B6F47] text-xl">
+                  Revealing the opportunities within independent hotels that others fail to see—and turning perceived limitations into defining strengths.
+                </p>
               </div>
             </section>
 
             <section className="bg-gradient-to-br from-[#8B6F47] to-[#6F5838] rounded-2xl p-8 md:p-12 shadow-xl text-white">
               <h2 className="text-3xl md:text-4xl font-bold mb-6 text-center">
-                Why This Matters
+                Start the Conversation
               </h2>
               <div className="flex justify-center mb-8">
                 <div className="h-px w-24 bg-white/60" />
               </div>
               <div className="space-y-6 text-lg leading-relaxed">
                 <p>
-                  Independent, historic, and destination hotels often operate without a steady, independent voice at the table. In the absence of that perspective, small issues compound. Strategic drift goes unaddressed. Leadership fatigue becomes normalized.
+                  Every Possibility Assessment begins with a conversation.
                 </p>
                 <p>
-                  The Possibility Assessment provides clarity before crisis becomes necessary. It offers a structured way to assess what is real, what is resolvable, and what actions will yield the greatest stability and momentum.
+                  The purpose of that conversation is simply to understand your property, the questions currently facing ownership, and whether a Possibility Assessment would provide meaningful value.
+                </p>
+                <p>
+                  In some cases it makes sense to move forward. In others, the conversation itself may offer useful perspective.
                 </p>
                 <p className="text-xl font-semibold pt-4 text-center">
-                  If you sense that something is not quite right—but cannot yet define what must change—this is where we begin.
+                  Either way, the goal is the same: clarity about the opportunities that may exist within your property.
+                </p>
+                <p className="text-center text-white/90 italic pt-4">
+                  Discreet. Confidential. Intentional.
                 </p>
               </div>
             </section>
@@ -172,7 +254,7 @@ function Possibilities() {
                 to="/lets-talk"
                 className="inline-block bg-[#8B6F47] text-white px-8 py-4 rounded-lg hover:bg-[#6F5838] transition-all shadow-lg hover:shadow-xl text-lg font-semibold"
               >
-                Let's Discuss Your Situation
+                Let's Talk
               </Link>
             </div>
           </div>
