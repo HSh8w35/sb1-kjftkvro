@@ -66,6 +66,10 @@ function FAQ() {
       answer: "Absolutely. All engagements are conducted with complete discretion and confidentiality.\n\nThe assessment is designed to provide ownership with an independent perspective, and findings are shared directly with the ownership group or board."
     },
     {
+      question: "What types of hotels benefit most from a Possibility Assessment?",
+      answer: "The assessment is particularly valuable for:\n\n• Independent and privately held hotels\n• Historic and legacy properties\n• Destination resorts with strong regional identity\n• Properties facing leadership, investment, or strategic transitions\n\nOwners often engage the assessment when considering repositioning, capital investment, or long-term governance decisions."
+    },
+    {
       question: "Do you advise on new hotel development?",
       answer: "Yes—occasionally.\n\nWhile much of Heidi Stone Hospitality's work focuses on advising existing independent and historic hotels, Heidi is also sometimes asked to provide perspective during the early stages of new hospitality development.\n\nCommunities, planning teams, and investors exploring hotel projects in destination markets often benefit from an operational perspective early in the process. Heidi's experience leading a destination resort property for more than a decade allows her to help evaluate whether proposed concepts align with market realities, operational requirements, and the long-term character of the destination.\n\nThese engagements typically involve strategic guidance on positioning, scale, and operational considerations rather than traditional feasibility studies or development consulting.\n\nIn many cases, this early perspective helps ensure that the hotels being envisioned are not only attractive developments, but sustainable hospitality businesses."
     },
