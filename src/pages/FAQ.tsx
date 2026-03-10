@@ -42,6 +42,26 @@ function FAQ() {
 
   const faqs: FAQItem[] = [
     {
+      question: "What types of hotels benefit most from a Possibility Assessment?",
+      answer: "The assessment is particularly valuable for:\n\n• Independent and privately held hotels\n• Historic and legacy properties\n• Destination resorts with strong regional identity\n• Properties facing leadership, investment, or strategic transitions\n\nOwners often engage the assessment when considering repositioning, capital investment, or long-term governance decisions."
+    },
+    {
+      question: "If we currently have a management company, can we still engage a Possibility Assessment?",
+      answer: "Yes. Many owners engage a Possibility Assessment while working with an existing management company.\n\nThe assessment is independent and designed to provide ownership with a clear, objective evaluation of the property's positioning, leadership alignment, guest experience, and long-term opportunity.\n\nThe goal is not to replace management, but to ensure ownership has the perspective needed to make informed decisions about the property's future."
+    },
+    {
+      question: "How long does the Possibility Assessment process typically take?",
+      answer: "While each engagement is tailored to the property, most assessments are completed over several weeks and include both analytical review and on-property immersion.\n\nThe process concludes with a strategic briefing for ownership outlining key observations and recommended next steps."
+    },
+    {
+      question: "Will the Possibility Assessment disrupt our current leadership team?",
+      answer: "No. The Possibility Assessment is designed to provide clarity for ownership, not to disrupt day-to-day operations.\n\nThe process is conducted thoughtfully and respectfully, with the goal of understanding the property holistically while maintaining the stability of the existing team."
+    },
+    {
+      question: "Is the Possibility Assessment confidential?",
+      answer: "Absolutely. All engagements are conducted with complete discretion and confidentiality.\n\nThe assessment is designed to provide ownership with an independent perspective, and findings are shared directly with the ownership group or board."
+    },
+    {
       question: "Who do you work with?",
       answer: "I work with owners, boards, and senior leaders of independent hotels and resorts who understand that sustained performance is a leadership responsibility. My clients are decision-makers with the authority—and the commitment—to act."
     },
@@ -56,26 +76,6 @@ function FAQ() {
     {
       question: "How would you describe what you do?",
       answer: "I serve as a strategic leadership partner to owners and executive teams—often in an advisory or fractional capacity—during moments that require judgment, clarity, and alignment.\n\nThis is not project-based consulting. It is senior partnership."
-    },
-    {
-      question: "If we currently have a management company, can we still engage a Possibility Assessment?",
-      answer: "Yes. Many owners engage a Possibility Assessment while working with an existing management company.\n\nThe assessment is independent and designed to provide ownership with a clear, objective evaluation of the property's positioning, leadership alignment, guest experience, and long-term opportunity.\n\nThe goal is not to replace management, but to ensure ownership has the perspective needed to make informed decisions about the property's future."
-    },
-    {
-      question: "Is the Possibility Assessment confidential?",
-      answer: "Absolutely. All engagements are conducted with complete discretion and confidentiality.\n\nThe assessment is designed to provide ownership with an independent perspective, and findings are shared directly with the ownership group or board."
-    },
-    {
-      question: "What types of hotels benefit most from a Possibility Assessment?",
-      answer: "The assessment is particularly valuable for:\n\n• Independent and privately held hotels\n• Historic and legacy properties\n• Destination resorts with strong regional identity\n• Properties facing leadership, investment, or strategic transitions\n\nOwners often engage the assessment when considering repositioning, capital investment, or long-term governance decisions."
-    },
-    {
-      question: "How long does the Possibility Assessment process typically take?",
-      answer: "While each engagement is tailored to the property, most assessments are completed over several weeks and include both analytical review and on-property immersion.\n\nThe process concludes with a strategic briefing for ownership outlining key observations and recommended next steps."
-    },
-    {
-      question: "Will the Possibility Assessment disrupt our current leadership team?",
-      answer: "No. The Possibility Assessment is designed to provide clarity for ownership, not to disrupt day-to-day operations.\n\nThe process is conducted thoughtfully and respectfully, with the goal of understanding the property holistically while maintaining the stability of the existing team."
     },
     {
       question: "Do you advise on new hotel development?",
