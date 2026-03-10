@@ -51,7 +51,7 @@ function Services() {
                     Our approach begins with careful listening. We look beyond what is working to understand what may no longer be serving the property—and what kind of leadership clarity, structure, or strategic perspective may be needed to unlock the next phase of performance and possibility.
                   </p>
                   <p className="text-lg text-[#2E2A26] leading-relaxed">
-                    For many organizations, the work begins with a Possibility Assessment, a structured evaluation designed to help ownership understand the true opportunity of the property before significant decisions are made.
+                    For many organizations, the work begins with a <strong>Possibility Assessment<sup className="text-xs">™</sup></strong>, a structured evaluation designed to help ownership understand the true opportunity of the property before significant decisions are made.
                   </p>
                 </div>
                 <div className="flex-[2]">
