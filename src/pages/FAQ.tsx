@@ -62,6 +62,10 @@ function FAQ() {
       answer: "Absolutely. All engagements are conducted with complete discretion and confidentiality.\n\nThe assessment is designed to provide ownership with an independent perspective, and findings are shared directly with the ownership group or board."
     },
     {
+      question: "Will the Possibility Assessment create tension with our leadership team or management company?",
+      answer: "No. The Possibility Assessment is designed to support ownership by providing an independent perspective on the property's positioning, leadership alignment, and long-term opportunity.\n\nThe process is conducted thoughtfully and respectfully, with the goal of understanding the property holistically rather than disrupting day-to-day operations. In many cases, leadership teams find the process helpful in clarifying priorities and reinforcing alignment."
+    },
+    {
       question: "Who do you work with?",
       answer: "I work with owners, boards, and senior leaders of independent hotels and resorts who understand that sustained performance is a leadership responsibility. My clients are decision-makers with the authority—and the commitment—to act."
     },
