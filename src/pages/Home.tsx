@@ -214,7 +214,7 @@ function Home() {
                 onClick={() => window.scrollTo(0, 0)}
                 className="inline-flex items-center gap-2 text-[#8B6F47] hover:text-[#6F5838] transition-colors text-base font-semibold group"
               >
-                Learn more about who we work with
+                See Who We Work With
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor" className="w-5 h-5 group-hover:translate-x-1 transition-transform">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
                 </svg>
