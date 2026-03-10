@@ -143,7 +143,7 @@ function Layout() {
               </div>
             </div>
             <Link
-              to="/lets-talk"
+              to="/lets-talk#contact"
               className="bg-[#8B6F47] text-white px-6 py-2.5 rounded-lg hover:bg-[#6F5838] transition-all shadow-md hover:shadow-lg"
             >
               Let's Talk
@@ -223,7 +223,7 @@ function Layout() {
                   </a>
                 </li>
                 <li>
-                  <Link to="/lets-talk" className="hover:text-[#8B6F47] transition-colors">
+                  <Link to="/lets-talk#contact" className="hover:text-[#8B6F47] transition-colors">
                     Let's Talk
                   </Link>
                 </li>

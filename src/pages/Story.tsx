@@ -279,7 +279,7 @@ function Story() {
 
               <div className="text-center mt-20 pt-12 border-t border-[#8B6F47]/30">
                 <Link
-                  to="/lets-talk"
+                  to="/lets-talk#contact"
                   className="inline-block bg-gradient-to-r from-[#8B6F47] to-[#6F5838] text-white font-semibold text-lg px-10 py-4 rounded-lg hover:from-[#6F5838] hover:to-[#8B6F47] transition-all shadow-lg"
                 >
                   Let's Talk

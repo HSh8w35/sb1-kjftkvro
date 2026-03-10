@@ -391,7 +391,7 @@ function Possibilities() {
 
             <div className="text-center pt-8">
               <Link
-                to="/lets-talk"
+                to="/lets-talk#contact"
                 className="inline-flex items-center gap-3 bg-gradient-to-r from-[#8B6F47] to-[#6F5838] text-white px-10 py-5 rounded-xl hover:from-[#6F5838] hover:to-[#5A4A2D] transition-all shadow-xl hover:shadow-2xl text-lg font-semibold transform hover:scale-105 duration-300"
               >
                 Let's Talk

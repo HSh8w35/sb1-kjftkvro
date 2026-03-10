@@ -89,7 +89,7 @@ function Services() {
               </div>
             </div>
 
-            <div className="max-w-3xl mx-auto">
+            <div id="contact" className="max-w-3xl mx-auto">
               <div className="bg-[#F6F1E8] p-8 rounded-xl border-4 border-[#1F2A44]">
                 <h2 className="text-2xl font-bold mb-4 text-center text-[#1F2A44]">
                   Let's Connect
