@@ -286,6 +286,7 @@ function ContactForm() {
               className="w-full px-4 py-3 border border-[#B87333]/30 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#8B6F47] focus:border-transparent transition-all bg-white"
             >
               <option value="">Select one</option>
+              <option value="possibility_assessment">Possibility Assessment</option>
               <option value="consultation">Advisory Consultation</option>
               <option value="speaking">Speaking Engagement</option>
               <option value="partnership">Strategic Partnership</option>
