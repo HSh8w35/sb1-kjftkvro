@@ -74,6 +74,10 @@ function FAQ() {
       answer: "While each engagement is tailored to the property, most assessments are completed over several weeks and include both analytical review and on-property immersion.\n\nThe process concludes with a strategic briefing for ownership outlining key observations and recommended next steps."
     },
     {
+      question: "Will the Possibility Assessment disrupt our current leadership team?",
+      answer: "No. The Possibility Assessment is designed to provide clarity for ownership, not to disrupt day-to-day operations.\n\nThe process is conducted thoughtfully and respectfully, with the goal of understanding the property holistically while maintaining the stability of the existing team."
+    },
+    {
       question: "Do you advise on new hotel development?",
       answer: "Yes—occasionally.\n\nWhile much of Heidi Stone Hospitality's work focuses on advising existing independent and historic hotels, Heidi is also sometimes asked to provide perspective during the early stages of new hospitality development.\n\nCommunities, planning teams, and investors exploring hotel projects in destination markets often benefit from an operational perspective early in the process. Heidi's experience leading a destination resort property for more than a decade allows her to help evaluate whether proposed concepts align with market realities, operational requirements, and the long-term character of the destination.\n\nThese engagements typically involve strategic guidance on positioning, scale, and operational considerations rather than traditional feasibility studies or development consulting.\n\nIn many cases, this early perspective helps ensure that the hotels being envisioned are not only attractive developments, but sustainable hospitality businesses."
     },
