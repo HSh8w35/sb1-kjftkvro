@@ -71,14 +71,20 @@ function Services() {
 
             <div className="bg-[#F5F1E8] p-8 rounded-xl border-2 border-[#8B6F47]/30">
               <h2 className="text-2xl font-bold text-[#1F2A44] mb-4 text-center">
-                How Conversations Work
+                How Conversations Begin
               </h2>
               <div className="space-y-3 text-xl text-[#2E2A26] leading-relaxed text-center">
                 <p>
-                  Initial conversations are exploratory. They are not sales calls. They are confidential exchanges intended to assess alignment, clarify needs, and determine if partnership makes sense.
+                  Initial conversations are exploratory. They are not sales calls.
                 </p>
                 <p>
-                  If we both believe there is fit, we will propose a tailored engagement structure—clear in scope, outcomes, and expectations. Our work is limited by design. We do not take on engagements unless we are confident we can contribute meaningfully to the leadership and performance outcomes you are pursuing.
+                  They are confidential exchanges designed to understand your property, your leadership structure, and the decisions currently in front of you.
+                </p>
+                <p>
+                  If we both believe there is alignment, the next step may be a <strong>Possibility Assessment<sup className="text-xs">™</sup></strong> or another tailored advisory engagement designed to address the specific needs of the property.
+                </p>
+                <p>
+                  Our work is intentionally limited. We take on only a small number of engagements at a time and do so only when we are confident we can contribute meaningfully to the leadership clarity and long-term performance of the asset.
                 </p>
               </div>
             </div>
