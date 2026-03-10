@@ -41,16 +41,16 @@ function Services() {
             <div className="bg-white p-8 rounded-xl border border-[#B87333]/20 shadow-md">
               <div className="flex flex-col md:flex-row gap-6 items-center">
                 <div className="flex-[3] space-y-4">
-                  <p className="text-xl text-[#2E2A26] leading-relaxed">
+                  <p className="text-lg text-[#2E2A26] leading-relaxed">
                     If the work described here resonates—and you believe your organization may benefit from partnership with someone who understands the complexity of independent hospitality leadership—we invite you to begin a conversation.
                   </p>
-                  <p className="text-xl text-[#2E2A26] leading-relaxed">
+                  <p className="text-lg text-[#2E2A26] leading-relaxed">
                     All conversations are confidential. There is no expectation to proceed unless both sides feel there is genuine alignment and shared commitment to the work.
                   </p>
-                  <p className="text-xl text-[#2E2A26] leading-relaxed">
+                  <p className="text-lg text-[#2E2A26] leading-relaxed">
                     Our approach begins with careful listening. We look beyond what is working to understand what may no longer be serving the property—and what kind of leadership clarity, structure, or strategic perspective may be needed to unlock the next phase of performance and possibility.
                   </p>
-                  <p className="text-xl text-[#2E2A26] leading-relaxed">
+                  <p className="text-lg text-[#2E2A26] leading-relaxed">
                     For many organizations, the work begins with a Possibility Assessment, a structured evaluation designed to help ownership understand the true opportunity of the property before significant decisions are made.
                   </p>
                 </div>
