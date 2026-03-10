@@ -66,6 +66,10 @@ function FAQ() {
       answer: "No. The Possibility Assessment is designed to support ownership by providing an independent perspective on the property's positioning, leadership alignment, and long-term opportunity.\n\nThe process is conducted thoughtfully and respectfully, with the goal of understanding the property holistically rather than disrupting day-to-day operations. In many cases, leadership teams find the process helpful in clarifying priorities and reinforcing alignment."
     },
     {
+      question: "How is the Possibility Assessment different from a traditional consulting study or brand evaluation?",
+      answer: "Traditional consulting studies often focus on a single dimension—market data, operations, or brand affiliation.\n\nThe Possibility Assessment takes a broader view of the property as an asset and institution. It evaluates leadership alignment, identity, guest experience, market positioning, and long-term stewardship alongside operational performance.\n\nThe goal is not simply to produce a report, but to help ownership understand the true opportunity and strategic direction of the property. We see opportunities where others see limitations."
+    },
+    {
       question: "Who do you work with?",
       answer: "I work with owners, boards, and senior leaders of independent hotels and resorts who understand that sustained performance is a leadership responsibility. My clients are decision-makers with the authority—and the commitment—to act."
     },
