@@ -58,6 +58,10 @@ function FAQ() {
       answer: "I serve as a strategic leadership partner to owners and executive teams—often in an advisory or fractional capacity—during moments that require judgment, clarity, and alignment.\n\nThis is not project-based consulting. It is senior partnership."
     },
     {
+      question: "If we currently have a management company, can we still engage a Possibility Assessment?",
+      answer: "Yes. Many owners engage a Possibility Assessment while working with an existing management company.\n\nThe assessment is independent and designed to provide ownership with a clear, objective evaluation of the property's positioning, leadership alignment, guest experience, and long-term opportunity.\n\nThe goal is not to replace management, but to ensure ownership has the perspective needed to make informed decisions about the property's future."
+    },
+    {
       question: "Do you advise on new hotel development?",
       answer: "Yes—occasionally.\n\nWhile much of Heidi Stone Hospitality's work focuses on advising existing independent and historic hotels, Heidi is also sometimes asked to provide perspective during the early stages of new hospitality development.\n\nCommunities, planning teams, and investors exploring hotel projects in destination markets often benefit from an operational perspective early in the process. Heidi's experience leading a destination resort property for more than a decade allows her to help evaluate whether proposed concepts align with market realities, operational requirements, and the long-term character of the destination.\n\nThese engagements typically involve strategic guidance on positioning, scale, and operational considerations rather than traditional feasibility studies or development consulting.\n\nIn many cases, this early perspective helps ensure that the hotels being envisioned are not only attractive developments, but sustainable hospitality businesses."
     },
