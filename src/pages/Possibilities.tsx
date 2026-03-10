@@ -346,6 +346,23 @@ function Possibilities() {
               </div>
             </section>
 
+            <section className="bg-gradient-to-br from-[#8B6F47]/10 to-[#8B6F47]/5 backdrop-blur-sm rounded-2xl p-8 md:p-12 shadow-xl border-2 border-[#8B6F47]/30 hover:shadow-2xl transition-shadow duration-300">
+              <h2 className="text-3xl md:text-4xl font-bold text-[#8B6F47] mb-6 text-center">
+                When the Possibility Is Something New
+              </h2>
+              <div className="flex justify-center mb-6">
+                <div className="h-1 w-24 bg-gradient-to-r from-transparent via-[#8B6F47] to-transparent" />
+              </div>
+              <div className="space-y-4 text-lg text-[#2E2A26] leading-relaxed">
+                <p>
+                  Occasionally the most important question is not how an existing hotel can evolve, but whether a new hospitality project should be created at all.
+                </p>
+                <p>
+                  Communities, investors, and planning teams sometimes seek independent guidance when exploring new hotel development in destination markets. In these situations, Heidi Stone Hospitality can provide strategic perspective on positioning, scale, operational realities, and long-term viability—helping ensure that what is envisioned can succeed not only on paper, but as a functioning hospitality business.
+                </p>
+              </div>
+            </section>
+
             <section className="bg-gradient-to-br from-[#8B6F47] to-[#6F5838] rounded-2xl p-8 md:p-10 shadow-xl text-white max-w-3xl mx-auto">
               <h2 className="text-3xl md:text-4xl font-bold mb-6 text-center">
                 Start the Conversation
