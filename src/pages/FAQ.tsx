@@ -107,7 +107,7 @@ function FAQ() {
     },
     {
       question: "What makes your work different from other hospitality consultants?",
-      answer: "I do not lead with frameworks, playbooks, or deliverables. I bring experienced judgment earned through decades of leadership in independent hospitality and work alongside owners and executives as a trusted partner."
+      answer: "My perspective is shaped by decades of leadership within independent hospitality—not from advising the industry from the outside.\n\nOver the past three decades having led historic and destination resorts through complex operational, financial, and strategic decisions, I understand the realities owners and leadership teams face when stewarding a hotel asset.\n\nMany engagements begin with a Possibility Assessment, providing ownership with an independent evaluation of the property's true potential. From there, my work often continues as a strategic partner to ownership and executive teams—offering experienced judgment and steady perspective during pivotal decisions.\n\nThis work is less about consulting deliverables and more about helping leadership protect the long-term strength and identity of the asset."
     },
     {
       question: "How long do engagements typically last?",
