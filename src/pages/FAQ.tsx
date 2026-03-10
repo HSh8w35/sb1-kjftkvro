@@ -86,8 +86,8 @@ function FAQ() {
       answer: "Yes. While most of my work is in North America, geography is secondary to alignment. Independence, leadership complexity, and stewardship challenges are universal."
     },
     {
-      question: "How would you describe what you do?",
-      answer: "I serve as a strategic leadership partner to owners and executive teams—often in an advisory or fractional capacity—during moments that require judgment, clarity, and alignment.\n\nThis is not project-based consulting. It is senior partnership."
+      question: "How would you describe the work you do?",
+      answer: "I work with owners and boards of independent, historic, and destination hotels during moments that require clarity and experienced judgment.\n\nMany engagements begin with a Possibility Assessment, a structured evaluation designed to help ownership understand the true potential of the property before significant decisions are made.\n\nFrom there, I often serve as a strategic leadership partner to ownership and executive teams—providing independent perspective, leadership alignment, and guidance through complex operational or investment decisions.\n\nThis work is not traditional project-based consulting. It is senior-level partnership focused on protecting the long-term strength and identity of the asset."
     },
     {
       question: "Do you advise on new hotel development?",
