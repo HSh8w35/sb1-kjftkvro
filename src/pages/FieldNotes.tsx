@@ -162,6 +162,17 @@ function FieldNotes() {
                       );
                     }
 
+                    // Check for diamond separator
+                    if (trimmedParagraph === '◆ ◆ ◆') {
+                      return (
+                        <div key={index} className="text-center my-12">
+                          <span className="text-[#8B6F47] text-2xl tracking-widest">
+                            {trimmedParagraph}
+                          </span>
+                        </div>
+                      );
+                    }
+
                     const isHeading = trimmedParagraph === trimmedParagraph.toUpperCase() &&
                                      trimmedParagraph.length > 10 &&
                                      trimmedParagraph.length < 100 &&
