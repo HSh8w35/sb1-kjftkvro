@@ -173,6 +173,23 @@ function FieldNotes() {
                       );
                     }
 
+                    // Check for specific gold-colored sentences
+                    const goldSentences = [
+                      'The Quiet Reality Inside the Portfolio',
+                      'The Soft Brand Assumption',
+                      'Where the Model Begins to Strain',
+                      'What Often Goes Unseen',
+                      'A Final Thought'
+                    ];
+
+                    if (goldSentences.includes(trimmedParagraph)) {
+                      return (
+                        <p key={index} className="text-xl text-[#8B6F47] leading-relaxed mb-6 font-semibold">
+                          {trimmedParagraph}
+                        </p>
+                      );
+                    }
+
                     const isHeading = trimmedParagraph === trimmedParagraph.toUpperCase() &&
                                      trimmedParagraph.length > 10 &&
                                      trimmedParagraph.length < 100 &&
