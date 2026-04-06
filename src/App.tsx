@@ -34,6 +34,7 @@ function App() {
             <Route path="/lets-talk" element={<Services />} />
             <Route path="/perspectives" element={<Insights />} />
             <Route path="/field-notes" element={<FieldNotes />} />
+            <Route path="/field-notes/:slug" element={<FieldNotes />} />
             <Route path="/faq" element={<FAQ />} />
             <Route path="/testimonials" element={<Testimonials />} />
             <Route path="/speaking" element={<Speaking />} />

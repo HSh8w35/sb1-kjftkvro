@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { useParams, useNavigate } from 'react-router-dom';
 import { supabase } from '../lib/supabase';
 import { Calendar, Clock, ArrowRight, Quote } from 'lucide-react';
 import SEO from '../components/SEO';
@@ -23,6 +24,8 @@ interface Testimonial {
 }
 
 function FieldNotes() {
+  const { slug } = useParams<{ slug?: string }>();
+  const navigate = useNavigate();
   const [posts, setPosts] = useState<FieldNote[]>([]);
   const [selectedPost, setSelectedPost] = useState<FieldNote | null>(null);
   const [testimonial, setTestimonial] = useState<Testimonial | null>(null);
@@ -32,6 +35,15 @@ function FieldNotes() {
     fetchPosts();
     fetchTestimonial();
   }, []);
+
+  useEffect(() => {
+    if (slug && posts.length > 0) {
+      const post = posts.find(p => p.slug === slug);
+      if (post) {
+        setSelectedPost(post);
+      }
+    }
+  }, [slug, posts]);
 
   useEffect(() => {
     if (selectedPost) {
@@ -105,7 +117,10 @@ function FieldNotes() {
         <div className="absolute bottom-40 right-0 w-[500px] h-[500px] bg-[#6F5838]/5 rounded-full blur-3xl" />
         <div className="max-w-7xl mx-auto relative z-10">
           <button
-            onClick={() => setSelectedPost(null)}
+            onClick={() => {
+              setSelectedPost(null);
+              navigate('/field-notes');
+            }}
             className="mb-8 flex items-center text-[#8B6F47] hover:text-[#6F5838] transition-colors font-medium"
           >
             <ArrowRight className="w-5 h-5 mr-2 rotate-180" />
@@ -288,7 +303,10 @@ function FieldNotes() {
                 <article
                   key={post.id}
                   className="bg-white/95 backdrop-blur-sm p-8 rounded-xl border border-[#8B6F47]/30 hover:shadow-2xl hover:border-[#8B6F47]/50 transition-all cursor-pointer hover:scale-[1.02]"
-                  onClick={() => setSelectedPost(post)}
+                  onClick={() => {
+                    setSelectedPost(post);
+                    navigate(`/field-notes/${post.slug}`);
+                  }}
                 >
                   <div className="mb-4">
                     <span className={`${getCategoryColor(post.category)} text-white px-4 py-1 rounded-full text-sm font-medium`}>
