@@ -117,9 +117,12 @@ function Home() {
               <circle cx="32" cy="8" r="3" fill="currentColor"/>
             </svg>
           </div>
-          <p className="text-xl md:text-2xl lg:text-3xl font-light text-[#2E2A26] leading-relaxed">
-            The <strong className="font-bold">Possibility Assessment</strong> reveals the opportunity already present within independent and historic hotels—<span className="whitespace-nowrap">often where others see only limitations.</span>
-          </p>
+          <div className="space-y-5 text-lg md:text-xl font-light text-[#2E2A26] leading-relaxed">
+            <p>Independent hotels do not underperform because of the market.</p>
+            <p>They underperform when the full potential of the property is not clearly seen.</p>
+            <p>Heidi Stone Hospitality works with owners, boards, and leadership teams at critical moments—when performance has plateaued, following reinvestment, or when the path forward is no longer clear.</p>
+            <p>Through focused advisory engagements, including the <strong className="font-semibold">Possibility Assessment</strong>, the work identifies what is already present within a property—and what it is capable of becoming.</p>
+          </div>
           <div className="flex justify-center mt-6">
             <svg className="w-16 h-4 text-[#8B6F47]" viewBox="0 0 64 16" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M0 8h24M40 8h24M32 0v16" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
