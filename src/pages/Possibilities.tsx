@@ -31,33 +31,50 @@ function Possibilities() {
             </p>
           </div>
 
-          <div className="max-w-4xl mx-auto mb-16 bg-white/90 backdrop-blur-sm rounded-2xl p-8 md:p-12 shadow-xl border border-[#8B6F47]/20">
-            <h2 className="text-2xl md:text-3xl font-bold text-[#8B6F47] mb-4">The Possibility Assessment</h2>
-            <div className="h-px w-16 bg-[#8B6F47]/40 mb-6" />
-            <p className="text-lg text-[#2E2A26] leading-relaxed mb-8">
-              A focused, one-week, on-site engagement designed to identify the revenue, positioning, and operational opportunities that already exist within a property—but are not yet fully realized.
-            </p>
-            <p className="font-semibold text-[#2E2A26] mb-4">Owners typically engage at specific moments:</p>
-            <ul className="space-y-3 mb-8">
-              {[
-                'When performance has plateaued',
-                'Following reinvestment without expected returns',
-                'During leadership or organizational transition',
-                'When a property does not fully align within a broader portfolio',
-                'When evaluating a potential brand or soft brand affiliation',
-              ].map((item) => (
-                <li key={item} className="flex items-start gap-3 text-[#2E2A26]">
-                  <div className="w-2 h-2 rounded-full bg-[#8B6F47] mt-2 flex-shrink-0" />
-                  <span>{item}</span>
-                </li>
-              ))}
-            </ul>
-            <p className="text-[#2E2A26] leading-relaxed mb-6">
-              The outcome is a clear, prioritized assessment of where opportunity exists—and what to do next.
-            </p>
-            <p className="text-[#2E2A26] leading-relaxed italic">
-              If you are navigating one of these moments, we can begin with a conversation.
-            </p>
+          <div className="max-w-4xl mx-auto mb-16 relative">
+            <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-[#8B6F47] to-[#5A4A2D] opacity-100" />
+            <div className="absolute inset-[1px] rounded-2xl bg-gradient-to-br from-[#FAF6EF] via-white to-[#F3EBD9]" />
+            <div className="relative p-10 md:p-14">
+              <div className="flex items-center gap-4 mb-2">
+                <div className="h-px flex-1 bg-gradient-to-r from-transparent to-[#8B6F47]/30" />
+                <span className="text-xs tracking-[0.25em] uppercase text-[#8B6F47]/70 font-medium">Featured Engagement</span>
+                <div className="h-px flex-1 bg-gradient-to-l from-transparent to-[#8B6F47]/30" />
+              </div>
+              <h2 className="text-3xl md:text-4xl font-bold text-[#2E2A26] mb-2 mt-4 tracking-tight">
+                The Possibility Assessment
+              </h2>
+              <div className="h-[2px] w-20 bg-gradient-to-r from-[#8B6F47] to-[#C9A96E] mb-8 rounded-full" />
+              <p className="text-lg md:text-xl text-[#2E2A26]/80 leading-relaxed mb-10 font-light">
+                A focused, one-week, on-site engagement designed to identify the revenue, positioning, and operational opportunities that already exist within a property—but are not yet fully realized.
+              </p>
+              <p className="text-sm tracking-[0.15em] uppercase text-[#8B6F47] font-semibold mb-5">
+                Owners typically engage at specific moments
+              </p>
+              <ul className="space-y-4 mb-10">
+                {[
+                  'When performance has plateaued',
+                  'Following reinvestment without expected returns',
+                  'During leadership or organizational transition',
+                  'When a property does not fully align within a broader portfolio',
+                  'When evaluating a potential brand or soft brand affiliation',
+                ].map((item) => (
+                  <li key={item} className="flex items-start gap-4 text-[#2E2A26]/85">
+                    <div className="w-5 h-5 rounded-full border border-[#8B6F47]/40 bg-[#8B6F47]/8 flex items-center justify-center flex-shrink-0 mt-0.5">
+                      <div className="w-1.5 h-1.5 rounded-full bg-[#8B6F47]" />
+                    </div>
+                    <span className="text-base leading-relaxed">{item}</span>
+                  </li>
+                ))}
+              </ul>
+              <div className="border-t border-[#8B6F47]/15 pt-8 space-y-3">
+                <p className="text-[#2E2A26] leading-relaxed">
+                  The outcome is a clear, prioritized assessment of where opportunity exists—and what to do next.
+                </p>
+                <p className="text-[#8B6F47] leading-relaxed italic font-medium">
+                  If you are navigating one of these moments, we can begin with a conversation.
+                </p>
+              </div>
+            </div>
           </div>
 
           <div className="space-y-12">
