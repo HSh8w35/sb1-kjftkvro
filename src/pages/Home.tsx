@@ -95,72 +95,79 @@ function Home() {
       {/* Warm bridge */}
       <div className="h-2 bg-gradient-to-r from-[#D4C5A9] via-[#C4A882] to-[#D4C5A9]" />
 
-      {/* The Possibility Assessment — warm light */}
+      {/* The Possibility Assessment */}
       <section className="relative py-28 overflow-hidden bg-[#F0E8DA]">
         <div className="absolute inset-0 pointer-events-none">
           <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[900px] h-[1px] bg-gradient-to-r from-transparent via-[#8B6F47]/30 to-transparent" />
           <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[900px] h-[1px] bg-gradient-to-r from-transparent via-[#8B6F47]/30 to-transparent" />
-          <div className="absolute inset-0 opacity-[0.03]"
-            style={{
-              backgroundImage: `url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h80v80H0z' fill='none'/%3E%3Ccircle cx='40' cy='40' r='1' fill='%238B6F47'/%3E%3C/svg%3E")`,
-              backgroundSize: '80px 80px'
-            }}
-          />
         </div>
 
-        <div className="max-w-5xl mx-auto px-6 lg:px-8 relative z-10">
-          <div className="flex flex-col items-center text-center mb-14">
-            <span className="text-[#8B6F47] text-xs tracking-[0.35em] uppercase font-medium mb-5">Signature Engagement</span>
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#2E2A26] leading-tight mb-6">
-              The Possibility Assessment
-            </h2>
-            <div className="flex items-center gap-4">
-              <div className="h-px w-16 bg-gradient-to-r from-transparent to-[#8B6F47]" />
-              <div className="w-1.5 h-1.5 rounded-full bg-[#8B6F47]" />
-              <div className="h-px w-16 bg-gradient-to-l from-transparent to-[#8B6F47]" />
-            </div>
+        <div className="max-w-3xl mx-auto px-6 lg:px-8 relative z-10 text-center">
+          <span className="text-[#8B6F47] text-xs tracking-[0.35em] uppercase font-medium">Signature Engagement</span>
+
+          <h2 className="mt-5 text-4xl md:text-5xl font-bold text-[#2E2A26] leading-tight">
+            The Possibility Assessment
+          </h2>
+
+          <div className="flex items-center justify-center gap-4 mt-6 mb-8">
+            <div className="h-px w-16 bg-gradient-to-r from-transparent to-[#8B6F47]" />
+            <div className="w-1.5 h-1.5 rounded-full bg-[#8B6F47]" />
+            <div className="h-px w-16 bg-gradient-to-l from-transparent to-[#8B6F47]" />
           </div>
 
-          <div className="grid md:grid-cols-2 gap-0 border border-[#8B6F47]/20 rounded-2xl overflow-hidden shadow-sm">
-            <div className="p-10 md:p-12 bg-white/60 border-b md:border-b-0 md:border-r border-[#8B6F47]/20 flex flex-col justify-center">
-              <p className="text-[#2E2A26]/90 text-xl md:text-2xl leading-relaxed">
-                A focused, one-week, on-site engagement designed to identify the revenue, positioning, and operational opportunities that already exist within a property—but are not yet fully realized.
-              </p>
-            </div>
+          <p className="text-[#2E2A26]/85 text-xl md:text-2xl leading-relaxed">
+            A focused, one-week, on-site engagement designed to identify the revenue, positioning, and operational opportunities that already exist within a property—but are not yet fully realized.
+          </p>
 
-            <div className="p-10 md:p-12 bg-[#EDE0CC]/50 flex flex-col justify-center">
-              <p className="text-[#8B6F47] text-sm tracking-[0.3em] uppercase font-medium mb-7">Owners typically engage at specific moments</p>
-              <ul className="space-y-6">
+          <div className="mt-16 grid md:grid-cols-2 gap-12 text-left">
+            <div>
+              <p className="text-[#8B6F47] text-xs tracking-[0.3em] uppercase font-medium mb-6">When Owners Call Me</p>
+              <ul className="space-y-4">
                 {[
                   'When performance has plateaued',
-                  'As reinvestment is being considered,',
+                  'As reinvestment is being considered',
                   'During leadership or organizational transition',
                 ].map((item, i) => (
-                  <li key={i} className="flex items-start gap-4">
-                    <span className="flex-shrink-0 mt-1 w-5 h-5 rounded-full border border-[#8B6F47]/50 flex items-center justify-center">
-                      <span className="w-1.5 h-1.5 rounded-full bg-[#8B6F47]" />
-                    </span>
-                    <span className="text-[#2E2A26]/85 text-xl leading-relaxed">{item}</span>
+                  <li key={i} className="flex items-start gap-3">
+                    <span className="flex-shrink-0 mt-[6px] w-1.5 h-1.5 rounded-full bg-[#8B6F47]" />
+                    <span className="text-[#2E2A26]/85 text-lg leading-relaxed">{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            <div>
+              <p className="text-[#8B6F47] text-xs tracking-[0.3em] uppercase font-medium mb-6">What You Receive</p>
+              <ul className="space-y-4">
+                {[
+                  'A clear, prioritized assessment',
+                  'Immediate and strategic opportunities',
+                  'A defined path forward',
+                ].map((item, i) => (
+                  <li key={i} className="flex items-start gap-3">
+                    <span className="flex-shrink-0 mt-[6px] w-1.5 h-1.5 rounded-full bg-[#8B6F47]" />
+                    <span className="text-[#2E2A26]/85 text-lg leading-relaxed">{item}</span>
                   </li>
                 ))}
               </ul>
             </div>
           </div>
 
-          <div className="mt-12 text-center">
-            <p className="text-[#2E2A26]/70 text-xl md:text-2xl leading-relaxed max-w-2xl mx-auto mb-10 italic">
-              The outcome is a clear, prioritized assessment of where opportunity exists—and what to do next.
-            </p>
+          <div className="mt-16 pt-10 border-t border-[#8B6F47]/20">
+            <p className="text-[#8B6F47] text-xs tracking-[0.3em] uppercase font-medium mb-5">Next Step</p>
             <Link
               to="/possibilities"
               onClick={() => window.scrollTo(0, 0)}
-              className="group inline-flex items-center gap-3 border border-[#8B6F47] text-[#8B6F47] px-10 py-4 rounded-full hover:bg-[#8B6F47] hover:text-white transition-all duration-300 text-sm tracking-widest uppercase font-medium"
+              className="group inline-flex items-center gap-2 text-[#2E2A26] text-lg font-medium hover:text-[#8B6F47] transition-colors duration-300"
             >
-              Learn More
+              Learn more
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
               </svg>
             </Link>
+            <p className="mt-8 text-[#2E2A26]/60 text-base italic">
+              If you are navigating one of these moments, we can begin with a conversation.
+            </p>
           </div>
         </div>
       </section>
