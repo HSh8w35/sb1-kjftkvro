@@ -112,62 +112,6 @@ function Possibilities() {
             </section>
 
             <section className="bg-white/80 backdrop-blur-sm rounded-2xl p-8 md:p-12 shadow-xl border border-[#8B6F47]/20 hover:shadow-2xl transition-shadow duration-300">
-              <div className="flex items-center gap-3 mb-6">
-                <Lightbulb className="w-10 h-10 text-[#8B6F47]" />
-                <h2 className="text-3xl md:text-4xl font-bold text-[#8B6F47]">
-                  Why Owners Invite a <strong>Possibility Assessment</strong>
-                </h2>
-              </div>
-              <div className="space-y-4 text-lg text-[#2E2A26] leading-relaxed">
-                <p>
-                  Owners often explore a <strong>Possibility Assessment</strong> when they believe their property is capable of more but want an experienced perspective before committing to major decisions.
-                </p>
-                <p className="font-semibold">The assessment is particularly valuable when:</p>
-                <div className="grid md:grid-cols-2 gap-4 my-6">
-                  <div className="bg-gradient-to-br from-[#8B6F47]/5 to-[#8B6F47]/10 rounded-lg p-4 border border-[#8B6F47]/20 hover:border-[#8B6F47]/40 transition-colors">
-                    <div className="flex items-start gap-3">
-                      <div className="w-2 h-2 rounded-full bg-[#8B6F47] mt-2 flex-shrink-0"></div>
-                      <span>Performance has plateaued</span>
-                    </div>
-                  </div>
-                  <div className="bg-gradient-to-br from-[#8B6F47]/5 to-[#8B6F47]/10 rounded-lg p-4 border border-[#8B6F47]/20 hover:border-[#8B6F47]/40 transition-colors">
-                    <div className="flex items-start gap-3">
-                      <div className="w-2 h-2 rounded-full bg-[#8B6F47] mt-2 flex-shrink-0"></div>
-                      <span>New revenue opportunities are needed</span>
-                    </div>
-                  </div>
-                  <div className="bg-gradient-to-br from-[#8B6F47]/5 to-[#8B6F47]/10 rounded-lg p-4 border border-[#8B6F47]/20 hover:border-[#8B6F47]/40 transition-colors">
-                    <div className="flex items-start gap-3">
-                      <div className="w-2 h-2 rounded-full bg-[#8B6F47] mt-2 flex-shrink-0"></div>
-                      <span>Reinvestment decisions are approaching</span>
-                    </div>
-                  </div>
-                  <div className="bg-gradient-to-br from-[#8B6F47]/5 to-[#8B6F47]/10 rounded-lg p-4 border border-[#8B6F47]/20 hover:border-[#8B6F47]/40 transition-colors">
-                    <div className="flex items-start gap-3">
-                      <div className="w-2 h-2 rounded-full bg-[#8B6F47] mt-2 flex-shrink-0"></div>
-                      <span>A management company relationship is being evaluated</span>
-                    </div>
-                  </div>
-                  <div className="bg-gradient-to-br from-[#8B6F47]/5 to-[#8B6F47]/10 rounded-lg p-4 border border-[#8B6F47]/20 hover:border-[#8B6F47]/40 transition-colors">
-                    <div className="flex items-start gap-3">
-                      <div className="w-2 h-2 rounded-full bg-[#8B6F47] mt-2 flex-shrink-0"></div>
-                      <span>Leadership transitions are occurring</span>
-                    </div>
-                  </div>
-                  <div className="bg-gradient-to-br from-[#8B6F47]/5 to-[#8B6F47]/10 rounded-lg p-4 border border-[#8B6F47]/20 hover:border-[#8B6F47]/40 transition-colors">
-                    <div className="flex items-start gap-3">
-                      <div className="w-2 h-2 rounded-full bg-[#8B6F47] mt-2 flex-shrink-0"></div>
-                      <span>The property's long-term direction is under consideration</span>
-                    </div>
-                  </div>
-                </div>
-                <p className="pt-4">
-                  In these moments, an independent perspective brings clarity to what the property is capable of becoming.
-                </p>
-              </div>
-            </section>
-
-            <section className="bg-white/80 backdrop-blur-sm rounded-2xl p-8 md:p-12 shadow-xl border border-[#8B6F47]/20 hover:shadow-2xl transition-shadow duration-300">
               <h2 className="text-3xl md:text-4xl font-bold text-[#8B6F47] mb-6 text-center">
                 What the <strong>Possibility Assessment</strong> Explores
               </h2>
