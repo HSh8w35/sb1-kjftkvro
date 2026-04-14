@@ -12,7 +12,9 @@ import {
   Mail,
   Mic,
   MessageSquare,
-  LogOut
+  LogOut,
+  BookOpen,
+  Anchor
 } from 'lucide-react';
 
 interface Tab {
@@ -25,6 +27,7 @@ const tabs: Tab[] = [
   { id: 'contact', label: 'Contact Inquiries', icon: MessageSquare },
   { id: 'speaking', label: 'Speaking Inquiries', icon: Mic },
   { id: 'newsletter', label: 'Newsletter Subscribers', icon: Mail },
+  { id: 'field-notes', label: 'Field Notes', icon: BookOpen },
   { id: 'notifications', label: 'Email Notifications', icon: Bell },
   { id: 'reports', label: 'Scheduled Reports', icon: Calendar },
   { id: 'suggestions', label: 'Keyword Suggestions', icon: Lightbulb },
@@ -50,6 +53,8 @@ export default function AdminDashboard() {
         return <SpeakingInquiriesTab />;
       case 'newsletter':
         return <NewsletterSubscribersTab />;
+      case 'field-notes':
+        return <FieldNotesTab />;
       case 'notifications':
         return <NotificationsTab />;
       case 'reports':
@@ -2204,6 +2209,126 @@ function ExportsTab() {
           </table>
         </div>
       </div>
+    </div>
+  );
+}
+
+function FieldNotesTab() {
+  const [notes, setNotes] = useState<any[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [saving, setSaving] = useState<string | null>(null);
+
+  useEffect(() => {
+    fetchNotes();
+  }, []);
+
+  const fetchNotes = async () => {
+    setLoading(true);
+    const { data, error } = await supabase
+      .from('field_notes')
+      .select('id, title, slug, category, is_published, is_flagship, published_at')
+      .order('published_at', { ascending: false });
+
+    if (!error && data) setNotes(data);
+    setLoading(false);
+  };
+
+  const setFlagship = async (id: string) => {
+    setSaving(id);
+    await supabase.from('field_notes').update({ is_flagship: false }).neq('id', id);
+    await supabase.from('field_notes').update({ is_flagship: true }).eq('id', id);
+    await fetchNotes();
+    setSaving(null);
+  };
+
+  const clearFlagship = async () => {
+    setSaving('clear');
+    await supabase.from('field_notes').update({ is_flagship: false }).neq('id', '00000000-0000-0000-0000-000000000000');
+    await fetchNotes();
+    setSaving(null);
+  };
+
+  const currentFlagship = notes.find(n => n.is_flagship);
+
+  return (
+    <div className="p-6">
+      <div className="mb-6">
+        <h2 className="text-xl font-semibold text-gray-900 mb-1">Field Notes Management</h2>
+        <p className="text-sm text-gray-500">Designate one Field Note as the Flagship Perspective. It will appear prominently above all other notes.</p>
+      </div>
+
+      {currentFlagship && (
+        <div className="mb-6 flex items-center gap-3 p-4 bg-amber-50 border border-amber-200 rounded-lg">
+          <Anchor className="w-5 h-5 text-amber-600 shrink-0" />
+          <div className="flex-1">
+            <p className="text-sm font-semibold text-amber-800">Current Flagship</p>
+            <p className="text-sm text-amber-700">{currentFlagship.title}</p>
+          </div>
+          <button
+            onClick={clearFlagship}
+            disabled={saving === 'clear'}
+            className="text-xs text-amber-600 hover:text-amber-800 border border-amber-300 px-3 py-1 rounded hover:bg-amber-100 transition-colors"
+          >
+            {saving === 'clear' ? 'Clearing...' : 'Clear Flagship'}
+          </button>
+        </div>
+      )}
+
+      {loading ? (
+        <div className="flex justify-center py-12">
+          <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-amber-600" />
+        </div>
+      ) : (
+        <div className="overflow-hidden border border-gray-200 rounded-lg">
+          <table className="min-w-full divide-y divide-gray-200">
+            <thead className="bg-gray-50">
+              <tr>
+                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Title</th>
+                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Category</th>
+                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Published</th>
+                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Status</th>
+                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Flagship</th>
+              </tr>
+            </thead>
+            <tbody className="bg-white divide-y divide-gray-200">
+              {notes.map((note) => (
+                <tr key={note.id} className={note.is_flagship ? 'bg-amber-50' : 'hover:bg-gray-50'}>
+                  <td className="px-6 py-4">
+                    <div className="flex items-center gap-2">
+                      {note.is_flagship && <Anchor className="w-4 h-4 text-amber-600 shrink-0" />}
+                      <span className="text-sm font-medium text-gray-900">{note.title}</span>
+                    </div>
+                  </td>
+                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">{note.category}</td>
+                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                    {new Date(note.published_at).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}
+                  </td>
+                  <td className="px-6 py-4 whitespace-nowrap">
+                    <span className={`inline-flex px-2 py-1 text-xs font-semibold rounded-full ${note.is_published ? 'bg-green-100 text-green-800' : 'bg-gray-100 text-gray-600'}`}>
+                      {note.is_published ? 'Published' : 'Draft'}
+                    </span>
+                  </td>
+                  <td className="px-6 py-4 whitespace-nowrap">
+                    {note.is_flagship ? (
+                      <span className="inline-flex items-center gap-1 px-2 py-1 text-xs font-semibold rounded-full bg-amber-100 text-amber-800">
+                        <Anchor className="w-3 h-3" /> Flagship
+                      </span>
+                    ) : (
+                      <button
+                        onClick={() => setFlagship(note.id)}
+                        disabled={!!saving}
+                        className="text-xs text-gray-500 hover:text-amber-700 border border-gray-200 hover:border-amber-300 px-3 py-1 rounded hover:bg-amber-50 transition-colors disabled:opacity-50"
+                      >
+                        {saving === note.id ? 'Setting...' : 'Set as Flagship'}
+                      </button>
+                    )}
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      )}
     </div>
   );
 }
