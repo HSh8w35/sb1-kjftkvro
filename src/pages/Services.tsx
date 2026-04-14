@@ -50,12 +50,12 @@ function Services() {
                     Initial conversations are informal and focused on understanding where things stand—and whether a Possibility Assessment would be valuable.
                   </p>
                 </div>
-                <div className="flex-[2]">
-                  <div className="relative rounded-lg overflow-hidden shadow-lg w-4/5 mx-auto">
+                <div className="flex-[2] flex justify-center items-start">
+                  <div className="relative overflow-hidden shadow-lg" style={{ borderRadius: '50%', width: '70%', aspectRatio: '1/1' }}>
                     <img
                       src="/gemini_generated_image_hu7jpthu7jpthu7j.webp"
                       alt="Professional conversation"
-                      className="w-full h-auto object-cover"
+                      className="w-full h-full object-cover"
                     />
                     <div className="absolute inset-0 pointer-events-none" style={{
                       boxShadow: 'inset 0 0 60px rgba(0, 0, 0, 0.15)'
