@@ -136,11 +136,9 @@ function Home() {
                 Over time, even the most distinctive properties can begin to operate within patterns. Certain assumptions become fixed. Operational habits settle in. Owners may hear that meaningful change requires major capital investment, brand affiliation, or structural transformation.
               </p>
 
-              <div className="bg-gradient-to-r from-[#8B6F47]/10 to-[#8B6F47]/5 rounded-xl p-6 my-6 max-w-3xl mx-auto border-l-4 border-[#8B6F47]">
-                <p className="text-lg md:text-xl text-[#8B6F47] font-semibold">
-                  In many cases, the most powerful opportunities already exist within the property itself.
-                </p>
-              </div>
+              <p className="text-lg md:text-xl text-[#2E2A26]/80 leading-relaxed max-w-3xl mx-auto">
+                In many cases, the most powerful opportunities already exist within the property itself.
+              </p>
 
               <p className="text-lg md:text-xl text-[#2E2A26]/80 leading-relaxed max-w-3xl mx-auto">
                 The <strong>Possibility Assessment</strong> is designed to uncover those opportunities.
