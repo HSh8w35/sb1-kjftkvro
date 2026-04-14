@@ -44,7 +44,7 @@ function Possibilities() {
                 The Possibility Assessment
               </h2>
               <div className="h-[2px] w-20 bg-gradient-to-r from-[#8B6F47] to-[#C9A96E] mb-8 rounded-full" />
-              <p className="text-lg md:text-xl text-[#2E2A26]/80 leading-relaxed mb-10 font-light">
+              <p className="text-xl md:text-2xl text-[#2E2A26]/80 leading-relaxed mb-10 font-light">
                 A focused, one-week, on-site engagement designed to identify the revenue, positioning, and operational opportunities that already exist within a property—but are not yet fully realized.
               </p>
               <p className="text-sm tracking-[0.15em] uppercase text-[#8B6F47] font-semibold mb-5">
@@ -62,15 +62,15 @@ function Possibilities() {
                     <div className="w-5 h-5 rounded-full border border-[#8B6F47]/40 bg-[#8B6F47]/8 flex items-center justify-center flex-shrink-0 mt-0.5">
                       <div className="w-1.5 h-1.5 rounded-full bg-[#8B6F47]" />
                     </div>
-                    <span className="text-base leading-relaxed">{item}</span>
+                    <span className="text-lg leading-relaxed">{item}</span>
                   </li>
                 ))}
               </ul>
               <div className="border-t border-[#8B6F47]/15 pt-8 space-y-3">
-                <p className="text-[#2E2A26] leading-relaxed">
+                <p className="text-lg text-[#2E2A26] leading-relaxed">
                   The outcome is a clear, prioritized assessment of where opportunity exists—and what to do next.
                 </p>
-                <p className="text-[#8B6F47] leading-relaxed italic font-medium">
+                <p className="text-lg text-[#8B6F47] leading-relaxed italic font-medium">
                   If you are navigating one of these moments, we can begin with a conversation.
                 </p>
               </div>
