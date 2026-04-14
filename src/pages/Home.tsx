@@ -21,23 +21,15 @@ function Home() {
         return new Promise((resolve, reject) => {
           const img = new Image();
           img.src = src;
-          img.onload = () => {
-            console.log('Image loaded:', src);
-            resolve(src);
-          };
-          img.onerror = (error) => {
-            console.error('Image failed to load:', src, error);
-            reject(error);
-          };
+          img.onload = () => resolve(src);
+          img.onerror = (error) => reject(error);
         });
       });
 
       try {
         await Promise.all(imagePromises);
-        console.log('All images preloaded successfully');
         setImagesLoaded(true);
-      } catch (error) {
-        console.error('Error preloading images:', error);
+      } catch {
         setImagesLoaded(true);
       }
     };
@@ -62,31 +54,21 @@ function Home() {
         description={seoData?.description || "Strategic hospitality advisory for independent hotel owners navigating complexity, growth, and leadership decisions."}
         keywords={seoData?.keywords}
       />
+
+      {/* Hero */}
       <section className="min-h-screen md:min-h-[85vh] flex items-center px-6 lg:px-8 relative overflow-hidden bg-[#F6F1E8]">
-        {!imagesLoaded && (
-          <div className="absolute inset-0 flex items-center justify-center">
-            <div className="text-[#8B6F47] text-lg font-semibold">Loading images...</div>
-          </div>
-        )}
         <div className="absolute inset-0">
           {heroImages.map((image, index) => (
             <div
               key={image}
               className="absolute top-0 left-0 w-full h-full transition-opacity duration-1000"
-              style={{
-                opacity: imagesLoaded && currentImageIndex === index ? 0.35 : 0,
-              }}
+              style={{ opacity: imagesLoaded && currentImageIndex === index ? 0.35 : 0 }}
             >
-              <img
-                src={image}
-                alt=""
-                className="w-full h-full object-cover"
-                style={{ display: 'block' }}
-              />
+              <img src={image} alt="" className="w-full h-full object-cover" style={{ display: 'block' }} />
             </div>
           ))}
         </div>
-        <div className="absolute inset-0 bg-gradient-to-b from-[#F6F1E8]/50 via-transparent to-[#F6F1E8]/70" />
+        <div className="absolute inset-0 bg-gradient-to-b from-[#F6F1E8]/50 via-transparent to-[#F6F1E8]/80" />
         <div className="absolute top-0 left-0 w-full flex justify-center pt-14 md:pt-16 z-10">
           <img
             src="/Translucent_Logo_on_home_page.webp"
@@ -101,32 +83,36 @@ function Home() {
                 <h1 className="text-2xl md:text-4xl lg:text-5xl font-playfair text-black leading-snug px-4 mt-24">
                   Seeing Possibility Where Others See Limits
                 </h1>
-
-                <div className="w-32 h-px bg-black/30 mx-auto my-6" />
-
+                <div className="w-32 h-px bg-[#8B6F47]/40 mx-auto my-6" />
                 <div className="space-y-3 text-lg md:text-xl font-semibold text-[#2E2A26] leading-relaxed max-w-2xl mx-auto px-4">
                   <p>Heidi Stone Hospitality works with owners, boards, and leadership teams at critical moments—when performance has plateaued, following reinvestment, or when the path forward is no longer clear.</p>
-</div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
 
+      {/* Warm bridge */}
+      <div className="h-2 bg-gradient-to-r from-[#D4C5A9] via-[#C4A882] to-[#D4C5A9]" />
 
-      <section className="relative py-32 overflow-hidden bg-[#1E1A16]">
-        <div className="absolute inset-0">
-          <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGxpbmUgeDE9IjAiIHkxPSIwIiB4Mj0iMTAwIiB5Mj0iMTAwIiBzdHJva2U9IiM4QjZGNDciIHN0cm9rZS1vcGFjaXR5PSIwLjA0IiBzdHJva2Utd2lkdGg9IjAuNSIvPjxsaW5lIHgxPSIxMDAiIHkxPSIwIiB4Mj0iMCIgeTI9IjEwMCIgc3Ryb2tlPSIjOEI2RjQ3IiBzdHJva2Utb3BhY2l0eT0iMC4wNCIgc3Ryb2tlLXdpZHRoPSIwLjUiLz48L3N2Zz4=')] opacity-60" />
-          <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[1px] bg-gradient-to-r from-transparent via-[#8B6F47]/40 to-transparent" />
-          <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[800px] h-[1px] bg-gradient-to-r from-transparent via-[#8B6F47]/40 to-transparent" />
-          <div className="absolute left-0 top-1/2 -translate-y-1/2 w-[1px] h-[400px] bg-gradient-to-b from-transparent via-[#8B6F47]/20 to-transparent" />
-          <div className="absolute right-0 top-1/2 -translate-y-1/2 w-[1px] h-[400px] bg-gradient-to-b from-transparent via-[#8B6F47]/20 to-transparent" />
+      {/* The Possibility Assessment — warm light */}
+      <section className="relative py-28 overflow-hidden bg-[#F0E8DA]">
+        <div className="absolute inset-0 pointer-events-none">
+          <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[900px] h-[1px] bg-gradient-to-r from-transparent via-[#8B6F47]/30 to-transparent" />
+          <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[900px] h-[1px] bg-gradient-to-r from-transparent via-[#8B6F47]/30 to-transparent" />
+          <div className="absolute inset-0 opacity-[0.03]"
+            style={{
+              backgroundImage: `url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h80v80H0z' fill='none'/%3E%3Ccircle cx='40' cy='40' r='1' fill='%238B6F47'/%3E%3C/svg%3E")`,
+              backgroundSize: '80px 80px'
+            }}
+          />
         </div>
 
         <div className="max-w-5xl mx-auto px-6 lg:px-8 relative z-10">
-          <div className="flex flex-col items-center text-center mb-16">
-            <span className="text-[#8B6F47] text-xs tracking-[0.35em] uppercase font-medium mb-6">Signature Engagement</span>
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">
+          <div className="flex flex-col items-center text-center mb-14">
+            <span className="text-[#8B6F47] text-xs tracking-[0.35em] uppercase font-medium mb-5">Signature Engagement</span>
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#2E2A26] leading-tight mb-6">
               The Possibility Assessment
             </h2>
             <div className="flex items-center gap-4">
@@ -136,15 +122,15 @@ function Home() {
             </div>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-0 border border-[#8B6F47]/25 rounded-2xl overflow-hidden">
-            <div className="p-10 md:p-12 border-b md:border-b-0 md:border-r border-[#8B6F47]/25 flex flex-col justify-center">
-              <p className="text-white/85 text-xl md:text-2xl leading-relaxed">
+          <div className="grid md:grid-cols-2 gap-0 border border-[#8B6F47]/20 rounded-2xl overflow-hidden shadow-sm">
+            <div className="p-10 md:p-12 bg-white/60 border-b md:border-b-0 md:border-r border-[#8B6F47]/20 flex flex-col justify-center">
+              <p className="text-[#2E2A26]/90 text-xl md:text-2xl leading-relaxed">
                 A focused, one-week, on-site engagement designed to identify the revenue, positioning, and operational opportunities that already exist within a property—but are not yet fully realized.
               </p>
             </div>
 
-            <div className="p-10 md:p-12 bg-[#8B6F47]/08 flex flex-col justify-center">
-              <p className="text-[#C4A882] text-sm tracking-[0.3em] uppercase font-medium mb-7">Owners typically engage at specific moments</p>
+            <div className="p-10 md:p-12 bg-[#EDE0CC]/50 flex flex-col justify-center">
+              <p className="text-[#8B6F47] text-sm tracking-[0.3em] uppercase font-medium mb-7">Owners typically engage at specific moments</p>
               <ul className="space-y-6">
                 {[
                   'When performance has plateaued',
@@ -152,10 +138,10 @@ function Home() {
                   'During leadership or organizational transition',
                 ].map((item, i) => (
                   <li key={i} className="flex items-start gap-4">
-                    <span className="flex-shrink-0 mt-1 w-5 h-5 rounded-full border border-[#8B6F47]/60 flex items-center justify-center">
+                    <span className="flex-shrink-0 mt-1 w-5 h-5 rounded-full border border-[#8B6F47]/50 flex items-center justify-center">
                       <span className="w-1.5 h-1.5 rounded-full bg-[#8B6F47]" />
                     </span>
-                    <span className="text-white/85 text-xl leading-relaxed">{item}</span>
+                    <span className="text-[#2E2A26]/85 text-xl leading-relaxed">{item}</span>
                   </li>
                 ))}
               </ul>
@@ -163,13 +149,13 @@ function Home() {
           </div>
 
           <div className="mt-12 text-center">
-            <p className="text-white/70 text-xl md:text-2xl leading-relaxed max-w-2xl mx-auto mb-10 italic">
+            <p className="text-[#2E2A26]/70 text-xl md:text-2xl leading-relaxed max-w-2xl mx-auto mb-10 italic">
               The outcome is a clear, prioritized assessment of where opportunity exists—and what to do next.
             </p>
             <Link
               to="/possibilities"
               onClick={() => window.scrollTo(0, 0)}
-              className="group inline-flex items-center gap-3 border border-[#8B6F47] text-[#C4A882] px-10 py-4 rounded-full hover:bg-[#8B6F47] hover:text-white transition-all duration-300 text-sm tracking-widest uppercase font-medium"
+              className="group inline-flex items-center gap-3 border border-[#8B6F47] text-[#8B6F47] px-10 py-4 rounded-full hover:bg-[#8B6F47] hover:text-white transition-all duration-300 text-sm tracking-widest uppercase font-medium"
             >
               Learn More
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300">
@@ -180,17 +166,16 @@ function Home() {
         </div>
       </section>
 
-      <section className="py-12 bg-gradient-to-br from-white to-[#F6F1E8] relative overflow-hidden">
+      {/* Who We Work With */}
+      <section className="py-14 bg-gradient-to-b from-[#F6F1E8] to-white relative overflow-hidden">
         <div className="max-w-3xl mx-auto px-6 lg:px-8 relative z-10">
           <div className="text-center space-y-4">
             <h2 className="text-2xl md:text-3xl font-bold text-[#2E2A26] leading-tight">
               Who We Work With
             </h2>
-
             <div className="flex justify-center">
               <div className="h-px w-24 bg-gradient-to-r from-transparent via-[#8B6F47] to-transparent" />
             </div>
-
             <div className="space-y-3 text-base md:text-lg text-[#2E2A26]/80 leading-snug">
               <p>
                 Heidi Stone Hospitality works with owners and boards stewarding distinctive independent properties—hotels where identity, place, and long-term value matter as much as performance.
@@ -199,7 +184,6 @@ function Home() {
                 Our work is most valuable for privately held hotels facing pivotal decisions around leadership, positioning, capital investment, or brand affiliation.
               </p>
             </div>
-
             <div className="pt-4">
               <Link
                 to="/who-we-work-with"
@@ -216,14 +200,14 @@ function Home() {
         </div>
       </section>
 
-      <section className="py-12 bg-gradient-to-br from-[#8B6F47] via-[#A08558] to-[#8B6F47] relative overflow-hidden">
+      {/* Why This Work Matters */}
+      <section className="py-14 bg-gradient-to-br from-[#8B6F47] via-[#9E7D54] to-[#8B6F47] relative overflow-hidden">
         <div className="max-w-4xl mx-auto px-6 lg:px-8 relative z-10">
           <div className="relative p-8 md:p-10">
-            <div className="absolute top-0 left-0 w-12 h-12 border-t-4 border-l-4 border-white/90" />
-            <div className="absolute top-0 right-0 w-12 h-12 border-t-4 border-r-4 border-white/90" />
-            <div className="absolute bottom-0 left-0 w-12 h-12 border-b-4 border-l-4 border-white/90" />
-            <div className="absolute bottom-0 right-0 w-12 h-12 border-b-4 border-r-4 border-white/90" />
-
+            <div className="absolute top-0 left-0 w-12 h-12 border-t-4 border-l-4 border-white/90 rounded-tl-sm" />
+            <div className="absolute top-0 right-0 w-12 h-12 border-t-4 border-r-4 border-white/90 rounded-tr-sm" />
+            <div className="absolute bottom-0 left-0 w-12 h-12 border-b-4 border-l-4 border-white/90 rounded-bl-sm" />
+            <div className="absolute bottom-0 right-0 w-12 h-12 border-b-4 border-r-4 border-white/90 rounded-br-sm" />
             <div className="relative">
               <h2 className="text-2xl md:text-3xl font-bold text-white mb-4 text-center">
                 Why This Work Matters Now
@@ -232,30 +216,19 @@ function Home() {
                 <div className="h-px w-20 bg-white/60" />
               </div>
               <div className="space-y-3 text-base md:text-lg text-white/95 leading-snug text-center">
-                <p>
-                  Independent, historic, and destination hotels are increasingly facing pivotal decisions.
-                </p>
-                <p>
-                  Ownership transitions are accelerating. Capital demands are rising. Brand consolidation continues to reshape the landscape. And too often, important decisions are made under pressure rather than clarity.
-                </p>
-                <p>
-                  Many of these properties are deeply personal assets—built over decades, rooted in place, and closely tied to the identity of their communities.
-                </p>
-                <p className="font-semibold text-white text-lg md:text-xl pt-2">
-                  They deserve thoughtful stewardship.
-                </p>
-                <p>
-                  Stewardship that protects the character of the property while strengthening its long-term performance and value.
-                </p>
-                <p className="font-semibold text-white text-lg md:text-xl pt-2">
-                  This is the work of Heidi Stone Hospitality.
-                </p>
+                <p>Independent, historic, and destination hotels are increasingly facing pivotal decisions.</p>
+                <p>Ownership transitions are accelerating. Capital demands are rising. Brand consolidation continues to reshape the landscape. And too often, important decisions are made under pressure rather than clarity.</p>
+                <p>Many of these properties are deeply personal assets—built over decades, rooted in place, and closely tied to the identity of their communities.</p>
+                <p className="font-semibold text-white text-lg md:text-xl pt-2">They deserve thoughtful stewardship.</p>
+                <p>Stewardship that protects the character of the property while strengthening its long-term performance and value.</p>
+                <p className="font-semibold text-white text-lg md:text-xl pt-2">This is the work of Heidi Stone Hospitality.</p>
               </div>
             </div>
           </div>
         </div>
       </section>
 
+      {/* Clarity section */}
       <section className="py-20 bg-[#F6F1E8] relative overflow-hidden">
         <div className="absolute top-20 right-0 w-64 h-64 bg-[#8B6F47]/5 rounded-full blur-3xl" />
         <div className="absolute bottom-40 left-0 w-96 h-96 bg-[#8B6F47]/5 rounded-full blur-3xl" />
@@ -278,14 +251,10 @@ function Home() {
                   <div className="flex-shrink-0 w-14 h-14 bg-gradient-to-br from-[#8B6F47] to-[#6F5838] rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300">
                     <TrendingUp className="w-7 h-7 text-white" />
                   </div>
-                  <h3 className="text-2xl font-bold text-[#2E2A26] leading-tight text-center">
-                    Performance That Endures
-                  </h3>
+                  <h3 className="text-2xl font-bold text-[#2E2A26] leading-tight text-center">Performance That Endures</h3>
                 </div>
                 <div className="space-y-4 text-base text-[#2E2A26] leading-relaxed text-center flex-grow">
-                  <p>
-                    When strategy, market positioning, and operational discipline align, independent hotels unlock their full potential—delivering sustainable performance and long-term asset strength.
-                  </p>
+                  <p>When strategy, market positioning, and operational discipline align, independent hotels unlock their full potential—delivering sustainable performance and long-term asset strength.</p>
                 </div>
               </div>
             </div>
@@ -296,14 +265,10 @@ function Home() {
                   <div className="flex-shrink-0 w-14 h-14 bg-gradient-to-br from-[#8B6F47] to-[#6F5838] rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300">
                     <Users className="w-7 h-7 text-white" />
                   </div>
-                  <h3 className="text-2xl font-bold text-[#2E2A26] leading-tight text-center">
-                    Leadership That Holds
-                  </h3>
+                  <h3 className="text-2xl font-bold text-[#2E2A26] leading-tight text-center">Leadership That Holds</h3>
                 </div>
                 <div className="space-y-4 text-base text-[#2E2A26] leading-relaxed text-center flex-grow">
-                  <p>
-                    Privately held hotels often place enormous responsibility on a small group of leaders. We serve as an experienced, independent voice—helping ownership and leadership maintain clarity and discipline during pivotal moments.
-                  </p>
+                  <p>Privately held hotels often place enormous responsibility on a small group of leaders. We serve as an experienced, independent voice—helping ownership and leadership maintain clarity and discipline during pivotal moments.</p>
                 </div>
               </div>
             </div>
@@ -314,14 +279,10 @@ function Home() {
                   <div className="flex-shrink-0 w-14 h-14 bg-gradient-to-br from-[#8B6F47] to-[#6F5838] rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300">
                     <Globe className="w-7 h-7 text-white" />
                   </div>
-                  <h3 className="text-2xl font-bold text-[#2E2A26] leading-tight text-center">
-                    Brands That Belong
-                  </h3>
+                  <h3 className="text-2xl font-bold text-[#2E2A26] leading-tight text-center">Brands That Belong</h3>
                 </div>
                 <div className="space-y-4 text-base text-[#2E2A26] leading-relaxed text-center flex-grow">
-                  <p>
-                    The strongest independent hotels are rooted in place. When identity, governance, and strategy align, a property becomes more than a destination—it becomes part of the story of its region.
-                  </p>
+                  <p>The strongest independent hotels are rooted in place. When identity, governance, and strategy align, a property becomes more than a destination—it becomes part of the story of its region.</p>
                 </div>
               </div>
             </div>
@@ -364,27 +325,22 @@ function Home() {
                 </p>
               </div>
               <div className="border-t border-[#8B6F47]/10 pt-4">
-                <p className="text-[#2E2A26] font-bold text-sm mb-1">
-                  Kim Davis
-                </p>
-                <p className="text-[#8B6F47] font-semibold text-xs">
-                  Executive Director, Friends of Southwest Virginia
-                </p>
+                <p className="text-[#2E2A26] font-bold text-sm mb-1">Kim Davis</p>
+                <p className="text-[#8B6F47] font-semibold text-xs">Executive Director, Friends of Southwest Virginia</p>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="py-16 bg-gradient-to-br from-[#2E2A26] to-[#1F1B18] relative overflow-hidden">
-        <div className="absolute inset-0 opacity-5">
-          <div className="absolute top-0 left-0 w-full h-full"
-               style={{
-                 backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23D4C5A9' fill-opacity='1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
-                 backgroundSize: '60px 60px'
-               }}
-          />
-        </div>
+      {/* Closing quote */}
+      <section className="py-16 bg-gradient-to-br from-[#3D3228] to-[#2A2218] relative overflow-hidden">
+        <div className="absolute inset-0 opacity-5"
+          style={{
+            backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23D4C5A9' fill-opacity='1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
+            backgroundSize: '60px 60px'
+          }}
+        />
         <div className="max-w-6xl mx-auto px-6 lg:px-8 text-center relative z-10">
           <p className="text-3xl md:text-4xl font-light text-[#D4C5A9] italic leading-relaxed">
             Ensuring independence remains intentional—not reactive.
