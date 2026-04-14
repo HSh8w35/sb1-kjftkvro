@@ -104,10 +104,6 @@ function Home() {
                 </h1>
 
                 <div className="w-32 h-px bg-black/30 mx-auto my-6" />
-
-                <p className="text-lg md:text-xl lg:text-2xl text-black/80 leading-relaxed max-w-3xl mx-auto px-4">
-                  Independent guidance & stewardship for privately held, historic, and destination hotels — and the communities and investors shaping their future.
-                </p>
               </div>
             </div>
           </div>
