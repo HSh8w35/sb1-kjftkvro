@@ -40,13 +40,13 @@ function Services() {
             <div className="bg-[#F5EDE0]/60 backdrop-blur-sm p-8 rounded-xl border border-[#B87333]/20 shadow-md">
               <div className="flex flex-col md:flex-row gap-6 items-center">
                 <div className="flex-[3] space-y-4">
-                  <p className="text-lg text-[#2E2A26] leading-relaxed">
+                  <p className="text-xl text-[#2E2A26] leading-relaxed" style={{ fontFamily: "'Cormorant Garamond', serif", fontWeight: 500 }}>
                     Most conversations begin at a point where something is no longer clear.
                   </p>
-                  <p className="text-lg text-[#2E2A26] leading-relaxed">
+                  <p className="text-xl text-[#2E2A26] leading-relaxed" style={{ fontFamily: "'Cormorant Garamond', serif", fontWeight: 500 }}>
                     If you are navigating a moment of complexity, transition, or uncertainty, we can begin with a conversation.
                   </p>
-                  <p className="text-lg text-[#2E2A26] leading-relaxed">
+                  <p className="text-xl text-[#2E2A26] leading-relaxed" style={{ fontFamily: "'Cormorant Garamond', serif", fontWeight: 500 }}>
                     Initial conversations are informal and focused on understanding where things stand—and whether a Possibility Assessment would be valuable.
                   </p>
                 </div>
