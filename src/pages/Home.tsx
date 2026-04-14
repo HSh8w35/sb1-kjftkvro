@@ -168,6 +168,12 @@ function Home() {
             <p className="mt-3 text-[#2E2A26]/60 text-base italic font-bold">
               If you are navigating one of these moments, we can begin with a conversation.
             </p>
+            <a
+              href="mailto:Heidi@heidistonehospitality.com?subject=I'd%20like%20to%20talk%20with%20you%20about%20a%20Possibility%20Assessment"
+              className="inline-flex items-center gap-2 mt-6 px-8 py-3 bg-[#8B6F47] text-white text-sm tracking-widest uppercase font-medium rounded-sm hover:bg-[#7A5E38] transition-colors duration-300 shadow-sm"
+            >
+              Let's Talk
+            </a>
           </div>
         </div>
       </section>
