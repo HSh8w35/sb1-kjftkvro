@@ -90,45 +90,6 @@ function Possibilities() {
 
           <div className="space-y-12">
             <section className="bg-white/80 backdrop-blur-sm rounded-2xl p-8 md:p-12 shadow-xl border border-[#8B6F47]/20 hover:shadow-2xl transition-shadow duration-300">
-              <h2 className="text-3xl md:text-4xl font-bold text-[#2E2A26] mb-6 text-center">
-                A Closer Look
-              </h2>
-              <div className="flex justify-center mb-8">
-                <div className="h-1 w-24 bg-gradient-to-r from-transparent via-[#8B6F47] to-transparent" />
-              </div>
-              <div className="space-y-4 text-lg text-[#2E2A26] leading-relaxed">
-                <p>
-                  Independent and historic hotels are rarely ordinary assets. They carry history, identity, and meaning that extend far beyond the balance sheet. Many have been shaped by decades of stewardship, evolving through changing markets, leadership transitions, and shifting guest expectations.
-                </p>
-                <p>
-                  Over time, however, even the most distinctive properties can begin to operate within patterns. Certain assumptions become fixed. Operational habits settle in. Owners may hear that meaningful change requires major capital investment, brand affiliation, or structural transformation.
-                </p>
-                <div className="bg-gradient-to-r from-[#8B6F47]/5 to-[#8B6F47]/10 rounded-xl p-6 my-6 border-l-4 border-[#8B6F47]">
-                  <p className="font-semibold text-[#8B6F47] text-xl">
-                    In many cases, the most powerful opportunities already exist within the property itself.
-                  </p>
-                </div>
-                <p>
-                  The <strong>Possibility Assessment</strong> is designed to uncover those opportunities.
-                </p>
-                <p>
-                  Drawing on more than three decades in the hospitality industry—including leadership inside complex independent destination hotels—the assessment brings the perspective of someone who has spent decades responsible for the performance of those properties, examining how a hotel's identity, experiences, operations, and market position can be activated in new ways.
-                </p>
-                <p>
-                  Much of the transformation achieved throughout that career was not driven by massive capital investment, but by uncovering opportunities already present within the property itself.
-                </p>
-                <div className="pt-6 mt-6 border-t border-[#8B6F47]/20">
-                  <p className="font-semibold text-center mb-4">
-                    The work begins with a simple premise:
-                  </p>
-                  <p className="italic text-[#8B6F47] text-xl text-center bg-[#8B6F47]/5 rounded-lg p-6">
-                    The most meaningful opportunities often emerge not from what a hotel lacks, but from what it has never fully activated.
-                  </p>
-                </div>
-              </div>
-            </section>
-
-            <section className="bg-white/80 backdrop-blur-sm rounded-2xl p-8 md:p-12 shadow-xl border border-[#8B6F47]/20 hover:shadow-2xl transition-shadow duration-300">
               <h2 className="text-3xl md:text-4xl font-bold text-[#8B6F47] mb-6 text-center">
                 What the <strong>Possibility Assessment</strong> Explores
               </h2>
