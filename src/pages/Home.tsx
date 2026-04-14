@@ -138,24 +138,24 @@ function Home() {
 
           <div className="grid md:grid-cols-2 gap-0 border border-[#8B6F47]/25 rounded-2xl overflow-hidden">
             <div className="p-10 md:p-12 border-b md:border-b-0 md:border-r border-[#8B6F47]/25 flex flex-col justify-center">
-              <p className="text-white/75 text-lg leading-relaxed">
+              <p className="text-white/85 text-xl md:text-2xl leading-relaxed">
                 A focused, one-week, on-site engagement designed to identify the revenue, positioning, and operational opportunities that already exist within a property—but are not yet fully realized.
               </p>
             </div>
 
             <div className="p-10 md:p-12 bg-[#8B6F47]/08 flex flex-col justify-center">
-              <p className="text-[#C4A882] text-xs tracking-[0.3em] uppercase font-medium mb-7">Owners typically engage at specific moments</p>
-              <ul className="space-y-5">
+              <p className="text-[#C4A882] text-sm tracking-[0.3em] uppercase font-medium mb-7">Owners typically engage at specific moments</p>
+              <ul className="space-y-6">
                 {[
                   'When performance has plateaued',
                   'Following reinvestment without expected returns',
                   'During leadership or organizational transition',
                 ].map((item, i) => (
                   <li key={i} className="flex items-start gap-4">
-                    <span className="flex-shrink-0 mt-0.5 w-5 h-5 rounded-full border border-[#8B6F47]/60 flex items-center justify-center">
+                    <span className="flex-shrink-0 mt-1 w-5 h-5 rounded-full border border-[#8B6F47]/60 flex items-center justify-center">
                       <span className="w-1.5 h-1.5 rounded-full bg-[#8B6F47]" />
                     </span>
-                    <span className="text-white/80 text-base leading-relaxed">{item}</span>
+                    <span className="text-white/85 text-xl leading-relaxed">{item}</span>
                   </li>
                 ))}
               </ul>
@@ -163,7 +163,7 @@ function Home() {
           </div>
 
           <div className="mt-12 text-center">
-            <p className="text-white/60 text-base md:text-lg leading-relaxed max-w-2xl mx-auto mb-10 italic">
+            <p className="text-white/70 text-xl md:text-2xl leading-relaxed max-w-2xl mx-auto mb-10 italic">
               The outcome is a clear, prioritized assessment of where opportunity exists—and what to do next.
             </p>
             <Link
