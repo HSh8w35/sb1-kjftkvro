@@ -75,6 +75,7 @@ function Services() {
                 heidi@heidistonehospitality.com
               </a>
               <p className="text-base text-[#5C4A32]/80">Direct outreach is always welcome.</p>
+              <p className="text-base text-[#5C4A32]/80 mt-4">Or</p>
             </div>
 
             <ContactForm />
