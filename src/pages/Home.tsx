@@ -96,7 +96,7 @@ function Home() {
       <div className="h-2 bg-gradient-to-r from-[#D4C5A9] via-[#C4A882] to-[#D4C5A9]" />
 
       {/* The Possibility Assessment */}
-      <section className="relative py-28 overflow-hidden bg-[#F0E8DA]">
+      <section className="relative py-12 overflow-hidden bg-[#F0E8DA]">
         <div className="absolute inset-0 pointer-events-none">
           <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[900px] h-[1px] bg-gradient-to-r from-transparent via-[#8B6F47]/30 to-transparent" />
           <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[900px] h-[1px] bg-gradient-to-r from-transparent via-[#8B6F47]/30 to-transparent" />
