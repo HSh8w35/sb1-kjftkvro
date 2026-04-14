@@ -31,6 +31,35 @@ function Possibilities() {
             </p>
           </div>
 
+          <div className="max-w-4xl mx-auto mb-16 bg-white/90 backdrop-blur-sm rounded-2xl p-8 md:p-12 shadow-xl border border-[#8B6F47]/20">
+            <h2 className="text-2xl md:text-3xl font-bold text-[#8B6F47] mb-4">The Possibility Assessment</h2>
+            <div className="h-px w-16 bg-[#8B6F47]/40 mb-6" />
+            <p className="text-lg text-[#2E2A26] leading-relaxed mb-8">
+              A focused, one-week, on-site engagement designed to identify the revenue, positioning, and operational opportunities that already exist within a property—but are not yet fully realized.
+            </p>
+            <p className="font-semibold text-[#2E2A26] mb-4">Owners typically engage at specific moments:</p>
+            <ul className="space-y-3 mb-8">
+              {[
+                'When performance has plateaued',
+                'Following reinvestment without expected returns',
+                'During leadership or organizational transition',
+                'When a property does not fully align within a broader portfolio',
+                'When evaluating a potential brand or soft brand affiliation',
+              ].map((item) => (
+                <li key={item} className="flex items-start gap-3 text-[#2E2A26]">
+                  <div className="w-2 h-2 rounded-full bg-[#8B6F47] mt-2 flex-shrink-0" />
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
+            <p className="text-[#2E2A26] leading-relaxed mb-6">
+              The outcome is a clear, prioritized assessment of where opportunity exists—and what to do next.
+            </p>
+            <p className="text-[#2E2A26] leading-relaxed italic">
+              If you are navigating one of these moments, we can begin with a conversation.
+            </p>
+          </div>
+
           <div className="space-y-12">
             <section className="bg-white/80 backdrop-blur-sm rounded-2xl p-8 md:p-12 shadow-xl border border-[#8B6F47]/20 hover:shadow-2xl transition-shadow duration-300">
               <div className="space-y-4 text-lg text-[#2E2A26] leading-relaxed">
