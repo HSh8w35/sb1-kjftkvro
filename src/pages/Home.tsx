@@ -114,59 +114,68 @@ function Home() {
       </section>
 
 
-      <section className="py-24 bg-gradient-to-br from-[#F6F1E8] to-[#E8DCC8] relative overflow-hidden">
-        <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0zNiAxOGMzLjMxNCAwIDYgMi42ODYgNiA2cy0yLjY4NiA2LTYgNi02LTIuNjg2LTYtNiAyLjY4Ni02IDYtNnoiIHN0cm9rZT0iIzhCNkY0NyIgc3Ryb2tlLW9wYWNpdHk9Ii4wNSIvPjwvZz48L3N2Zz4=')] opacity-40" />
+      <section className="relative py-32 overflow-hidden bg-[#1C1915]">
+        <div className="absolute inset-0">
+          <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGxpbmUgeDE9IjAiIHkxPSIwIiB4Mj0iMTAwIiB5Mj0iMTAwIiBzdHJva2U9IiM4QjZGNDciIHN0cm9rZS1vcGFjaXR5PSIwLjA0IiBzdHJva2Utd2lkdGg9IjAuNSIvPjxsaW5lIHgxPSIxMDAiIHkxPSIwIiB4Mj0iMCIgeTI9IjEwMCIgc3Ryb2tlPSIjOEI2RjQ3IiBzdHJva2Utb3BhY2l0eT0iMC4wNCIgc3Ryb2tlLXdpZHRoPSIwLjUiLz48L3N2Zz4=')] opacity-60" />
+          <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[1px] bg-gradient-to-r from-transparent via-[#8B6F47]/40 to-transparent" />
+          <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[800px] h-[1px] bg-gradient-to-r from-transparent via-[#8B6F47]/40 to-transparent" />
+          <div className="absolute left-0 top-1/2 -translate-y-1/2 w-[1px] h-[400px] bg-gradient-to-b from-transparent via-[#8B6F47]/20 to-transparent" />
+          <div className="absolute right-0 top-1/2 -translate-y-1/2 w-[1px] h-[400px] bg-gradient-to-b from-transparent via-[#8B6F47]/20 to-transparent" />
+        </div>
 
-        <div className="max-w-4xl mx-auto px-6 lg:px-8 relative z-10">
-          <div className="text-center space-y-10">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#2E2A26] leading-tight">
-              The <strong>Possibility Assessment</strong>
+        <div className="max-w-5xl mx-auto px-6 lg:px-8 relative z-10">
+          <div className="flex flex-col items-center text-center mb-16">
+            <span className="text-[#8B6F47] text-xs tracking-[0.35em] uppercase font-medium mb-6">Signature Engagement</span>
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">
+              The Possibility Assessment
             </h2>
-
-            <div className="flex justify-center">
-              <div className="h-px w-32 bg-gradient-to-r from-transparent via-[#8B6F47] to-transparent" />
+            <div className="flex items-center gap-4">
+              <div className="h-px w-16 bg-gradient-to-r from-transparent to-[#8B6F47]" />
+              <div className="w-1.5 h-1.5 rounded-full bg-[#8B6F47]" />
+              <div className="h-px w-16 bg-gradient-to-l from-transparent to-[#8B6F47]" />
             </div>
+          </div>
 
-            <div className="space-y-8">
-              <p className="text-lg md:text-xl text-[#2E2A26]/80 leading-relaxed max-w-3xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-0 border border-[#8B6F47]/25 rounded-2xl overflow-hidden">
+            <div className="p-10 md:p-12 border-b md:border-b-0 md:border-r border-[#8B6F47]/25 flex flex-col justify-center">
+              <p className="text-white/75 text-lg leading-relaxed">
                 A focused, one-week, on-site engagement designed to identify the revenue, positioning, and operational opportunities that already exist within a property—but are not yet fully realized.
               </p>
-
-              <div className="max-w-3xl mx-auto text-left space-y-4">
-                <p className="text-lg text-[#2E2A26]/90 font-semibold">Owners typically engage at specific moments:</p>
-                <ul className="space-y-3">
-                  <li className="flex items-start gap-3 text-lg text-[#2E2A26]/80">
-                    <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-[#8B6F47] flex-shrink-0" />
-                    When performance has plateaued
-                  </li>
-                  <li className="flex items-start gap-3 text-lg text-[#2E2A26]/80">
-                    <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-[#8B6F47] flex-shrink-0" />
-                    Following reinvestment without expected returns
-                  </li>
-                  <li className="flex items-start gap-3 text-lg text-[#2E2A26]/80">
-                    <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-[#8B6F47] flex-shrink-0" />
-                    During leadership or organizational transition
-                  </li>
-                </ul>
-              </div>
-
-              <p className="text-lg md:text-xl text-[#2E2A26]/80 leading-relaxed max-w-3xl mx-auto">
-                The outcome is a clear, prioritized assessment of where opportunity exists—and what to do next.
-              </p>
-
-              <div className="pt-6">
-                <Link
-                  to="/possibilities"
-                  onClick={() => window.scrollTo(0, 0)}
-                  className="inline-flex items-center gap-2 bg-gradient-to-r from-[#8B6F47] to-[#6F5838] text-white px-8 py-4 rounded-xl hover:from-[#6F5838] hover:to-[#5A4A2D] transition-all shadow-lg hover:shadow-xl text-lg font-semibold transform hover:scale-105 duration-300"
-                >
-                  Learn More About the Possibility Assessment
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor" className="w-5 h-5">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-                  </svg>
-                </Link>
-              </div>
             </div>
+
+            <div className="p-10 md:p-12 bg-[#8B6F47]/08 flex flex-col justify-center">
+              <p className="text-[#C4A882] text-xs tracking-[0.3em] uppercase font-medium mb-7">Owners typically engage at specific moments</p>
+              <ul className="space-y-5">
+                {[
+                  'When performance has plateaued',
+                  'Following reinvestment without expected returns',
+                  'During leadership or organizational transition',
+                ].map((item, i) => (
+                  <li key={i} className="flex items-start gap-4">
+                    <span className="flex-shrink-0 mt-0.5 w-5 h-5 rounded-full border border-[#8B6F47]/60 flex items-center justify-center">
+                      <span className="w-1.5 h-1.5 rounded-full bg-[#8B6F47]" />
+                    </span>
+                    <span className="text-white/80 text-base leading-relaxed">{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+
+          <div className="mt-12 text-center">
+            <p className="text-white/60 text-base md:text-lg leading-relaxed max-w-2xl mx-auto mb-10 italic">
+              The outcome is a clear, prioritized assessment of where opportunity exists—and what to do next.
+            </p>
+            <Link
+              to="/possibilities"
+              onClick={() => window.scrollTo(0, 0)}
+              className="group inline-flex items-center gap-3 border border-[#8B6F47] text-[#C4A882] px-10 py-4 rounded-full hover:bg-[#8B6F47] hover:text-white transition-all duration-300 text-sm tracking-widest uppercase font-medium"
+            >
+              Learn More
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+              </svg>
+            </Link>
           </div>
         </div>
       </section>
