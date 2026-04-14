@@ -153,8 +153,8 @@ function Home() {
             </div>
           </div>
 
-          <div className="mt-16 pt-10 border-t border-[#8B6F47]/20">
-            <p className="text-[#8B6F47] text-xs tracking-[0.3em] uppercase font-bold mb-5">Next Step</p>
+          <div className="mt-8 pt-5 border-t border-[#8B6F47]/20">
+            <p className="text-[#8B6F47] text-xs tracking-[0.3em] uppercase font-bold mb-2">Next Step</p>
             <Link
               to="/possibilities"
               onClick={() => window.scrollTo(0, 0)}
@@ -165,7 +165,7 @@ function Home() {
                 <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
               </svg>
             </Link>
-            <p className="mt-8 text-[#2E2A26]/60 text-base italic font-bold">
+            <p className="mt-3 text-[#2E2A26]/60 text-base italic font-bold">
               If you are navigating one of these moments, we can begin with a conversation.
             </p>
           </div>
