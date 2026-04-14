@@ -121,7 +121,7 @@ function Home() {
 
           <div className="mt-16 grid md:grid-cols-2 gap-12 text-left">
             <div>
-              <p className="text-[#8B6F47] text-xs tracking-[0.3em] uppercase font-medium mb-6">When Owners Call Me</p>
+              <p className="text-[#8B6F47] text-sm tracking-[0.3em] uppercase font-medium mb-6">When Owners Call Me</p>
               <ul className="space-y-4">
                 {[
                   'When performance has plateaued',
@@ -137,7 +137,7 @@ function Home() {
             </div>
 
             <div>
-              <p className="text-[#8B6F47] text-xs tracking-[0.3em] uppercase font-medium mb-6">What You Receive</p>
+              <p className="text-[#8B6F47] text-sm tracking-[0.3em] uppercase font-medium mb-6">What You Receive</p>
               <ul className="space-y-4">
                 {[
                   'A clear, prioritized assessment',
