@@ -286,34 +286,6 @@ function Possibilities() {
               </div>
             </section>
 
-            <section className="bg-white/80 backdrop-blur-sm rounded-2xl p-8 md:p-12 shadow-xl border border-[#8B6F47]/20 hover:shadow-2xl transition-shadow duration-300">
-              <h2 className="text-3xl md:text-4xl font-bold text-[#8B6F47] mb-6 text-center">
-                A Thoughtful Starting Point
-              </h2>
-              <div className="flex justify-center mb-6">
-                <div className="h-1 w-24 bg-gradient-to-r from-transparent via-[#8B6F47] to-transparent" />
-              </div>
-              <div className="space-y-4 text-lg text-[#2E2A26] leading-relaxed">
-                <p>
-                  The <strong>Possibility Assessment</strong> is intentionally designed as a starting point.
-                </p>
-                <p>
-                  It allows ownership to explore the opportunities within the property before committing to major structural change, significant capital investment, or long-term advisory relationships.
-                </p>
-                <p>
-                  Sometimes the insights stand on their own. In other cases, they lead to deeper strategic collaboration.
-                </p>
-                <div className="bg-gradient-to-r from-[#8B6F47]/5 via-[#8B6F47]/10 to-[#8B6F47]/5 rounded-xl p-8 my-6 border-l-4 border-r-4 border-[#8B6F47]">
-                  <p className="font-semibold text-center mb-4">
-                    Either way, the purpose remains the same:
-                  </p>
-                  <p className="italic text-[#8B6F47] text-xl text-center leading-relaxed">
-                    Revealing the opportunities within independent hotels that others fail to see—and turning perceived limitations into defining strengths.
-                  </p>
-                </div>
-              </div>
-            </section>
-
             <section className="bg-gradient-to-br from-[#8B6F47]/10 to-[#8B6F47]/5 backdrop-blur-sm rounded-2xl p-8 md:p-12 shadow-xl border-2 border-[#8B6F47]/30 hover:shadow-2xl transition-shadow duration-300">
               <h2 className="text-3xl md:text-4xl font-bold text-[#8B6F47] mb-6 text-center">
                 When the Possibility Is Something New
