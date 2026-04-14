@@ -84,7 +84,7 @@ function Home() {
                 </h1>
                 <div className="w-32 h-px bg-[#8B6F47]/40 mx-auto my-6" />
                 <div className="space-y-3 text-lg md:text-xl font-semibold text-[#2E2A26] leading-relaxed max-w-2xl mx-auto px-4">
-                  <p>Heidi Stone Hospitality works with owners, boards, and leadership teams at critical moments—when performance has plateaued, as reinvestment is being considered,, or when the path forward is no longer clear.</p>
+                  <p>Heidi Stone Hospitality works with owners, boards, and leadership teams at critical moments—when performance has plateaued, as reinvestment is being considered, or when the path forward is no longer clear.</p>
                 </div>
               </div>
             </div>
