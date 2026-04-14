@@ -123,8 +123,7 @@ function Home() {
           </div>
           <div className="space-y-2 text-base md:text-lg font-light text-[#2E2A26] leading-snug">
             <p>Independent hotels do not underperform because of the market. They underperform when the full potential of the property is not clearly seen.</p>
-            <p className="pt-1">Heidi Stone Hospitality works with owners, boards, and leadership teams at critical moments—when performance has plateaued, following reinvestment, or when the path forward is no longer clear.</p>
-            <p>Through focused advisory engagements, including the <strong className="font-semibold">Possibility Assessment</strong>, the work identifies what is already present within a property—and what it is capable of becoming.</p>
+<p>Through focused advisory engagements, including the <strong className="font-semibold">Possibility Assessment</strong>, the work identifies what is already present within a property—and what it is capable of becoming.</p>
           </div>
           <div className="flex justify-center mt-4">
             <svg className="w-12 h-3 text-[#8B6F47]" viewBox="0 0 64 16" fill="none" xmlns="http://www.w3.org/2000/svg">
