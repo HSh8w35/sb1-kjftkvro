@@ -87,16 +87,15 @@ function Home() {
           ))}
         </div>
         <div className="absolute inset-0 bg-gradient-to-b from-[#F6F1E8]/50 via-transparent to-[#F6F1E8]/70" />
+        <div className="absolute top-0 left-0 w-full flex justify-center pt-6 md:pt-8 z-10">
+          <img
+            src="/Translucent_Logo_on_home_page.webp"
+            alt="Heidi Stone Hospitality"
+            className="h-[7.19rem] md:h-[7.19rem] lg:h-[10.06rem] w-auto p-4"
+          />
+        </div>
         <div className="max-w-7xl mx-auto relative z-10 w-full h-full flex flex-col justify-center py-12 md:py-20">
           <div className="max-w-4xl mx-auto text-center px-4">
-            <div className="inline-block relative mb-8 md:mb-10">
-              <img
-                src="/Translucent_Logo_on_home_page.webp"
-                alt="Heidi Stone Hospitality"
-                className="h-25 md:h-[6.25rem] lg:h-[8.75rem] w-auto p-4"
-              />
-            </div>
-
             <div className="space-y-6 md:space-y-8">
               <div className="space-y-4">
                 <h1 className="text-2xl md:text-4xl lg:text-5xl font-playfair text-black leading-snug px-4">
