@@ -117,36 +117,42 @@ function Insights() {
                 </h1>
 
                 <div className="prose prose-lg max-w-none">
-                  {selectedPerspective.content.split('\n\n').map((paragraph, index) => {
-                    const trimmedParagraph = paragraph.trim();
+                  {selectedPerspective.content.split('\n').map((line, index) => {
+                    const trimmed = line.trim();
 
-                    if (trimmedParagraph.startsWith('## ')) {
-                      const headerText = trimmedParagraph.replace('## ', '');
+                    if (trimmed === '---') {
+                      return (
+                        <div key={index} className="flex items-center gap-4 my-8">
+                          <div className="flex-1 h-px bg-[#B87333]/25" />
+                          <div className="w-1.5 h-1.5 rounded-full bg-[#B87333]/40" />
+                          <div className="flex-1 h-px bg-[#B87333]/25" />
+                        </div>
+                      );
+                    }
+
+                    if (trimmed.startsWith('## ')) {
                       return (
                         <h2 key={index} className="text-3xl md:text-4xl font-bold text-[#B87333] mt-10 mb-6 first:mt-0">
-                          {headerText}
+                          {trimmed.replace('## ', '')}
                         </h2>
                       );
                     }
 
-                    if (trimmedParagraph.startsWith('- ')) {
-                      const items = paragraph.split('\n').filter(line => line.trim().startsWith('- '));
+                    if (trimmed.startsWith('- ')) {
                       return (
-                        <ul key={index} className="space-y-2 mb-6 ml-6">
-                          {items.map((item, itemIndex) => (
-                            <li key={itemIndex} className="text-xl text-[#2E2A26] leading-relaxed list-disc">
-                              {item.replace('- ', '')}
-                            </li>
-                          ))}
-                        </ul>
+                        <li key={index} className="text-xl text-[#2E2A26] leading-relaxed list-disc ml-6 mb-2">
+                          {trimmed.replace('- ', '')}
+                        </li>
                       );
                     }
 
-                    if (trimmedParagraph.length === 0) return null;
+                    if (trimmed.length === 0) {
+                      return <div key={index} className="h-2" />;
+                    }
 
                     return (
-                      <p key={index} className="text-xl text-[#2E2A26] leading-relaxed mb-6">
-                        {trimmedParagraph}
+                      <p key={index} className="text-xl text-[#2E2A26] leading-relaxed mb-3">
+                        {trimmed}
                       </p>
                     );
                   })}
