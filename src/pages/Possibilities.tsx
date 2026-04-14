@@ -225,7 +225,7 @@ function Possibilities() {
                     <div className="flex-1">
                       <h3 className="text-2xl font-bold text-[#8B6F47] mb-3">On-Property Immersion</h3>
                       <p>
-                        A multi-day visit allows the property to be experienced fully—from guest arrival through operations, amenities, and leadership conversations.
+                        A focused, on-site, one week engagement at the property allows a fully immersive experience—from guest arrival through operations, amenities, and leadership conversations.
                       </p>
                     </div>
                   </div>
