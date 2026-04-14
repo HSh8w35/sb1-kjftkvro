@@ -109,22 +109,22 @@ function Home() {
         </div>
       </section>
 
-      <section className="py-16 bg-gradient-to-r from-[#8B6F47]/20 via-[#A08558]/25 to-[#8B6F47]/20 relative overflow-hidden">
-        <div className="max-w-5xl mx-auto px-6 lg:px-8 text-center relative z-10">
-          <div className="flex justify-center mb-6">
-            <svg className="w-16 h-4 text-[#8B6F47]" viewBox="0 0 64 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <section className="py-8 bg-gradient-to-r from-[#8B6F47]/20 via-[#A08558]/25 to-[#8B6F47]/20 relative overflow-hidden">
+        <div className="max-w-3xl mx-auto px-6 lg:px-8 text-center relative z-10">
+          <div className="flex justify-center mb-4">
+            <svg className="w-12 h-3 text-[#8B6F47]" viewBox="0 0 64 16" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M0 8h24M40 8h24M32 0v16" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
               <circle cx="32" cy="8" r="3" fill="currentColor"/>
             </svg>
           </div>
-          <div className="space-y-5 text-lg md:text-xl font-light text-[#2E2A26] leading-relaxed">
+          <div className="space-y-2 text-base md:text-lg font-light text-[#2E2A26] leading-snug">
             <p>Independent hotels do not underperform because of the market.</p>
             <p>They underperform when the full potential of the property is not clearly seen.</p>
-            <p>Heidi Stone Hospitality works with owners, boards, and leadership teams at critical moments—when performance has plateaued, following reinvestment, or when the path forward is no longer clear.</p>
+            <p className="pt-1">Heidi Stone Hospitality works with owners, boards, and leadership teams at critical moments—when performance has plateaued, following reinvestment, or when the path forward is no longer clear.</p>
             <p>Through focused advisory engagements, including the <strong className="font-semibold">Possibility Assessment</strong>, the work identifies what is already present within a property—and what it is capable of becoming.</p>
           </div>
-          <div className="flex justify-center mt-6">
-            <svg className="w-16 h-4 text-[#8B6F47]" viewBox="0 0 64 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <div className="flex justify-center mt-4">
+            <svg className="w-12 h-3 text-[#8B6F47]" viewBox="0 0 64 16" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M0 8h24M40 8h24M32 0v16" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
               <circle cx="32" cy="8" r="3" fill="currentColor"/>
             </svg>
