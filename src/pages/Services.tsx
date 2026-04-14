@@ -66,24 +66,15 @@ function Services() {
               </div>
             </div>
 
-<div id="contact" className="max-w-3xl mx-auto">
-              <div className="bg-[#F6F1E8] p-8 rounded-xl border-4 border-[#1F2A44]">
-                <h2 className="text-2xl font-bold mb-4 text-center text-[#1F2A44]">
-                  Let's Connect
-                </h2>
-                <p className="text-xl text-[#2E2A26] leading-relaxed mb-6 text-center">
-                  To initiate a conversation, please reach out directly via email. Heidi Stone personally responds to all inquiries from owners, board members, and senior leaders.
-                </p>
-                <div className="bg-white/50 backdrop-blur-sm p-6 rounded-lg border border-[#8B6F47]/20 text-center">
-                  <Mail className="w-8 h-8 text-[#B87333] mb-3 mx-auto" />
-                  <a
-                    href="mailto:heidi@heidistonehospitality.com"
-                    className="text-2xl font-semibold text-[#1F2A44] hover:text-[#B87333] transition-colors"
-                  >
-                    heidi@heidistonehospitality.com
-                  </a>
-                </div>
-              </div>
+<div id="contact" className="max-w-3xl mx-auto text-center">
+              <p className="text-lg text-[#5C4A32] mb-4">Direct outreach is always welcome.</p>
+              <a
+                href="mailto:heidi@heidistonehospitality.com"
+                className="inline-flex items-center gap-2 text-xl font-medium text-[#1F2A44] hover:text-[#B87333] transition-colors"
+              >
+                <Mail className="w-5 h-5 text-[#B87333]" />
+                heidi@heidistonehospitality.com
+              </a>
             </div>
 
             <ContactForm />
