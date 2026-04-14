@@ -127,21 +127,31 @@ function Home() {
               <div className="h-px w-32 bg-gradient-to-r from-transparent via-[#8B6F47] to-transparent" />
             </div>
 
-            <div className="space-y-6">
-              <p className="text-xl md:text-2xl text-[#2E2A26]/90 leading-relaxed max-w-3xl mx-auto font-semibold">
-                Most independent hotels contain revenue and opportunity that has simply never been uncovered.
+            <div className="space-y-8">
+              <p className="text-lg md:text-xl text-[#2E2A26]/80 leading-relaxed max-w-3xl mx-auto">
+                A focused, one-week, on-site engagement designed to identify the revenue, positioning, and operational opportunities that already exist within a property—but are not yet fully realized.
               </p>
 
-              <p className="text-lg md:text-xl text-[#2E2A26]/80 leading-relaxed max-w-3xl mx-auto">
-                Over time, even the most distinctive properties can begin to operate within patterns. Certain assumptions become fixed. Operational habits settle in. Owners may hear that meaningful change requires major capital investment, brand affiliation, or structural transformation.
-              </p>
+              <div className="max-w-3xl mx-auto text-left space-y-4">
+                <p className="text-lg text-[#2E2A26]/90 font-semibold">Owners typically engage at specific moments:</p>
+                <ul className="space-y-3">
+                  <li className="flex items-start gap-3 text-lg text-[#2E2A26]/80">
+                    <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-[#8B6F47] flex-shrink-0" />
+                    When performance has plateaued
+                  </li>
+                  <li className="flex items-start gap-3 text-lg text-[#2E2A26]/80">
+                    <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-[#8B6F47] flex-shrink-0" />
+                    Following reinvestment without expected returns
+                  </li>
+                  <li className="flex items-start gap-3 text-lg text-[#2E2A26]/80">
+                    <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-[#8B6F47] flex-shrink-0" />
+                    During leadership or organizational transition
+                  </li>
+                </ul>
+              </div>
 
               <p className="text-lg md:text-xl text-[#2E2A26]/80 leading-relaxed max-w-3xl mx-auto">
-                In many cases, the most powerful opportunities already exist within the property itself.
-              </p>
-
-              <p className="text-lg md:text-xl text-[#2E2A26]/80 leading-relaxed max-w-3xl mx-auto">
-                The <strong>Possibility Assessment</strong> is designed to uncover those opportunities.
+                The outcome is a clear, prioritized assessment of where opportunity exists—and what to do next.
               </p>
 
               <div className="pt-6">
