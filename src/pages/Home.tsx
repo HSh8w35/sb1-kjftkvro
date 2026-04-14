@@ -166,6 +166,31 @@ function Home() {
       </section>
 
 
+      {/* Heidi Stone bio box */}
+      <section className="py-16 bg-[#F6F1E8]">
+        <div className="max-w-2xl mx-auto px-6 lg:px-8">
+          <Link
+            to="/story"
+            onClick={() => window.scrollTo(0, 0)}
+            className="group bg-gradient-to-br from-[#8B6F47] to-[#6F5838] text-white p-8 rounded-2xl hover:shadow-2xl transition-all duration-300 relative overflow-hidden block"
+          >
+            <div className="absolute inset-0 bg-gradient-to-br from-white/0 to-white/10 opacity-0 group-hover:opacity-100 transition-opacity" />
+            <div className="flex items-center gap-6 relative z-10">
+              <img
+                src="/gemini_generated_image_hu7jpthu7jpthu7j.webp"
+                alt="Heidi Stone"
+                className="w-24 h-24 rounded-xl object-cover shadow-lg flex-shrink-0"
+              />
+              <div className="text-left">
+                <h3 className="font-bold text-xl mb-3">A Career Built on Restoring What Others Have Written Off</h3>
+                <p className="text-white/90 text-base md:text-lg leading-relaxed mb-3">I have spent my career being drawn to places the world once loved—and had begun to forget. Inside complexity and uncertainty, I see possibility.</p>
+                <p className="text-white text-base md:text-lg font-semibold">Read the Story →</p>
+              </div>
+            </div>
+          </Link>
+        </div>
+      </section>
+
       {/* Closing quote */}
       <section className="py-16 bg-gradient-to-br from-[#3D3228] to-[#2A2218] relative overflow-hidden">
         <div className="absolute inset-0 opacity-5"
