@@ -99,7 +99,7 @@ function Home() {
 
             <div className="space-y-6 md:space-y-8">
               <div className="space-y-4">
-                <h1 className="text-2xl md:text-4xl lg:text-5xl font-serif text-black leading-snug px-4">
+                <h1 className="text-2xl md:text-4xl lg:text-5xl font-playfair text-black leading-snug px-4">
                   Seeing Possibility Where Others See Limits
                 </h1>
 
