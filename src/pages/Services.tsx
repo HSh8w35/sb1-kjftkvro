@@ -1,5 +1,4 @@
 import ContactForm from '../components/ContactForm';
-import { Mail } from 'lucide-react';
 import SEO from '../components/SEO';
 import { useSEOData } from '../hooks/useSEOData';
 
@@ -66,15 +65,15 @@ function Services() {
               </div>
             </div>
 
-<div id="contact" className="max-w-3xl mx-auto text-center">
-              <p className="text-lg text-[#5C4A32] mb-4">Direct outreach is always welcome.</p>
+<div id="contact" className="max-w-3xl mx-auto">
+              <p className="text-xs uppercase tracking-widest text-[#B87333] mb-2 font-medium">Contact</p>
               <a
                 href="mailto:heidi@heidistonehospitality.com"
-                className="inline-flex items-center gap-2 text-xl font-medium text-[#1F2A44] hover:text-[#B87333] transition-colors"
+                className="inline-block text-base font-medium text-[#1F2A44] hover:text-[#B87333] transition-colors mb-1"
               >
-                <Mail className="w-5 h-5 text-[#B87333]" />
                 heidi@heidistonehospitality.com
               </a>
+              <p className="text-sm text-[#5C4A32]/80">Direct outreach is always welcome.</p>
             </div>
 
             <ContactForm />
