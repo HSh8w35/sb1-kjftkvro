@@ -37,7 +37,7 @@ function Services() {
 
         <div className="max-w-5xl mx-auto">
           <div className="space-y-6">
-            <div className="bg-white p-8 rounded-xl border border-[#B87333]/20 shadow-md">
+            <div className="bg-[#F5EDE0]/60 backdrop-blur-sm p-8 rounded-xl border border-[#B87333]/20 shadow-md">
               <div className="flex flex-col md:flex-row gap-6 items-center">
                 <div className="flex-[3] space-y-4">
                   <p className="text-lg text-[#2E2A26] leading-relaxed">
