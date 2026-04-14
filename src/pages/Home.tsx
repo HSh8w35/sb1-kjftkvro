@@ -87,7 +87,7 @@ function Home() {
           ))}
         </div>
         <div className="absolute inset-0 bg-gradient-to-b from-[#F6F1E8]/50 via-transparent to-[#F6F1E8]/70" />
-        <div className="absolute top-0 left-0 w-full flex justify-center pt-6 md:pt-8 z-10">
+        <div className="absolute top-0 left-0 w-full flex justify-center pt-14 md:pt-16 z-10">
           <img
             src="/Translucent_Logo_on_home_page.webp"
             alt="Heidi Stone Hospitality"
