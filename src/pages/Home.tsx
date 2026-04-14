@@ -119,7 +119,7 @@ function Home() {
             A focused, one-week, on-site engagement designed to identify the revenue, positioning, and operational opportunities that already exist within a property—but are not yet fully realized.
           </p>
 
-          <div className="mt-16 grid md:grid-cols-2 gap-12 text-left">
+          <div className="mt-16 flex flex-col gap-10 text-left max-w-xl mx-auto">
             <div>
               <p className="text-[#8B6F47] text-sm tracking-[0.3em] uppercase font-bold mb-6">When Owners Call Me</p>
               <ul className="space-y-4">
