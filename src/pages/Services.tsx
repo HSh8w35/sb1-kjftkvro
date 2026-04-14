@@ -65,15 +65,16 @@ function Services() {
               </div>
             </div>
 
-<div id="contact" className="max-w-3xl mx-auto">
-              <p className="text-xs uppercase tracking-widest text-[#B87333] mb-2 font-medium">Contact</p>
+<div id="contact" className="text-center py-6">
+              <p className="text-sm uppercase tracking-widest text-[#B87333] mb-4 font-medium">Contact</p>
               <a
                 href="mailto:heidi@heidistonehospitality.com"
-                className="inline-block text-base font-medium text-[#1F2A44] hover:text-[#B87333] transition-colors mb-1"
+                className="inline-block text-2xl md:text-3xl font-medium text-[#1F2A44] hover:text-[#B87333] transition-colors mb-3"
+                style={{ fontFamily: "'Cormorant Garamond', serif" }}
               >
                 heidi@heidistonehospitality.com
               </a>
-              <p className="text-sm text-[#5C4A32]/80">Direct outreach is always welcome.</p>
+              <p className="text-base text-[#5C4A32]/80">Direct outreach is always welcome.</p>
             </div>
 
             <ContactForm />
