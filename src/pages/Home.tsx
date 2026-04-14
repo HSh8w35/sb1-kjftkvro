@@ -94,7 +94,7 @@ function Home() {
             className="h-[7.19rem] md:h-[7.19rem] lg:h-[10.06rem] w-auto p-4"
           />
         </div>
-        <div className="max-w-7xl mx-auto relative z-10 w-full h-full flex flex-col justify-center py-12 md:py-20">
+        <div className="max-w-7xl mx-auto relative z-10 w-full h-full flex flex-col justify-center py-12 md:py-20 mt-8">
           <div className="max-w-4xl mx-auto text-center px-4">
             <div className="space-y-6 md:space-y-8">
               <div className="space-y-4">
