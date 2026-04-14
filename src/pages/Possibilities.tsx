@@ -90,6 +90,12 @@ function Possibilities() {
 
           <div className="space-y-12">
             <section className="bg-white/80 backdrop-blur-sm rounded-2xl p-8 md:p-12 shadow-xl border border-[#8B6F47]/20 hover:shadow-2xl transition-shadow duration-300">
+              <h2 className="text-3xl md:text-4xl font-bold text-[#2E2A26] mb-6 text-center">
+                A Closer Look
+              </h2>
+              <div className="flex justify-center mb-8">
+                <div className="h-1 w-24 bg-gradient-to-r from-transparent via-[#8B6F47] to-transparent" />
+              </div>
               <div className="space-y-4 text-lg text-[#2E2A26] leading-relaxed">
                 <p>
                   Independent and historic hotels are rarely ordinary assets. They carry history, identity, and meaning that extend far beyond the balance sheet. Many have been shaped by decades of stewardship, evolving through changing markets, leadership transitions, and shifting guest expectations.
