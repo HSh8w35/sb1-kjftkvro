@@ -133,7 +133,7 @@ function Home() {
               <ul className="space-y-6">
                 {[
                   'When performance has plateaued',
-                  'Following reinvestment without expected returns',
+                  'As reinvestment is being considered,',
                   'During leadership or organizational transition',
                 ].map((item, i) => (
                   <li key={i} className="flex items-start gap-4">
