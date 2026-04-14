@@ -119,34 +119,34 @@ function Home() {
             A focused, one-week, on-site engagement designed to identify the revenue, positioning, and operational opportunities that already exist within a property—but are not yet fully realized.
           </p>
 
-          <div className="mt-16 flex flex-col gap-10 text-left max-w-xl mx-auto">
+          <div className="mt-16 flex flex-col gap-10 text-center max-w-xl mx-auto">
             <div>
-              <p className="text-[#8B6F47] text-sm tracking-[0.3em] uppercase font-bold mb-6">When Owners Call Me</p>
+              <p className="text-[#8B6F47] text-base tracking-[0.3em] uppercase font-bold mb-6">When Owners Call Me</p>
               <ul className="space-y-4">
                 {[
                   'When performance has plateaued',
                   'As reinvestment is being considered',
                   'During leadership or organizational transition',
                 ].map((item, i) => (
-                  <li key={i} className="flex items-start gap-3">
-                    <span className="flex-shrink-0 mt-[6px] w-1.5 h-1.5 rounded-full bg-[#8B6F47]" />
-                    <span className="text-[#2E2A26]/85 text-lg leading-relaxed">{item}</span>
+                  <li key={i} className="flex items-start justify-center gap-3">
+                    <span className="flex-shrink-0 mt-[10px] w-1.5 h-1.5 rounded-full bg-[#8B6F47]" />
+                    <span className="text-[#2E2A26]/85 text-xl leading-relaxed">{item}</span>
                   </li>
                 ))}
               </ul>
             </div>
 
             <div>
-              <p className="text-[#8B6F47] text-sm tracking-[0.3em] uppercase font-bold mb-6">What You Receive</p>
+              <p className="text-[#8B6F47] text-base tracking-[0.3em] uppercase font-bold mb-6">What You Receive</p>
               <ul className="space-y-4">
                 {[
                   'A clear, prioritized assessment',
                   'Immediate and strategic opportunities',
                   'A defined path forward',
                 ].map((item, i) => (
-                  <li key={i} className="flex items-start gap-3">
-                    <span className="flex-shrink-0 mt-[6px] w-1.5 h-1.5 rounded-full bg-[#8B6F47]" />
-                    <span className="text-[#2E2A26]/85 text-lg leading-relaxed">{item}</span>
+                  <li key={i} className="flex items-start justify-center gap-3">
+                    <span className="flex-shrink-0 mt-[10px] w-1.5 h-1.5 rounded-full bg-[#8B6F47]" />
+                    <span className="text-[#2E2A26]/85 text-xl leading-relaxed">{item}</span>
                   </li>
                 ))}
               </ul>
