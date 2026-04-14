@@ -154,18 +154,18 @@ function Home() {
           </div>
 
           <div className="mt-16 pt-10 border-t border-[#8B6F47]/20">
-            <p className="text-[#8B6F47] text-xs tracking-[0.3em] uppercase font-medium mb-5">Next Step</p>
+            <p className="text-[#8B6F47] text-xs tracking-[0.3em] uppercase font-bold mb-5">Next Step</p>
             <Link
               to="/possibilities"
               onClick={() => window.scrollTo(0, 0)}
-              className="group inline-flex items-center gap-2 text-[#2E2A26] text-lg font-medium hover:text-[#8B6F47] transition-colors duration-300"
+              className="group inline-flex items-center gap-2 text-[#2E2A26] text-lg font-bold hover:text-[#8B6F47] transition-colors duration-300"
             >
-              Learn more
+              Learn More
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
               </svg>
             </Link>
-            <p className="mt-8 text-[#2E2A26]/60 text-base italic">
+            <p className="mt-8 text-[#2E2A26]/60 text-base italic font-bold">
               If you are navigating one of these moments, we can begin with a conversation.
             </p>
           </div>
