@@ -122,7 +122,7 @@ function Home() {
             </div>
 
             <p className="text-xl md:text-2xl text-[#2E2A26]/80 leading-relaxed max-w-3xl mx-auto font-light">
-              The signature offering of Heidi Stone Hospitality, focused on uncovering the opportunities already present within a property—and what it is truly capable of becoming.
+              The signature offering of Heidi Stone Hospitality, focused on uncovering the opportunities already present within a property—and what it is truly capable of<br />becoming.
             </p>
           </div>
         </div>
