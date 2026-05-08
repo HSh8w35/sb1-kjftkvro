@@ -89,6 +89,13 @@ function Home() {
         <div className="absolute inset-0 bg-gradient-to-b from-[#F6F1E8]/50 via-transparent to-[#F6F1E8]/70" />
         <div className="max-w-7xl mx-auto relative z-10 w-full py-20">
           <div className="max-w-4xl mx-auto text-center">
+            <div className="flex justify-center mb-8">
+              <img
+                src="/Translucent_Logo_Dec_23,_2025,_08_38_22_AM.png"
+                alt="Heidi Stone Hospitality LLC"
+                className="h-40 md:h-52 w-auto drop-shadow-[0_4px_24px_rgba(0,0,0,0.3)]"
+              />
+            </div>
             <div className="mb-12">
               <p className="text-5xl md:text-6xl lg:text-7xl font-semibold text-[#2E2A26] mb-6 leading-tight">
                 Transforming Independent Hotels & Resorts
