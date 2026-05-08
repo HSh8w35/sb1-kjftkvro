@@ -108,6 +108,83 @@ function Home() {
         </div>
       </section>
 
+      {/* Possibilities Section */}
+      <section className="py-24 bg-[#2E2A26] relative overflow-hidden">
+        <div className="absolute inset-0 opacity-5"
+          style={{
+            backgroundImage: `url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23D4C5A9' fill-opacity='1'%3E%3Cpath d='M50 50c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10s-10-4.477-10-10 4.477-10 10-10zM10 10c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10S0 25.523 0 20s4.477-10 10-10z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
+            backgroundSize: '80px 80px'
+          }}
+        />
+        <div className="max-w-6xl mx-auto px-6 lg:px-8 relative z-10">
+
+          {/* Header */}
+          <div className="text-center mb-16">
+            <p className="text-xs uppercase tracking-[0.3em] text-[#8B6F47] font-semibold mb-4">The Signature Offering</p>
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">
+              Possibilities
+            </h2>
+            <div className="flex justify-center mb-8">
+              <div className="h-px w-32 bg-gradient-to-r from-transparent via-[#8B6F47] to-transparent" />
+            </div>
+            <p className="text-xl md:text-2xl text-[#D4C5A9] font-light leading-relaxed max-w-3xl mx-auto">
+              Every independent hotel contains opportunities that have not yet been named, resources that have not been fully activated, and a future that has not yet been clearly seen.
+            </p>
+          </div>
+
+          {/* Three columns */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-px bg-white/10 rounded-2xl overflow-hidden mb-16">
+            <div className="bg-[#2E2A26] p-10 flex flex-col gap-4 hover:bg-[#3A342E] transition-colors duration-300">
+              <div className="w-10 h-px bg-[#8B6F47]" />
+              <h3 className="text-xl font-bold text-white">What Is Already Present</h3>
+              <p className="text-[#D4C5A9] text-base leading-relaxed font-light">
+                Most independent hotels are sitting on unrealized value. The Possibility Assessment surfaces what is already there—in the physical asset, the team, the market position, and the guest relationship—but has not yet been leveraged.
+              </p>
+            </div>
+            <div className="bg-[#3A342E] p-10 flex flex-col gap-4 hover:bg-[#46403A] transition-colors duration-300">
+              <div className="w-10 h-px bg-[#8B6F47]" />
+              <h3 className="text-xl font-bold text-white">What Is Becoming Possible</h3>
+              <p className="text-[#D4C5A9] text-base leading-relaxed font-light">
+                The hospitality landscape is shifting. New traveler expectations, evolving ownership structures, and emerging revenue models are creating openings for independent hotels willing to lead rather than follow.
+              </p>
+            </div>
+            <div className="bg-[#2E2A26] p-10 flex flex-col gap-4 hover:bg-[#3A342E] transition-colors duration-300">
+              <div className="w-10 h-px bg-[#8B6F47]" />
+              <h3 className="text-xl font-bold text-white">What Can Be Deliberately Built</h3>
+              <p className="text-[#D4C5A9] text-base leading-relaxed font-light">
+                Independence is not a default—it is a discipline. We work with ownership and leadership to construct the conditions for long-term strength: strategic clarity, financial fortitude, and a brand identity that cannot be replicated.
+              </p>
+            </div>
+          </div>
+
+          {/* Central statement */}
+          <div className="max-w-4xl mx-auto text-center">
+            <div className="border border-[#8B6F47]/30 rounded-2xl p-10 md:p-14 relative">
+              <div className="absolute -top-px left-1/2 -translate-x-1/2 w-24 h-px bg-[#8B6F47]" />
+              <p className="text-2xl md:text-3xl text-[#D4C5A9] font-light italic leading-relaxed mb-8">
+                "The question is never whether potential exists. The question is whether anyone has taken the time to find it."
+              </p>
+              <div className="flex items-center justify-center gap-4">
+                <div className="h-px w-12 bg-[#8B6F47]/50" />
+                <p className="text-[#8B6F47] text-sm font-semibold tracking-wide uppercase">Heidi Stone</p>
+                <div className="h-px w-12 bg-[#8B6F47]/50" />
+              </div>
+              <div className="mt-8">
+                <Link
+                  to="/services"
+                  onClick={() => window.scrollTo(0, 0)}
+                  className="inline-flex items-center gap-2 bg-[#8B6F47] hover:bg-[#6F5838] text-white text-sm font-semibold tracking-wide uppercase px-8 py-4 rounded-full transition-all duration-300 hover:shadow-lg hover:shadow-[#8B6F47]/30"
+                >
+                  Explore The Possibility Assessment
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
+                </Link>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
       <section className="py-12 bg-gradient-to-br from-[#F6F1E8] to-[#E8DCC8] relative overflow-hidden">
         <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0zNiAxOGMzLjMxNCAwIDYgMi42ODYgNiA2cy0yLjY4NiA2LTYgNi02LTIuNjg2LTYtNiAyLjY4Ni02IDYtNnoiIHN0cm9rZT0iIzhCNkY0NyIgc3Ryb2tlLW9wYWNpdHk9Ii4wNSIvPjwvZz48L3N2Zz4=')] opacity-40" />
 
