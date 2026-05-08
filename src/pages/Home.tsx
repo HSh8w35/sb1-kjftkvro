@@ -100,7 +100,7 @@ function Home() {
               <p className="text-5xl md:text-6xl lg:text-7xl font-semibold text-[#2E2A26] mb-6 leading-tight">
                 Seeing Possibility Where Others See Limits
               </p>
-              <p className="text-xl md:text-2xl text-[#2E2A26]/75 font-light leading-relaxed max-w-3xl mx-auto">
+              <p className="text-xl md:text-2xl text-[#2E2A26] font-light leading-relaxed max-w-3xl mx-auto">
                 Independent guidance and stewardship for privately held, historic, and destination hotels navigating complexity, reinvestment, and long-term performance.
               </p>
             </div>
