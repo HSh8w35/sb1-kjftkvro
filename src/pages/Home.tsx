@@ -101,7 +101,7 @@ function Home() {
                 Seeing Possibility Where Others See Limits
               </p>
               <p className="text-xl md:text-2xl text-[#2E2A26] font-light leading-relaxed max-w-3xl mx-auto">
-                Independent guidance and stewardship for privately held, historic, and destination hotels navigating complexity, reinvestment, and long-term performance.
+                Heidi Stone Hospitality works with owners, boards, and leadership teams at critical moments—when performance has plateaued, as reinvestment is being considered, or when the path forward is no longer clear.
               </p>
             </div>
           </div>
