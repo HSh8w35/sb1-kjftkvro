@@ -128,33 +128,6 @@ function Home() {
         </div>
       </section>
 
-      <section className="py-20 bg-gradient-to-br from-[#8B6F47] via-[#A08558] to-[#8B6F47] relative overflow-hidden">
-        <div className="max-w-5xl mx-auto px-6 lg:px-8 relative z-10">
-          <div className="relative p-12 md:p-16">
-            <div className="absolute top-0 left-0 w-16 h-16 border-t-4 border-l-4 border-white/90" />
-            <div className="absolute top-0 right-0 w-16 h-16 border-t-4 border-r-4 border-white/90" />
-            <div className="absolute bottom-0 left-0 w-16 h-16 border-b-4 border-l-4 border-white/90" />
-            <div className="absolute bottom-0 right-0 w-16 h-16 border-b-4 border-r-4 border-white/90" />
-
-            <div className="relative">
-              <h2 className="text-3xl md:text-4xl font-bold text-white mb-8 text-center">
-                Why This Work Matters Now
-              </h2>
-              <div className="flex justify-center mb-8">
-                <div className="h-px w-24 bg-white/60" />
-              </div>
-              <div className="space-y-6 text-lg md:text-xl text-white/95 leading-relaxed">
-                <p>
-                  Independent hotels are operating in an environment defined by economic pressure, labor volatility, and renewed brand consolidation. Many are being told—explicitly or implicitly—that independence is untenable without corporate flags, algorithms, or fee structures that quietly erode both margin and identity.
-                </p>
-                <p className="font-semibold text-white text-xl md:text-2xl pt-4">
-                  Our work exists in direct response: to ensure independent hotels remain truly independent—financially fortified, strategically assured, and sovereign in their direction.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       <section className="py-20 bg-[#F6F1E8] relative overflow-hidden">
         <div className="absolute top-20 right-0 w-64 h-64 bg-[#8B6F47]/5 rounded-full blur-3xl" />
