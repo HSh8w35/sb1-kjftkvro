@@ -91,14 +91,9 @@ function Home() {
           <div className="max-w-4xl mx-auto text-center">
             <div className="flex flex-col items-center mb-10">
               <img
-                src="/Transl_Key_only.webp"
-                alt="Heidi Stone Hospitality"
-                className="h-28 md:h-36 w-auto mb-6 drop-shadow-[0_4px_24px_rgba(184,115,51,0.35)]"
-              />
-              <img
                 src="/Translucent_Logo_on_home_page.webp"
                 alt="Heidi Stone Hospitality"
-                className="h-[7rem] md:h-[10rem] w-auto"
+                className="h-[9.2rem] md:h-[13.8rem] w-auto p-6"
               />
             </div>
             <div className="mb-12">
