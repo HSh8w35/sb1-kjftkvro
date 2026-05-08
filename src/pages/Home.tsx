@@ -108,7 +108,7 @@ function Home() {
         </div>
       </section>
 
-      <section className="py-24 bg-gradient-to-br from-[#F6F1E8] to-[#E8DCC8] relative overflow-hidden">
+      <section className="py-12 bg-gradient-to-br from-[#F6F1E8] to-[#E8DCC8] relative overflow-hidden">
         <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0zNiAxOGMzLjMxNCAwIDYgMi42ODYgNiA2cy0yLjY4NiA2LTYgNi02LTIuNjg2LTYtNiAyLjY4Ni02IDYtNnoiIHN0cm9rZT0iIzhCNkY0NyIgc3Ryb2tlLW9wYWNpdHk9Ii4wNSIvPjwvZz48L3N2Zz4=')] opacity-40" />
 
         <div className="max-w-4xl mx-auto px-6 lg:px-8 relative z-10">
