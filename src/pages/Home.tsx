@@ -114,7 +114,7 @@ function Home() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8 relative z-10">
           <div className="text-center space-y-10">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#2E2A26] leading-tight">
-              Independence should never feel like isolation.
+              The Possibility Assessment
             </h2>
 
             <div className="flex justify-center">
@@ -122,14 +122,8 @@ function Home() {
             </div>
 
             <p className="text-xl md:text-2xl text-[#2E2A26]/80 leading-relaxed max-w-3xl mx-auto font-light">
-              With the right support, clarity, and leadership, an independent hotel operates with confidence—where innovation is intentional, the guest experience is cohesive, and every department moves with shared purpose and disciplined execution.
+              The signature offering of Heidi Stone Hospitality, focused on uncovering the opportunities already present within a property—and what it is truly capable of becoming.
             </p>
-
-            <div className="pt-6">
-              <p className="text-lg md:text-xl text-[#8B6F47] font-semibold italic">
-                This belief shapes how we work.
-              </p>
-            </div>
           </div>
         </div>
       </section>
