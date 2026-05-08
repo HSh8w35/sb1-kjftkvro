@@ -98,7 +98,7 @@ function Testimonials() {
               Join the independent hotel and resort executives who have elevated their leadership and their properties through strategic partnership.
             </p>
             <a
-              href="/lets-talk#contact"
+              href="/lets-talk"
               className="inline-block bg-[#B87333] text-white px-10 py-4 rounded-lg hover:bg-[#8B6F47] transition-all shadow-xl font-semibold text-lg"
             >
               Let's Talk

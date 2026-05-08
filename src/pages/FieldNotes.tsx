@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
 import { supabase } from '../lib/supabase';
-import { Calendar, Clock, ArrowRight, Quote, Anchor } from 'lucide-react';
+import { Calendar, Clock, ArrowRight, Quote } from 'lucide-react';
 import SEO from '../components/SEO';
 
 interface FieldNote {
@@ -13,7 +12,6 @@ interface FieldNote {
   category: string;
   read_time: number;
   published_at: string;
-  is_flagship: boolean;
 }
 
 interface Testimonial {
@@ -25,8 +23,6 @@ interface Testimonial {
 }
 
 function FieldNotes() {
-  const { slug } = useParams<{ slug?: string }>();
-  const navigate = useNavigate();
   const [posts, setPosts] = useState<FieldNote[]>([]);
   const [selectedPost, setSelectedPost] = useState<FieldNote | null>(null);
   const [testimonial, setTestimonial] = useState<Testimonial | null>(null);
@@ -36,15 +32,6 @@ function FieldNotes() {
     fetchPosts();
     fetchTestimonial();
   }, []);
-
-  useEffect(() => {
-    if (slug && posts.length > 0) {
-      const post = posts.find(p => p.slug === slug);
-      if (post) {
-        setSelectedPost(post);
-      }
-    }
-  }, [slug, posts]);
 
   useEffect(() => {
     if (selectedPost) {
@@ -118,10 +105,7 @@ function FieldNotes() {
         <div className="absolute bottom-40 right-0 w-[500px] h-[500px] bg-[#6F5838]/5 rounded-full blur-3xl" />
         <div className="max-w-7xl mx-auto relative z-10">
           <button
-            onClick={() => {
-              setSelectedPost(null);
-              navigate('/field-notes');
-            }}
+            onClick={() => setSelectedPost(null)}
             className="mb-8 flex items-center text-[#8B6F47] hover:text-[#6F5838] transition-colors font-medium"
           >
             <ArrowRight className="w-5 h-5 mr-2 rotate-180" />
@@ -175,34 +159,6 @@ function FieldNotes() {
                             </li>
                           ))}
                         </ul>
-                      );
-                    }
-
-                    // Check for diamond separator
-                    if (trimmedParagraph === '◆ ◆ ◆') {
-                      return (
-                        <div key={index} className="text-center my-12">
-                          <span className="text-[#8B6F47] text-2xl tracking-widest">
-                            {trimmedParagraph}
-                          </span>
-                        </div>
-                      );
-                    }
-
-                    // Check for specific gold-colored sentences
-                    const goldSentences = [
-                      'The Quiet Reality Inside the Portfolio',
-                      'The Soft Brand Assumption',
-                      'Where the Model Begins to Strain',
-                      'What Often Goes Unseen',
-                      'A Final Thought'
-                    ];
-
-                    if (goldSentences.includes(trimmedParagraph)) {
-                      return (
-                        <p key={index} className="text-xl text-[#8B6F47] leading-relaxed mb-6 font-semibold">
-                          {trimmedParagraph}
-                        </p>
                       );
                     }
 
@@ -299,82 +255,12 @@ function FieldNotes() {
           </div>
         ) : (
           <>
-            {(() => {
-              const flagship = posts.find(p => p.is_flagship);
-              if (!flagship) return null;
-              return (
-                <div className="max-w-4xl mx-auto mb-10">
-                  <div className="flex items-center gap-3 mb-4">
-                    <Anchor className="w-5 h-5 text-[#8B6F47]" />
-                    <span className="text-[#8B6F47] text-xs font-bold tracking-widest uppercase">Flagship Perspective</span>
-                    <div className="flex-1 h-px bg-[#8B6F47]/30" />
-                  </div>
-                  <article
-                    className="relative bg-gradient-to-br from-[#2E2A26] to-[#3D3329] rounded-2xl overflow-hidden cursor-pointer group shadow-2xl border border-[#8B6F47]/40 hover:border-[#8B6F47]/70 transition-all hover:shadow-[0_20px_60px_rgba(139,111,71,0.25)]"
-                    onClick={() => {
-                      setSelectedPost(flagship);
-                      navigate(`/field-notes/${flagship.slug}`);
-                    }}
-                  >
-                    <div className="absolute inset-0 opacity-[0.04]"
-                      style={{
-                        backgroundImage: `url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23C9A96E' fill-opacity='1' fill-rule='evenodd'%3E%3Cpath d='M0 40L40 0H20L0 20M40 40V20L20 40'/%3E%3C/g%3E%3C/svg%3E")`,
-                        backgroundSize: '40px 40px'
-                      }}
-                    />
-                    <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[#C9A96E]/60 to-transparent" />
-                    <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[#8B6F47]/40 to-transparent" />
-                    <div className="relative p-8 lg:p-12">
-                      <div className="flex items-start justify-between gap-6 mb-6">
-                        <span className="bg-[#C9A96E]/20 border border-[#C9A96E]/40 text-[#C9A96E] px-4 py-1 rounded-full text-xs font-semibold tracking-wider uppercase">
-                          {flagship.category}
-                        </span>
-                        <div className="flex items-center gap-4 text-[#C9A96E]/60 text-sm shrink-0">
-                          <div className="flex items-center gap-1.5">
-                            <Calendar className="w-3.5 h-3.5" />
-                            <span>{formatDate(flagship.published_at)}</span>
-                          </div>
-                          <div className="flex items-center gap-1.5">
-                            <Clock className="w-3.5 h-3.5" />
-                            <span>{flagship.read_time} min</span>
-                          </div>
-                        </div>
-                      </div>
-
-                      <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#E8DCC8] mb-5 leading-tight group-hover:text-white transition-colors">
-                        {flagship.title}
-                      </h2>
-
-                      <p className="text-lg text-[#C9A96E]/80 leading-relaxed mb-8 max-w-3xl">
-                        {flagship.excerpt}
-                      </p>
-
-                      <div className="flex items-center gap-3 text-[#C9A96E] font-semibold group-hover:gap-5 transition-all">
-                        <span>Read the Full Perspective</span>
-                        <ArrowRight className="w-5 h-5" />
-                      </div>
-                    </div>
-                  </article>
-                </div>
-              );
-            })()}
-
-            {posts.filter(p => !p.is_flagship).length > 0 && (
-              <div className="max-w-4xl mx-auto mb-6 flex items-center gap-3">
-                <span className="text-[#8B6F47] text-xs font-bold tracking-widest uppercase">All Field Notes</span>
-                <div className="flex-1 h-px bg-[#8B6F47]/30" />
-              </div>
-            )}
-
             <div className="max-w-4xl mx-auto space-y-6">
-              {posts.filter(p => !p.is_flagship).map((post) => (
+              {posts.map((post) => (
                 <article
                   key={post.id}
                   className="bg-white/95 backdrop-blur-sm p-8 rounded-xl border border-[#8B6F47]/30 hover:shadow-2xl hover:border-[#8B6F47]/50 transition-all cursor-pointer hover:scale-[1.02]"
-                  onClick={() => {
-                    setSelectedPost(post);
-                    navigate(`/field-notes/${post.slug}`);
-                  }}
+                  onClick={() => setSelectedPost(post)}
                 >
                   <div className="mb-4">
                     <span className={`${getCategoryColor(post.category)} text-white px-4 py-1 rounded-full text-sm font-medium`}>

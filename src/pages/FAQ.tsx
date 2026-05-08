@@ -42,38 +42,6 @@ function FAQ() {
 
   const faqs: FAQItem[] = [
     {
-      question: "What types of hotels benefit most from a Possibility Assessment?",
-      answer: "The assessment is particularly valuable for:\n\n• Independent and privately held hotels\n• Historic and legacy properties\n• Destination resorts with strong regional identity\n• Properties facing leadership, investment, or strategic transitions\n\nOwners often engage the assessment when considering repositioning, capital investment, or long-term governance decisions."
-    },
-    {
-      question: "If we currently have a management company, can we still engage a Possibility Assessment?",
-      answer: "Yes. Many owners engage a Possibility Assessment while working with an existing management company.\n\nThe assessment is independent and designed to provide ownership with a clear, objective evaluation of the property's positioning, leadership alignment, guest experience, and long-term opportunity.\n\nThe goal is not to replace management, but to ensure ownership has the perspective needed to make informed decisions about the property's future."
-    },
-    {
-      question: "How long does the Possibility Assessment process typically take?",
-      answer: "While each engagement is tailored to the property, most assessments are completed over several weeks and include both analytical review and on-property immersion.\n\nThe process concludes with a strategic briefing for ownership outlining key observations and recommended next steps."
-    },
-    {
-      question: "Will the Possibility Assessment disrupt our current leadership team?",
-      answer: "No. The Possibility Assessment is designed to provide clarity for ownership, not to disrupt day-to-day operations.\n\nThe process is conducted thoughtfully and respectfully, with the goal of understanding the property holistically while maintaining the stability of the existing team."
-    },
-    {
-      question: "Is the Possibility Assessment confidential?",
-      answer: "Absolutely. All engagements are conducted with complete discretion and confidentiality.\n\nThe assessment is designed to provide ownership with an independent perspective, and findings are shared directly with the ownership group or board."
-    },
-    {
-      question: "Will the Possibility Assessment create tension with our leadership team or management company?",
-      answer: "No. The Possibility Assessment is designed to support ownership by providing an independent perspective on the property's positioning, leadership alignment, and long-term opportunity.\n\nThe process is conducted thoughtfully and respectfully, with the goal of understanding the property holistically rather than disrupting day-to-day operations. In many cases, leadership teams find the process helpful in clarifying priorities and reinforcing alignment."
-    },
-    {
-      question: "How is the Possibility Assessment different from a traditional consulting study or brand evaluation?",
-      answer: "Traditional consulting studies often focus on a single dimension—market data, operations, or brand affiliation.\n\nThe Possibility Assessment takes a broader view of the property as an asset and institution. It evaluates leadership alignment, identity, guest experience, market positioning, and long-term stewardship alongside operational performance.\n\nThe goal is not simply to produce a report, but to help ownership understand the true opportunity and strategic direction of the property. We see opportunities where others see limitations."
-    },
-    {
-      question: "Is the Possibility Assessment only for hotels experiencing challenges?",
-      answer: "Not at all. Many of the strongest independent hotels engage a Possibility Assessment during periods of stability or growth.\n\nOwners often seek the assessment when considering long-term investments, leadership transitions, or opportunities to strengthen the property's identity and market position.\n\nThe process is designed to provide clarity at pivotal moments—not only during times of difficulty."
-    },
-    {
       question: "Who do you work with?",
       answer: "I work with owners, boards, and senior leaders of independent hotels and resorts who understand that sustained performance is a leadership responsibility. My clients are decision-makers with the authority—and the commitment—to act."
     },
@@ -86,12 +54,8 @@ function FAQ() {
       answer: "Yes. While most of my work is in North America, geography is secondary to alignment. Independence, leadership complexity, and stewardship challenges are universal."
     },
     {
-      question: "How would you describe the work you do?",
-      answer: "I work with owners and boards of independent, historic, and destination hotels during moments that require clarity and experienced judgment.\n\nMany engagements begin with a Possibility Assessment, a structured evaluation designed to help ownership understand the true potential of the property before significant decisions are made.\n\nFrom there, I often serve as a strategic leadership partner to ownership and executive teams—providing independent perspective, leadership alignment, and guidance through complex operational or investment decisions.\n\nThis work is not traditional project-based consulting. It is senior-level partnership focused on protecting the long-term strength and identity of the asset."
-    },
-    {
-      question: "Do you advise on new hotel development?",
-      answer: "Yes—occasionally.\n\nWhile much of Heidi Stone Hospitality's work focuses on advising existing independent and historic hotels, Heidi is also sometimes asked to provide perspective during the early stages of new hospitality development.\n\nCommunities, planning teams, and investors exploring hotel projects in destination markets often benefit from an operational perspective early in the process. Heidi's experience leading a destination resort property for more than a decade allows her to help evaluate whether proposed concepts align with market realities, operational requirements, and the long-term character of the destination.\n\nThese engagements typically involve strategic guidance on positioning, scale, and operational considerations rather than traditional feasibility studies or development consulting.\n\nIn many cases, this early perspective helps ensure that the hotels being envisioned are not only attractive developments, but sustainable hospitality businesses."
+      question: "How would you describe what you do?",
+      answer: "I serve as a strategic leadership partner to owners and executive teams—often in an advisory or fractional capacity—during moments that require judgment, clarity, and alignment.\n\nThis is not project-based consulting. It is senior partnership."
     },
     {
       question: "How are engagements structured?",
@@ -107,7 +71,7 @@ function FAQ() {
     },
     {
       question: "What makes your work different from other hospitality consultants?",
-      answer: "My perspective is shaped by decades of leadership within independent hospitality—not from advising the industry from the outside.\n\nHaving led a historic destination resort through complex operational, financial, and strategic decisions, I understand the realities owners and leadership teams face when stewarding a hotel asset.\n\nMany engagements begin with a Possibility Assessment, providing ownership with an independent evaluation of the property's true potential. From there, my work often continues as a strategic partner to ownership and executive teams—offering experienced judgment and steady perspective during pivotal decisions.\n\nThis work is less about consulting deliverables and more about helping leadership protect the long-term strength and identity of the asset."
+      answer: "I do not lead with frameworks, playbooks, or deliverables. I bring experienced judgment earned through decades of leadership in independent hospitality and work alongside owners and executives as a trusted partner."
     },
     {
       question: "How long do engagements typically last?",

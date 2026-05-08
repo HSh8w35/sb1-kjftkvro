@@ -33,23 +33,6 @@ function Layout() {
               </div>
               <div className="relative flex flex-col items-center">
                 <Link
-                  to="/possibilities"
-                  className={`transition-colors font-medium ${
-                    isActive('/possibilities') ? 'text-[#8B6F47]' : 'text-[#2E2A26] hover:text-[#1F2A44]'
-                  }`}
-                >
-                  Possibilities
-                </Link>
-                {isActive('/possibilities') && (
-                  <img
-                    src="/Transl_Key_only.webp"
-                    alt=""
-                    className="h-9 w-auto opacity-80 mt-1"
-                  />
-                )}
-              </div>
-              <div className="relative flex flex-col items-center">
-                <Link
                   to="/our-approach"
                   className={`transition-colors font-medium ${
                     isActive('/our-approach') ? 'text-[#8B6F47]' : 'text-[#2E2A26] hover:text-[#1F2A44]'
@@ -143,7 +126,7 @@ function Layout() {
               </div>
             </div>
             <Link
-              to="/lets-talk#contact"
+              to="/lets-talk"
               className="bg-[#8B6F47] text-white px-6 py-2.5 rounded-lg hover:bg-[#6F5838] transition-all shadow-md hover:shadow-lg"
             >
               Let's Talk
@@ -172,11 +155,6 @@ function Layout() {
                 <li>
                   <Link to="/" className="hover:text-[#8B6F47] transition-colors">
                     Welcome
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/possibilities" className="hover:text-[#8B6F47] transition-colors">
-                    Possibilities
                   </Link>
                 </li>
                 <li>
@@ -223,7 +201,7 @@ function Layout() {
                   </a>
                 </li>
                 <li>
-                  <Link to="/lets-talk#contact" className="hover:text-[#8B6F47] transition-colors">
+                  <Link to="/lets-talk" className="hover:text-[#8B6F47] transition-colors">
                     Let's Talk
                   </Link>
                 </li>
