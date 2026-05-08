@@ -15,6 +15,7 @@ import FAQ from './pages/FAQ';
 import Speaking from './pages/Speaking';
 import Login from './pages/Login';
 import AdminDashboard from './pages/AdminDashboard';
+import Possibilities from './pages/Possibilities';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route element={<Layout />}>
             <Route path="/" element={<Home />} />
+            <Route path="/possibilities" element={<Possibilities />} />
             <Route path="/our-approach" element={<OurApproach />} />
             <Route path="/about" element={<About />} />
             <Route path="/story" element={<Story />} />
