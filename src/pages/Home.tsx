@@ -100,7 +100,7 @@ function Home() {
               <p className="text-5xl md:text-6xl lg:text-7xl font-semibold text-[#2E2A26] mb-6 leading-tight">
                 Seeing Possibility Where Others See Limits
               </p>
-              <p className="text-xl md:text-2xl text-[#2E2A26] font-light leading-relaxed max-w-3xl mx-auto">
+              <p className="text-xl md:text-2xl text-black font-light leading-relaxed max-w-3xl mx-auto">
                 Heidi Stone Hospitality works with owners, boards, and leadership teams at critical moments—when performance has plateaued, as reinvestment is being considered, or when the path forward is no longer clear.
               </p>
             </div>
