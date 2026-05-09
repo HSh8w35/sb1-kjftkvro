@@ -144,32 +144,11 @@ function ContactForm() {
   };
 
   return (
-    <div className="bg-white p-10 rounded-xl border-2 border-[#1F2A44] shadow-lg">
-      <div className="mb-8 pb-8 border-b-2 border-[#B87333]/20">
-        <h2 className="text-2xl font-bold text-[#1F2A44] mb-4 text-center">
-          What to Include in Your Message
-        </h2>
-        <div className="space-y-3 text-xl text-[#2E2A26] leading-relaxed">
-          <p>
-            A brief introduction to your property, your role, and the leadership or organizational challenge you are navigating is helpful but not required. Even a simple expression of interest is sufficient to begin the dialogue.
-          </p>
-          <p>
-            All correspondence is treated with complete discretion.
-          </p>
-        </div>
+    <div className="max-w-3xl mx-auto">
+      <div className="mb-8">
+        <h2 className="text-2xl font-bold text-[#1F2A44] mb-2">Send Us a Message</h2>
+        <p className="text-base text-[#5C4A32]">We'll respond within 48 hours. All correspondence is treated with complete discretion.</p>
       </div>
-
-      <h2 className="text-2xl font-bold text-[#1F2A44] mb-2">
-        <a
-          href="mailto:heidi@heidistonehospitality.com"
-          className="hover:text-[#B87333] transition-colors underline"
-        >
-          Send Us a Message
-        </a>
-      </h2>
-      <p className="text-lg text-[#2E2A26]/70 mb-6">
-        Complete the form below and we'll respond within 48 hours.
-      </p>
 
       {submitStatus === 'success' && (
         <div className="mb-6 p-4 bg-green-50 border border-green-200 rounded-lg">
@@ -191,10 +170,10 @@ function ContactForm() {
         </div>
       )}
 
-      <form onSubmit={handleSubmit} className="space-y-6">
+      <form onSubmit={handleSubmit} className="space-y-5">
         <div className="grid md:grid-cols-2 gap-6">
           <div>
-            <label htmlFor="name" className="block text-sm font-semibold text-[#2E2A26] mb-2">
+            <label htmlFor="name" className="block text-sm font-medium text-[#5C4A32] mb-1.5">
               Full Name <span className="text-red-500">*</span>
             </label>
             <input
@@ -204,13 +183,13 @@ function ContactForm() {
               required
               value={formData.name}
               onChange={handleChange}
-              className="w-full px-4 py-3 border border-[#B87333]/30 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#8B6F47] focus:border-transparent transition-all"
+              className="w-full px-3 py-2.5 border border-[#D4C5B0] rounded-md text-sm focus:outline-none focus:ring-1 focus:ring-[#8B6F47] focus:border-[#8B6F47] transition-all bg-white"
               placeholder="Your name"
             />
           </div>
 
           <div>
-            <label htmlFor="email" className="block text-sm font-semibold text-[#2E2A26] mb-2">
+            <label htmlFor="email" className="block text-sm font-medium text-[#5C4A32] mb-1.5">
               Email Address <span className="text-red-500">*</span>
             </label>
             <input
@@ -220,7 +199,7 @@ function ContactForm() {
               required
               value={formData.email}
               onChange={handleChange}
-              className="w-full px-4 py-3 border border-[#B87333]/30 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#8B6F47] focus:border-transparent transition-all"
+              className="w-full px-3 py-2.5 border border-[#D4C5B0] rounded-md text-sm focus:outline-none focus:ring-1 focus:ring-[#8B6F47] focus:border-[#8B6F47] transition-all bg-white"
               placeholder="your@email.com"
             />
           </div>
@@ -228,7 +207,7 @@ function ContactForm() {
 
         <div className="grid md:grid-cols-2 gap-6">
           <div>
-            <label htmlFor="property_name" className="block text-sm font-semibold text-[#2E2A26] mb-2">
+            <label htmlFor="property_name" className="block text-sm font-medium text-[#5C4A32] mb-1.5">
               Property or Organization Name
             </label>
             <input
@@ -237,13 +216,13 @@ function ContactForm() {
               name="property_name"
               value={formData.property_name}
               onChange={handleChange}
-              className="w-full px-4 py-3 border border-[#B87333]/30 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#8B6F47] focus:border-transparent transition-all"
+              className="w-full px-3 py-2.5 border border-[#D4C5B0] rounded-md text-sm focus:outline-none focus:ring-1 focus:ring-[#8B6F47] focus:border-[#8B6F47] transition-all bg-white"
               placeholder="Property name"
             />
           </div>
 
           <div>
-            <label htmlFor="role" className="block text-sm font-semibold text-[#2E2A26] mb-2">
+            <label htmlFor="role" className="block text-sm font-medium text-[#5C4A32] mb-1.5">
               Your Role
             </label>
             <input
@@ -252,7 +231,7 @@ function ContactForm() {
               name="role"
               value={formData.role}
               onChange={handleChange}
-              className="w-full px-4 py-3 border border-[#B87333]/30 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#8B6F47] focus:border-transparent transition-all"
+              className="w-full px-3 py-2.5 border border-[#D4C5B0] rounded-md text-sm focus:outline-none focus:ring-1 focus:ring-[#8B6F47] focus:border-[#8B6F47] transition-all bg-white"
               placeholder="e.g., Owner, Board Member, GM"
             />
           </div>
@@ -260,7 +239,7 @@ function ContactForm() {
 
         <div className="grid md:grid-cols-2 gap-6">
           <div>
-            <label htmlFor="phone" className="block text-sm font-semibold text-[#2E2A26] mb-2">
+            <label htmlFor="phone" className="block text-sm font-medium text-[#5C4A32] mb-1.5">
               Phone Number
             </label>
             <input
@@ -269,13 +248,13 @@ function ContactForm() {
               name="phone"
               value={formData.phone}
               onChange={handleChange}
-              className="w-full px-4 py-3 border border-[#B87333]/30 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#8B6F47] focus:border-transparent transition-all"
+              className="w-full px-3 py-2.5 border border-[#D4C5B0] rounded-md text-sm focus:outline-none focus:ring-1 focus:ring-[#8B6F47] focus:border-[#8B6F47] transition-all bg-white"
               placeholder="(555) 123-4567"
             />
           </div>
 
           <div>
-            <label htmlFor="inquiry_type" className="block text-sm font-semibold text-[#2E2A26] mb-2">
+            <label htmlFor="inquiry_type" className="block text-sm font-medium text-[#5C4A32] mb-1.5">
               Type of Inquiry
             </label>
             <select
@@ -283,9 +262,10 @@ function ContactForm() {
               name="inquiry_type"
               value={formData.inquiry_type}
               onChange={handleChange}
-              className="w-full px-4 py-3 border border-[#B87333]/30 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#8B6F47] focus:border-transparent transition-all bg-white"
+              className="w-full px-3 py-2.5 border border-[#D4C5B0] rounded-md text-sm focus:outline-none focus:ring-1 focus:ring-[#8B6F47] focus:border-[#8B6F47] transition-all bg-white"
             >
               <option value="">Select one</option>
+              <option value="possibility_assessment">Possibility Assessment</option>
               <option value="consultation">Advisory Consultation</option>
               <option value="speaking">Speaking Engagement</option>
               <option value="partnership">Strategic Partnership</option>
@@ -296,7 +276,7 @@ function ContactForm() {
         </div>
 
         <div>
-          <label htmlFor="message" className="block text-sm font-semibold text-[#2E2A26] mb-2">
+          <label htmlFor="message" className="block text-sm font-medium text-[#5C4A32] mb-1.5">
             Message <span className="text-red-500">*</span>
           </label>
           <textarea
@@ -306,21 +286,21 @@ function ContactForm() {
             value={formData.message}
             onChange={handleChange}
             rows={6}
-            className="w-full px-4 py-3 border border-[#B87333]/30 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#8B6F47] focus:border-transparent transition-all resize-none"
+            className="w-full px-3 py-2.5 border border-[#D4C5B0] rounded-md text-sm focus:outline-none focus:ring-1 focus:ring-[#8B6F47] focus:border-[#8B6F47] transition-all resize-none bg-white"
             placeholder="Tell us about your property, your role, and the leadership or organizational challenge you're navigating..."
           />
         </div>
 
-        <div className="flex items-center justify-between pt-4">
-          <p className="text-sm text-[#2E2A26]/60">
-            <span className="text-red-500">*</span> Required fields
+        <div className="flex items-center justify-between pt-2">
+          <p className="text-xs text-[#2E2A26]/50">
+            <span className="text-red-400">*</span> Required fields
           </p>
           <button
             type="submit"
             disabled={isSubmitting || submitStatus === 'success'}
-            className={`px-8 py-3 rounded-lg transition-all shadow-md hover:shadow-lg disabled:opacity-50 disabled:cursor-not-allowed flex items-center gap-2 font-semibold text-white ${
+            className={`px-6 py-2.5 rounded-md transition-all disabled:opacity-50 disabled:cursor-not-allowed flex items-center gap-2 text-sm font-medium text-white ${
               submitStatus === 'success'
-                ? 'bg-[#B87333] hover:bg-[#B87333]'
+                ? 'bg-[#B87333]'
                 : 'bg-[#1F2A44] hover:bg-[#2E3A54]'
             }`}
           >

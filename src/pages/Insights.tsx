@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { supabase } from '../lib/supabase';
-import { BookOpen, TrendingUp, Award, FileText, Target, MessageSquare, ArrowRight, Calendar } from 'lucide-react';
+import { BookOpen, TrendingUp, Award, FileText, Target, MessageSquare, ArrowRight, Calendar, Anchor } from 'lucide-react';
 import SEO from '../components/SEO';
 import { useSEOData } from '../hooks/useSEOData';
 
@@ -15,6 +15,7 @@ interface Perspective {
   display_order: number;
   pdf_url: string | null;
   published_at: string;
+  is_flagship: boolean;
 }
 
 function Insights() {
@@ -116,36 +117,42 @@ function Insights() {
                 </h1>
 
                 <div className="prose prose-lg max-w-none">
-                  {selectedPerspective.content.split('\n\n').map((paragraph, index) => {
-                    const trimmedParagraph = paragraph.trim();
+                  {selectedPerspective.content.split('\n').map((line, index) => {
+                    const trimmed = line.trim();
 
-                    if (trimmedParagraph.startsWith('## ')) {
-                      const headerText = trimmedParagraph.replace('## ', '');
+                    if (trimmed === '---') {
+                      return (
+                        <div key={index} className="flex items-center gap-4 my-8">
+                          <div className="flex-1 h-px bg-[#B87333]/25" />
+                          <div className="w-1.5 h-1.5 rounded-full bg-[#B87333]/40" />
+                          <div className="flex-1 h-px bg-[#B87333]/25" />
+                        </div>
+                      );
+                    }
+
+                    if (trimmed.startsWith('## ')) {
                       return (
                         <h2 key={index} className="text-3xl md:text-4xl font-bold text-[#B87333] mt-10 mb-6 first:mt-0">
-                          {headerText}
+                          {trimmed.replace('## ', '')}
                         </h2>
                       );
                     }
 
-                    if (trimmedParagraph.startsWith('- ')) {
-                      const items = paragraph.split('\n').filter(line => line.trim().startsWith('- '));
+                    if (trimmed.startsWith('- ')) {
                       return (
-                        <ul key={index} className="space-y-2 mb-6 ml-6">
-                          {items.map((item, itemIndex) => (
-                            <li key={itemIndex} className="text-xl text-[#2E2A26] leading-relaxed list-disc">
-                              {item.replace('- ', '')}
-                            </li>
-                          ))}
-                        </ul>
+                        <li key={index} className="text-xl text-[#2E2A26] leading-relaxed list-disc ml-6 mb-2">
+                          {trimmed.replace('- ', '')}
+                        </li>
                       );
                     }
 
-                    if (trimmedParagraph.length === 0) return null;
+                    if (trimmed.length === 0) {
+                      return <div key={index} className="h-2" />;
+                    }
 
                     return (
-                      <p key={index} className="text-xl text-[#2E2A26] leading-relaxed mb-6">
-                        {trimmedParagraph}
+                      <p key={index} className="text-xl text-[#2E2A26] leading-relaxed mb-3">
+                        {trimmed}
                       </p>
                     );
                   })}
@@ -218,45 +225,106 @@ function Insights() {
             <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-[#8B6F47]"></div>
           </div>
         ) : (
-          <div className="max-w-4xl mx-auto space-y-6 mb-16">
-            {perspectives.map((perspective) => {
+          <>
+            {(() => {
+              const flagship = perspectives.find(p => p.is_flagship);
+              if (!flagship) return null;
               return (
-                <article
-                  key={perspective.id}
-                  className="bg-white/95 backdrop-blur-sm p-8 rounded-xl border border-[#8B6F47]/30 hover:shadow-2xl hover:border-[#8B6F47]/50 transition-all cursor-pointer hover:scale-[1.02]"
-                  onClick={() => setSelectedPerspective(perspective)}
-                >
-                  <div className="mb-4">
-                    <span className="bg-[#8B6F47] text-white px-4 py-1 rounded-full text-sm font-medium">
-                      {perspective.category}
-                    </span>
+                <div className="max-w-4xl mx-auto mb-10">
+                  <div className="flex items-center gap-3 mb-5">
+                    <Anchor className="w-5 h-5 text-[#8B6F47]" />
+                    <span className="text-[#8B6F47] text-xs font-bold tracking-widest uppercase">Flagship Perspective</span>
+                    <div className="flex-1 h-px bg-[#8B6F47]/30" />
                   </div>
+                  <article
+                    className="relative bg-gradient-to-br from-[#1F2A44] to-[#2E3A54] rounded-2xl overflow-hidden cursor-pointer group shadow-2xl border border-[#8B6F47]/40 hover:border-[#C9A96E]/60 transition-all hover:shadow-[0_20px_60px_rgba(139,111,71,0.3)]"
+                    onClick={() => setSelectedPerspective(flagship)}
+                  >
+                    <div className="absolute inset-0 opacity-[0.035]"
+                      style={{
+                        backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23C9A96E' fill-opacity='1' fill-rule='evenodd'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/svg%3E")`,
+                      }}
+                    />
+                    <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[#C9A96E]/50 to-transparent" />
+                    <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[#8B6F47]/30 to-transparent" />
 
-                  <h2 className="text-2xl md:text-3xl font-bold text-[#8B6F47] mb-4 hover:text-[#6F5838] transition-colors">
-                    {perspective.title}
-                  </h2>
+                    <div className="relative p-8 lg:p-12">
+                      <div className="flex flex-wrap items-start justify-between gap-4 mb-8">
+                        <span className="bg-[#C9A96E]/20 border border-[#C9A96E]/40 text-[#C9A96E] px-4 py-1 rounded-full text-xs font-semibold tracking-wider uppercase">
+                          {flagship.category}
+                        </span>
+                        <div className="flex items-center gap-1.5 text-[#C9A96E]/60 text-sm">
+                          <Calendar className="w-3.5 h-3.5" />
+                          <span>{formatDate(flagship.published_at)}</span>
+                        </div>
+                      </div>
 
-                  <p className="text-xl text-[#2E2A26] leading-relaxed mb-6">
-                    {perspective.excerpt}
-                  </p>
+                      <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#E8DCC8] mb-6 leading-tight group-hover:text-white transition-colors">
+                        {flagship.title}
+                      </h2>
 
-                  <div className="flex items-center justify-between">
-                    <div className="flex items-center gap-4 text-sm text-[#2E2A26]/70">
-                      <div className="flex items-center gap-2">
-                        <Calendar className="w-4 h-4" />
-                        <span>{formatDate(perspective.published_at)}</span>
+                      <p className="text-lg md:text-xl text-[#C9A96E]/80 leading-relaxed mb-10 max-w-3xl">
+                        {flagship.excerpt}
+                      </p>
+
+                      <div className="flex items-center gap-3 text-[#C9A96E] font-semibold group-hover:gap-5 transition-all">
+                        <span>Read the Full Perspective</span>
+                        <ArrowRight className="w-5 h-5" />
                       </div>
                     </div>
-
-                    <button className="flex items-center gap-2 text-[#8B6F47] hover:text-[#6F5838] transition-colors font-medium">
-                      Read Full Article
-                      <ArrowRight className="w-5 h-5" />
-                    </button>
-                  </div>
-                </article>
+                  </article>
+                </div>
               );
-            })}
-          </div>
+            })()}
+
+            {perspectives.filter(p => !p.is_flagship).length > 0 && (
+              <>
+                <div className="max-w-4xl mx-auto mb-6 flex items-center gap-3">
+                  <span className="text-[#8B6F47] text-xs font-bold tracking-widest uppercase">All Perspectives</span>
+                  <div className="flex-1 h-px bg-[#8B6F47]/30" />
+                </div>
+                <div className="max-w-4xl mx-auto space-y-6 mb-16">
+                  {perspectives.filter(p => !p.is_flagship).map((perspective) => (
+                    <article
+                      key={perspective.id}
+                      className="bg-white/95 backdrop-blur-sm p-8 rounded-xl border border-[#8B6F47]/30 hover:shadow-2xl hover:border-[#8B6F47]/50 transition-all cursor-pointer hover:scale-[1.02]"
+                      onClick={() => setSelectedPerspective(perspective)}
+                    >
+                      <div className="mb-4">
+                        <span className="bg-[#8B6F47] text-white px-4 py-1 rounded-full text-sm font-medium">
+                          {perspective.category}
+                        </span>
+                      </div>
+
+                      <h2 className="text-2xl md:text-3xl font-bold text-[#8B6F47] mb-4 hover:text-[#6F5838] transition-colors">
+                        {perspective.title}
+                      </h2>
+
+                      <p className="text-xl text-[#2E2A26] leading-relaxed mb-6">
+                        {perspective.excerpt}
+                      </p>
+
+                      <div className="flex items-center justify-between">
+                        <div className="flex items-center gap-4 text-sm text-[#2E2A26]/70">
+                          <div className="flex items-center gap-2">
+                            <Calendar className="w-4 h-4" />
+                            <span>{formatDate(perspective.published_at)}</span>
+                          </div>
+                        </div>
+
+                        <button className="flex items-center gap-2 text-[#8B6F47] hover:text-[#6F5838] transition-colors font-medium">
+                          Read Full Article
+                          <ArrowRight className="w-5 h-5" />
+                        </button>
+                      </div>
+                    </article>
+                  ))}
+                </div>
+              </>
+            )}
+
+            {perspectives.length > 0 && !perspectives.some(p => !p.is_flagship) && <div className="mb-16" />}
+          </>
         )}
 
         <div className="max-w-6xl mx-auto mb-16">

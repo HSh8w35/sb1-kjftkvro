@@ -23,30 +23,33 @@ function Story() {
               <p className="text-2xl md:text-3xl font-serif italic text-[#2E2A26]/80 mb-10 font-light">
                 Why I Do This Work
               </p>
-              <p className="text-2xl md:text-3xl text-[#2E2A26] leading-relaxed mb-8">
-                I have spent my career being drawn to places the world once loved—and had begun to forget.
-              </p>
-              <div className="flex justify-center">
+              <div className="flex justify-center mb-8">
                 <div className="h-px w-48 bg-[#8B6F47]" />
               </div>
             </div>
 
             <div className="max-w-2xl mx-auto">
-              <div className="text-center mb-20 space-y-8">
-                <p className="text-xl md:text-2xl text-[#2E2A26] leading-loose">
-                  Not because they are easy.
+              <div className="text-center mb-20 space-y-4">
+                <p className="text-lg md:text-xl text-[#2E2A26] leading-relaxed">
+                  I have spent my career being drawn to places the world once loved—and had begun to forget.
                 </p>
-                <p className="text-xl md:text-2xl text-[#2E2A26] leading-loose">
+                <p className="text-lg md:text-xl text-[#2E2A26] leading-relaxed pt-4">
+                  Not because they are easy.<br />
                   Not because they are tidy.
                 </p>
-                <p className="text-xl md:text-2xl text-[#2E2A26] leading-loose">
+                <p className="text-lg md:text-xl text-[#2E2A26] leading-relaxed">
                   But because inside complexity, neglect, and uncertainty, I see something others often miss: possibility.
                 </p>
-                <p className="text-xl md:text-2xl text-[#2E2A26] leading-loose pt-6">
-                  Places with history carry memory.
+                <p className="text-lg md:text-xl text-[#2E2A26] leading-relaxed pt-4">
+                  Places with history carry memory.<br />
+                  Places with memory deserve stewardship.<br />
+                  And stewardship requires decisions that carry consequence.
                 </p>
-                <p className="text-xl md:text-2xl text-[#2E2A26] leading-loose">
-                  Places with memory deserve stewardship.
+                <p className="text-lg md:text-xl text-[#2E2A26] leading-relaxed pt-4">
+                  I have not advised from the sidelines. I have led from inside the weight of privately held, high-risk hospitality assets—where payroll, debt service, capital investment, and community impact were not abstract concepts, but daily realities.
+                </p>
+                <p className="text-lg md:text-xl text-[#2E2A26] leading-relaxed">
+                  For more than three decades, I have carried that weight.
                 </p>
               </div>
 
@@ -71,83 +74,50 @@ function Story() {
                     High Peaks was opening as a brand-new independent hotel at the precise moment corporate travel evaporated, discretionary spending froze, and fear overtook optimism.
                   </p>
                   <p>
+                    The decision to remove a global flag in the midst of economic collapse was not operational—it was existential. Ownership was betting on independence when the world was retreating to safety.
+                  </p>
+                  <p>
                     We were unplugging from a brand that had handled marketing, reservations, and data. Overnight, we had no guest database. No independent demand history. No institutional muscle memory for what independence required.
                   </p>
                   <p className="font-semibold">
                     We were starting from zero.
                   </p>
                   <p>
-                    The original sales and marketing plans became irrelevant almost immediately. Compounding the challenge, we had chosen to call ourselves a "resort" just as the word became radioactive in corporate America. Meetings and conferences disappeared. Phones stopped ringing.
+                    The decisions we made were not marketing experiments. They were survival decisions—capital decisions, staffing decisions, brand decisions that would either preserve ownership confidence or erode it.
                   </p>
                   <p>
-                    What we did have was resolve.
-                  </p>
-                  <p>
-                    We abandoned rigid planning in favor of a multi-layered, adaptive strategy.
-                  </p>
-                  <p>
-                    We used emerging social platforms—Facebook in its earliest days—not to sell rooms, but to educate potential guests about the Adirondacks and Lake Placid, pairing storytelling with value-based promotions. We rebuilt digital infrastructure from scratch: website, email marketing, video, database, and brand voice.
-                  </p>
-                  <p>
-                    We leaned into grassroots outreach. I personally met with travel writers and media across New York City, Montreal, Boston, and Ottawa. If guests were not coming to us, we went to them.
-                  </p>
-                  <p>
-                    Within a short period, High Peaks appeared in USA Today, Travel + Leisure, The New York Times, and on The Today Show.
-                  </p>
-                  <p>
-                    Internally, we rebuilt culture. Language shifted. Presentation shifted. Standards shifted. A new senior leadership team with deep independent-hotel experience was assembled. The sales organization expanded and became a regional force.
-                  </p>
-                  <p>
-                    We stopped talking about "amenities" and started focusing on authentic experiences—long before that phrase became fashionable.
+                    We rebuilt digital infrastructure from scratch. We rebuilt culture. We rebuilt confidence.
                   </p>
                   <p>
                     By the end of 2010, we exceeded budget by more than 30 percent.
                   </p>
                   <p className="font-semibold">
-                    The lesson was indelible: independence is not a vulnerability. When led well, it is a competitive advantage.
+                    The lesson was indelible: independence is not a vulnerability when guided by disciplined judgment at the ownership level.
                   </p>
                   <p>
                     One moment from that period still stays with me.
                   </p>
                   <p>
-                    During the 2010 Winter Olympics, we hosted Al Michaels and members of the 1980 "Miracle on Ice" team. I arranged for a custom USA Hockey jersey to be waiting in Mr. Michaels' room. He later sought me out personally to say thank you. I then walked him through our private "Legends Room," covered in photographs from the 1980 Games.
+                    During the 2010 Winter Olympics, we hosted Al Michaels and members of the 1980 "Miracle on Ice" team. I arranged for a custom USA Hockey jersey to be waiting in Mr. Michaels' room. I then walked him through our private "Legends Room," covered in photographs from the 1980 Olympic Games.
                   </p>
                   <p>
-                    He paused quietly, gazing at the photographs as if stepping back in time. I could see his eyes fill as he took it all in.
+                    He paused quietly, gazing at the photographs as if stepping back in time.
                   </p>
                   <p>
                     "These guys were my friends," he said.
                   </p>
                   <p>
-                    In that moment, I understood the weight behind his words. Not all of those friends were still with us.
+                    In that moment, I felt his pride — and I felt his loss. Not all of those friends were still with us. The room felt still.
                   </p>
                   <p>
-                    It was deeply moving. And I will never forget it.
+                    It struck me then that destination and historic hotels are more than properties. They are keepers of stories. They are treasured vaults of sacred memory.
                   </p>
                   <p>
-                    It affirmed something I have always believed: that kindness, thoughtfulness, and intention matter. That the smallest gestures, when rooted in care, can leave a lasting imprint.
-                  </p>
-                  <p>
-                    That is the power of independent hospitality.
-                  </p>
-                  <p>
-                    Not transactions.
-                  </p>
-                  <p>
-                    Not checklists.
-                  </p>
-                  <p>
-                    But moments that live with people.
+                    And the responsibility we carry as hoteliers runs far deeper than ADR, STR reports, or the color of the floors in the bathroom.
                   </p>
                 </div>
               </div>
 
-              <div className="my-12 py-8 text-center">
-                <p className="text-3xl md:text-4xl font-serif italic text-[#2E2A26] leading-relaxed">
-                  I do not rescue buildings.<br />
-                  I rebuild belief systems.
-                </p>
-              </div>
 
               <div className="mb-20">
                 <h2 className="text-base uppercase tracking-widest text-[#8B6F47] font-semibold mb-8 text-left">
@@ -164,10 +134,16 @@ function Story() {
                     The famous Kellerman's Mountain House from <em>Dirty Dancing</em> stood cold, tired, and neglected.
                   </p>
                   <p>
-                    The lake was gone. A massive dry crater sat at the center of the property. More than 50 buildings across 2,600 acres were in serious disrepair. Many should have been condemned. Mountain Lake Lodge was owned by an endowment. The last owner stipulated in her will that the property could never be sold. It must operate as a hotel - or close permanently.
+                    The lake was gone. A massive dry crater sat at the center of the property. More than 50 buildings across 2,600 acres were in serious disrepair. Many should have been condemned.
                   </p>
                   <p>
-                    By 2012, closure was very close.
+                    Mountain Lake Lodge was owned by an endowment. The last owner stipulated in her will that the property could never be sold. It must operate as a hotel—or close permanently.
+                  </p>
+                  <p>
+                    There was no exit strategy. No safety net. No reset button. The mandate was clear: operate successfully—or close permanently.
+                  </p>
+                  <p>
+                    The responsibility was not simply to improve operations. It was to protect a mandate.
                   </p>
                   <p>
                     Consultants recommended eliminating <em>Dirty Dancing</em> entirely, believing the property was trapped by the film.
@@ -183,69 +159,52 @@ function Story() {
                     But it needed to be treated with respect, discipline, and professionalism.
                   </p>
                   <p>
-                    We paused the existing <em>Dirty Dancing</em> weekends. I personally called Lionsgate—one of the largest film rights holders in the world—and established a proper licensing agreement. Programming was completely reimagined. Events were limited, elevated, and curated.
+                    We paused the existing <em>Dirty Dancing</em> weekends. I personally called Lionsgate and established a proper licensing agreement. Programming was completely reimagined. Events were limited, elevated, and curated.
                   </p>
                   <p>
                     Demand surged.
                   </p>
                   <p>
-                    Weekends sold out a year in advance. A <em>Dirty Dancing</em> Festival was created. A one-of-a-kind Kellerman's gift shop followed. That single strategic decision has generated millions in revenue, two television mini-series, and billions of global impressions.
+                    Weekends sold out a year in advance. A festival was created. A one-of-a-kind Kellerman's gift shop followed. That single strategic decision has generated millions in revenue and renewed global awareness.
                   </p>
                   <p>
                     At the same time, we rebuilt everything else from the ground up.
                   </p>
                   <p>
-                    There were no modern systems.<br />
-                    No true management team.<br />
-                    Four year-round employees.<br />
-                    No uniforms. No name tags. No procedures.<br />
-                    One salesperson. No marketing.<br />
-                    Frozen food. Two-inch mattresses. Musty rooms.
+                    There were no modern systems.
                   </p>
                   <p>
-                    Funding was minimal.
+                    No true management team.
                   </p>
                   <p>
-                    So we started with what costs nothing: culture.
+                    Four year-round employees.
                   </p>
                   <p>
-                    We trained relentlessly. Established standards. Built leaders. I personally curated and hosted leadership retreats focused on honest, uncomfortable conversations.
+                    Minimal funding.
                   </p>
                   <p>
-                    Within five years, Mountain Lake Lodge went from arguably the most condemnable hotel in Virginia to Virginia Restaurant Lodging Travel Association's Hotel of the Year. That same year I was honored as the Hotelier of the Year.
+                    Every decision carried consequence. Capital was scarce. Margin for error was thin. The responsibility was daily and personal.
                   </p>
                   <p>
-                    More importantly, we changed how people felt about the place.
+                    So we began with what costs nothing: culture.
                   </p>
                   <p>
-                    By the time the pandemic arrived, our team was seasoned at pivoting, adapting, and making decisions quickly. Independence allowed us to control our destiny. We filmed multiple television productions during the pandemic years and accelerated global brand recognition with billions seeing the resort for the first time in over 35 years.
+                    We trained relentlessly. Established standards. Built leaders. Made hard decisions.
                   </p>
                   <p>
-                    Slowly, the narrative changed.
-                  </p>
-                  <p>
-                    Mountain Lake Lodge was no longer a liability.
-                  </p>
-                  <p>
-                    It became an economic engine.
-                  </p>
-                  <p>
-                    An asset.
-                  </p>
-                  <p>
-                    A place with a future.
+                    Within five years, Mountain Lake Lodge moved from near condemnation to Hotel of the Year. Over time, the property became an economic engine.
                   </p>
                   <p>
                     Perhaps the most meaningful moment came in October 2025, when Mountain Lake Lodge was formally inducted into Historic Hotels of America.
                   </p>
                   <p>
-                    To witness a property once considered among the most condemnable in Virginia recognized among the nation's most storied historic hotels was deeply personal.
+                    Recognition not simply of architecture—but of disciplined stewardship and long-term belief.
                   </p>
                   <p>
                     Not because of a plaque.
                   </p>
                   <p>
-                    But because it affirmed what our team had always believed: that this place mattered, that its history deserved protection, and that stewardship, when done with intention, can bring a legacy back to life.
+                    Because it affirmed that this place mattered, that its history deserved protection, and that stewardship, when done with intention, can bring a legacy back to life.
                   </p>
                 </div>
               </div>
@@ -259,7 +218,7 @@ function Story() {
                     Looking back, the pattern is clear.
                   </p>
                   <p>
-                    I am drawn to complex, high-risk, emotionally complicated assets with history.
+                    I am drawn to complex, high-risk, emotionally complicated assets—often privately held, often historic or destination-driven—where the weight of stewardship rests squarely on ownership.
                   </p>
                   <p>
                     Not to preserve them as museums.
@@ -267,13 +226,11 @@ function Story() {
                   <p>
                     But to make them viable, relevant, and profitable again—without stripping away their soul.
                   </p>
-                  <p className="font-semibold">
-                    I do not rescue buildings.
-                  </p>
                   <p>
-                    I rebuild belief systems.<br />
+                    <span className="font-semibold">I do not rescue buildings.<br />
+                    I rebuild belief systems.</span><br />
                     Leadership structures.<br />
-                    Operating disciplines.<br />
+                    Operating discipline.<br />
                     Cultures that sustain performance long after the initial turnaround.
                   </p>
                 </div>
@@ -285,21 +242,22 @@ function Story() {
                 </h2>
                 <div className="space-y-6 text-[#3A3632] leading-relaxed text-lg">
                   <p>
-                    Independent hotel owners are operating in one of the most complex environments the industry has ever faced.
+                    Independent hotel owners are operating in one of the most complex environments the industry has faced.
                   </p>
                   <p>
                     What they are often offered are tools.
                   </p>
-                  <p className="font-semibold">
-                    What they actually need is seasoned, disciplined judgment.
+                  <p>
+                    What they often need is seasoned, independent judgment.
                   </p>
                   <p>
-                    Someone who has carried weight before.<br />
-                    Someone who understands both the romance and the rigor.<br />
-                    Someone who knows that reports do not save hotels—leaders do.
+                    Someone who understands what it means when the weight of a hotel rests on you.<br />
+                    When the decisions are yours.<br />
+                    When the consequences are yours.<br />
+                    When there is no corporate safety net.
                   </p>
                   <p>
-                    Heidi Stone Hospitality exists to serve as that partner.
+                    I formed Heidi Stone Hospitality to serve as that steady voice at the table.
                   </p>
                   <p>
                     Not a vendor.<br />
@@ -307,21 +265,21 @@ function Story() {
                     Not a theoretical model.
                   </p>
                   <p>
-                    A thinking partner embedded in the hard work of leadership.
+                    A partner who has carried similar weight before.
+                  </p>
+                  <p>
+                    Because independence, when led with clarity and discipline, is not a risk.
+                  </p>
+                  <p>
+                    It is strength.
                   </p>
                 </div>
               </div>
 
-              <div className="my-12 py-8 text-center">
-                <p className="text-xl md:text-2xl font-serif italic text-[#2E2A26] leading-relaxed">
-                  Because independence, when led well, is not a risk.<br />
-                  It is power.
-                </p>
-              </div>
 
               <div className="text-center mt-20 pt-12 border-t border-[#8B6F47]/30">
                 <Link
-                  to="/lets-talk"
+                  to="/lets-talk#contact"
                   className="inline-block bg-gradient-to-r from-[#8B6F47] to-[#6F5838] text-white font-semibold text-lg px-10 py-4 rounded-lg hover:from-[#6F5838] hover:to-[#8B6F47] transition-all shadow-lg"
                 >
                   Let's Talk

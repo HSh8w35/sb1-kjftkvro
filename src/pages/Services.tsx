@@ -1,5 +1,4 @@
 import ContactForm from '../components/ContactForm';
-import { Mail } from 'lucide-react';
 import SEO from '../components/SEO';
 import { useSEOData } from '../hooks/useSEOData';
 
@@ -38,25 +37,25 @@ function Services() {
 
         <div className="max-w-5xl mx-auto">
           <div className="space-y-6">
-            <div className="bg-white p-8 rounded-xl border border-[#B87333]/20 shadow-md">
+            <div className="bg-[#F5EDE0]/60 backdrop-blur-sm p-8 rounded-xl border border-[#B87333]/20 shadow-md">
               <div className="flex flex-col md:flex-row gap-6 items-center">
                 <div className="flex-[3] space-y-4">
-                  <p className="text-xl text-[#2E2A26] leading-relaxed">
-                    If the work described here resonates—and you believe your organization may benefit from partnership with someone who understands the complexity of independent hospitality leadership—we invite you to reach out.
+                  <p className="text-xl text-[#2E2A26] leading-relaxed" style={{ fontFamily: "'Cormorant Garamond', serif", fontWeight: 500 }}>
+                    Most conversations begin at a point where something is no longer clear.
                   </p>
-                  <p className="text-xl text-[#2E2A26] leading-relaxed">
-                    All conversations are confidential. There is no expectation to proceed unless both sides are confident there is genuine alignment and shared commitment to the work.
+                  <p className="text-xl text-[#2E2A26] leading-relaxed" style={{ fontFamily: "'Cormorant Garamond', serif", fontWeight: 500 }}>
+                    If you are navigating a moment of complexity, transition, or uncertainty, we can begin with a conversation.
                   </p>
-                  <p className="text-xl text-[#2E2A26] leading-relaxed">
-                    Our approach begins with careful listening. We look beyond what is working to what is no longer serving you - and what kind of leadership, structure, or clarity might be needed to unlock the next phase of performance and possibility.
+                  <p className="text-xl text-[#2E2A26] leading-relaxed" style={{ fontFamily: "'Cormorant Garamond', serif", fontWeight: 500 }}>
+                    Initial conversations are informal and focused on understanding where things stand—and whether a Possibility Assessment would be valuable.
                   </p>
                 </div>
-                <div className="flex-[2]">
-                  <div className="relative rounded-lg overflow-hidden shadow-lg w-4/5 mx-auto">
+                <div className="flex-[2] flex justify-center items-start">
+                  <div className="relative overflow-hidden shadow-lg" style={{ borderRadius: '50%', width: '70%', aspectRatio: '1/1' }}>
                     <img
                       src="/gemini_generated_image_hu7jpthu7jpthu7j.webp"
                       alt="Professional conversation"
-                      className="w-full h-auto object-cover"
+                      className="w-full h-full object-cover"
                     />
                     <div className="absolute inset-0 pointer-events-none" style={{
                       boxShadow: 'inset 0 0 60px rgba(0, 0, 0, 0.15)'
@@ -66,38 +65,17 @@ function Services() {
               </div>
             </div>
 
-            <div className="bg-[#F5F1E8] p-8 rounded-xl border-2 border-[#8B6F47]/30">
-              <h2 className="text-2xl font-bold text-[#1F2A44] mb-4 text-center">
-                How Conversations Work
-              </h2>
-              <div className="space-y-3 text-xl text-[#2E2A26] leading-relaxed text-center">
-                <p>
-                  Initial conversations are exploratory. They are not sales calls. They are confidential exchanges intended to assess alignment, clarify needs, and determine if partnership makes sense.
-                </p>
-                <p>
-                  If we both believe there is fit, we will propose a tailored engagement structure—clear in scope, outcomes, and expectations. Our work is limited by design. We do not take on engagements unless we are confident we can contribute meaningfully to the leadership and performance outcomes you are pursuing.
-                </p>
-              </div>
-            </div>
-
-            <div className="max-w-3xl mx-auto">
-              <div className="bg-[#F6F1E8] p-8 rounded-xl border-4 border-[#1F2A44]">
-                <h2 className="text-2xl font-bold mb-4 text-center text-[#1F2A44]">
-                  Let's Connect
-                </h2>
-                <p className="text-xl text-[#2E2A26] leading-relaxed mb-6 text-center">
-                  To initiate a conversation, please reach out directly via email. Heidi Stone personally responds to all inquiries from owners, board members, and senior leaders.
-                </p>
-                <div className="bg-white/50 backdrop-blur-sm p-6 rounded-lg border border-[#8B6F47]/20 text-center">
-                  <Mail className="w-8 h-8 text-[#B87333] mb-3 mx-auto" />
-                  <a
-                    href="mailto:heidi@heidistonehospitality.com"
-                    className="text-2xl font-semibold text-[#1F2A44] hover:text-[#B87333] transition-colors"
-                  >
-                    heidi@heidistonehospitality.com
-                  </a>
-                </div>
-              </div>
+<div id="contact" className="text-center py-6">
+              <p className="text-sm uppercase tracking-widest text-[#B87333] mb-4 font-medium">Contact</p>
+              <a
+                href="mailto:heidi@heidistonehospitality.com"
+                className="inline-block text-2xl md:text-3xl font-medium text-[#1F2A44] hover:text-[#B87333] transition-colors mb-3"
+                style={{ fontFamily: "'Cormorant Garamond', serif" }}
+              >
+                heidi@heidistonehospitality.com
+              </a>
+              <p className="text-base text-[#5C4A32]/80">Direct outreach is always welcome.</p>
+              <p className="text-base text-[#5C4A32]/80 mt-4">Or</p>
             </div>
 
             <ContactForm />

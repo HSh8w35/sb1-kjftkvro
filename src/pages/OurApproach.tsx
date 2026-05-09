@@ -45,7 +45,7 @@ function OurApproach() {
                 Independent hospitality does not suffer from a lack of ideas.
               </p>
               <p className="text-xl text-[#2E2A26] leading-relaxed mb-4">
-                It suffers from moments when leadership, clarity, and discipline are stretched thin.
+                Independent, historic, and destination properties face moments when clarity at the ownership and leadership level becomes strained—by growth, transition, capital pressure, or complexity.
               </p>
               <p className="text-xl font-semibold text-[#8B6F47] leading-relaxed">
                 Our work begins there.
@@ -54,7 +54,13 @@ function OurApproach() {
 
             <div className="space-y-6 text-xl text-[#2E2A26] leading-relaxed mb-12 text-center">
               <p>
-                We do not lead with tools, frameworks, or programs. We lead with perspective—earned through decades of executive leadership inside independent hospitality assets, where decisions carry weight and outcomes matter.
+                We do not lead with tools, frameworks, or programs. We lead with perspective—earned through decades of executive leadership inside independent hospitality assets, where decisions carry weight and outcomes endure.
+              </p>
+              <p>
+                In many cases, our work begins with a <span className="font-bold">Possibility Assessment</span>—a structured engagement designed to evaluate the true potential of an independent hotel or resort.
+              </p>
+              <p>
+                This process allows ownership to step back from day-to-day complexity and gain a clear, independent perspective before significant decisions are made.
               </p>
             </div>
 
@@ -63,63 +69,59 @@ function OurApproach() {
 
               <div className="space-y-6 text-xl leading-relaxed">
                 <p className="text-white/95">
-                  Independent properties possess something rare: agility.
+                  Independent and destination hotels possess something rare: the ability to define their own direction.
                 </p>
                 <p className="text-white/95">
-                  Without layers of corporate mandate, independent hotels and resorts have the ability to respond decisively—to their guests, their markets, and their moment. When guided with clarity and strategic intention, independence becomes a competitive edge rather than a constraint.
+                  Without layers of corporate mandate, these properties can respond with intention—to their markets, their guests, and their long-term vision. When guided with disciplined clarity, independence becomes strength rather than strain.
                 </p>
                 <p className="text-white font-semibold">
-                  When leadership is aligned, independence unlocks:
+                  When alignment exists at the top, independence unlocks:
                 </p>
                 <ul className="space-y-3 text-lg inline-block text-left">
                   <li className="flex items-start">
                     <span className="mr-3 text-[#E8DCC8] font-bold">•</span>
-                    <span>New revenue pathways</span>
+                    <span>Strategic flexibility grounded in purpose</span>
                   </li>
                   <li className="flex items-start">
                     <span className="mr-3 text-[#E8DCC8] font-bold">•</span>
-                    <span>Sharper positioning</span>
+                    <span>Sharper positioning in competitive markets</span>
                   </li>
                   <li className="flex items-start">
                     <span className="mr-3 text-[#E8DCC8] font-bold">•</span>
-                    <span>Faster, more confident decision-making</span>
+                    <span>Confident, timely decision-making</span>
                   </li>
                   <li className="flex items-start">
                     <span className="mr-3 text-[#E8DCC8] font-bold">•</span>
-                    <span>Long-term stability grounded in purpose</span>
+                    <span>Long-term stability anchored in clear direction</span>
                   </li>
                 </ul>
                 <p className="text-white/95 italic pt-4">
-                  Our role is to help leadership teams harness that advantage—so momentum is no longer maintained, but directed.
+                  Our role is to ensure independence remains intentional—not reactive.
                 </p>
               </div>
             </div>
 
             <div className="mb-12 text-center">
-              <h2 className="text-3xl font-bold text-[#2E2A26] mb-6">Leadership as the Constraint—or the Multiplier</h2>
+              <h2 className="text-3xl font-bold text-[#2E2A26] mb-6">Leadership & Governance at Critical Moments</h2>
 
               <div className="space-y-6 text-xl text-[#2E2A26] leading-relaxed">
                 <p>
-                  In many independent hotels, the responsibility for performance rests heavily on one individual. That leader carries operations, finance, revenue strategy, technology, brand, culture, guest experience, people, and reputation—often simultaneously.
+                  In many independent and destination properties, responsibility for performance and direction rests heavily on a small group of decision-makers—often ownership itself.
                 </p>
                 <p className="font-semibold text-[#8B6F47]">
-                  Even the most capable visionaries can lose clarity under sustained pressure.
+                  When growth introduces complexity, when leadership transitions occur, or when strategic choices carry lasting impact, clarity becomes harder to sustain.
                 </p>
                 <p>
-                  We serve as the discreet strategic partner that senior leaders rarely have, but deeply need.
+                  We serve as a steady, independent voice at the table—ensuring that governance, strategy, and performance remain aligned.
                 </p>
                 <p>
-                  Through calm perspective, direct counsel, and disciplined thinking, leadership regains:
+                  Through calm counsel and disciplined thinking, decision-makers regain:
                 </p>
 
                 <ul className="space-y-3 my-6 inline-block text-left">
                   <li className="flex items-start">
                     <span className="mr-3 text-[#8B6F47] font-bold">—</span>
-                    <span className="font-semibold text-[#2E2A26] text-lg">Confidence in decision-making</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="mr-3 text-[#8B6F47] font-bold">—</span>
-                    <span className="font-semibold text-[#2E2A26] text-lg">Creative stamina</span>
+                    <span className="font-semibold text-[#2E2A26] text-lg">Confidence in direction</span>
                   </li>
                   <li className="flex items-start">
                     <span className="mr-3 text-[#8B6F47] font-bold">—</span>
@@ -127,61 +129,76 @@ function OurApproach() {
                   </li>
                   <li className="flex items-start">
                     <span className="mr-3 text-[#8B6F47] font-bold">—</span>
-                    <span className="font-semibold text-[#2E2A26] text-lg">The ability to lead forward, not reactively</span>
+                    <span className="font-semibold text-[#2E2A26] text-lg">Alignment across stakeholders</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="mr-3 text-[#8B6F47] font-bold">—</span>
+                    <span className="font-semibold text-[#2E2A26] text-lg">The ability to act deliberately rather than reactively</span>
                   </li>
                 </ul>
 
                 <p className="italic">
-                  The result is not incremental improvement, but renewal—an executive reenergized and prepared to guide the organization into its next phase of excellence.
+                  The result is not incremental improvement, but continuity and forward momentum.
                 </p>
               </div>
             </div>
 
-            <div className="relative bg-[#F6F1E8]/90 backdrop-blur-sm rounded-2xl p-10 mb-12 border border-[#8B6F47]/10 shadow-sm overflow-hidden">
-              <div className="absolute inset-0 opacity-[0.03] pointer-events-none"
-                   style={{
-                     backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%238B6F47' fill-opacity='1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
-                     backgroundSize: '60px 60px'
-                   }}
-              />
-              <div className="relative text-center">
-                <h2 className="text-3xl font-bold text-[#2E2A26] mb-6">Brand as Lived Experience</h2>
+            {/* Decorative Page Break */}
+            <div className="my-16 relative">
+              <div className="absolute inset-0 bg-gradient-to-r from-transparent via-[#8B6F47]/5 to-transparent rounded-xl" style={{ height: '120px', top: '-20px' }}></div>
+              <div className="relative flex items-center justify-center gap-4">
+                <div className="flex-1 h-px bg-gradient-to-r from-transparent via-[#8B6F47]/30 to-[#8B6F47]"></div>
+                <img
+                  src="/Transl_Key_only.webp"
+                  alt="Decorative divider"
+                  className="w-24 h-auto opacity-60"
+                />
+                <div className="flex-1 h-px bg-gradient-to-l from-transparent via-[#8B6F47]/30 to-[#8B6F47]"></div>
+              </div>
+              <div className="mt-2 flex items-center justify-center gap-2">
+                <div className="w-2 h-2 rounded-full bg-[#8B6F47]/40"></div>
+                <div className="w-1.5 h-1.5 rounded-full bg-[#8B6F47]/30"></div>
+                <div className="w-1 h-1 rounded-full bg-[#8B6F47]/20"></div>
+              </div>
+            </div>
 
-                <div className="space-y-6 text-xl text-[#2E2A26] leading-relaxed">
-                  <p>
-                    Independent hospitality is at its strongest when it offers something that cannot be replicated.
-                  </p>
-                  <div className="my-6 inline-block pl-6 border-l-4 border-[#8B6F47] text-left">
-                    <p className="font-semibold text-[#8B6F47]">
-                      Not themed.<br />
-                      Not manufactured.<br />
-                      But rooted—deeply and authentically—in place.
-                    </p>
-                  </div>
-                  <p>
-                    The most enduring brands are expressions of culture, geography, history, and intention. They are not created through aesthetics alone, but through leadership choices that shape how a property shows up in the world.
-                  </p>
-                  <p className="font-semibold text-[#2E2A26]">
-                    Our work helps organizations clarify and inhabit their identity so that:
-                  </p>
-                  <ul className="space-y-3 text-lg inline-block text-left">
-                    <li className="flex items-start">
-                      <span className="mr-3 text-[#8B6F47] font-bold">•</span>
-                      <span>Brand reflects values, not trends</span>
-                    </li>
-                    <li className="flex items-start">
-                      <span className="mr-3 text-[#8B6F47] font-bold">•</span>
-                      <span>Experience feels cohesive rather than curated</span>
-                    </li>
-                    <li className="flex items-start">
-                      <span className="mr-3 text-[#8B6F47] font-bold">•</span>
-                      <span>The property becomes a gathering place—not just a destination</span>
-                    </li>
-                  </ul>
-                  <p className="italic pt-4">
-                    When done well, an independent hotel becomes part of the story of its region—respected locally and recognized globally.
+            <div className="mb-12 text-center">
+              <h2 className="text-3xl font-bold text-[#2E2A26] mb-6">Brand as Lived Experience</h2>
+
+              <div className="space-y-6 text-xl text-[#2E2A26] leading-relaxed">
+                <p>
+                  Independent hospitality is strongest when it offers something that cannot be replicated.
+                </p>
+                <div className="my-6 inline-block pl-6 border-l-4 border-[#8B6F47] text-left">
+                  <p className="font-semibold text-[#8B6F47]">
+                    Not themed.<br />
+                    Not manufactured.<br />
+                    But rooted in place.
                   </p>
                 </div>
+                <p>
+                  The most enduring brands are expressions of culture, geography, history, and intention. They are shaped by leadership choices—not aesthetics alone.
+                </p>
+                <p>
+                  Our work helps organizations clarify and inhabit their identity so that:
+                </p>
+                <ul className="space-y-3 my-6 inline-block text-left">
+                  <li className="flex items-start">
+                    <span className="mr-3 text-[#8B6F47] font-bold">•</span>
+                    <span className="font-semibold text-[#2E2A26] text-lg">Brand reflects conviction, not trends</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="mr-3 text-[#8B6F47] font-bold">•</span>
+                    <span className="font-semibold text-[#2E2A26] text-lg">Experience reflects identity, not imitation</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="mr-3 text-[#8B6F47] font-bold">•</span>
+                    <span className="font-semibold text-[#2E2A26] text-lg">The property becomes part of the story of its region</span>
+                  </li>
+                </ul>
+                <p className="italic">
+                  When done well, an independent or destination hotel becomes more than a place to stay—it becomes part of where people return.
+                </p>
               </div>
             </div>
 
@@ -195,10 +212,10 @@ function OurApproach() {
                 <div className="flex justify-center max-w-5xl mx-auto">
                   <div className="max-w-md">
                     <ul className="space-y-2 text-xl text-[#2E2A26]">
-                      <li>When growth introduces complexity —</li>
-                      <li>When leadership transition creates uncertainty —</li>
-                      <li>When performance plateaus despite effort —</li>
-                      <li>When brand and culture feel misaligned —</li>
+                      <li>When ownership transition introduces uncertainty —</li>
+                      <li>When growth outpaces structure —</li>
+                      <li>When brand affiliation is being evaluated —</li>
+                      <li>When capital allocation demands discipline —</li>
                       <li>When independence needs clearer direction —</li>
                     </ul>
                   </div>
@@ -206,16 +223,16 @@ function OurApproach() {
 
                 <div className="mt-4 px-6 py-6 border-l-8 border-[#8B6F47] bg-gradient-to-r from-[#F6F1E8] to-white">
                   <p className="text-xl md:text-2xl text-[#2E2A26] leading-relaxed font-light mb-3">
-                    In these moments, leadership does not need more information.
+                    In these moments, organizations do not need more information.
                   </p>
                   <p className="text-xl md:text-2xl text-[#8B6F47] leading-tight font-semibold">
-                    It needs clarity, alignment, and an experienced voice at the table.
+                    They need perspective.
                   </p>
                 </div>
 
                 <div className="mt-4 px-5 py-4 bg-white/80 rounded-xl">
                   <p className="text-lg text-[#2E2A26] leading-relaxed">
-                    Depending on the moment, our work may engage owners and boards, executive leadership, or senior operating teams. While strategic intent is often set at the ownership level, much of the work of building sustainable revenue, authentic brands, and high-performing organizations happens with the leaders closest to the business.
+                    Depending on the situation, our work may engage ownership, boards, executive leadership, or senior operating teams. Strategic clarity often begins at the ownership level—but sustainable performance is built across the organization.
                   </p>
                 </div>
             </div>
@@ -245,8 +262,8 @@ function OurApproach() {
                 <div className="flex-1 h-0.5 bg-gradient-to-l from-transparent to-[#8B6F47]"></div>
               </div>
 
-              <div className="flex gap-6">
-                <div className="space-y-4 text-xl text-[#2E2A26] leading-relaxed flex-1">
+              <div className="text-center">
+                <div className="space-y-4 text-xl text-[#2E2A26] leading-relaxed">
                   <p className="text-xl font-semibold text-[#8B6F47]">
                     This is not consulting from the sidelines.
                   </p>
@@ -304,24 +321,19 @@ function OurApproach() {
                      backgroundSize: '60px 60px'
                    }}
               />
-              <div className="relative">
-                <h2 className="text-3xl font-bold mb-6 text-[#2E2A26] text-center">Moving Forward</h2>
+              <div className="relative text-center">
+                <h2 className="text-3xl font-bold mb-6 text-[#2E2A26]">Moving Forward</h2>
 
-                <div className="space-y-6 text-xl leading-relaxed mb-8">
-                  <p className="text-[#2E2A26]">
-                    When this way of thinking resonates, the next step is not a proposal—it is a conversation.
-                  </p>
-                  <p className="text-[#2E2A26]">
-                    That conversation determines whether alignment exists and whether partnership makes sense.
-                  </p>
-                </div>
+                <p className="text-xl text-[#2E2A26] leading-relaxed mb-8">
+                  For many owners, the work begins with a <span className="font-bold">Possibility Assessment</span>, providing a clear understanding of the property's opportunity before strategic decisions are made.
+                </p>
 
                 <Link
-                  to="/lets-talk"
+                  to="/possibilities"
                   onClick={() => window.scrollTo(0, 0)}
                   className="inline-flex items-center gap-3 bg-gradient-to-r from-[#8B6F47] to-[#6F5838] text-white px-8 py-4 rounded-full font-semibold hover:from-[#6F5838] hover:to-[#8B6F47] transition-all duration-300 shadow-lg hover:shadow-xl group"
                 >
-                  Let's Start the Conversation
+                  Explore the Possibility Assessment
                   <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </Link>
               </div>
