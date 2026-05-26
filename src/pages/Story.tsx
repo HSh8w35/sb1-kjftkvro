@@ -277,6 +277,29 @@ function Story() {
               </div>
 
 
+              <div className="mb-20 pt-12 border-t border-[#8B6F47]/30">
+                <p className="text-xs uppercase tracking-widest text-[#8B6F47] font-semibold mb-8">In Conversation</p>
+                <div className="bg-[#1F2A44] rounded-xl overflow-hidden shadow-xl">
+                  <div className="aspect-video w-full">
+                    <iframe
+                      src="https://www.youtube.com/embed/dwcCLT9QHZU"
+                      title="Don't Tell Me It's Impossible — Heidi Stone on Stove to Strategy"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                      className="w-full h-full"
+                    />
+                  </div>
+                  <div className="px-8 py-7">
+                    <h3 className="text-xl font-bold text-[#E8DCC8] mb-2 leading-snug">
+                      "Don't Tell Me It's Impossible"
+                    </h3>
+                    <p className="text-[#C9A96E]/80 text-sm leading-relaxed">
+                      Heidi joins Stove to Strategy for a conversation about leadership, possibility, independent hospitality, and the lessons learned leading complex destination properties through transformation.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
               <div className="text-center mt-20 pt-12 border-t border-[#8B6F47]/30">
                 <Link
                   to="/lets-talk#contact"
