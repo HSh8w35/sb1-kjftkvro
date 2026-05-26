@@ -279,26 +279,41 @@ function Story() {
 
               <div className="mb-20 pt-12 border-t border-[#8B6F47]/30">
                 <p className="text-xs uppercase tracking-widest text-[#8B6F47] font-semibold mb-8">In Conversation</p>
-                <div className="bg-[#1F2A44] rounded-xl overflow-hidden shadow-xl">
-                  <div className="aspect-video w-full">
-                    <iframe
-                      src="https://www.youtube.com/embed/dwcCLT9QHZU?si=zhuy0XyNmaYgBt6o&rel=0"
-                      title="Don't Tell Me It's Impossible — Heidi Stone on Stove to Strategy"
-                      frameBorder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      allowFullScreen
-                      className="w-full h-full"
+                <a
+                  href="https://youtu.be/dwcCLT9QHZU?si=zhuy0XyNmaYgBt6o"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block bg-[#1F2A44] rounded-xl overflow-hidden shadow-xl group"
+                >
+                  <div className="aspect-video w-full relative bg-black">
+                    <img
+                      src={`https://img.youtube.com/vi/dwcCLT9QHZU/maxresdefault.jpg`}
+                      alt="Don't Tell Me It's Impossible — Heidi Stone on Stove to Strategy"
+                      className="w-full h-full object-cover opacity-80 group-hover:opacity-60 transition-opacity duration-300"
+                      onError={(e) => {
+                        (e.target as HTMLImageElement).src = `https://img.youtube.com/vi/dwcCLT9QHZU/hqdefault.jpg`;
+                      }}
                     />
+                    <div className="absolute inset-0 flex items-center justify-center">
+                      <div className="bg-red-600 group-hover:bg-red-500 transition-colors duration-300 rounded-full w-16 h-16 flex items-center justify-center shadow-2xl">
+                        <svg className="w-7 h-7 text-white ml-1" fill="currentColor" viewBox="0 0 24 24">
+                          <path d="M8 5v14l11-7z" />
+                        </svg>
+                      </div>
+                    </div>
+                    <div className="absolute bottom-3 right-3 bg-black/70 text-white text-xs px-2 py-1 rounded font-medium tracking-wide">
+                      Watch on YouTube
+                    </div>
                   </div>
                   <div className="px-8 py-7">
-                    <h3 className="text-xl font-bold text-[#E8DCC8] mb-2 leading-snug">
+                    <h3 className="text-xl font-bold text-[#E8DCC8] mb-2 leading-snug group-hover:text-[#C9A96E] transition-colors duration-200">
                       "Don't Tell Me It's Impossible"
                     </h3>
                     <p className="text-[#C9A96E]/80 text-sm leading-relaxed">
                       Heidi joins Stove to Strategy for a conversation about leadership, possibility, independent hospitality, and the lessons learned leading complex destination properties through transformation.
                     </p>
                   </div>
-                </div>
+                </a>
               </div>
 
               <div className="text-center mt-20 pt-12 border-t border-[#8B6F47]/30">
