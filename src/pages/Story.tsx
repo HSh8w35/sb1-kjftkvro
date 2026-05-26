@@ -282,7 +282,7 @@ function Story() {
                 <div className="bg-[#1F2A44] rounded-xl overflow-hidden shadow-xl">
                   <div className="aspect-video w-full">
                     <iframe
-                      src="https://www.youtube.com/embed/dwcCLT9QHZU?rel=0"
+                      src="https://www.youtube.com/embed/dwcCLT9QHZU?si=zhuy0XyNmaYgBt6o&rel=0"
                       title="Don't Tell Me It's Impossible — Heidi Stone on Stove to Strategy"
                       frameBorder="0"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
