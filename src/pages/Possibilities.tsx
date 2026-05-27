@@ -99,7 +99,7 @@ function Possibilities() {
           </div>
 
           {/* Executive Strategy Session */}
-          <div id="executive-strategy-session" className="max-w-4xl mx-auto">
+          <div id="executive-strategy-session" className="max-w-4xl mx-auto scroll-mt-24">
             {/* Section divider */}
             <div className="flex items-center gap-6 mb-12">
               <div className="flex-1 h-px bg-gradient-to-r from-transparent to-[#8B6F47]/25" />
@@ -177,7 +177,7 @@ function Possibilities() {
           </div>
 
           {/* Advisory Relationships */}
-          <div id="advisory-relationships" className="max-w-4xl mx-auto mt-14">
+          <div id="advisory-relationships" className="max-w-4xl mx-auto mt-14 scroll-mt-24">
             {/* Section divider */}
             <div className="flex items-center gap-6 mb-8">
               <div className="flex-1 h-px bg-gradient-to-r from-transparent to-[#8B6F47]/25" />
