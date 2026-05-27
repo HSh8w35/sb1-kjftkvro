@@ -188,8 +188,8 @@ function Possibilities() {
             {/* Header image — quiet, atmospheric */}
             <div className="relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-xl mb-12">
               <img
-                src="/ChatGPT_Image_May_27,_2026,_10_15_48_AM.png"
-                alt="Advisory meeting with lakeside view"
+                src="/ChatGPT_Image_May_27,_2026,_10_33_09_AM.png"
+                alt="Advisory relationship meeting in an elegant setting"
                 className="w-full h-full object-cover object-center"
               />
               <div className="absolute inset-0 bg-gradient-to-b from-[#1C1710]/10 via-[#1C1710]/20 to-[#1C1710]/75" />
