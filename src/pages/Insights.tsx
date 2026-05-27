@@ -249,9 +249,12 @@ function Insights() {
             <p className="text-xl text-[#2E2A26] leading-relaxed">
               Independent hotels are more than just places to stay—they are anchors of local identity, economic drivers, and irreplaceable cultural assets. As consolidation threatens the hospitality landscape, protecting these properties requires intentional policy and community support.
             </p>
-            <div className="mt-6 text-[#8B6F47] font-semibold flex items-center gap-2 group-hover:text-[#B87333] transition-colors">
-              Read Full Article
-              <span className="group-hover:translate-x-1 transition-transform">→</span>
+            <div className="mt-6 flex items-center gap-3">
+              <span className="inline-flex items-center gap-2 bg-[#8B6F47] group-hover:bg-[#B87333] transition-colors text-white font-semibold px-5 py-2.5 rounded-lg">
+                <FileText className="w-4 h-4" />
+                Read Full Article (PDF)
+                <span className="group-hover:translate-x-1 transition-transform">→</span>
+              </span>
             </div>
           </a>
         </div>
