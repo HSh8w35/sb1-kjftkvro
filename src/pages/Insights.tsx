@@ -190,7 +190,7 @@ function Insights() {
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="text-center mb-8 relative">
           {/* Watermark Background */}
-          <div className="absolute inset-x-0 -top-44 bottom-0 flex items-center justify-center pointer-events-none overflow-hidden">
+          <div className="absolute inset-x-0 -top-24 bottom-0 flex items-center justify-center pointer-events-none overflow-hidden">
             <img
               src="/Transl_Key_only.webp"
               alt=""
