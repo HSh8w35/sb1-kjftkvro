@@ -198,14 +198,10 @@ function Insights() {
             />
           </div>
 
-          <div className="mb-2 relative z-10">
-            <div className="flex items-center justify-center mb-2">
-              <img
-                src="/V_2_Transparent_Perspectives.png"
-                alt="Perspectives"
-                className="w-auto h-40 md:h-52"
-              />
-            </div>
+          <div className="mb-4 relative z-10">
+            <h1 className="text-5xl md:text-6xl font-bold text-[#8B6F47] leading-tight text-center">
+              Perspectives
+            </h1>
           </div>
           <div className="max-w-4xl mx-auto space-y-3 text-center mb-6 relative z-10 bg-transparent">
             <p className="font-montserrat text-lg text-[#2E2A26] leading-snug bg-transparent">
