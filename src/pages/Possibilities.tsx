@@ -116,8 +116,10 @@ function Possibilities() {
                   className="w-full h-full object-cover object-center"
                 />
                 <div className="absolute inset-0 bg-gradient-to-b from-[#2A2218]/30 via-[#2A2218]/20 to-[#2A2218]/70" />
-                <div className="absolute bottom-6 left-8 right-8">
+                <div className="absolute top-6 left-8">
                   <span className="text-base tracking-[0.2em] uppercase text-black font-bold">Focused Engagement</span>
+                </div>
+                <div className="absolute bottom-6 left-8 right-8">
                   <h2 className="text-3xl md:text-4xl font-bold text-white mt-1 leading-tight">
                     Executive Strategy Session
                   </h2>
