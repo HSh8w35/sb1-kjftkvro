@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Sparkles, TrendingUp, Users, Building2, Lightbulb, MapPin } from 'lucide-react';
+import { Sparkles, Users, Building2, TrendingUp, Compass, Calendar, Layers, MessageSquare, HeartHandshake, BarChart2 } from 'lucide-react';
 import SEO from '../components/SEO';
 import { useSEOData } from '../hooks/useSEOData';
 
@@ -98,257 +98,107 @@ function Possibilities() {
             </div>
           </div>
 
-          <div className="space-y-12">
-            <section className="bg-white/80 backdrop-blur-sm rounded-2xl p-8 md:p-12 shadow-xl border border-[#8B6F47]/20 hover:shadow-2xl transition-shadow duration-300">
-              <h2 className="text-3xl md:text-4xl font-bold text-[#8B6F47] mb-6 text-center">
-                What the <strong>Possibility Assessment</strong> Explores
-              </h2>
-              <div className="space-y-6 text-lg text-[#2E2A26] leading-relaxed">
-                <p className="text-center">
-                  Each engagement is tailored to the specific property, but the exploration typically includes several key dimensions.
-                </p>
+          {/* Executive Strategy Session */}
+          <div className="max-w-4xl mx-auto">
+            {/* Section divider */}
+            <div className="flex items-center gap-6 mb-12">
+              <div className="flex-1 h-px bg-gradient-to-r from-transparent to-[#8B6F47]/25" />
+              <span className="text-xs tracking-[0.2em] uppercase text-[#8B6F47]/60 font-medium whitespace-nowrap">Additional Engagement</span>
+              <div className="flex-1 h-px bg-gradient-to-l from-transparent to-[#8B6F47]/25" />
+            </div>
 
-                <div className="grid md:grid-cols-2 gap-6 mt-8">
-                  <div className="bg-gradient-to-br from-[#8B6F47]/5 to-white rounded-xl p-6 border border-[#8B6F47]/20 hover:border-[#8B6F47]/40 transition-all hover:shadow-lg">
-                    <div className="flex items-center gap-3 mb-4">
-                      <MapPin className="w-8 h-8 text-[#8B6F47] flex-shrink-0" />
-                      <h3 className="text-2xl font-bold text-[#8B6F47]">Identity & Place</h3>
-                    </div>
-                    <p className="mb-3">
-                      Every independent hotel has a narrative shaped by its geography, history, and the community around it. Over time that identity can become diluted or underutilized.
-                    </p>
-                    <p>
-                      The assessment explores how the property's setting, regional character, and history can shape a clearer sense of place—allowing the hotel to operate not just as lodging, but as a natural gathering point for the region it serves.
-                    </p>
-                  </div>
+            <div className="relative rounded-2xl overflow-hidden shadow-2xl">
+              {/* Atmospheric image strip */}
+              <div className="relative h-56 md:h-72 overflow-hidden">
+                <img
+                  src="https://images.pexels.com/photos/1579253/pexels-photo-1579253.jpeg?auto=compress&cs=tinysrgb&w=1400"
+                  alt="Hotel lobby with architectural detail"
+                  className="w-full h-full object-cover object-center"
+                />
+                <div className="absolute inset-0 bg-gradient-to-b from-[#2A2218]/30 via-[#2A2218]/20 to-[#2A2218]/70" />
+                <div className="absolute bottom-6 left-8 right-8">
+                  <span className="text-xs tracking-[0.25em] uppercase text-[#C9A96E]/90 font-medium">Focused Engagement</span>
+                  <h2 className="text-3xl md:text-4xl font-bold text-white mt-1 leading-tight">
+                    Executive Strategy Session
+                  </h2>
+                </div>
+              </div>
 
-                  <div className="bg-gradient-to-br from-[#8B6F47]/5 to-white rounded-xl p-6 border border-[#8B6F47]/20 hover:border-[#8B6F47]/40 transition-all hover:shadow-lg">
-                    <div className="flex items-center gap-3 mb-4">
-                      <TrendingUp className="w-8 h-8 text-[#8B6F47] flex-shrink-0" />
-                      <h3 className="text-2xl font-bold text-[#8B6F47]">Revenue & Market Opportunities</h3>
-                    </div>
-                    <p>
-                      Independent hotels often rely on familiar patterns of business. The assessment examines where new sources of revenue may exist, particularly through programming, partnerships, experiences, and strategic positioning that create new reasons for guests to visit.
-                    </p>
-                  </div>
+              {/* Content panel */}
+              <div className="bg-gradient-to-br from-[#FAF6EF] via-white to-[#F3EBD9] border border-[#8B6F47]/15 border-t-0 rounded-b-2xl p-8 md:p-12">
+                <div className="space-y-5 text-lg text-[#2E2A26] leading-relaxed mb-10">
+                  <p>
+                    A focused engagement designed for owners and leadership teams seeking experienced outside perspective before larger decisions are made. Executive Strategy Sessions provide strategic clarity around operational challenges, leadership alignment, guest experience, reinvestment priorities, seasonality, organizational structure, and emerging opportunities within the property.
+                  </p>
+                  <p className="text-[#5A4A3A] italic border-l-2 border-[#8B6F47]/40 pl-5">
+                    Ideal for organizations seeking thoughtful guidance and a clearer path forward without the scope of a full Possibility Assessment™.
+                  </p>
+                </div>
 
-                  <div className="bg-gradient-to-br from-[#8B6F47]/5 to-white rounded-xl p-6 border border-[#8B6F47]/20 hover:border-[#8B6F47]/40 transition-all hover:shadow-lg">
-                    <div className="flex items-center gap-3 mb-4">
-                      <div className="w-8 h-8 flex items-center justify-center text-[#8B6F47] flex-shrink-0">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8">
-                          <path strokeLinecap="round" strokeLinejoin="round" d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" />
-                        </svg>
+                {/* Areas Often Explored */}
+                <div className="mb-10">
+                  <p className="text-sm tracking-[0.2em] uppercase text-[#8B6F47] font-semibold mb-6">
+                    Areas Often Explored
+                  </p>
+                  <div className="grid sm:grid-cols-2 gap-3">
+                    {[
+                      { icon: <Users className="w-4 h-4" />, label: 'Leadership Alignment & Organizational Clarity' },
+                      { icon: <Building2 className="w-4 h-4" />, label: 'Independent Hotel & Resort Operations' },
+                      { icon: <Compass className="w-4 h-4" />, label: 'Guest Experience & Property Identity' },
+                      { icon: <Calendar className="w-4 h-4" />, label: 'Seasonality & Demand Strategy' },
+                      { icon: <TrendingUp className="w-4 h-4" />, label: 'Reinvestment & Capital Priorities' },
+                      { icon: <Layers className="w-4 h-4" />, label: 'Management Company Alignment' },
+                      { icon: <BarChart2 className="w-4 h-4" />, label: 'Strategic Positioning & Market Perspective' },
+                      { icon: <HeartHandshake className="w-4 h-4" />, label: 'Owner Fatigue & Operational Strain' },
+                    ].map(({ icon, label }) => (
+                      <div key={label} className="flex items-center gap-3 py-2.5 px-4 rounded-lg bg-[#8B6F47]/5 border border-[#8B6F47]/12 hover:bg-[#8B6F47]/10 hover:border-[#8B6F47]/25 transition-all">
+                        <span className="text-[#8B6F47] flex-shrink-0">{icon}</span>
+                        <span className="text-sm text-[#2E2A26] font-medium leading-snug">{label}</span>
                       </div>
-                      <h3 className="text-2xl font-bold text-[#8B6F47]">Seasonality</h3>
-                    </div>
-                    <p>
-                      Many destination properties experience pronounced seasonal fluctuations that place pressure on revenue, staffing, and operations. The assessment explores how programming, partnerships, and strategic operational planning can create stronger performance across the full calendar year—stabilizing demand beyond traditional peak periods.
-                    </p>
-                  </div>
-
-                  <div className="bg-gradient-to-br from-[#8B6F47]/5 to-white rounded-xl p-6 border border-[#8B6F47]/20 hover:border-[#8B6F47]/40 transition-all hover:shadow-lg">
-                    <div className="flex items-center gap-3 mb-4">
-                      <Users className="w-8 h-8 text-[#8B6F47] flex-shrink-0" />
-                      <h3 className="text-2xl font-bold text-[#8B6F47]">Guest Experience</h3>
-                    </div>
-                    <p>
-                      Memorable experiences are often what differentiate independent properties from branded hotels. The assessment considers how amenities, signature experiences, and the overall guest journey contribute to both reputation and revenue.
-                    </p>
-                  </div>
-
-                  <div className="bg-gradient-to-br from-[#8B6F47]/5 to-white rounded-xl p-6 border border-[#8B6F47]/20 hover:border-[#8B6F47]/40 transition-all hover:shadow-lg">
-                    <div className="flex items-center gap-3 mb-4">
-                      <Building2 className="w-8 h-8 text-[#8B6F47] flex-shrink-0" />
-                      <h3 className="text-2xl font-bold text-[#8B6F47]">Operational Alignment</h3>
-                    </div>
-                    <p>
-                      Operational structures quietly shape performance over time. Leadership alignment, staffing patterns, and organizational clarity are explored to identify opportunities for improvement.
-                    </p>
-                  </div>
-
-                  <div className="bg-gradient-to-br from-[#8B6F47]/5 to-white rounded-xl p-6 border border-[#8B6F47]/20 hover:border-[#8B6F47]/40 transition-all hover:shadow-lg">
-                    <div className="flex items-center gap-3 mb-4">
-                      <Sparkles className="w-8 h-8 text-[#8B6F47] flex-shrink-0" />
-                      <h3 className="text-2xl font-bold text-[#8B6F47]">Strategic Opportunity</h3>
-                    </div>
-                    <p>
-                      Finally, the assessment identifies opportunities that may exist within the property's current assets—ideas capable of unlocking new revenue, strengthening positioning, and activating the hotel's full potential.
-                    </p>
+                    ))}
                   </div>
                 </div>
 
-                <div className="mt-8 bg-gradient-to-r from-[#8B6F47]/10 via-[#8B6F47]/15 to-[#8B6F47]/10 rounded-xl p-8 border-y-4 border-[#8B6F47]/30 shadow-lg">
-                  <p className="italic text-[#8B6F47] text-xl text-center leading-relaxed font-medium">
-                    Often these opportunities are hiding in plain sight—overlooked not because they lack potential, but because the property has grown accustomed to seeing its limitations more clearly than its possibilities.
-                  </p>
-                </div>
-              </div>
-            </section>
-
-            <section className="bg-white/80 backdrop-blur-sm rounded-2xl p-8 md:p-12 shadow-xl border border-[#8B6F47]/20 hover:shadow-2xl transition-shadow duration-300">
-              <h2 className="text-3xl md:text-4xl font-bold text-[#8B6F47] mb-8 text-center">
-                How the Assessment Works
-              </h2>
-              <div className="space-y-6 text-lg text-[#2E2A26] leading-relaxed">
-                <div className="relative">
-                  <div className="flex items-start gap-4">
-                    <div className="flex-shrink-0 w-12 h-12 rounded-full bg-gradient-to-br from-[#8B6F47] to-[#6F5838] flex items-center justify-center text-white font-bold text-xl">
-                      1
-                    </div>
-                    <div className="flex-1">
-                      <h3 className="text-2xl font-bold text-[#8B6F47] mb-3">Initial Conversation</h3>
-                      <p>
-                        The process begins with a confidential conversation with ownership to understand the property, its history, and the questions currently being considered.
-                      </p>
-                    </div>
+                {/* Evocative image trio */}
+                <div className="grid grid-cols-3 gap-3 mb-10 rounded-xl overflow-hidden">
+                  <div className="relative h-32 md:h-40 overflow-hidden rounded-lg">
+                    <img
+                      src="https://images.pexels.com/photos/271639/pexels-photo-271639.jpeg?auto=compress&cs=tinysrgb&w=600"
+                      alt="Hotel corridor architectural detail"
+                      className="w-full h-full object-cover object-center hover:scale-105 transition-transform duration-700"
+                    />
+                    <div className="absolute inset-0 bg-[#2A2218]/20" />
                   </div>
-                  <div className="absolute left-6 top-12 bottom-0 w-0.5 bg-gradient-to-b from-[#8B6F47] to-transparent"></div>
-                </div>
-
-                <div className="relative">
-                  <div className="flex items-start gap-4">
-                    <div className="flex-shrink-0 w-12 h-12 rounded-full bg-gradient-to-br from-[#8B6F47] to-[#6F5838] flex items-center justify-center text-white font-bold text-xl">
-                      2
-                    </div>
-                    <div className="flex-1">
-                      <h3 className="text-2xl font-bold text-[#8B6F47] mb-3">On-Property Immersion</h3>
-                      <p>
-                        A focused, on-site, one week engagement at the property allows a fully immersive experience—from guest arrival through operations, amenities, and leadership conversations.
-                      </p>
-                    </div>
+                  <div className="relative h-32 md:h-40 overflow-hidden rounded-lg">
+                    <img
+                      src="https://images.pexels.com/photos/1134176/pexels-photo-1134176.jpeg?auto=compress&cs=tinysrgb&w=600"
+                      alt="Historic property exterior detail"
+                      className="w-full h-full object-cover object-center hover:scale-105 transition-transform duration-700"
+                    />
+                    <div className="absolute inset-0 bg-[#2A2218]/15" />
                   </div>
-                  <div className="absolute left-6 top-12 bottom-0 w-0.5 bg-gradient-to-b from-[#8B6F47] to-transparent"></div>
-                </div>
-
-                <div className="relative">
-                  <div className="flex items-start gap-4">
-                    <div className="flex-shrink-0 w-12 h-12 rounded-full bg-gradient-to-br from-[#8B6F47] to-[#6F5838] flex items-center justify-center text-white font-bold text-xl">
-                      3
-                    </div>
-                    <div className="flex-1">
-                      <h3 className="text-2xl font-bold text-[#8B6F47] mb-3">Opportunity Mapping</h3>
-                      <p>
-                        Following the visit, observations and insights are synthesized to identify potential opportunities and strategic considerations.
-                      </p>
-                    </div>
-                  </div>
-                  <div className="absolute left-6 top-12 bottom-0 w-0.5 bg-gradient-to-b from-[#8B6F47] to-transparent"></div>
-                </div>
-
-                <div className="relative">
-                  <div className="flex items-start gap-4">
-                    <div className="flex-shrink-0 w-12 h-12 rounded-full bg-gradient-to-br from-[#8B6F47] to-[#6F5838] flex items-center justify-center text-white font-bold text-xl">
-                      4
-                    </div>
-                    <div className="flex-1">
-                      <h3 className="text-2xl font-bold text-[#8B6F47] mb-3">Owner Conversation</h3>
-                      <p>
-                        The assessment concludes with a detailed conversation with ownership, along with a written summary outlining key observations and opportunities.
-                      </p>
-                    </div>
+                  <div className="relative h-32 md:h-40 overflow-hidden rounded-lg">
+                    <img
+                      src="https://images.pexels.com/photos/261102/pexels-photo-261102.jpeg?auto=compress&cs=tinysrgb&w=600"
+                      alt="Hotel lobby with warm lighting"
+                      className="w-full h-full object-cover object-center hover:scale-105 transition-transform duration-700"
+                    />
+                    <div className="absolute inset-0 bg-[#2A2218]/20" />
                   </div>
                 </div>
-              </div>
-            </section>
 
-            <section className="bg-gradient-to-br from-[#8B6F47]/10 to-[#8B6F47]/5 backdrop-blur-sm rounded-2xl p-8 md:p-12 shadow-xl border-2 border-[#8B6F47]/30 hover:shadow-2xl transition-shadow duration-300">
-              <div className="flex items-center gap-3 mb-6 justify-center">
-                <TrendingUp className="w-10 h-10 text-[#8B6F47]" />
-                <h2 className="text-3xl md:text-4xl font-bold text-[#8B6F47]">
-                  What Owners Gain
-                </h2>
-              </div>
-              <div className="space-y-4 text-lg text-[#2E2A26] leading-relaxed">
-                <p className="text-center">
-                  Owners who invite a <strong>Possibility Assessment</strong> often walk away with opportunities capable of influencing performance immediately.
-                </p>
-                <p className="font-semibold pt-4">The work frequently reveals:</p>
-                <ul className="space-y-3 my-6 pl-6">
-                  <li className="flex items-start gap-3">
-                    <span className="text-[#8B6F47] text-2xl leading-none">-</span>
-                    <span>New revenue opportunities that can be implemented quickly</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <span className="text-[#8B6F47] text-2xl leading-none">-</span>
-                    <span>Programming concepts that generate fresh demand</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <span className="text-[#8B6F47] text-2xl leading-none">-</span>
-                    <span>Operational refinements that improve profitability</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <span className="text-[#8B6F47] text-2xl leading-none">-</span>
-                    <span>Positioning adjustments that elevate the guest experience</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <span className="text-[#8B6F47] text-2xl leading-none">-</span>
-                    <span>Strategic clarity around future reinvestment</span>
-                  </li>
-                </ul>
-                <div className="bg-white/80 rounded-xl p-6 my-6 border-2 border-[#8B6F47]/30">
-                  <p className="text-center italic text-[#8B6F47]">
-                    In many cases, a single idea uncovered through the assessment can generate returns that far exceed the investment in the work itself.
-                  </p>
+                <div className="flex justify-center">
+                  <a
+                    href="mailto:heidi@heidistonehospitality.com?subject=Executive%20Strategy%20Session%20Inquiry"
+                    className="inline-flex items-center gap-3 bg-gradient-to-r from-[#8B6F47] to-[#6F5838] text-white px-10 py-4 rounded-xl hover:from-[#6F5838] hover:to-[#5A4A2D] transition-all shadow-lg hover:shadow-xl text-lg font-semibold transform hover:scale-105 duration-300"
+                  >
+                    Start a Conversation
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor" className="w-5 h-5">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                    </svg>
+                  </a>
                 </div>
-                <p className="font-semibold text-center text-xl pt-4">
-                  More importantly, owners gain a renewed understanding of the potential already present within their property.
-                </p>
               </div>
-            </section>
-
-            <section className="bg-gradient-to-br from-[#8B6F47]/10 to-[#8B6F47]/5 backdrop-blur-sm rounded-2xl p-8 md:p-12 shadow-xl border-2 border-[#8B6F47]/30 hover:shadow-2xl transition-shadow duration-300">
-              <h2 className="text-3xl md:text-4xl font-bold text-[#8B6F47] mb-6 text-center">
-                When the Possibility Is Something New
-              </h2>
-              <div className="flex justify-center mb-6">
-                <div className="h-1 w-24 bg-gradient-to-r from-transparent via-[#8B6F47] to-transparent" />
-              </div>
-              <div className="space-y-4 text-lg text-[#2E2A26] leading-relaxed">
-                <p>
-                  Occasionally the most important question is not how an existing hotel can evolve, but whether a new hospitality project should be created at all.
-                </p>
-                <p>
-                  Communities, investors, and planning teams sometimes seek independent guidance when exploring new hotel development in destination markets. In these situations, Heidi Stone Hospitality can provide strategic perspective on positioning, scale, operational realities, and long-term viability—helping ensure that what is envisioned can succeed not only on paper, but as a functioning hospitality business.
-                </p>
-              </div>
-            </section>
-
-            <section className="bg-gradient-to-br from-[#8B6F47] to-[#6F5838] rounded-2xl p-8 md:p-10 shadow-xl text-white max-w-3xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold mb-6 text-center">
-                Start the Conversation
-              </h2>
-              <div className="flex justify-center mb-6">
-                <div className="h-px w-24 bg-white/60" />
-              </div>
-              <div className="space-y-5 text-xl leading-relaxed text-center">
-                <p>
-                  Every <strong>Possibility Assessment</strong> begins with a conversation.
-                </p>
-                <p>
-                  The purpose of that conversation is simply to understand your property, the questions currently facing ownership, and whether a <strong>Possibility Assessment</strong> would provide meaningful value.
-                </p>
-                <p>
-                  In some cases it makes sense to move forward. In others, the conversation itself may offer useful perspective.
-                </p>
-                <p className="text-2xl font-semibold pt-2">
-                  Either way, the goal is the same: clarity about the opportunities that may exist within your property.
-                </p>
-                <p className="text-white/90 italic pt-2 text-lg">
-                  Discreet. Confidential. Intentional.
-                </p>
-              </div>
-            </section>
-
-            <div className="text-center pt-8">
-              <Link
-                to="/lets-talk#contact"
-                className="inline-flex items-center gap-3 bg-gradient-to-r from-[#8B6F47] to-[#6F5838] text-white px-10 py-5 rounded-xl hover:from-[#6F5838] hover:to-[#5A4A2D] transition-all shadow-xl hover:shadow-2xl text-lg font-semibold transform hover:scale-105 duration-300"
-              >
-                Let's Talk
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor" className="w-5 h-5">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-                </svg>
-              </Link>
             </div>
           </div>
         </div>
