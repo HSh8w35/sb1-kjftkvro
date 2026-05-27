@@ -109,7 +109,7 @@ function Possibilities() {
 
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               {/* Atmospheric image strip */}
-              <div className="relative h-56 md:h-72 overflow-hidden">
+              <div className="relative h-36 md:h-44 overflow-hidden">
                 <img
                   src="https://images.pexels.com/photos/1181406/pexels-photo-1181406.jpeg?auto=compress&cs=tinysrgb&w=1400"
                   alt="Executives in a boardroom discussion"
