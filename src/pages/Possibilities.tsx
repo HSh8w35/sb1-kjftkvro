@@ -288,8 +288,8 @@ function Possibilities() {
               </div>
               <div className="relative h-48 md:h-60 rounded-xl overflow-hidden">
                 <img
-                  src="https://images.pexels.com/photos/2034335/pexels-photo-2034335.jpeg?auto=compress&cs=tinysrgb&w=800"
-                  alt="Boutique resort courtyard with lush landscaping"
+                  src="/ChatGPT_Image_Dec_26,_2025,_12_34_46_PM.png"
+                  alt="Grand hotel bar with marble columns and warm lighting"
                   className="w-full h-full object-cover object-center hover:scale-105 transition-transform duration-700"
                 />
                 <div className="absolute inset-0 bg-[#1C1710]/15" />
