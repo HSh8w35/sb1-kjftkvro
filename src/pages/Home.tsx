@@ -204,6 +204,33 @@ function Home() {
         </div>
       </section>
 
+      {/* Ways to Work With Heidi */}
+      <section className="py-20 bg-[#FAF7F2]">
+        <div className="max-w-6xl mx-auto px-6 lg:px-8">
+          <div className="text-center mb-14">
+            <h2 className="text-4xl md:text-5xl font-bold text-[#8B6F47] mb-4">Ways to Work With Heidi</h2>
+            <div className="w-16 h-0.5 bg-[#B87333] mx-auto" />
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="bg-white rounded-2xl border border-[#8B6F47]/15 p-8 shadow-sm hover:shadow-md transition-shadow flex flex-col">
+              <div className="w-10 h-0.5 bg-[#B87333] mb-6" />
+              <h3 className="text-xl font-bold text-[#1F2A44] mb-4">The Possibility Assessment™</h3>
+              <p className="text-[#2E2A26] leading-relaxed flex-1">An immersive onsite assessment designed to uncover opportunities, clarify constraints, and align the future direction of independent and destination properties.</p>
+            </div>
+            <div className="bg-white rounded-2xl border border-[#8B6F47]/15 p-8 shadow-sm hover:shadow-md transition-shadow flex flex-col">
+              <div className="w-10 h-0.5 bg-[#B87333] mb-6" />
+              <h3 className="text-xl font-bold text-[#1F2A44] mb-4">Executive Strategy Session</h3>
+              <p className="text-[#2E2A26] leading-relaxed flex-1">A focused engagement for owners and leadership teams seeking experienced outside perspective before major decisions are made.</p>
+            </div>
+            <div className="bg-white rounded-2xl border border-[#8B6F47]/15 p-8 shadow-sm hover:shadow-md transition-shadow flex flex-col">
+              <div className="w-10 h-0.5 bg-[#B87333] mb-6" />
+              <h3 className="text-xl font-bold text-[#1F2A44] mb-4">Ongoing Advisory Relationships</h3>
+              <p className="text-[#2E2A26] leading-relaxed flex-1">Selective long-term strategic advisory engagements for owners, boards, and leadership teams navigating growth, transition, reinvestment, or operational complexity.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Closing quote */}
       <section className="py-16 bg-gradient-to-br from-[#3D3228] to-[#2A2218] relative overflow-hidden">
         <div className="absolute inset-0 opacity-5"
