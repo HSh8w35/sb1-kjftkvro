@@ -242,27 +242,32 @@ function Possibilities() {
             {/* Soft divider */}
             <div className="h-px bg-gradient-to-r from-transparent via-[#8B6F47]/20 to-transparent mb-12" />
 
-            {/* Advisory areas — restrained list layout */}
+            {/* Advisory areas — editorial list */}
             <div className="mb-12">
-              <p className="text-sm tracking-[0.2em] uppercase text-[#8B6F47] font-semibold mb-8">
+              <p className="text-sm tracking-[0.2em] uppercase text-[#8B6F47]/70 font-semibold mb-10">
                 Advisory Engagements May Include
               </p>
-              <div className="grid sm:grid-cols-2 gap-y-5 gap-x-12">
+              <div className="space-y-0">
                 {[
-                  'Strategic Leadership Guidance',
-                  'Owner Representation & Perspective',
-                  'Operational & Organizational Review',
-                  'Independent Hotel Strategy',
-                  'Reinvestment & Capital Planning Perspective',
-                  'Board & Leadership Facilitation',
-                  'Management Company Evaluation & Alignment',
-                  'Historic & Destination Asset Stewardship',
-                  'Experience & Positioning Evolution',
-                  'Long-Term Property Planning',
-                ].map((item) => (
-                  <div key={item} className="flex items-start gap-3">
-                    <div className="w-1 h-1 rounded-full bg-[#8B6F47] flex-shrink-0 mt-[0.6rem]" />
-                    <span className="text-[#2E2A26] leading-relaxed">{item}</span>
+                  { bold: 'Strategic Leadership Guidance', rest: '' },
+                  { bold: 'Owner Representation', rest: ' & Perspective' },
+                  { bold: 'Operational & Organizational Review', rest: '' },
+                  { bold: 'Independent Hotel Strategy', rest: '' },
+                  { bold: 'Reinvestment', rest: ' & Capital Planning Perspective' },
+                  { bold: 'Board & Leadership Facilitation', rest: '' },
+                  { bold: 'Management Company', rest: ' Evaluation & Alignment' },
+                  { bold: 'Historic & Destination Asset', rest: ' Stewardship' },
+                  { bold: 'Experience & Positioning', rest: ' Evolution' },
+                  { bold: 'Long-Term Property Planning', rest: '' },
+                ].map((item, i) => (
+                  <div key={i} className="flex items-baseline gap-0 py-4 border-b border-[#8B6F47]/10 last:border-0">
+                    <span className="text-[10px] tracking-widest text-[#8B6F47]/40 font-medium mr-6 tabular-nums w-5 flex-shrink-0">
+                      {String(i + 1).padStart(2, '0')}
+                    </span>
+                    <span className="text-[#2E2A26] text-lg leading-relaxed">
+                      <span className="font-semibold">{item.bold}</span>
+                      <span className="text-[#5A4A3A]/80">{item.rest}</span>
+                    </span>
                   </div>
                 ))}
               </div>
