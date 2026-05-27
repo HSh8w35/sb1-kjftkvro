@@ -55,7 +55,7 @@ function Layout() {
                     isActive('/our-approach') ? 'text-[#8B6F47]' : 'text-[#2E2A26] hover:text-[#1F2A44]'
                   }`}
                 >
-                  Our Approach
+                  Approach
                 </Link>
                 {isActive('/our-approach') && (
                   <img
@@ -72,7 +72,7 @@ function Layout() {
                     isActive('/about') ? 'text-[#8B6F47]' : 'text-[#2E2A26] hover:text-[#1F2A44]'
                   }`}
                 >
-                  About Our Founder
+                  About HSH
                 </Link>
                 {isActive('/about') && (
                   <img
@@ -181,12 +181,12 @@ function Layout() {
                 </li>
                 <li>
                   <Link to="/our-approach" className="hover:text-[#8B6F47] transition-colors">
-                    Our Approach
+                    Approach
                   </Link>
                 </li>
                 <li>
                   <Link to="/about" className="hover:text-[#8B6F47] transition-colors">
-                    About Our Founder
+                    About HSH
                   </Link>
                 </li>
                 <li className="relative group">
