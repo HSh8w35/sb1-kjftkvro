@@ -212,11 +212,11 @@ function Home() {
             <div className="w-16 h-0.5 bg-[#B87333] mx-auto" />
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-white rounded-2xl border border-[#8B6F47]/15 p-8 shadow-sm hover:shadow-md transition-shadow flex flex-col">
+            <a href="/possibility-assessment" className="bg-white rounded-2xl border border-[#8B6F47]/15 p-8 shadow-sm hover:shadow-md transition-shadow flex flex-col group no-underline">
               <div className="w-10 h-0.5 bg-[#B87333] mb-6" />
-              <h3 className="text-xl font-bold text-[#1F2A44] mb-4">The Possibility Assessment™</h3>
+              <h3 className="text-xl font-bold text-[#1F2A44] mb-4 group-hover:text-[#8B6F47] transition-colors">The Possibility Assessment™</h3>
               <p className="text-[#2E2A26] leading-relaxed flex-1">An immersive onsite assessment designed to uncover opportunities, clarify constraints, and align the future direction of independent and destination properties.</p>
-            </div>
+            </a>
             <div className="bg-white rounded-2xl border border-[#8B6F47]/15 p-8 shadow-sm hover:shadow-md transition-shadow flex flex-col">
               <div className="w-10 h-0.5 bg-[#B87333] mb-6" />
               <h3 className="text-xl font-bold text-[#1F2A44] mb-4">Executive Strategy Session</h3>
