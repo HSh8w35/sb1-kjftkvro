@@ -217,6 +217,49 @@ function Insights() {
           </div>
         </div>
 
+        <div className="max-w-6xl mx-auto mb-16">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#8B6F47] mb-4">
+              Commentary
+            </h2>
+            <div className="flex justify-center mb-6">
+              <div className="h-1 w-24 bg-gradient-to-r from-transparent via-[#B87333] to-transparent" />
+            </div>
+            <p className="text-lg text-[#2E2A26] max-w-2xl mx-auto">
+              Thought leadership on policy, advocacy, and the broader impact of independent hospitality
+            </p>
+          </div>
+
+          <a
+            href="https://richmond.com/opinion/column/article_2d8c3941-befb-461f-9e50-df1b172f02a3.html"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block bg-gradient-to-br from-white to-[#F6F1E8] p-10 rounded-2xl border-2 border-[#8B6F47]/20 hover:shadow-xl transition-all group cursor-pointer"
+          >
+            <div className="flex items-start mb-6">
+              <div className="p-3 bg-[#1F2A44] rounded-lg mr-4 group-hover:bg-[#8B6F47] transition-colors">
+                <MessageSquare className="w-6 h-6 text-white" />
+              </div>
+              <div className="flex-1">
+                <h3 className="text-2xl font-bold text-[#8B6F47] mb-2 flex items-center gap-2">
+                  Protect Virginia's Hidden Gems - Independent Hotels
+                  <FileText className="w-5 h-5 text-[#B87333] flex-shrink-0" />
+                </h3>
+                <p className="text-xl text-[#1F2A44] font-medium mb-4">
+                  A call to preserve the unique character and cultural significance of Virginia's independent hotels.
+                </p>
+              </div>
+            </div>
+            <p className="text-xl text-[#2E2A26] leading-relaxed">
+              Independent hotels are more than just places to stay—they are anchors of local identity, economic drivers, and irreplaceable cultural assets. As consolidation threatens the hospitality landscape, protecting these properties requires intentional policy and community support.
+            </p>
+            <div className="mt-6 text-[#8B6F47] font-semibold flex items-center gap-2 group-hover:text-[#B87333] transition-colors">
+              Read Full Article
+              <span className="group-hover:translate-x-1 transition-transform">→</span>
+            </div>
+          </a>
+        </div>
+
         {loading ? (
           <div className="flex justify-center items-center py-20">
             <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-[#8B6F47]"></div>
@@ -323,49 +366,6 @@ function Insights() {
             {perspectives.length > 0 && !perspectives.some(p => !p.is_flagship) && <div className="mb-16" />}
           </>
         )}
-
-        <div className="max-w-6xl mx-auto mb-16">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#8B6F47] mb-4">
-              Commentary
-            </h2>
-            <div className="flex justify-center mb-6">
-              <div className="h-1 w-24 bg-gradient-to-r from-transparent via-[#B87333] to-transparent" />
-            </div>
-            <p className="text-lg text-[#2E2A26] max-w-2xl mx-auto">
-              Thought leadership on policy, advocacy, and the broader impact of independent hospitality
-            </p>
-          </div>
-
-          <a
-            href="https://richmond.com/opinion/column/article_2d8c3941-befb-461f-9e50-df1b172f02a3.html"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="block bg-gradient-to-br from-white to-[#F6F1E8] p-10 rounded-2xl border-2 border-[#8B6F47]/20 hover:shadow-xl transition-all group cursor-pointer"
-          >
-            <div className="flex items-start mb-6">
-              <div className="p-3 bg-[#1F2A44] rounded-lg mr-4 group-hover:bg-[#8B6F47] transition-colors">
-                <MessageSquare className="w-6 h-6 text-white" />
-              </div>
-              <div className="flex-1">
-                <h3 className="text-2xl font-bold text-[#8B6F47] mb-2 flex items-center gap-2">
-                  Protect Virginia's Hidden Gems - Independent Hotels
-                  <FileText className="w-5 h-5 text-[#B87333] flex-shrink-0" />
-                </h3>
-                <p className="text-xl text-[#1F2A44] font-medium mb-4">
-                  A call to preserve the unique character and cultural significance of Virginia's independent hotels.
-                </p>
-              </div>
-            </div>
-            <p className="text-xl text-[#2E2A26] leading-relaxed">
-              Independent hotels are more than just places to stay—they are anchors of local identity, economic drivers, and irreplaceable cultural assets. As consolidation threatens the hospitality landscape, protecting these properties requires intentional policy and community support.
-            </p>
-            <div className="mt-6 text-[#8B6F47] font-semibold flex items-center gap-2 group-hover:text-[#B87333] transition-colors">
-              Read Full Article
-              <span className="group-hover:translate-x-1 transition-transform">→</span>
-            </div>
-          </a>
-        </div>
 
         <div className="max-w-4xl mx-auto">
           <div className="bg-gradient-to-br from-[#8B6F47] to-[#6F5838] p-12 rounded-xl text-white border border-[#D4C5A9]/20 shadow-xl">
