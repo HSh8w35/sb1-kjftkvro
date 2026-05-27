@@ -38,7 +38,7 @@ function Layout() {
                     isActive('/possibilities') ? 'text-[#8B6F47]' : 'text-[#2E2A26] hover:text-[#1F2A44]'
                   }`}
                 >
-                  Possibilities
+                  Work With Heidi
                 </Link>
                 {isActive('/possibilities') && (
                   <img
@@ -176,7 +176,7 @@ function Layout() {
                 </li>
                 <li>
                   <Link to="/possibilities" className="hover:text-[#8B6F47] transition-colors">
-                    Possibilities
+                    Work With Heidi
                   </Link>
                 </li>
                 <li>
