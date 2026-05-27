@@ -190,7 +190,8 @@ function Possibilities() {
               <img
                 src="/ChatGPT_Image_May_27,_2026,_10_33_09_AM.png"
                 alt="Advisory relationship meeting in an elegant setting"
-                className="w-full h-full object-cover object-top"
+                className="w-full h-full object-cover"
+                style={{ objectPosition: '50% 20%' }}
               />
               <div className="absolute inset-0 bg-gradient-to-b from-[#1C1710]/10 via-[#1C1710]/20 to-[#1C1710]/75" />
               <div className="absolute top-5 left-8">
