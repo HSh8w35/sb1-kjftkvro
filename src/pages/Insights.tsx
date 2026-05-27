@@ -204,10 +204,10 @@ function Insights() {
             </h1>
           </div>
           <div className="max-w-4xl mx-auto space-y-3 text-center mb-6 relative z-10 bg-transparent">
-            <p className="font-montserrat text-lg text-[#2E2A26] leading-snug bg-transparent">
+            <p className="text-lg text-[#2E2A26] leading-snug bg-transparent">
               Perspectives are foundational statements about leadership, independence, and long-term value in hospitality—shaped by experience, tested under pressure, and refined through decades of executive leadership.
             </p>
-            <p className="font-montserrat text-lg text-[#2E2A26] leading-snug bg-transparent">
+            <p className="text-lg text-[#2E2A26] leading-snug bg-transparent">
               Written for owners, boards, and senior leaders, these essays challenge conventional industry assumptions and reflect the principles that guide our work at Heidi Stone Hospitality.
             </p>
           </div>
