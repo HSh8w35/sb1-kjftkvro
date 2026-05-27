@@ -266,7 +266,7 @@ function Possibilities() {
                     </span>
                     <span className="text-[#2E2A26] text-lg leading-relaxed">
                       <span className="font-semibold">{item.bold}</span>
-                      <span className="text-[#5A4A3A]/80">{item.rest}</span>
+                      <span>{item.rest}</span>
                     </span>
                   </div>
                 ))}
