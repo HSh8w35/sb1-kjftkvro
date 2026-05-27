@@ -111,8 +111,8 @@ function Possibilities() {
               {/* Atmospheric image strip */}
               <div className="relative h-56 md:h-72 overflow-hidden">
                 <img
-                  src="https://images.pexels.com/photos/1579253/pexels-photo-1579253.jpeg?auto=compress&cs=tinysrgb&w=1400"
-                  alt="Hotel lobby with architectural detail"
+                  src="https://images.pexels.com/photos/1181406/pexels-photo-1181406.jpeg?auto=compress&cs=tinysrgb&w=1400"
+                  alt="Executives in a boardroom discussion"
                   className="w-full h-full object-cover object-center"
                 />
                 <div className="absolute inset-0 bg-gradient-to-b from-[#2A2218]/30 via-[#2A2218]/20 to-[#2A2218]/70" />
