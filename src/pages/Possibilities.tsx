@@ -85,15 +85,15 @@ function Possibilities() {
                 </p>
               </div>
               <div className="mt-8 flex justify-center">
-                <a
-                  href="mailto:heidi@heidistonehospitality.com?subject=I'd%20like%20to%20talk%20with%20you%20about%20The%20Possibility%20Assessment"
+                <Link
+                  to="/possibility-assessment"
                   className="inline-flex items-center gap-3 bg-gradient-to-r from-[#8B6F47] to-[#6F5838] text-white px-10 py-4 rounded-xl hover:from-[#6F5838] hover:to-[#5A4A2D] transition-all shadow-lg hover:shadow-xl text-lg font-semibold transform hover:scale-105 duration-300"
                 >
-                  Let's Talk
+                  Learn More
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor" className="w-5 h-5">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
                   </svg>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

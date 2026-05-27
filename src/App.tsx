@@ -15,6 +15,7 @@ import FieldNotes from './pages/FieldNotes';
 import FAQ from './pages/FAQ';
 import Speaking from './pages/Speaking';
 import WhoWeWorkWith from './pages/WhoWeWorkWith';
+import PossibilityAssessmentLanding from './pages/PossibilityAssessmentLanding';
 import Login from './pages/Login';
 import AdminDashboard from './pages/AdminDashboard';
 
@@ -39,6 +40,7 @@ function App() {
             <Route path="/testimonials" element={<Testimonials />} />
             <Route path="/speaking" element={<Speaking />} />
             <Route path="/who-we-work-with" element={<WhoWeWorkWith />} />
+            <Route path="/possibility-assessment" element={<PossibilityAssessmentLanding />} />
             <Route path="/admin" element={
               <ProtectedRoute>
                 <AdminDashboard />
