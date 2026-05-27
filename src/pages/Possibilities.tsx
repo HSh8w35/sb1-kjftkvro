@@ -13,7 +13,17 @@ function Possibilities() {
         description={seoData?.description || "Discover what becomes possible when independent hotels are guided by clarity, discipline, and long-term vision."}
         keywords={seoData?.keywords}
       />
-      <div className="min-h-screen bg-gradient-to-br from-[#F6F1E8] via-[#EDE4D3] to-[#E8DCC8] pt-32 pb-20">
+      <div className="bg-[#FAF7F2] pt-32 pb-12 border-b border-[#8B6F47]/10">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
+          <h1 className="text-4xl md:text-5xl font-bold text-[#8B6F47] mb-6">Work With Heidi</h1>
+          <div className="w-16 h-0.5 bg-[#B87333] mx-auto mb-8" />
+          <p className="text-lg text-[#2E2A26] leading-relaxed">
+            Heidi Stone Hospitality provides hospitality advisory services for independent hotels, historic properties, boutique hotels, and destination resorts navigating reinvestment, leadership transition, operational complexity, or stalled momentum. Working directly with owners, boards, and leadership teams, engagements are designed to strengthen alignment, uncover opportunities, and support long-term property performance and stewardship.
+          </p>
+        </div>
+      </div>
+
+      <div className="min-h-screen bg-gradient-to-br from-[#F6F1E8] via-[#EDE4D3] to-[#E8DCC8] pt-16 pb-20">
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-20">
             <div className="inline-flex items-center justify-center mb-6">
@@ -348,3 +358,4 @@ function Possibilities() {
 }
 
 export default Possibilities;
+
