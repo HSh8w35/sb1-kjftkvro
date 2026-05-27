@@ -280,16 +280,16 @@ function Possibilities() {
             <div className="grid grid-cols-2 gap-4 mb-12">
               <div className="relative h-48 md:h-60 rounded-xl overflow-hidden">
                 <img
-                  src="https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg?auto=compress&cs=tinysrgb&w=800"
-                  alt="Historic hotel exterior"
+                  src="https://images.pexels.com/photos/1579253/pexels-photo-1579253.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  alt="Elegant historic hotel facade"
                   className="w-full h-full object-cover object-center hover:scale-105 transition-transform duration-700"
                 />
                 <div className="absolute inset-0 bg-[#1C1710]/15" />
               </div>
               <div className="relative h-48 md:h-60 rounded-xl overflow-hidden">
                 <img
-                  src="https://images.pexels.com/photos/189296/pexels-photo-189296.jpeg?auto=compress&cs=tinysrgb&w=800"
-                  alt="Resort landscape with serene grounds"
+                  src="https://images.pexels.com/photos/2034335/pexels-photo-2034335.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  alt="Boutique resort courtyard with lush landscaping"
                   className="w-full h-full object-cover object-center hover:scale-105 transition-transform duration-700"
                 />
                 <div className="absolute inset-0 bg-[#1C1710]/15" />
