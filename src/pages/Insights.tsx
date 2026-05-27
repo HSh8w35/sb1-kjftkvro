@@ -226,37 +226,54 @@ function Insights() {
             </p>
           </div>
 
-          <a
-            href="/Richmond_Times_Article_Opportunity_Zones_4.11.25.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="block bg-gradient-to-br from-white to-[#F6F1E8] p-10 rounded-2xl border-2 border-[#8B6F47]/20 hover:shadow-xl transition-all group cursor-pointer"
-          >
-            <div className="flex items-start mb-6">
-              <div className="p-3 bg-[#1F2A44] rounded-lg mr-4 group-hover:bg-[#8B6F47] transition-colors">
-                <MessageSquare className="w-6 h-6 text-white" />
+          <div className="bg-gradient-to-br from-white to-[#F6F1E8] rounded-2xl border-2 border-[#8B6F47]/20 shadow-md overflow-hidden">
+            <div className="p-8 md:p-10">
+              <div className="flex items-start mb-4">
+                <div className="p-3 bg-[#1F2A44] rounded-lg mr-4 flex-shrink-0">
+                  <MessageSquare className="w-6 h-6 text-white" />
+                </div>
+                <div className="flex-1">
+                  <div className="flex items-center gap-2 text-sm font-montserrat font-semibold text-[#B87333] uppercase tracking-wider mb-1">
+                    Richmond Times-Dispatch &middot; April 11, 2025
+                  </div>
+                  <h3 className="text-2xl font-bold text-[#8B6F47] mb-2">
+                    Protect Virginia's Hidden Gems – Independent Hotels
+                  </h3>
+                  <p className="text-lg text-[#1F2A44] font-medium">
+                    A commentary on Opportunity Zones and the federal tax policies that keep independent hotels alive.
+                  </p>
+                </div>
               </div>
-              <div className="flex-1">
-                <h3 className="text-2xl font-bold text-[#8B6F47] mb-2 flex items-center gap-2">
-                  Protect Virginia's Hidden Gems - Independent Hotels
-                  <FileText className="w-5 h-5 text-[#B87333] flex-shrink-0" />
-                </h3>
-                <p className="text-xl text-[#1F2A44] font-medium mb-4">
-                  A call to preserve the unique character and cultural significance of Virginia's independent hotels.
-                </p>
+              <p className="text-lg text-[#2E2A26] leading-relaxed mb-6">
+                Independent hotels are more than just places to stay — they are anchors of local identity, economic drivers, and irreplaceable cultural assets. In this Richmond Times-Dispatch editor's pick, Heidi Stone makes the case for protecting the tax policies that allow independent properties to survive and thrive.
+              </p>
+              <div className="flex flex-wrap gap-3">
+                <a
+                  href="/Richmond_Times_Article_Opportunity_Zones_4.11.25.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 bg-[#8B6F47] hover:bg-[#B87333] transition-colors text-white font-semibold px-5 py-2.5 rounded-lg"
+                >
+                  <FileText className="w-4 h-4" />
+                  Read Full Article (PDF)
+                </a>
+                <a
+                  href="/Richmond_Times_Article_Opportunity_Zones_4.11.25.pdf"
+                  download
+                  className="inline-flex items-center gap-2 border-2 border-[#8B6F47] text-[#8B6F47] hover:bg-[#8B6F47] hover:text-white transition-colors font-semibold px-5 py-2.5 rounded-lg"
+                >
+                  Download
+                </a>
               </div>
             </div>
-            <p className="text-xl text-[#2E2A26] leading-relaxed">
-              Independent hotels are more than just places to stay—they are anchors of local identity, economic drivers, and irreplaceable cultural assets. As consolidation threatens the hospitality landscape, protecting these properties requires intentional policy and community support.
-            </p>
-            <div className="mt-6 flex items-center gap-3">
-              <span className="inline-flex items-center gap-2 bg-[#8B6F47] group-hover:bg-[#B87333] transition-colors text-white font-semibold px-5 py-2.5 rounded-lg">
-                <FileText className="w-4 h-4" />
-                Read Full Article (PDF)
-                <span className="group-hover:translate-x-1 transition-transform">→</span>
-              </span>
+            <div className="border-t-2 border-[#8B6F47]/10">
+              <iframe
+                src="/Richmond_Times_Article_Opportunity_Zones_4.11.25.pdf#toolbar=0&view=FitH"
+                className="w-full h-[500px]"
+                title="Protect Virginia's Hidden Gems – Independent Hotels"
+              />
             </div>
-          </a>
+          </div>
         </div>
 
         {loading ? (
