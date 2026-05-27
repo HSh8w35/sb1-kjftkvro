@@ -280,8 +280,8 @@ function Possibilities() {
             <div className="grid grid-cols-2 gap-4 mb-12">
               <div className="relative h-48 md:h-60 rounded-xl overflow-hidden">
                 <img
-                  src="https://images.pexels.com/photos/1579253/pexels-photo-1579253.jpeg?auto=compress&cs=tinysrgb&w=800"
-                  alt="Elegant historic hotel facade"
+                  src="/ChatGPT_Image_Dec_26,_2025,_12_34_49_PM.png"
+                  alt="Elegant historic hotel at dusk with fountain"
                   className="w-full h-full object-cover object-center hover:scale-105 transition-transform duration-700"
                 />
                 <div className="absolute inset-0 bg-[#1C1710]/15" />
