@@ -231,7 +231,7 @@ function Insights() {
           </div>
 
           <a
-            href="https://richmond.com/opinion/column/article_2d8c3941-befb-461f-9e50-df1b172f02a3.html"
+            href="/Richmond_Times_Article_Opportunity_Zones_4.11.25.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="block bg-gradient-to-br from-white to-[#F6F1E8] p-10 rounded-2xl border-2 border-[#8B6F47]/20 hover:shadow-xl transition-all group cursor-pointer"
