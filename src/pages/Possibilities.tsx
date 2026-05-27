@@ -14,12 +14,26 @@ function Possibilities() {
         keywords={seoData?.keywords}
       />
       <div className="bg-[#FAF7F2] pt-32 pb-12 border-b border-[#8B6F47]/10">
-        <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-[#8B6F47] mb-6">Work With Heidi</h1>
-          <div className="w-16 h-0.5 bg-[#B87333] mx-auto mb-8" />
-          <p className="text-lg text-[#2E2A26] leading-relaxed">
-            Heidi Stone Hospitality provides hospitality advisory services for independent hotels, historic properties, boutique hotels, and destination resorts navigating reinvestment, leadership transition, operational complexity, or stalled momentum. Working directly with owners, boards, and leadership teams, engagements are designed to strengthen alignment, uncover opportunities, and support long-term property performance and stewardship.
-          </p>
+        <div className="max-w-4xl mx-auto px-6 lg:px-8">
+          <div className="flex flex-col md:flex-row gap-8 items-center">
+            <div className="flex-1 text-center md:text-left">
+              <h1 className="text-4xl md:text-5xl font-bold text-[#8B6F47] mb-6">Work With Heidi</h1>
+              <div className="w-16 h-0.5 bg-[#B87333] mb-8 mx-auto md:mx-0" />
+              <p className="text-lg text-[#2E2A26] leading-relaxed">
+                Heidi Stone Hospitality provides hospitality advisory services for independent hotels, historic properties, boutique hotels, and destination resorts navigating reinvestment, leadership transition, operational complexity, or stalled momentum. Working directly with owners, boards, and leadership teams, engagements are designed to strengthen alignment, uncover opportunities, and support long-term property performance and stewardship.
+              </p>
+            </div>
+            <div className="flex-shrink-0 flex justify-center">
+              <div className="relative overflow-hidden shadow-lg" style={{ borderRadius: '50%', width: '220px', aspectRatio: '1/1' }}>
+                <img
+                  src="/gemini_generated_image_hu7jpthu7jpthu7j.webp"
+                  alt="Professional conversation"
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 pointer-events-none" style={{ boxShadow: 'inset 0 0 60px rgba(0, 0, 0, 0.15)' }} />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
