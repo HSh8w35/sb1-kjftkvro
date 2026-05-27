@@ -177,32 +177,32 @@ function Possibilities() {
           </div>
 
           {/* Advisory Relationships */}
-          <div className="max-w-4xl mx-auto mt-20">
+          <div className="max-w-4xl mx-auto mt-14">
             {/* Section divider */}
-            <div className="flex items-center gap-6 mb-14">
+            <div className="flex items-center gap-6 mb-8">
               <div className="flex-1 h-px bg-gradient-to-r from-transparent to-[#8B6F47]/25" />
               <span className="text-xs tracking-[0.2em] uppercase text-[#8B6F47]/60 font-medium whitespace-nowrap">Ongoing Engagement</span>
               <div className="flex-1 h-px bg-gradient-to-l from-transparent to-[#8B6F47]/25" />
             </div>
 
             {/* Header image — quiet, atmospheric */}
-            <div className="relative h-64 md:h-80 rounded-2xl overflow-hidden shadow-xl mb-12">
+            <div className="relative h-44 md:h-56 rounded-2xl overflow-hidden shadow-xl mb-8">
               <img
                 src="/ChatGPT_Image_May_27,_2026,_10_33_09_AM.png"
                 alt="Advisory relationship meeting in an elegant setting"
                 className="w-full h-full object-cover object-center"
               />
               <div className="absolute inset-0 bg-gradient-to-b from-[#1C1710]/10 via-[#1C1710]/20 to-[#1C1710]/75" />
-              <div className="absolute top-6 left-8">
+              <div className="absolute top-5 left-8">
                 <span className="text-base tracking-[0.2em] uppercase text-white/80 font-bold">Ongoing Engagement</span>
               </div>
-              <div className="absolute bottom-8 left-8 right-8">
+              <div className="absolute bottom-6 left-8 right-8">
                 <h2 className="text-3xl md:text-4xl font-bold text-white leading-tight">Advisory Relationships</h2>
               </div>
             </div>
 
             {/* Body copy */}
-            <div className="space-y-6 text-lg text-[#2E2A26] leading-relaxed mb-12">
+            <div className="space-y-4 text-lg text-[#2E2A26] leading-relaxed mb-8">
               <p>
                 Heidi Stone Hospitality works selectively with owners, boards, and leadership teams through ongoing advisory relationships designed to provide continued strategic perspective and trusted outside guidance over time.
               </p>
@@ -212,11 +212,11 @@ function Possibilities() {
             </div>
 
             {/* Soft divider */}
-            <div className="h-px bg-gradient-to-r from-transparent via-[#8B6F47]/20 to-transparent mb-12" />
+            <div className="h-px bg-gradient-to-r from-transparent via-[#8B6F47]/20 to-transparent mb-8" />
 
             {/* Advisory areas — editorial list */}
-            <div className="mb-12">
-              <p className="text-sm tracking-[0.2em] uppercase text-[#8B6F47]/70 font-semibold mb-10">
+            <div className="mb-8">
+              <p className="text-sm tracking-[0.2em] uppercase text-[#8B6F47]/70 font-semibold mb-6">
                 Advisory Engagements May Include
               </p>
               <div className="space-y-0">
@@ -232,7 +232,7 @@ function Possibilities() {
                   { bold: 'Experience & Positioning', rest: ' Evolution' },
                   { bold: 'Long-Term Property Planning', rest: '' },
                 ].map((item, i) => (
-                  <div key={i} className="flex items-baseline gap-0 py-4 border-b border-[#8B6F47]/10 last:border-0">
+                  <div key={i} className="flex items-baseline gap-0 py-3 border-b border-[#8B6F47]/10 last:border-0">
                     <span className="text-[10px] tracking-widest text-[#8B6F47]/40 font-medium mr-6 tabular-nums w-5 flex-shrink-0">
                       {String(i + 1).padStart(2, '0')}
                     </span>
@@ -246,11 +246,11 @@ function Possibilities() {
             </div>
 
             {/* Soft divider */}
-            <div className="h-px bg-gradient-to-r from-transparent via-[#8B6F47]/20 to-transparent mb-12" />
+            <div className="h-px bg-gradient-to-r from-transparent via-[#8B6F47]/20 to-transparent mb-8" />
 
             {/* Supporting image pair — quiet, evocative */}
-            <div className="grid grid-cols-2 gap-4 mb-12">
-              <div className="relative h-48 md:h-60 rounded-xl overflow-hidden">
+            <div className="grid grid-cols-2 gap-4 mb-8">
+              <div className="relative h-40 md:h-48 rounded-xl overflow-hidden">
                 <img
                   src="/ChatGPT_Image_Dec_26,_2025,_12_34_49_PM.png"
                   alt="Elegant historic hotel at dusk with fountain"
@@ -258,7 +258,7 @@ function Possibilities() {
                 />
                 <div className="absolute inset-0 bg-[#1C1710]/15" />
               </div>
-              <div className="relative h-48 md:h-60 rounded-xl overflow-hidden">
+              <div className="relative h-40 md:h-48 rounded-xl overflow-hidden">
                 <img
                   src="/ChatGPT_Image_Dec_26,_2025,_12_34_46_PM.png"
                   alt="Grand hotel bar with marble columns and warm lighting"
