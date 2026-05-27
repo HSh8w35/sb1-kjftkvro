@@ -218,7 +218,7 @@ function Insights() {
         </div>
 
         <div className="max-w-6xl mx-auto mb-16">
-          <div className="text-center mb-12">
+          <div className="text-center mb-4">
             <h2 className="text-3xl md:text-4xl font-bold text-[#8B6F47] mb-4">
               Commentary
             </h2>
