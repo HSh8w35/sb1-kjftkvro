@@ -161,34 +161,6 @@ function Possibilities() {
                   </div>
                 </div>
 
-                {/* Evocative image trio */}
-                <div className="grid grid-cols-3 gap-3 mb-10 rounded-xl overflow-hidden">
-                  <div className="relative h-32 md:h-40 overflow-hidden rounded-lg">
-                    <img
-                      src="https://images.pexels.com/photos/271639/pexels-photo-271639.jpeg?auto=compress&cs=tinysrgb&w=600"
-                      alt="Hotel corridor architectural detail"
-                      className="w-full h-full object-cover object-center hover:scale-105 transition-transform duration-700"
-                    />
-                    <div className="absolute inset-0 bg-[#2A2218]/20" />
-                  </div>
-                  <div className="relative h-32 md:h-40 overflow-hidden rounded-lg">
-                    <img
-                      src="https://images.pexels.com/photos/1134176/pexels-photo-1134176.jpeg?auto=compress&cs=tinysrgb&w=600"
-                      alt="Historic property exterior detail"
-                      className="w-full h-full object-cover object-center hover:scale-105 transition-transform duration-700"
-                    />
-                    <div className="absolute inset-0 bg-[#2A2218]/15" />
-                  </div>
-                  <div className="relative h-32 md:h-40 overflow-hidden rounded-lg">
-                    <img
-                      src="https://images.pexels.com/photos/261102/pexels-photo-261102.jpeg?auto=compress&cs=tinysrgb&w=600"
-                      alt="Hotel lobby with warm lighting"
-                      className="w-full h-full object-cover object-center hover:scale-105 transition-transform duration-700"
-                    />
-                    <div className="absolute inset-0 bg-[#2A2218]/20" />
-                  </div>
-                </div>
-
                 <div className="flex justify-center">
                   <a
                     href="mailto:heidi@heidistonehospitality.com?subject=Executive%20Strategy%20Session%20Inquiry"
