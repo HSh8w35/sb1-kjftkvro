@@ -103,8 +103,8 @@ function Home() {
             </a>
             <a href="/possibilities#executive-strategy-session" className="bg-white rounded-2xl border border-[#8B6F47]/15 p-8 shadow-sm hover:shadow-md transition-shadow flex flex-col group no-underline">
               <div className="w-10 h-0.5 bg-[#B87333] mb-6" />
-              <h3 className="text-xl font-bold text-[#1F2A44] mb-4 group-hover:text-[#8B6F47] transition-colors">Executive Strategy Session</h3>
-              <p className="text-[#2E2A26] leading-relaxed flex-1">A focused engagement for owners and leadership teams seeking experienced outside perspective before major decisions are made.</p>
+              <h3 className="text-xl font-bold text-[#1F2A44] mb-4 group-hover:text-[#8B6F47] transition-colors">Executive Leadership</h3>
+              <p className="text-[#2E2A26] leading-relaxed flex-1">Fractional and interim executive leadership during periods of transition, growth, and organizational change.</p>
             </a>
             <a href="/possibilities#advisory-relationships" className="bg-white rounded-2xl border border-[#8B6F47]/15 p-8 shadow-sm hover:shadow-md transition-shadow flex flex-col group no-underline">
               <div className="w-10 h-0.5 bg-[#B87333] mb-6" />
