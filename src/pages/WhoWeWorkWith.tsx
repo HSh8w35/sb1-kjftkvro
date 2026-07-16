@@ -34,10 +34,13 @@ function WhoWeWorkWith() {
 
             <div className="space-y-6 text-xl md:text-2xl text-[#2E2A26]/80 leading-relaxed max-w-4xl mx-auto">
               <p>
-                Heidi Stone Hospitality works with owners and boards stewarding distinctive independent properties—hotels where identity, place, and long-term value matter as much as performance.
+                Heidi Stone Hospitality partners with owners, boards, leadership teams, and public-sector organizations responsible for shaping exceptional hospitality and visitor experiences.
               </p>
               <p className="text-lg md:text-xl">
-                Our work is most valuable for privately held hotels facing pivotal decisions around leadership, positioning, capital investment, or brand affiliation.
+                Our clients include independent hotels and resorts, historic properties, destination hospitality organizations, family-owned portfolios, management companies, municipalities, and community organizations developing hospitality, tourism, and experiential destinations.
+              </p>
+              <p className="text-lg md:text-xl">
+                While every engagement is unique, they share a common thread: leaders who believe their organization is capable of more and are committed to strengthening performance while preserving the character, purpose, and long-term value of the places they steward.
               </p>
             </div>
           </div>
