@@ -100,7 +100,7 @@ function Home() {
       </section>
 
       {/* Ways to Work With Heidi */}
-      <section className="py-20 bg-[#FAF7F2]">
+      <section className="pt-6 pb-20 bg-[#FAF7F2]">
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <a href="/possibilities" className="group no-underline flex flex-col items-center text-center bg-white rounded-2xl border-t-2 border-t-[#1F2A44] border border-[#E8E0D5] p-10 shadow-[0_4px_24px_rgba(139,111,71,0.08)] hover:shadow-[0_12px_40px_rgba(139,111,71,0.16)] hover:-translate-y-1 transition-all duration-300">
