@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
+import { ArrowRight } from 'lucide-react';
 import SEO from '../components/SEO';
 import { useSEOData } from '../hooks/useSEOData';
 
@@ -96,20 +97,32 @@ function Home() {
       <section className="py-20 bg-[#FAF7F2]">
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <a href="/possibilities" className="bg-white/60 rounded-2xl border border-[#8B6F47]/8 p-8 hover:bg-white/80 transition-all duration-300 flex flex-col items-center text-center group no-underline">
-              <img src="/Transl_Key_only.webp" alt="" className="h-9 w-auto opacity-80 mb-6" />
+            <a href="/possibilities" className="group no-underline flex flex-col items-center text-center bg-white rounded-2xl border-t-2 border-t-[#1F2A44] border border-[#E8E0D5] p-10 shadow-[0_4px_24px_rgba(139,111,71,0.08)] hover:shadow-[0_12px_40px_rgba(139,111,71,0.16)] hover:-translate-y-1 transition-all duration-300">
+              <img src="/Transl_Key_only.webp" alt="" className="h-9 w-auto opacity-75 mb-6" />
+              <span className="text-xs font-montserrat font-semibold tracking-[0.18em] uppercase text-[#B87333] mb-3">Advisory</span>
               <h3 className="text-xl font-bold text-[#1F2A44] mb-4 group-hover:text-[#8B6F47] transition-colors">Strategic Advisory</h3>
-              <p className="text-[#2E2A26] leading-relaxed flex-1">Helping owners identify opportunity, strengthen performance, and make confident strategic decisions.</p>
+              <p className="text-[#2E2A26]/80 leading-relaxed flex-1 text-sm">Helping owners identify opportunity, strengthen performance, and make confident strategic decisions.</p>
+              <span className="mt-6 flex items-center gap-1 text-xs font-montserrat font-semibold tracking-wider uppercase text-[#B87333] opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                Learn more <ArrowRight className="w-3.5 h-3.5" />
+              </span>
             </a>
-            <a href="/possibilities#executive-strategy-session" className="bg-white/60 rounded-2xl border border-[#8B6F47]/8 p-8 hover:bg-white/80 transition-all duration-300 flex flex-col items-center text-center group no-underline">
-              <img src="/Transl_Key_only.webp" alt="" className="h-9 w-auto opacity-80 mb-6" />
+            <a href="/possibilities#executive-strategy-session" className="group no-underline flex flex-col items-center text-center bg-white rounded-2xl border-t-2 border-t-[#B87333] border border-[#E8E0D5] p-10 shadow-[0_4px_24px_rgba(139,111,71,0.08)] hover:shadow-[0_12px_40px_rgba(139,111,71,0.16)] hover:-translate-y-1 transition-all duration-300">
+              <img src="/Transl_Key_only.webp" alt="" className="h-9 w-auto opacity-75 mb-6" />
+              <span className="text-xs font-montserrat font-semibold tracking-[0.18em] uppercase text-[#B87333] mb-3">Leadership</span>
               <h3 className="text-xl font-bold text-[#1F2A44] mb-4 group-hover:text-[#8B6F47] transition-colors">Executive Leadership</h3>
-              <p className="text-[#2E2A26] leading-relaxed flex-1">Fractional and interim executive leadership during periods of transition, growth, and organizational change.</p>
+              <p className="text-[#2E2A26]/80 leading-relaxed flex-1 text-sm">Fractional and interim executive leadership during periods of transition, growth, and organizational change.</p>
+              <span className="mt-6 flex items-center gap-1 text-xs font-montserrat font-semibold tracking-wider uppercase text-[#B87333] opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                Learn more <ArrowRight className="w-3.5 h-3.5" />
+              </span>
             </a>
-            <a href="/possibilities#advisory-relationships" className="bg-white/60 rounded-2xl border border-[#8B6F47]/8 p-8 hover:bg-white/80 transition-all duration-300 flex flex-col items-center text-center group no-underline">
-              <img src="/Transl_Key_only.webp" alt="" className="h-9 w-auto opacity-80 mb-6" />
+            <a href="/possibilities#advisory-relationships" className="group no-underline flex flex-col items-center text-center bg-white rounded-2xl border-t-2 border-t-[#8B6F47] border border-[#E8E0D5] p-10 shadow-[0_4px_24px_rgba(139,111,71,0.08)] hover:shadow-[0_12px_40px_rgba(139,111,71,0.16)] hover:-translate-y-1 transition-all duration-300">
+              <img src="/Transl_Key_only.webp" alt="" className="h-9 w-auto opacity-75 mb-6" />
+              <span className="text-xs font-montserrat font-semibold tracking-[0.18em] uppercase text-[#B87333] mb-3">Alignment</span>
               <h3 className="text-xl font-bold text-[#1F2A44] mb-4 group-hover:text-[#8B6F47] transition-colors">Organizational Alignment</h3>
-              <p className="text-[#2E2A26] leading-relaxed flex-1">Bringing leadership, operations, marketing, and commercial strategy together to unlock sustainable performance.</p>
+              <p className="text-[#2E2A26]/80 leading-relaxed flex-1 text-sm">Bringing leadership, operations, marketing, and commercial strategy together to unlock sustainable performance.</p>
+              <span className="mt-6 flex items-center gap-1 text-xs font-montserrat font-semibold tracking-wider uppercase text-[#B87333] opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                Learn more <ArrowRight className="w-3.5 h-3.5" />
+              </span>
             </a>
           </div>
         </div>
