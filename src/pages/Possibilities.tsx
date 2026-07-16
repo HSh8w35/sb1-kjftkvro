@@ -138,25 +138,6 @@ function Possibilities() {
 
             <div className="h-px bg-gradient-to-r from-transparent via-[#8B6F47]/20 to-transparent mb-8" />
 
-            <div className="grid grid-cols-2 gap-4 mb-8">
-              <div className="relative h-40 md:h-48 rounded-xl overflow-hidden">
-                <img
-                  src="/ChatGPT_Image_Dec_26,_2025,_12_34_49_PM.png"
-                  alt="Elegant historic hotel at dusk"
-                  className="w-full h-full object-cover object-center hover:scale-105 transition-transform duration-700"
-                />
-                <div className="absolute inset-0 bg-[#1C1710]/15" />
-              </div>
-              <div className="relative h-40 md:h-48 rounded-xl overflow-hidden">
-                <img
-                  src="/ChatGPT_Image_Dec_26,_2025,_12_34_46_PM.png"
-                  alt="Grand hotel interior with warm lighting"
-                  className="w-full h-full object-cover object-center hover:scale-105 transition-transform duration-700"
-                />
-                <div className="absolute inset-0 bg-[#1C1710]/15" />
-              </div>
-            </div>
-
             <div className="flex justify-center">
               <a
                 href="mailto:heidi@heidistonehospitality.com?subject=Executive%20Leadership%20Inquiry"
