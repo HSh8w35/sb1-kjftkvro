@@ -130,24 +130,26 @@ function Home() {
 
       {/* Heidi Stone bio box */}
       <section className="py-16 bg-[#F6F1E8]">
-        <div className="max-w-2xl mx-auto px-6 lg:px-8">
+        <div className="max-w-5xl mx-auto px-6 lg:px-8">
           <Link
             to="/story"
             onClick={() => window.scrollTo(0, 0)}
-            className="group bg-gradient-to-br from-[#8B6F47] to-[#6F5838] text-white p-8 rounded-2xl hover:shadow-2xl transition-all duration-300 relative overflow-hidden block"
+            className="group bg-[#EDE8DF] border border-[#D4C5A9] text-[#2E2A26] rounded-2xl hover:shadow-2xl transition-all duration-300 relative overflow-hidden block"
           >
-            <div className="absolute inset-0 bg-gradient-to-br from-white/0 to-white/10 opacity-0 group-hover:opacity-100 transition-opacity" />
-            <div className="flex items-center gap-6 relative z-10">
-              <img
-                src="/gemini_generated_image_hu7jpthu7jpthu7j.webp"
-                alt="Heidi Stone"
-                className="w-24 h-24 rounded-xl object-cover shadow-lg flex-shrink-0"
-              />
-              <div className="text-left">
-                <h3 className="font-bold text-xl mb-3">Experience Shapes Perspective</h3>
-                <p className="text-white/90 text-base md:text-lg leading-relaxed mb-3">The most valuable leadership isn't measured by years alone—it's measured by the challenges you've navigated, the organizations you've transformed, and the decisions you've helped owners make when the path forward wasn't clear.</p>
-                <p className="text-white/90 text-base md:text-lg leading-relaxed mb-3">For more than 35 years, Heidi Stone has led independent hotels and hospitality organizations through growth, reinvestment, operational change, and strategic transformation. Today, she partners with owners, boards, and leadership teams to help organizations recognize possibility, create alignment, and achieve lasting performance.</p>
-                <p className="text-white text-base md:text-lg font-semibold">Read the Story →</p>
+            <div className="absolute inset-0 bg-white/0 group-hover:bg-white/20 transition-colors duration-300" />
+            <div className="flex flex-col md:flex-row items-stretch relative z-10">
+              <div className="md:w-2/5 flex-shrink-0">
+                <img
+                  src="/gemini_generated_image_hu7jpthu7jpthu7j.webp"
+                  alt="Heidi Stone"
+                  className="w-full h-64 md:h-full object-cover md:rounded-l-2xl rounded-t-2xl md:rounded-tr-none"
+                />
+              </div>
+              <div className="md:w-3/5 p-8 md:p-10 flex flex-col justify-center">
+                <h3 className="font-bold text-2xl md:text-3xl text-[#1F2A44] mb-4">Experience Shapes Perspective</h3>
+                <p className="text-[#2E2A26]/80 text-base md:text-lg leading-relaxed mb-4">The most valuable leadership isn't measured by years alone—it's measured by the challenges you've navigated, the organizations you've transformed, and the decisions you've helped owners make when the path forward wasn't clear.</p>
+                <p className="text-[#2E2A26]/80 text-base md:text-lg leading-relaxed mb-6">For more than 35 years, Heidi Stone has led independent hotels and hospitality organizations through growth, reinvestment, operational change, and strategic transformation. Today, she partners with owners, boards, and leadership teams to help organizations recognize possibility, create alignment, and achieve lasting performance.</p>
+                <p className="text-[#8B6F47] text-base md:text-lg font-semibold group-hover:text-[#6F5838] transition-colors">Read the Story →</p>
               </div>
             </div>
           </Link>
