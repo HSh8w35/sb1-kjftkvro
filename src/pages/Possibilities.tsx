@@ -1,4 +1,3 @@
-import { Sparkles } from 'lucide-react';
 import SEO from '../components/SEO';
 import { useSEOData } from '../hooks/useSEOData';
 
@@ -41,19 +40,6 @@ function Possibilities() {
 
           {/* Strategic Advisory */}
           <div id="strategic-advisory" className="max-w-4xl mx-auto scroll-mt-24">
-            <div className="text-center mb-20">
-              <div className="inline-flex items-center justify-center mb-6">
-                <Sparkles className="w-8 h-8 text-[#8B6F47] mr-3" />
-                <h1 className="text-4xl md:text-5xl font-bold text-[#2E2A26]">
-                  Ways to Work With Heidi
-                </h1>
-                <Sparkles className="w-8 h-8 text-[#8B6F47] ml-3" />
-              </div>
-              <div className="flex justify-center mb-8">
-                <div className="h-1 w-32 bg-gradient-to-r from-transparent via-[#8B6F47] to-transparent" />
-              </div>
-            </div>
-
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <div className="relative h-36 md:h-44 overflow-hidden">
                 <img
