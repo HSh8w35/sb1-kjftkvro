@@ -42,6 +42,10 @@ function FAQ() {
 
   const faqs: FAQItem[] = [
     {
+      question: "What types of organizations does Heidi Stone Hospitality work with?",
+      answer: "Independent hotels, destination resorts, historic properties, family-owned hospitality businesses, management companies, municipalities, destination organizations, and boards responsible for hospitality or experiential assets."
+    },
+    {
       question: "What types of hotels benefit most from a Possibility Assessment?",
       answer: "The assessment is particularly valuable for:\n\n• Independent and privately held hotels\n• Historic and legacy properties\n• Destination resorts with strong regional identity\n• Properties facing leadership, investment, or strategic transitions\n\nOwners often engage the assessment when considering repositioning, capital investment, or long-term governance decisions."
     },
