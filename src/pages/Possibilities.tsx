@@ -195,6 +195,16 @@ function Possibilities() {
             </div>
           </div>
 
+          <div className="max-w-4xl mx-auto mt-16">
+            <div className="flex items-center gap-6 mb-10">
+              <div className="flex-1 h-px bg-gradient-to-r from-transparent to-[#8B6F47]/25" />
+              <div className="flex-1 h-px bg-gradient-to-l from-transparent to-[#8B6F47]/25" />
+            </div>
+            <p className="text-center text-lg md:text-xl text-[#5A4A3A] leading-relaxed italic">
+              Every engagement is different because every organization is different. Some clients need strategic guidance. Others need executive leadership. Many need greater organizational alignment. The work always begins by understanding where the greatest opportunity exists.
+            </p>
+          </div>
+
         </div>
       </div>
     </>
