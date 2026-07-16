@@ -153,11 +153,6 @@ function Possibilities() {
 
           {/* Organizational Alignment */}
           <div id="organizational-alignment" className="max-w-4xl mx-auto mt-14">
-            <div className="flex items-center gap-6 mb-12">
-              <div className="flex-1 h-px bg-gradient-to-r from-transparent to-[#8B6F47]/25" />
-              <span className="text-xs tracking-[0.2em] uppercase text-[#8B6F47]/60 font-medium whitespace-nowrap">Organizational Alignment</span>
-              <div className="flex-1 h-px bg-gradient-to-l from-transparent to-[#8B6F47]/25" />
-            </div>
 
             <div className="relative h-44 md:h-56 rounded-2xl overflow-hidden shadow-xl mb-8">
               <img
