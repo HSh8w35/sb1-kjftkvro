@@ -174,6 +174,35 @@ function WhoWeWorkWith() {
         </div>
       </section>
 
+      <section className="py-20 bg-white relative overflow-hidden">
+        <div className="max-w-5xl mx-auto px-6 lg:px-8 relative z-10">
+          <div className="max-w-4xl mx-auto">
+            <div className="flex items-center gap-4 mb-10">
+              <div className="h-px flex-1 bg-gradient-to-r from-transparent to-[#8B6F47]/30" />
+              <span className="text-xs tracking-[0.25em] uppercase text-[#8B6F47]/70 font-medium whitespace-nowrap">A Common Turning Point</span>
+              <div className="h-px flex-1 bg-gradient-to-l from-transparent to-[#8B6F47]/30" />
+            </div>
+            <div className="bg-gradient-to-br from-[#FAF6EF] via-white to-[#F3EBD9] border border-[#8B6F47]/15 rounded-2xl p-10 md:p-14">
+              <h2 className="text-3xl md:text-4xl font-bold text-[#2E2A26] mb-6">
+                Management Company Transitions
+              </h2>
+              <div className="h-[2px] w-20 bg-gradient-to-r from-[#8B6F47] to-[#C9A96E] mb-8 rounded-full" />
+              <div className="space-y-5 text-lg text-[#2E2A26]/80 leading-relaxed">
+                <p>
+                  One of the most consequential decisions an independent hotel owner faces is the transition away from a third-party management company. Whether a contract is ending, performance expectations haven't been met, or ownership is ready to take back operational control, the path forward requires careful planning and experienced independent guidance.
+                </p>
+                <p>
+                  Heidi Stone Hospitality works directly with owners navigating hotel management company transitions—helping assess the current situation, define the right structure going forward, plan the operational handover, and ensure the property maintains momentum through the change. The goal is always a transition that protects long-term performance, not just a clean exit.
+                </p>
+                <p className="text-[#5A4A3A] italic border-l-2 border-[#8B6F47]/40 pl-5">
+                  Independent owners deserve an advisor whose interests are fully aligned with theirs—not with the management company.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="py-20 bg-gradient-to-br from-[#F6F1E8] to-white relative overflow-hidden">
         <div className="max-w-4xl mx-auto px-6 lg:px-8 relative z-10">
           <div className="text-center space-y-8">
