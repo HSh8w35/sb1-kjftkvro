@@ -95,10 +95,6 @@ function Home() {
       {/* Ways to Work With Heidi */}
       <section className="py-20 bg-[#FAF7F2]">
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
-          <div className="text-center mb-14">
-            <h2 className="text-4xl md:text-5xl font-bold text-[#8B6F47] mb-4">Ways to Work With Heidi</h2>
-            <div className="w-16 h-0.5 bg-[#B87333] mx-auto" />
-          </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <a href="/possibility-assessment" className="bg-white rounded-2xl border border-[#8B6F47]/15 p-8 shadow-sm hover:shadow-md transition-shadow flex flex-col group no-underline">
               <div className="w-10 h-0.5 bg-[#B87333] mb-6" />
