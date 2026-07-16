@@ -108,8 +108,8 @@ function Home() {
             </a>
             <a href="/possibilities#advisory-relationships" className="bg-white rounded-2xl border border-[#8B6F47]/15 p-8 shadow-sm hover:shadow-md transition-shadow flex flex-col items-center text-center group no-underline">
               <div className="w-10 h-0.5 bg-[#B87333] mb-6" />
-              <h3 className="text-xl font-bold text-[#1F2A44] mb-4 group-hover:text-[#8B6F47] transition-colors">Independent Hospitality Strategy</h3>
-              <p className="text-[#2E2A26] leading-relaxed flex-1">Partnering with independent hotels, management companies, and hospitality portfolios to unlock stronger commercial performance.</p>
+              <h3 className="text-xl font-bold text-[#1F2A44] mb-4 group-hover:text-[#8B6F47] transition-colors">Organizational Alignment</h3>
+              <p className="text-[#2E2A26] leading-relaxed flex-1">Bringing leadership, operations, marketing, and commercial strategy together to unlock sustainable performance.</p>
             </a>
           </div>
         </div>
