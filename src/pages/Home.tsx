@@ -121,7 +121,7 @@ function Home() {
                 Learn more <ArrowRight className="w-3.5 h-3.5" />
               </span>
             </a>
-            <a href="/possibilities#organizational-alignment" className="group no-underline flex flex-col items-center text-center bg-white rounded-2xl border border-[#E8E0D5] p-10 shadow-[0_4px_24px_rgba(139,111,71,0.08)] hover:shadow-[0_12px_40px_rgba(139,111,71,0.16)] hover:-translate-y-1 transition-all duration-300">
+            <a href="/possibilities#organizational-alignment" className="group no-underline flex flex-col items-center text-center bg-white rounded-2xl border-t-2 border-t-[#8B6F47] border border-[#E8E0D5] p-10 shadow-[0_4px_24px_rgba(139,111,71,0.08)] hover:shadow-[0_12px_40px_rgba(139,111,71,0.16)] hover:-translate-y-1 transition-all duration-300">
               <img src="/Transl_Key_only.webp" alt="" className="h-9 w-auto opacity-75 mb-6" />
               <span className="text-xs font-montserrat font-semibold tracking-[0.18em] uppercase text-[#B87333] mb-3">Alignment</span>
               <h3 className="text-xl font-bold text-[#1F2A44] mb-4 group-hover:text-[#8B6F47] transition-colors">Organizational Alignment</h3>
