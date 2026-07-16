@@ -218,14 +218,14 @@ function WhoWeWorkWith() {
             </div>
 
             <div className="space-y-6 text-lg md:text-xl text-[#2E2A26]/80 leading-relaxed">
-              <p>
-                We work exclusively with properties where ownership is personally invested in the long-term success and character of the hotel.
+              <p className="italic text-[#2E2A26] font-medium">
+                Every engagement begins with a simple belief: hospitality is about stewardship.
               </p>
               <p>
-                Our clients value independent guidance, thoughtful stewardship, and strategic clarity—especially during moments that will shape the future of their property.
+                We work with owners, boards, and leadership teams who are committed to building organizations that are financially strong, operationally disciplined, and positioned for long-term success. Whether navigating transition, pursuing growth, or preparing for the future, our role is to provide experienced executive leadership, objective guidance, and a trusted perspective when the decisions matter most.
               </p>
               <p className="font-semibold text-[#2E2A26] text-xl md:text-2xl pt-4">
-                If you're stewarding a property that matters—to you, your family, and your community—we're here to help.
+                If you believe your organization is capable of more—and you're looking for an experienced partner to help realize that potential—we would welcome the opportunity to begin the conversation.
               </p>
             </div>
           </div>
