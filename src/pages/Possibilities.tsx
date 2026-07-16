@@ -43,8 +43,8 @@ function Possibilities() {
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <div className="relative h-36 md:h-44 overflow-hidden">
                 <img
-                  src="https://images.pexels.com/photos/1181406/pexels-photo-1181406.jpeg?auto=compress&cs=tinysrgb&w=1400"
-                  alt="Executive advisory discussion"
+                  src="/Boardroom_Strategic_Advisory.png"
+                  alt="Strategic advisory boardroom discussion"
                   className="w-full h-full object-cover object-center"
                 />
                 <div className="absolute inset-0 bg-gradient-to-b from-[#2A2218]/30 via-[#2A2218]/20 to-[#2A2218]/70" />
