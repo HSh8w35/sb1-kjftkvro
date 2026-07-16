@@ -184,10 +184,7 @@ function Possibilities() {
                   <span className="text-xs tracking-[0.25em] uppercase text-[#8B6F47]/70 font-medium">Organizational Alignment</span>
                   <div className="h-px flex-1 bg-gradient-to-l from-transparent to-[#8B6F47]/30" />
                 </div>
-                <h3 className="text-3xl md:text-4xl font-bold text-[#2E2A26] mb-2 mt-4 tracking-tight">
-                  Organizational Alignment
-                </h3>
-                <div className="h-[2px] w-20 bg-gradient-to-r from-[#8B6F47] to-[#C9A96E] mb-8 rounded-full" />
+                <div className="h-[2px] w-20 bg-gradient-to-r from-[#8B6F47] to-[#C9A96E] mb-8 mt-4 rounded-full" />
                 <div className="space-y-5 text-lg text-[#2E2A26] leading-relaxed mb-10">
                   <p className="text-[#5A4A3A] italic border-l-2 border-[#8B6F47]/40 pl-5">
                     Alignment is where possibility becomes performance.
