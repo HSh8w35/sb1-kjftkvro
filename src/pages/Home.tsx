@@ -129,14 +129,14 @@ function Home() {
       </section>
 
       {/* Pull quote */}
-      <section className="py-14 bg-[#F6F1E8]">
+      <section className="py-7 bg-[#F6F1E8]">
         <div className="max-w-3xl mx-auto px-6 lg:px-8 text-center">
-          <div className="w-12 h-px bg-[#8B6F47]/40 mx-auto mb-8" />
+          <div className="w-12 h-px bg-[#8B6F47]/40 mx-auto mb-5" />
           <p className="text-2xl md:text-3xl font-playfair italic text-[#1F2A44] leading-relaxed mb-5">
             "Alignment is where possibility becomes performance."
           </p>
           <p className="text-sm font-montserrat font-semibold tracking-[0.18em] uppercase text-[#8B6F47]">Heidi Stone</p>
-          <div className="w-12 h-px bg-[#8B6F47]/40 mx-auto mt-8" />
+          <div className="w-12 h-px bg-[#8B6F47]/40 mx-auto mt-5" />
         </div>
       </section>
 
