@@ -162,7 +162,7 @@ function Possibilities() {
                     Alignment is where possibility becomes performance.
                   </p>
                   <p>
-                    The strongest hospitality organizations succeed because leadership, operations, marketing, sales, finance, and guest experience are working toward the same vision.
+                    Alignment transforms strategy into results. By bringing leadership, operations, marketing, sales, and commercial strategy together around a shared vision, organizations create stronger revenue, improved performance, and sustainable long-term growth.
                   </p>
                   <p>
                     When departments operate independently, opportunities are missed, priorities compete, and performance suffers. Creating alignment across the organization establishes clarity, accountability, and shared purpose—allowing every part of the business to move in the same direction.
