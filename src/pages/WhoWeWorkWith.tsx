@@ -13,17 +13,17 @@ function WhoWeWorkWith() {
         description={seoData?.description || "Heidi Stone Hospitality works with owners and boards stewarding distinctive independent properties where identity, place, and long-term value matter."}
         keywords={seoData?.keywords}
       />
-      <section className="py-20 bg-gradient-to-br from-[#F6F1E8] to-[#E8DCC8] relative overflow-hidden">
+      <section className="py-12 bg-gradient-to-br from-[#F6F1E8] to-[#E8DCC8] relative overflow-hidden">
         <div className="max-w-5xl mx-auto px-6 lg:px-8 relative z-10">
           <Link
             to="/"
             onClick={() => window.scrollTo(0, 0)}
-            className="inline-flex items-center gap-2 text-[#8B6F47] hover:text-[#6F5838] transition-colors mb-8 group"
+            className="inline-flex items-center gap-2 text-[#8B6F47] hover:text-[#6F5838] transition-colors mb-6 group"
           >
             <ArrowLeft className="w-5 h-5 group-hover:-translate-x-1 transition-transform" />
             <span className="font-semibold">Back to Home</span>
           </Link>
-          <div className="text-center space-y-8 mb-16">
+          <div className="text-center space-y-6 mb-10">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#2E2A26] leading-tight">
               Who We Work With
             </h1>
@@ -47,9 +47,9 @@ function WhoWeWorkWith() {
         </div>
       </section>
 
-      <section className="py-20 bg-white relative overflow-hidden">
+      <section className="py-12 bg-white relative overflow-hidden">
         <div className="max-w-6xl mx-auto px-6 lg:px-8 relative z-10">
-          <h2 className="text-3xl md:text-4xl font-bold text-[#2E2A26] text-center mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-[#2E2A26] text-center mb-8">
             Properties We Serve
           </h2>
 
@@ -99,9 +99,9 @@ function WhoWeWorkWith() {
         </div>
       </section>
 
-      <section className="py-20 bg-gradient-to-br from-[#8B6F47] to-[#6F5838] relative overflow-hidden">
+      <section className="py-12 bg-gradient-to-br from-[#8B6F47] to-[#6F5838] relative overflow-hidden">
         <div className="max-w-5xl mx-auto px-6 lg:px-8 relative z-10">
-          <div className="space-y-8 text-center">
+          <div className="space-y-5 text-center">
             <h2 className="text-3xl md:text-4xl font-bold text-white">
               When Our Work Is Most Valuable
             </h2>
@@ -110,14 +110,14 @@ function WhoWeWorkWith() {
               <div className="h-px w-24 bg-white/60" />
             </div>
 
-            <div className="space-y-6 text-lg md:text-xl text-white/95 leading-relaxed max-w-4xl mx-auto">
+            <div className="space-y-4 text-lg md:text-xl text-white/95 leading-relaxed max-w-4xl mx-auto">
               <p>
                 Our work is designed for owners and boards facing pivotal moments that require clarity, strategy, and independent guidance.
               </p>
             </div>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-12 max-w-5xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mt-8 max-w-5xl mx-auto">
             <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl border border-white/20">
               <div className="flex items-start gap-4">
                 <div className="flex-shrink-0 w-12 h-12 bg-white/20 rounded-lg flex items-center justify-center">
@@ -177,10 +177,10 @@ function WhoWeWorkWith() {
         </div>
       </section>
 
-      <section className="py-20 bg-white relative overflow-hidden">
+      <section className="py-12 bg-white relative overflow-hidden">
         <div className="max-w-5xl mx-auto px-6 lg:px-8 relative z-10">
           <div className="max-w-4xl mx-auto">
-            <div className="flex items-center gap-4 mb-10">
+            <div className="flex items-center gap-4 mb-8">
               <div className="h-px flex-1 bg-gradient-to-r from-transparent to-[#8B6F47]/30" />
               <span className="text-xs tracking-[0.25em] uppercase text-[#8B6F47]/70 font-medium whitespace-nowrap">A Common Turning Point</span>
               <div className="h-px flex-1 bg-gradient-to-l from-transparent to-[#8B6F47]/30" />
@@ -209,9 +209,9 @@ function WhoWeWorkWith() {
         </div>
       </section>
 
-      <section className="py-20 bg-gradient-to-br from-[#F6F1E8] to-white relative overflow-hidden">
+      <section className="py-12 bg-gradient-to-br from-[#F6F1E8] to-white relative overflow-hidden">
         <div className="max-w-4xl mx-auto px-6 lg:px-8 relative z-10">
-          <div className="text-center space-y-8">
+          <div className="text-center space-y-6">
             <h2 className="text-3xl md:text-4xl font-bold text-[#2E2A26]">
               Our Commitment
             </h2>
@@ -235,7 +235,7 @@ function WhoWeWorkWith() {
         </div>
       </section>
 
-      <section className="py-16 bg-gradient-to-br from-[#2E2A26] to-[#1F1B18] relative overflow-hidden">
+      <section className="py-10 bg-gradient-to-br from-[#2E2A26] to-[#1F1B18] relative overflow-hidden">
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center relative z-10">
           <p className="text-2xl md:text-3xl font-light text-[#D4C5A9] italic leading-relaxed">
             Independent hotels deserve independent guidance—especially at pivotal moments.
