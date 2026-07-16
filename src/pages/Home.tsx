@@ -80,7 +80,7 @@ function Home() {
           <div className="max-w-4xl mx-auto text-center px-4">
             <div className="space-y-6 md:space-y-8">
               <div className="space-y-4">
-                <h1 className="text-2xl md:text-4xl lg:text-5xl font-playfair text-black leading-snug px-4 mt-24">
+                <h1 className="text-3xl md:text-5xl lg:text-6xl font-playfair font-light italic text-black leading-snug px-4 mt-24">
                   Seeing Possibility Where Others See Limits
                 </h1>
                 <div className="w-32 h-px bg-[#8B6F47]/40 mx-auto my-6" />
