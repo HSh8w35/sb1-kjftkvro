@@ -80,9 +80,14 @@ function Home() {
           <div className="max-w-4xl mx-auto text-center px-4">
             <div className="space-y-6 md:space-y-8">
               <div className="space-y-4">
-                <h1 className="text-4xl md:text-6xl lg:text-7xl font-sans font-normal italic text-black leading-tight tracking-wide px-4 mt-24">
-                  Seeing Possibility Where Others See Limits
-                </h1>
+                <div className="mt-24 px-4">
+                  <p className="font-montserrat text-xs tracking-[0.25em] uppercase text-[#8B6F47] mb-5">
+                    Strategic Hospitality Advisory
+                  </p>
+                  <h1 className="text-4xl md:text-6xl lg:text-7xl font-sans font-normal text-black leading-tight tracking-wide">
+                    Seeing Possibility Where Others See Limits
+                  </h1>
+                </div>
                 <div className="w-32 h-px bg-[#8B6F47]/40 mx-auto my-6" />
                 <div className="space-y-3 text-lg md:text-xl font-semibold text-[#2E2A26] leading-relaxed max-w-2xl mx-auto px-4">
                   <p>Executive leadership and strategic advisory for owners, boards, and leadership teams at critical moments—when performance has plateaued, reinvestment is being considered, or the path forward is no longer clear.</p>
