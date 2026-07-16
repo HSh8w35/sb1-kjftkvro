@@ -48,9 +48,6 @@ function Possibilities() {
                   className="w-full h-full object-cover object-center"
                 />
                 <div className="absolute inset-0 bg-gradient-to-b from-[#2A2218]/30 via-[#2A2218]/20 to-[#2A2218]/70" />
-                <div className="absolute top-6 left-8">
-                  <span className="text-base tracking-[0.2em] uppercase text-white/80 font-bold">Strategic Advisory</span>
-                </div>
                 <div className="absolute bottom-6 left-8 right-8">
                   <h2 className="text-3xl md:text-4xl font-bold text-white mt-1 leading-tight">
                     Strategic Advisory
@@ -102,9 +99,6 @@ function Possibilities() {
                 style={{ objectPosition: '50% 20%' }}
               />
               <div className="absolute inset-0 bg-gradient-to-b from-[#1C1710]/10 via-[#1C1710]/20 to-[#1C1710]/75" />
-              <div className="absolute top-5 left-8">
-                <span className="text-base tracking-[0.2em] uppercase text-white/80 font-bold">Executive Leadership</span>
-              </div>
               <div className="absolute bottom-6 left-8 right-8">
                 <h2 className="text-3xl md:text-4xl font-bold text-white leading-tight">Executive Leadership</h2>
               </div>
@@ -148,9 +142,6 @@ function Possibilities() {
                 style={{ objectPosition: '50% 40%' }}
               />
               <div className="absolute inset-0 bg-gradient-to-b from-[#1C1710]/10 via-[#1C1710]/20 to-[#1C1710]/75" />
-              <div className="absolute top-5 left-8">
-                <span className="text-base tracking-[0.2em] uppercase text-white/80 font-bold">Organizational Alignment</span>
-              </div>
               <div className="absolute bottom-6 left-8 right-8">
                 <h2 className="text-3xl md:text-4xl font-bold text-white leading-tight">Organizational Alignment</h2>
               </div>
