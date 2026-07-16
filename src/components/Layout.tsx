@@ -208,6 +208,11 @@ function Layout() {
                   </div>
                 </li>
                 <li>
+                  <Link to="/who-we-work-with" className="hover:text-[#8B6F47] transition-colors">
+                    Who We Work With
+                  </Link>
+                </li>
+                <li>
                   <Link to="/faq" className="hover:text-[#8B6F47] transition-colors">
                     FAQ
                   </Link>
