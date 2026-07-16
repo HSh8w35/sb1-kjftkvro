@@ -136,8 +136,8 @@ function Possibilities() {
 
             <div className="relative h-44 md:h-56 rounded-2xl overflow-hidden shadow-xl mb-8">
               <img
-                src="/ChatGPT_Image_May_27,_2026,_10_15_48_AM.png"
-                alt="Hotel lobby representing organizational alignment"
+                src="/Organizational_Alignment.png"
+                alt="Team working on organizational alignment"
                 className="w-full h-full object-cover"
                 style={{ objectPosition: '50% 40%' }}
               />
