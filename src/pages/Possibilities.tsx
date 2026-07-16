@@ -39,86 +39,20 @@ function Possibilities() {
 
       <div className="min-h-screen bg-gradient-to-br from-[#F6F1E8] via-[#EDE4D3] to-[#E8DCC8] pt-16 pb-20">
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
-          <div className="text-center mb-20">
-            <div className="inline-flex items-center justify-center mb-6">
-              <Sparkles className="w-8 h-8 text-[#8B6F47] mr-3" />
-              <h1 className="text-4xl md:text-5xl font-bold text-[#2E2A26]">
-                The Possibility Assessment™
-              </h1>
-              <Sparkles className="w-8 h-8 text-[#8B6F47] ml-3" />
-            </div>
-            <div className="flex justify-center mb-8">
-              <div className="h-1 w-32 bg-gradient-to-r from-transparent via-[#8B6F47] to-transparent" />
-            </div>
-            <p className="text-xl md:text-2xl text-[#2E2A26]/80 leading-relaxed max-w-4xl mx-auto font-semibold">
-              Most independent hotels contain revenue and opportunity that has simply never been uncovered. The <span className="font-bold">Possibility Assessment</span> is a structured engagement designed to evaluate the true potential of an independent hotel or resort.
-            </p>
-          </div>
-
-          <div className="max-w-4xl mx-auto mb-16 relative">
-            <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-[#8B6F47] to-[#5A4A2D] opacity-100" />
-            <div className="absolute inset-[1px] rounded-2xl bg-gradient-to-br from-[#FAF6EF] via-white to-[#F3EBD9]" />
-            <div className="relative p-10 md:p-14">
-              <div className="flex items-center gap-4 mb-2">
-                <div className="h-px flex-1 bg-gradient-to-r from-transparent to-[#8B6F47]/30" />
-                <span className="text-xs tracking-[0.25em] uppercase text-[#8B6F47]/70 font-medium">Featured Engagement</span>
-                <div className="h-px flex-1 bg-gradient-to-l from-transparent to-[#8B6F47]/30" />
-              </div>
-              <h2 className="text-3xl md:text-4xl font-bold text-[#2E2A26] mb-2 mt-4 tracking-tight">
-                The Possibility Assessment
-              </h2>
-              <div className="h-[2px] w-20 bg-gradient-to-r from-[#8B6F47] to-[#C9A96E] mb-8 rounded-full" />
-              <p className="text-xl md:text-2xl text-[#2E2A26]/80 leading-relaxed mb-10 font-light">
-                A focused, one-week, on-site engagement designed to identify the revenue, positioning, and operational opportunities that already exist within a property—but are not yet fully realized.
-              </p>
-              <p className="text-sm tracking-[0.15em] uppercase text-[#8B6F47] font-semibold mb-5">
-                Owners typically engage at specific moments
-              </p>
-              <ul className="space-y-4 mb-10">
-                {[
-                  'When performance has plateaued',
-                  'Following reinvestment without expected returns',
-                  'During leadership or organizational transition',
-                  'When a property does not fully align within a broader portfolio',
-                  'When evaluating a potential brand or soft brand affiliation',
-                ].map((item) => (
-                  <li key={item} className="flex items-start gap-4 text-[#2E2A26]/85">
-                    <div className="w-5 h-5 rounded-full border border-[#8B6F47]/40 bg-[#8B6F47]/8 flex items-center justify-center flex-shrink-0 mt-0.5">
-                      <div className="w-1.5 h-1.5 rounded-full bg-[#8B6F47]" />
-                    </div>
-                    <span className="text-lg leading-relaxed">{item}</span>
-                  </li>
-                ))}
-              </ul>
-              <div className="border-t border-[#8B6F47]/15 pt-8 space-y-3">
-                <p className="text-lg text-[#2E2A26] leading-relaxed">
-                  The outcome is a clear, prioritized assessment of where opportunity exists—and what to do next.
-                </p>
-                <p className="text-lg text-[#8B6F47] leading-relaxed italic font-medium">
-                  If you are navigating one of these moments, we can begin with a conversation.
-                </p>
-              </div>
-              <div className="mt-8 flex justify-center">
-                <Link
-                  to="/possibility-assessment"
-                  className="inline-flex items-center gap-3 bg-gradient-to-r from-[#8B6F47] to-[#6F5838] text-white px-10 py-4 rounded-xl hover:from-[#6F5838] hover:to-[#5A4A2D] transition-all shadow-lg hover:shadow-xl text-lg font-semibold transform hover:scale-105 duration-300"
-                >
-                  Learn More
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor" className="w-5 h-5">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-                  </svg>
-                </Link>
-              </div>
-            </div>
-          </div>
 
           {/* Executive Strategy Session */}
           <div id="executive-strategy-session" className="max-w-4xl mx-auto scroll-mt-24">
-            {/* Section divider */}
-            <div className="flex items-center gap-6 mb-12">
-              <div className="flex-1 h-px bg-gradient-to-r from-transparent to-[#8B6F47]/25" />
-              <span className="text-xs tracking-[0.2em] uppercase text-[#8B6F47]/60 font-medium whitespace-nowrap">Additional Engagement</span>
-              <div className="flex-1 h-px bg-gradient-to-l from-transparent to-[#8B6F47]/25" />
+            <div className="text-center mb-20">
+              <div className="inline-flex items-center justify-center mb-6">
+                <Sparkles className="w-8 h-8 text-[#8B6F47] mr-3" />
+                <h1 className="text-4xl md:text-5xl font-bold text-[#2E2A26]">
+                  Ways to Work With Heidi
+                </h1>
+                <Sparkles className="w-8 h-8 text-[#8B6F47] ml-3" />
+              </div>
+              <div className="flex justify-center mb-8">
+                <div className="h-1 w-32 bg-gradient-to-r from-transparent via-[#8B6F47] to-transparent" />
+              </div>
             </div>
 
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
@@ -294,6 +228,88 @@ function Possibilities() {
                   <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
                 </svg>
               </a>
+            </div>
+          </div>
+
+          {/* The Possibility Assessment */}
+          <div className="max-w-4xl mx-auto mt-14">
+            <div className="flex items-center gap-6 mb-12">
+              <div className="flex-1 h-px bg-gradient-to-r from-transparent to-[#8B6F47]/25" />
+              <span className="text-xs tracking-[0.2em] uppercase text-[#8B6F47]/60 font-medium whitespace-nowrap">Featured Engagement</span>
+              <div className="flex-1 h-px bg-gradient-to-l from-transparent to-[#8B6F47]/25" />
+            </div>
+
+            <div className="text-center mb-12">
+              <div className="inline-flex items-center justify-center mb-6">
+                <Sparkles className="w-8 h-8 text-[#8B6F47] mr-3" />
+                <h2 className="text-4xl md:text-5xl font-bold text-[#2E2A26]">
+                  The Possibility Assessment™
+                </h2>
+                <Sparkles className="w-8 h-8 text-[#8B6F47] ml-3" />
+              </div>
+              <div className="flex justify-center mb-8">
+                <div className="h-1 w-32 bg-gradient-to-r from-transparent via-[#8B6F47] to-transparent" />
+              </div>
+              <p className="text-xl md:text-2xl text-[#2E2A26]/80 leading-relaxed max-w-4xl mx-auto font-semibold">
+                Most independent hotels contain revenue and opportunity that has simply never been uncovered. The <span className="font-bold">Possibility Assessment</span> is a structured engagement designed to evaluate the true potential of an independent hotel or resort.
+              </p>
+            </div>
+
+            <div className="relative">
+              <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-[#8B6F47] to-[#5A4A2D] opacity-100" />
+              <div className="absolute inset-[1px] rounded-2xl bg-gradient-to-br from-[#FAF6EF] via-white to-[#F3EBD9]" />
+              <div className="relative p-10 md:p-14">
+                <div className="flex items-center gap-4 mb-2">
+                  <div className="h-px flex-1 bg-gradient-to-r from-transparent to-[#8B6F47]/30" />
+                  <span className="text-xs tracking-[0.25em] uppercase text-[#8B6F47]/70 font-medium">Featured Engagement</span>
+                  <div className="h-px flex-1 bg-gradient-to-l from-transparent to-[#8B6F47]/30" />
+                </div>
+                <h3 className="text-3xl md:text-4xl font-bold text-[#2E2A26] mb-2 mt-4 tracking-tight">
+                  The Possibility Assessment
+                </h3>
+                <div className="h-[2px] w-20 bg-gradient-to-r from-[#8B6F47] to-[#C9A96E] mb-8 rounded-full" />
+                <p className="text-xl md:text-2xl text-[#2E2A26]/80 leading-relaxed mb-10 font-light">
+                  A focused, one-week, on-site engagement designed to identify the revenue, positioning, and operational opportunities that already exist within a property—but are not yet fully realized.
+                </p>
+                <p className="text-sm tracking-[0.15em] uppercase text-[#8B6F47] font-semibold mb-5">
+                  Owners typically engage at specific moments
+                </p>
+                <ul className="space-y-4 mb-10">
+                  {[
+                    'When performance has plateaued',
+                    'Following reinvestment without expected returns',
+                    'During leadership or organizational transition',
+                    'When a property does not fully align within a broader portfolio',
+                    'When evaluating a potential brand or soft brand affiliation',
+                  ].map((item) => (
+                    <li key={item} className="flex items-start gap-4 text-[#2E2A26]/85">
+                      <div className="w-5 h-5 rounded-full border border-[#8B6F47]/40 bg-[#8B6F47]/8 flex items-center justify-center flex-shrink-0 mt-0.5">
+                        <div className="w-1.5 h-1.5 rounded-full bg-[#8B6F47]" />
+                      </div>
+                      <span className="text-lg leading-relaxed">{item}</span>
+                    </li>
+                  ))}
+                </ul>
+                <div className="border-t border-[#8B6F47]/15 pt-8 space-y-3">
+                  <p className="text-lg text-[#2E2A26] leading-relaxed">
+                    The outcome is a clear, prioritized assessment of where opportunity exists—and what to do next.
+                  </p>
+                  <p className="text-lg text-[#8B6F47] leading-relaxed italic font-medium">
+                    If you are navigating one of these moments, we can begin with a conversation.
+                  </p>
+                </div>
+                <div className="mt-8 flex justify-center">
+                  <Link
+                    to="/possibility-assessment"
+                    className="inline-flex items-center gap-3 bg-gradient-to-r from-[#8B6F47] to-[#6F5838] text-white px-10 py-4 rounded-xl hover:from-[#6F5838] hover:to-[#5A4A2D] transition-all shadow-lg hover:shadow-xl text-lg font-semibold transform hover:scale-105 duration-300"
+                  >
+                    Learn More
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor" className="w-5 h-5">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                    </svg>
+                  </Link>
+                </div>
+              </div>
             </div>
           </div>
 
