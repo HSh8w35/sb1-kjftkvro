@@ -96,17 +96,17 @@ function Home() {
       <section className="py-20 bg-[#FAF7F2]">
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <a href="/possibilities" className="bg-white rounded-2xl border border-[#8B6F47]/15 p-8 shadow-sm hover:shadow-md transition-shadow flex flex-col group no-underline">
+            <a href="/possibilities" className="bg-white rounded-2xl border border-[#8B6F47]/15 p-8 shadow-sm hover:shadow-md transition-shadow flex flex-col items-center text-center group no-underline">
               <div className="w-10 h-0.5 bg-[#B87333] mb-6" />
               <h3 className="text-xl font-bold text-[#1F2A44] mb-4 group-hover:text-[#8B6F47] transition-colors">Strategic Advisory</h3>
               <p className="text-[#2E2A26] leading-relaxed flex-1">Helping owners identify opportunity, strengthen performance, and make confident strategic decisions.</p>
             </a>
-            <a href="/possibilities#executive-strategy-session" className="bg-white rounded-2xl border border-[#8B6F47]/15 p-8 shadow-sm hover:shadow-md transition-shadow flex flex-col group no-underline">
+            <a href="/possibilities#executive-strategy-session" className="bg-white rounded-2xl border border-[#8B6F47]/15 p-8 shadow-sm hover:shadow-md transition-shadow flex flex-col items-center text-center group no-underline">
               <div className="w-10 h-0.5 bg-[#B87333] mb-6" />
               <h3 className="text-xl font-bold text-[#1F2A44] mb-4 group-hover:text-[#8B6F47] transition-colors">Executive Leadership</h3>
               <p className="text-[#2E2A26] leading-relaxed flex-1">Fractional and interim executive leadership during periods of transition, growth, and organizational change.</p>
             </a>
-            <a href="/possibilities#advisory-relationships" className="bg-white rounded-2xl border border-[#8B6F47]/15 p-8 shadow-sm hover:shadow-md transition-shadow flex flex-col group no-underline">
+            <a href="/possibilities#advisory-relationships" className="bg-white rounded-2xl border border-[#8B6F47]/15 p-8 shadow-sm hover:shadow-md transition-shadow flex flex-col items-center text-center group no-underline">
               <div className="w-10 h-0.5 bg-[#B87333] mb-6" />
               <h3 className="text-xl font-bold text-[#1F2A44] mb-4 group-hover:text-[#8B6F47] transition-colors">Independent Hospitality Strategy</h3>
               <p className="text-[#2E2A26] leading-relaxed flex-1">Partnering with independent hotels, management companies, and hospitality portfolios to unlock stronger commercial performance.</p>
