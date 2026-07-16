@@ -189,13 +189,16 @@ function WhoWeWorkWith() {
               <div className="h-[2px] w-20 bg-gradient-to-r from-[#8B6F47] to-[#C9A96E] mb-8 rounded-full" />
               <div className="space-y-5 text-lg text-[#2E2A26]/80 leading-relaxed">
                 <p>
-                  One of the most consequential decisions an independent hotel owner faces is the transition away from a third-party management company. Whether a contract is ending, performance expectations haven't been met, or ownership is ready to take back operational control, the path forward requires careful planning and experienced independent guidance.
+                  Changing hotel management companies is one of the most significant decisions an independent hotel owner can make. Whether a management agreement is ending, operational performance has fallen short of expectations, or ownership has decided to bring operations in-house, a successful transition requires experienced leadership, thoughtful planning, and an unwavering focus on protecting the long-term value of the asset.
                 </p>
                 <p>
-                  Heidi Stone Hospitality works directly with owners navigating hotel management company transitions—helping assess the current situation, define the right structure going forward, plan the operational handover, and ensure the property maintains momentum through the change. The goal is always a transition that protects long-term performance, not just a clean exit.
+                  Heidi Stone Hospitality serves as an independent executive advisor to owners navigating hotel management company transitions. Working exclusively in the owner's interest, Heidi provides objective guidance throughout the process—from evaluating the current operating environment and defining the future management structure to overseeing transition planning, leadership alignment, and operational continuity.
                 </p>
-                <p className="text-[#5A4A3A] italic border-l-2 border-[#8B6F47]/40 pl-5">
-                  Independent owners deserve an advisor whose interests are fully aligned with theirs—not with the management company.
+                <p>
+                  A management company transition is more than a contractual change. It is an opportunity to strengthen organizational alignment, improve commercial performance, protect revenue, and position the property for long-term success.
+                </p>
+                <p>
+                  Throughout the engagement, Heidi Stone Hospitality remains aligned with one objective: helping ownership make confident decisions while ensuring the transition preserves momentum, protects the guest experience, and creates a stronger foundation for the future.
                 </p>
               </div>
             </div>
