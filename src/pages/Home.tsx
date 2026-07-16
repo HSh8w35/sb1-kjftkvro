@@ -144,8 +144,9 @@ function Home() {
                 className="w-24 h-24 rounded-xl object-cover shadow-lg flex-shrink-0"
               />
               <div className="text-left">
-                <h3 className="font-bold text-xl mb-3">A Career Built on Restoring What Others Have Written Off</h3>
-                <p className="text-white/90 text-base md:text-lg leading-relaxed mb-3">I have spent my career being drawn to places the world once loved—and had begun to forget. Inside complexity and uncertainty, I see possibility.</p>
+                <h3 className="font-bold text-xl mb-3">Experience Shapes Perspective</h3>
+                <p className="text-white/90 text-base md:text-lg leading-relaxed mb-3">The most valuable leadership isn't measured by years alone—it's measured by the challenges you've navigated, the organizations you've transformed, and the decisions you've helped owners make when the path forward wasn't clear.</p>
+                <p className="text-white/90 text-base md:text-lg leading-relaxed mb-3">For more than 35 years, Heidi Stone has led independent hotels and hospitality organizations through growth, reinvestment, operational change, and strategic transformation. Today, she partners with owners, boards, and leadership teams to help organizations recognize possibility, create alignment, and achieve lasting performance.</p>
                 <p className="text-white text-base md:text-lg font-semibold">Read the Story →</p>
               </div>
             </div>
