@@ -1,5 +1,10 @@
 import { Helmet } from 'react-helmet-async';
 
+interface FAQSchemaItem {
+  question: string;
+  answer: string;
+}
+
 interface SEOProps {
   title?: string;
   description?: string;
@@ -8,6 +13,7 @@ interface SEOProps {
   url?: string;
   type?: string;
   robots?: string;
+  faqItems?: FAQSchemaItem[];
 }
 
 function SEO({
@@ -18,8 +24,24 @@ function SEO({
   url = 'https://heidistonehospitality.com',
   type = 'website',
   robots,
+  faqItems,
 }: SEOProps) {
   const fullTitle = title.includes('|') ? title : `${title} | Heidi Stone Hospitality`;
+
+  const faqSchema = faqItems && faqItems.length > 0
+    ? JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: faqItems.map(({ question, answer }) => ({
+          '@type': 'Question',
+          name: question,
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: answer.replace(/\n/g, ' ').trim(),
+          },
+        })),
+      })
+    : null;
 
   return (
     <Helmet>
@@ -40,6 +62,10 @@ function SEO({
       <meta name="twitter:image" content={image} />
 
       <link rel="canonical" href={url} />
+
+      {faqSchema && (
+        <script type="application/ld+json">{faqSchema}</script>
+      )}
     </Helmet>
   );
 }

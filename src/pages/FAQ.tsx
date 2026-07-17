@@ -94,6 +94,7 @@ function FAQ() {
         description="Common questions about working with Heidi Stone Hospitality. Learn about our approach, engagement structure, and partnership philosophy for independent hotels."
         url="https://heidistonehospitality.com/faq"
         robots="index, nofollow"
+        faqItems={faqs}
       />
       <section className="pt-32 pb-20 px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
