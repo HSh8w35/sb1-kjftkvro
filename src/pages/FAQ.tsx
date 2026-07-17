@@ -46,6 +46,10 @@ function FAQ() {
       answer: "Independent hotels, destination resorts, historic properties, family-owned hospitality businesses, management companies, municipalities, destination organizations, and boards responsible for hospitality or experiential assets."
     },
     {
+      question: "What kinds of challenges do you help organizations solve?",
+      answer: "• Leadership transitions\n• Revenue stagnation\n• Commercial performance\n• Organizational alignment\n• Growth planning\n• Reinvestment\n• Management company transitions\n• Operational change\n• Strategic decision-making"
+    },
+    {
       question: "What types of hotels benefit most from a Possibility Assessment?",
       answer: "The assessment is particularly valuable for:\n\n• Independent and privately held hotels\n• Historic and legacy properties\n• Destination resorts with strong regional identity\n• Properties facing leadership, investment, or strategic transitions\n\nOwners often engage the assessment when considering repositioning, capital investment, or long-term governance decisions."
     },
