@@ -66,6 +66,10 @@ function FAQ() {
       answer: "Yes.\n\nDepending on the organization's needs, Heidi may serve in a fractional or interim executive leadership capacity during leadership transitions, organizational change, or executive searches."
     },
     {
+      question: "What do you mean by \"Alignment is where possibility becomes performance?\"",
+      answer: "Every organization has opportunities. The difference between organizations that realize those opportunities and those that don't is alignment. When leadership, operations, marketing, sales, finance, and ownership are working toward the same vision, organizations consistently outperform those operating in silos. Creating that alignment is central to every Heidi Stone Hospitality engagement."
+    },
+    {
       question: "What types of hotels benefit most from a Possibility Assessment?",
       answer: "The assessment is particularly valuable for:\n\n• Independent and privately held hotels\n• Historic and legacy properties\n• Destination resorts with strong regional identity\n• Properties facing leadership, investment, or strategic transitions\n\nOwners often engage the assessment when considering repositioning, capital investment, or long-term governance decisions."
     },
