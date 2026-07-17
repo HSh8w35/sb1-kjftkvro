@@ -54,6 +54,10 @@ function FAQ() {
       answer: "Strategic advisory provides experienced guidance to owners, boards, and leadership teams while existing management continues leading the organization.\n\nExecutive leadership places Heidi in a more active leadership role—whether on a fractional or interim basis—to guide the organization through periods of transition, growth, or significant change."
     },
     {
+      question: "Do you only work with hotels?",
+      answer: "No.\n\nWhile independent hotels and resorts remain the foundation of the practice, Heidi Stone Hospitality also works with destination organizations, municipalities, hospitality portfolios, and organizations developing visitor experiences where executive leadership and strategic guidance are needed."
+    },
+    {
       question: "What types of hotels benefit most from a Possibility Assessment?",
       answer: "The assessment is particularly valuable for:\n\n• Independent and privately held hotels\n• Historic and legacy properties\n• Destination resorts with strong regional identity\n• Properties facing leadership, investment, or strategic transitions\n\nOwners often engage the assessment when considering repositioning, capital investment, or long-term governance decisions."
     },
