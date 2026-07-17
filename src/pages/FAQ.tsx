@@ -58,6 +58,10 @@ function FAQ() {
       answer: "No.\n\nWhile independent hotels and resorts remain the foundation of the practice, Heidi Stone Hospitality also works with destination organizations, municipalities, hospitality portfolios, and organizations developing visitor experiences where executive leadership and strategic guidance are needed."
     },
     {
+      question: "Can you work alongside our current management company?",
+      answer: "Absolutely.\n\nMany engagements involve partnering with ownership while working collaboratively with an existing management company or executive team.\n\nThe objective is alignment—not replacement."
+    },
+    {
       question: "What types of hotels benefit most from a Possibility Assessment?",
       answer: "The assessment is particularly valuable for:\n\n• Independent and privately held hotels\n• Historic and legacy properties\n• Destination resorts with strong regional identity\n• Properties facing leadership, investment, or strategic transitions\n\nOwners often engage the assessment when considering repositioning, capital investment, or long-term governance decisions."
     },
