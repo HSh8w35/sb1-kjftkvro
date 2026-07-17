@@ -77,6 +77,10 @@ function FAQ() {
       question: "What makes Heidi Stone Hospitality different?",
       answer: "Many hospitality advisors specialize in a particular discipline—operations, marketing, revenue management, finance, or development.\n\nHeidi Stone Hospitality begins somewhere different.\n\nEvery organization has opportunities. The difference between organizations that realize those opportunities and those that don't is alignment.\n\nWhen ownership, leadership, operations, marketing, sales, finance, and guest experience are aligned around a shared vision, better decisions are made, stronger revenue follows, and long-term performance improves.\n\nThat philosophy is captured in a simple belief:\n\nAlignment is where possibility becomes performance.\n\nFor more than 35 years, Heidi Stone has led independent hospitality organizations through periods of transition, reinvestment, growth, and transformation—not as an outside observer, but as the executive responsible for the outcomes. That ownership perspective shapes every engagement.\n\nRather than offering predetermined solutions, Heidi Stone Hospitality works alongside owners, boards, and leadership teams to understand the organization, identify its greatest opportunities, and recommend the level of leadership and strategic guidance that will create the greatest long-term value.\n\nEvery organization is different.\n\nEvery engagement is different.\n\nThe objective is always the same: unlocking an organization's full potential through experienced leadership, thoughtful stewardship, and organizational alignment."
     },
+    {
+      question: "How do I know if Heidi Stone Hospitality is the right fit?",
+      answer: "The best engagements begin with organizations that believe they are capable of more. If you're facing an important decision, navigating change, preparing for growth, or simply want experienced executive perspective, an initial conversation is the best place to start. Every engagement is tailored to the organization rather than forcing a predetermined model."
+    },
   ];
 
   return (
