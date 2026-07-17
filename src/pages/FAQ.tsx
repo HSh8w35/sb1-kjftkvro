@@ -81,6 +81,10 @@ function FAQ() {
       question: "How do I know if Heidi Stone Hospitality is the right fit?",
       answer: "The best engagements begin with organizations that believe they are capable of more. If you're facing an important decision, navigating change, preparing for growth, or simply want experienced executive perspective, an initial conversation is the best place to start. Every engagement is tailored to the organization rather than forcing a predetermined model."
     },
+    {
+      question: "Can Heidi Stone Hospitality serve as an asset manager or owner representative?",
+      answer: "Yes. Heidi Stone Hospitality provides independent asset management and owner representation for hospitality organizations seeking experienced executive oversight of their investment.\n\nActing solely in the owner's interest, Heidi Stone Hospitality works alongside ownership and existing management to strengthen accountability, monitor operational and financial performance, evaluate commercial strategy, and protect the long-term value of the asset.\n\nResponsibilities may include owner advocacy, management oversight, performance monitoring, strategic guidance, capital planning, and investment protection. Rather than replacing the management company, the role is to provide ownership with experienced executive perspective, objective evaluation, and confidence that the property is aligned with its long-term vision and financial objectives.\n\nEvery engagement is tailored to the owner's priorities, recognizing that no two properties—or ownership groups—are alike."
+    },
   ];
 
   return (
