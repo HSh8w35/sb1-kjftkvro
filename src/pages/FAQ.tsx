@@ -69,6 +69,10 @@ function FAQ() {
       question: "What do you mean by \"Alignment is where possibility becomes performance?\"",
       answer: "Every organization has opportunities. The difference between organizations that realize those opportunities and those that don't is alignment. When leadership, operations, marketing, sales, finance, and ownership are working toward the same vision, organizations consistently outperform those operating in silos. Creating that alignment is central to every Heidi Stone Hospitality engagement."
     },
+    {
+      question: "How do engagements typically begin?",
+      answer: "Every engagement begins with a conversation. Together, we determine the challenges, opportunities, and objectives before recommending the level of involvement that will create the greatest value. No two engagements are exactly alike."
+    },
   ];
 
   return (
