@@ -64,6 +64,50 @@ function OurApproach() {
               </p>
             </div>
 
+            <div className="bg-white/60 backdrop-blur-sm rounded-2xl p-10 mb-12 border border-[#8B6F47]/10 shadow-sm">
+              <h2 className="text-3xl font-bold text-[#2E2A26] mb-8 text-center">
+                Alignment Is Where Possibility Becomes Performance
+              </h2>
+
+              <div className="space-y-5 text-xl text-[#2E2A26] leading-relaxed text-center">
+                <p>
+                  Organizations rarely underperform because of a single issue.
+                </p>
+
+                <div className="space-y-3 my-8 inline-block text-left">
+                  <p className="flex items-start">
+                    <span className="mr-3 text-[#8B6F47] font-bold">—</span>
+                    <span>Marketing may be working while operations struggle.</span>
+                  </p>
+                  <p className="flex items-start">
+                    <span className="mr-3 text-[#8B6F47] font-bold">—</span>
+                    <span>Leadership may be capable while departments move in different directions.</span>
+                  </p>
+                  <p className="flex items-start">
+                    <span className="mr-3 text-[#8B6F47] font-bold">—</span>
+                    <span>Ownership may be considering reinvestment without a shared commercial vision.</span>
+                  </p>
+                  <p className="flex items-start">
+                    <span className="mr-3 text-[#8B6F47] font-bold">—</span>
+                    <span>Revenue opportunities may exist, but the organization is not aligned to capture them.</span>
+                  </p>
+                </div>
+
+                <p>
+                  Sustainable performance is created when ownership, leadership, operations, marketing, sales, finance, culture, and guest experience are moving toward the same objective.
+                </p>
+                <p>
+                  That alignment produces better decisions, stronger accountability, improved revenue performance, and greater long-term value.
+                </p>
+                <p className="pt-2">
+                  It is the principle that guides every Heidi Stone Hospitality engagement:
+                </p>
+                <p className="font-semibold text-[#8B6F47] text-2xl pt-2">
+                  Alignment is where possibility becomes performance.
+                </p>
+              </div>
+            </div>
+
             <div className="bg-gradient-to-br from-[#8B6F47] to-[#6F5838] text-white rounded-2xl p-10 mb-12 shadow-xl text-center">
               <h2 className="text-3xl font-bold mb-6">Independence as an Advantage</h2>
 
