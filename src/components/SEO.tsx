@@ -16,6 +16,26 @@ interface SEOProps {
   faqItems?: FAQSchemaItem[];
 }
 
+const organizationSchema = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'ProfessionalService',
+  name: 'Heidi Stone Hospitality LLC',
+  url: 'https://heidistonehospitality.com',
+  founder: {
+    '@type': 'Person',
+    name: 'Heidi Stone',
+  },
+  address: {
+    '@type': 'PostalAddress',
+    addressLocality: 'Salem',
+    addressRegion: 'VA',
+    addressCountry: 'US',
+  },
+  sameAs: [
+    'https://www.linkedin.com/company/heidi-stone-hospitality',
+  ],
+});
+
 function SEO({
   title = 'Heidi Stone Hospitality | Advisory for Independent Hotels',
   description = 'Advisory firm supporting independent hotel owners, boards, and leadership teams navigating complex decisions and long-term value.',
@@ -62,6 +82,8 @@ function SEO({
       <meta name="twitter:image" content={image} />
 
       <link rel="canonical" href={url} />
+
+      <script type="application/ld+json">{organizationSchema}</script>
 
       {faqSchema && (
         <script type="application/ld+json">{faqSchema}</script>
