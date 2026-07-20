@@ -419,16 +419,20 @@ function OurApproach() {
               <div className="relative text-center">
                 <h2 className="text-3xl font-bold mb-6 text-[#2E2A26]">Moving Forward</h2>
 
-                <p className="text-xl text-[#2E2A26] leading-relaxed mb-8">
-                  For many owners, the work begins with a <span className="font-bold">Possibility Assessment</span>, providing a clear understanding of the property's opportunity before strategic decisions are made.
-                </p>
+                <div className="space-y-4 text-xl text-[#2E2A26] leading-relaxed mb-8 max-w-2xl mx-auto">
+                  <p>Every engagement begins with a conversation.</p>
+                  <p>Sometimes the next step is a focused executive discovery session.</p>
+                  <p>Sometimes it is an ongoing strategic advisory relationship.</p>
+                  <p>Sometimes the organization requires interim executive leadership, greater organizational alignment, owner representation, or management oversight.</p>
+                  <p>The appropriate path becomes clear once the organization, the decisions ahead, and the opportunity are fully understood.</p>
+                </div>
 
                 <Link
                   to="/possibilities"
                   onClick={() => window.scrollTo(0, 0)}
                   className="inline-flex items-center gap-3 bg-gradient-to-r from-[#8B6F47] to-[#6F5838] text-white px-8 py-4 rounded-full font-semibold hover:from-[#6F5838] hover:to-[#8B6F47] transition-all duration-300 shadow-lg hover:shadow-xl group"
                 >
-                  Explore the Possibility Assessment
+                  Let's Talk About What's Possible
                   <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </Link>
               </div>
