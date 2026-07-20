@@ -365,34 +365,46 @@ function OurApproach() {
 
               <div className="space-y-4 text-xl leading-relaxed">
                 <p className="text-white/95 italic">
-                  Leadership clarity, when sustained, produces results that compound over time.
+                  Leadership clarity and organizational alignment produce results that compound over time.
                 </p>
                 <p className="text-white/95">
-                  While each engagement is distinct, the outcomes below reflect the kind of impact this work is designed to create.
+                  While every engagement is distinct, the outcomes below reflect the kind of impact this work is designed to create:
                 </p>
 
                 <div className="space-y-3 mt-6">
                   <div className="bg-white/10 backdrop-blur-sm rounded-xl p-5 border border-white/20">
                     <p className="text-white/95 leading-relaxed">
-                      Significant revenue acceleration achieved within the first eighteen months of leadership realignment at a historic mountain resort—following a period of prolonged instability.
+                      Significant revenue acceleration within the first eighteen months of leadership realignment at a historic mountain resort following prolonged instability.
                     </p>
                   </div>
 
                   <div className="bg-white/10 backdrop-blur-sm rounded-xl p-5 border border-white/20">
                     <p className="text-white/95 leading-relaxed">
-                      Multi-million-dollar annual revenue expansion driven by disciplined strategic repositioning, capital prioritization, and alignment across leadership, brand, and execution.
+                      Multi-million-dollar annual revenue expansion driven by strategic repositioning, capital prioritization, and alignment across leadership, brand, and execution.
                     </p>
                   </div>
 
                   <div className="bg-white/10 backdrop-blur-sm rounded-xl p-5 border border-white/20">
                     <p className="text-white/95 leading-relaxed">
-                      Exceptional leadership continuity, with a senior executive team remaining intact for nearly a decade through growth, reinvestment, and operational complexity—an uncommon outcome in independent hospitality.
+                      Exceptional leadership continuity, with a senior executive team remaining intact for nearly a decade through growth, reinvestment, and operational complexity.
+                    </p>
+                  </div>
+
+                  <div className="bg-white/10 backdrop-blur-sm rounded-xl p-5 border border-white/20">
+                    <p className="text-white/95 leading-relaxed">
+                      Renewed market relevance and stronger demand created by recognizing the commercial value of an underutilized legacy asset.
+                    </p>
+                  </div>
+
+                  <div className="bg-white/10 backdrop-blur-sm rounded-xl p-5 border border-white/20">
+                    <p className="text-white/95 leading-relaxed">
+                      Greater ownership confidence through clearer performance oversight, stronger accountability, and disciplined decision-making.
                     </p>
                   </div>
                 </div>
 
                 <p className="text-white font-semibold pt-3">
-                  These results were not driven by short-term tactics or automation. They were the consequence of clear leadership, aligned decision-making, and disciplined execution sustained over time.
+                  These results were not driven by short-term tactics or isolated initiatives. They were the consequence of clear leadership, aligned decision-making, and disciplined execution sustained over time.
                 </p>
               </div>
             </div>
