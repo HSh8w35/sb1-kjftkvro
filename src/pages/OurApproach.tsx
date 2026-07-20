@@ -246,26 +246,53 @@ function OurApproach() {
               </div>
             </div>
 
-            <div className="mb-6 bg-white/60 backdrop-blur-sm rounded-2xl p-6 shadow-sm" style={{ border: '3px double #8B6F47' }}>
-                <h2 className="text-3xl font-bold text-[#2E2A26] mb-3 text-center">How This Work Shows Up</h2>
+            <div className="mb-6 bg-white/60 backdrop-blur-sm rounded-2xl p-10 shadow-sm border border-[#8B6F47]/10">
+                <h2 className="text-3xl font-bold text-[#2E2A26] mb-8 text-center">How This Work Shows Up</h2>
 
-                <p className="text-xl text-[#2E2A26] mb-3">
+                <p className="text-xl text-[#2E2A26] mb-8 text-center leading-relaxed">
                   This approach is most valuable at moments that require judgment rather than instruction:
                 </p>
 
-                <div className="flex justify-center max-w-5xl mx-auto">
-                  <div className="max-w-md">
-                    <ul className="space-y-2 text-xl text-[#2E2A26]">
-                      <li>When ownership transition introduces uncertainty —</li>
-                      <li>When growth outpaces structure —</li>
-                      <li>When brand affiliation is being evaluated —</li>
-                      <li>When capital allocation demands discipline —</li>
-                      <li>When independence needs clearer direction —</li>
-                    </ul>
-                  </div>
+                <div className="space-y-3 mb-10 max-w-2xl mx-auto">
+                  <p className="flex items-start text-lg text-[#2E2A26]">
+                    <span className="mr-3 text-[#8B6F47] font-bold">—</span>
+                    <span>When performance has plateaued</span>
+                  </p>
+                  <p className="flex items-start text-lg text-[#2E2A26]">
+                    <span className="mr-3 text-[#8B6F47] font-bold">—</span>
+                    <span>When ownership transition introduces uncertainty</span>
+                  </p>
+                  <p className="flex items-start text-lg text-[#2E2A26]">
+                    <span className="mr-3 text-[#8B6F47] font-bold">—</span>
+                    <span>When growth outpaces organizational structure</span>
+                  </p>
+                  <p className="flex items-start text-lg text-[#2E2A26]">
+                    <span className="mr-3 text-[#8B6F47] font-bold">—</span>
+                    <span>When leadership change requires stability</span>
+                  </p>
+                  <p className="flex items-start text-lg text-[#2E2A26]">
+                    <span className="mr-3 text-[#8B6F47] font-bold">—</span>
+                    <span>When a management company relationship is being evaluated</span>
+                  </p>
+                  <p className="flex items-start text-lg text-[#2E2A26]">
+                    <span className="mr-3 text-[#8B6F47] font-bold">—</span>
+                    <span>When brand affiliation is under consideration</span>
+                  </p>
+                  <p className="flex items-start text-lg text-[#2E2A26]">
+                    <span className="mr-3 text-[#8B6F47] font-bold">—</span>
+                    <span>When capital allocation demands discipline</span>
+                  </p>
+                  <p className="flex items-start text-lg text-[#2E2A26]">
+                    <span className="mr-3 text-[#8B6F47] font-bold">—</span>
+                    <span>When revenue opportunities exist but execution remains fragmented</span>
+                  </p>
+                  <p className="flex items-start text-lg text-[#2E2A26]">
+                    <span className="mr-3 text-[#8B6F47] font-bold">—</span>
+                    <span>When independence needs clearer direction</span>
+                  </p>
                 </div>
 
-                <div className="mt-4 px-6 py-6 border-l-8 border-[#8B6F47] bg-gradient-to-r from-[#F6F1E8] to-white">
+                <div className="px-6 py-6 border-l-8 border-[#8B6F47] bg-gradient-to-r from-[#F6F1E8] to-white rounded-r-xl mb-6">
                   <p className="text-xl md:text-2xl text-[#2E2A26] leading-relaxed font-light mb-3">
                     In these moments, organizations do not need more information.
                   </p>
@@ -274,9 +301,12 @@ function OurApproach() {
                   </p>
                 </div>
 
-                <div className="mt-4 px-5 py-4 bg-white/80 rounded-xl">
+                <div className="text-center">
                   <p className="text-lg text-[#2E2A26] leading-relaxed">
-                    Depending on the situation, our work may engage ownership, boards, executive leadership, or senior operating teams. Strategic clarity often begins at the ownership level—but sustainable performance is built across the organization.
+                    Depending on the situation, our work may engage ownership, boards, executive leadership, management companies, or senior operating teams.
+                  </p>
+                  <p className="text-lg text-[#8B6F47] font-semibold leading-relaxed mt-4">
+                    Strategic clarity often begins at the ownership level. Sustainable performance is built across the organization.
                   </p>
                 </div>
             </div>
