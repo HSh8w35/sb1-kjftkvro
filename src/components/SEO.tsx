@@ -32,7 +32,7 @@ const organizationSchema = JSON.stringify({
     addressCountry: 'US',
   },
   sameAs: [
-    'https://www.linkedin.com/company/heidi-stone-hospitality',
+    'https://www.linkedin.com/in/heidi-stone-hospitality',
   ],
 });
 
