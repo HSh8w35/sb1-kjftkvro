@@ -54,13 +54,13 @@ function OurApproach() {
 
             <div className="space-y-6 text-xl text-[#2E2A26] leading-relaxed mb-12 text-center">
               <p>
-                We do not lead with tools, frameworks, or programs. We lead with perspective—earned through decades of executive leadership inside independent hospitality assets, where decisions carry weight and outcomes endure.
+                We do not lead with predetermined tools, frameworks, or programs. We lead with perspective—earned through decades of executive leadership inside independent hospitality assets, where decisions carry weight and outcomes endure.
               </p>
               <p>
-                In many cases, our work begins with a <span className="font-bold">Possibility Assessment</span>—a structured engagement designed to evaluate the true potential of an independent hotel or resort.
+                Every engagement begins by understanding the organization: its history, ownership objectives, leadership structure, market position, operating realities, and the opportunities that may not yet be fully recognized.
               </p>
-              <p>
-                This process allows ownership to step back from day-to-day complexity and gain a clear, independent perspective before significant decisions are made.
+              <p className="font-semibold text-[#8B6F47]">
+                Because meaningful progress begins with seeing clearly.
               </p>
             </div>
 
