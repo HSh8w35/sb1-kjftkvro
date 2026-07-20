@@ -330,22 +330,31 @@ function OurApproach() {
             </div>
 
             <div className="bg-white/60 backdrop-blur-sm rounded-2xl p-8 mb-12 border border-[#8B6F47]/10 shadow-sm">
-              <div className="flex items-center gap-4 mb-4">
+              <div className="flex items-center gap-4 mb-6">
                 <div className="flex-1 h-0.5 bg-gradient-to-r from-transparent to-[#8B6F47]"></div>
                 <h2 className="text-3xl font-bold text-[#2E2A26] text-center">What Makes This Work Different</h2>
                 <div className="flex-1 h-0.5 bg-gradient-to-l from-transparent to-[#8B6F47]"></div>
               </div>
 
               <div className="text-center">
-                <div className="space-y-4 text-xl text-[#2E2A26] leading-relaxed">
+                <div className="space-y-5 text-xl text-[#2E2A26] leading-relaxed">
                   <p className="text-xl font-semibold text-[#8B6F47]">
                     This is not consulting from the sidelines.
                   </p>
                   <p>
-                    It is leadership partnership—measured, candid, and deeply engaged. It requires access, trust, and accountability. It is not outsourced, accelerated, or performed at a distance.
+                    It is an executive partnership—measured, candid, and deeply engaged.
+                  </p>
+                  <p>
+                    Heidi Stone Hospitality brings the perspective of an operator, the judgment of an executive, and the independence of an advisor whose responsibility is to the long-term interests of the organization.
+                  </p>
+                  <p>
+                    The work may take the form of strategic advisory, interim or fractional executive leadership, organizational alignment, hotel asset management, owner representation, management company transition support, or focused executive discovery.
+                  </p>
+                  <p>
+                    The structure is determined by the organization's needs—not by a predetermined service model.
                   </p>
                   <p className="italic">
-                    The work is intentionally selective, because its value depends on commitment from the top.
+                    The work is intentionally selective because its value depends on access, trust, accountability, and commitment from the top.
                   </p>
                 </div>
               </div>
