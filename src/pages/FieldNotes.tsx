@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { supabase } from '../lib/supabase';
-import { Calendar, Clock, ArrowRight, Quote, Anchor } from 'lucide-react';
+import { Calendar, Clock, ArrowRight, Quote, Anchor, Video } from 'lucide-react';
 import SEO from '../components/SEO';
 
 interface FieldNote {
@@ -303,6 +303,42 @@ function FieldNotes() {
               const flagship = posts.find(p => p.is_flagship);
               if (!flagship) return null;
               return (
+                <>
+                <div className="max-w-4xl mx-auto mb-10">
+                  <div className="flex items-center gap-3 mb-4">
+                    <Video className="w-5 h-5 text-[#8B6F47]" />
+                    <span className="text-[#8B6F47] text-xs font-bold tracking-widest uppercase">Featured Conversation</span>
+                    <div className="flex-1 h-px bg-[#8B6F47]/30" />
+                  </div>
+                  <div className="bg-gradient-to-br from-white to-[#F6F1E8] rounded-2xl border-2 border-[#8B6F47]/30 shadow-lg p-8 md:p-10">
+                    <div className="flex items-start mb-4">
+                      <div className="p-3 bg-[#1F2A44] rounded-lg mr-4 flex-shrink-0">
+                        <Video className="w-6 h-6 text-white" />
+                      </div>
+                      <div className="flex-1">
+                        <div className="text-sm font-montserrat font-semibold text-[#B87333] uppercase tracking-wider mb-1">
+                          No Vacancy with Glenn Haussman
+                        </div>
+                        <h3 className="text-2xl md:text-3xl font-bold text-[#8B6F47] mb-3">
+                          A Conversation with Glenn Haussman
+                        </h3>
+                      </div>
+                    </div>
+                    <p className="text-lg text-[#2E2A26] leading-relaxed mb-6">
+                      A wide-ranging conversation with Glenn Haussman about independent hospitality, leadership, reinvention, and what decades of operating hotels taught me about seeing possibility where others see limits.
+                    </p>
+                    <a
+                      href="https://www.linkedin.com/feed/update/urn:li:ugcPost:7493387600188289024/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 bg-[#8B6F47] hover:bg-[#B87333] transition-colors text-white font-semibold px-6 py-3 rounded-lg"
+                    >
+                      <Video className="w-4 h-4" />
+                      Watch the Conversation →
+                    </a>
+                  </div>
+                </div>
+
                 <div className="max-w-4xl mx-auto mb-10">
                   <div className="flex items-center gap-3 mb-4">
                     <Anchor className="w-5 h-5 text-[#8B6F47]" />
@@ -356,6 +392,7 @@ function FieldNotes() {
                     </div>
                   </article>
                 </div>
+                </>
               );
             })()}
 
