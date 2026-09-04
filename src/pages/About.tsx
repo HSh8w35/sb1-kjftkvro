@@ -219,7 +219,16 @@ function About() {
             </div>
 
             <div>
-              <p className="text-lg font-semibold mb-1">Historic Hotels of America</p>
+              <p className="text-lg font-semibold mb-1">
+                <a
+                  href="https://www.historichotels.org"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[#8B6F47] hover:text-[#B87333] transition-colors"
+                >
+                  Historic Hotels of America
+                </a>
+              </p>
               <p className="text-base text-[#2E2A26]/70">Mountain Lake Lodge inducted into the Historic Hotels of America program (2025)</p>
             </div>
 
