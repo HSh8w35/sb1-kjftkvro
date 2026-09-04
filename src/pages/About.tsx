@@ -40,6 +40,10 @@ function About() {
                 <p className="text-xl text-[#2E2A26] leading-relaxed">
                   In 2026, she formalized this work with the launch of <span className="font-semibold">Heidi Stone Hospitality LLC</span>, a boutique advisory practice partnering with owners and executive teams of independent hotels and resorts at moments requiring clarity, sound judgment, and decisive leadership.
                 </p>
+
+                <p className="text-xl text-[#2E2A26] leading-relaxed">
+                  As a boutique and independent hotel advisor, Heidi brings 35 years of lived leadership experience to every engagement—helping owners navigate complexity, strengthen performance, and protect the identity and autonomy that make their properties distinctive.
+                </p>
               </div>
             </div>
 
@@ -127,7 +131,7 @@ function About() {
                   Independent hotels are operating in an environment defined by economic pressure, labor volatility, and accelerated brand consolidation. Owners are increasingly presented with options that promise scale and relief, often at the expense of margin control and long-term autonomy.
                 </p>
                 <p className="font-semibold">
-                  Stone's work ensures independent hotels remain financially fortified, strategically assured, and sovereign in their direction—without compromising identity or stewardship.
+                  Stone's work ensures independent hotels remain financially fortified, strategically assured, and sovereign in their direction—without compromising identity or stewardship. For owners exploring how to increase revenue at an independent hotel, her advisory provides the strategic clarity and disciplined execution needed to move beyond plateaus.
                 </p>
               </div>
             </div>

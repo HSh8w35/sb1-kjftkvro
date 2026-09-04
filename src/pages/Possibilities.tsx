@@ -18,7 +18,7 @@ function Possibilities() {
               <h1 className="text-4xl md:text-5xl font-bold text-[#8B6F47] mb-6">Work With Heidi</h1>
               <div className="w-16 h-0.5 bg-[#B87333] mb-8 mx-auto md:mx-0" />
               <p className="text-lg text-[#2E2A26] leading-relaxed">
-                Heidi Stone Hospitality provides hospitality advisory services for independent hotels, historic properties, boutique hotels, and destination resorts navigating reinvestment, leadership transition, operational complexity, or stalled momentum. Working directly with owners, boards, and leadership teams, engagements are designed to strengthen alignment, uncover opportunities, and support long-term property performance and stewardship.
+                Heidi Stone Hospitality provides hospitality advisory services for independent hotels, historic properties, boutique hotels, and destination resorts navigating reinvestment, leadership transition, operational complexity, or stalled momentum. As a consultant for independent hotels, Heidi works directly with owners, boards, and leadership teams to strengthen alignment, uncover opportunities, and support long-term property performance and stewardship.
               </p>
             </div>
             <div className="flex-shrink-0 flex justify-center">
@@ -162,7 +162,7 @@ function Possibilities() {
                     Alignment is where possibility becomes performance.
                   </p>
                   <p>
-                    Alignment transforms strategy into results. By bringing leadership, operations, marketing, sales, and commercial strategy together around a shared vision, organizations create stronger revenue, improved performance, and sustainable long-term growth.
+                    Alignment transforms strategy into results. By bringing leadership, operations, marketing, sales, and commercial strategy together around a shared vision, organizations create stronger revenue, improved performance, and sustainable long-term growth. For owners asking how to increase revenue at an independent hotel, alignment is often the missing ingredient—turning scattered efforts into focused, measurable outcomes.
                   </p>
                   <p>
                     When departments operate independently, opportunities are missed, priorities compete, and performance suffers. Creating alignment across the organization establishes clarity, accountability, and shared purpose—allowing every part of the business to move in the same direction.

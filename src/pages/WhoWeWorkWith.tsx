@@ -40,7 +40,7 @@ function WhoWeWorkWith() {
                 Our clients include independent hotels and resorts, historic properties, destination hospitality organizations, family-owned portfolios, management companies, municipalities, and community organizations developing hospitality, tourism, and experiential destinations.
               </p>
               <p className="text-lg md:text-xl">
-                While every engagement is unique, they share a common thread: leaders who believe their organization is capable of more and are committed to strengthening performance while preserving the character, purpose, and long-term value of the places they steward.
+                While every engagement is unique, they share a common thread: leaders who believe their organization is capable of more and are committed to strengthening performance while preserving the character, purpose, and long-term value of the places they steward. Whether you need a consultant for independent hotels to guide a major decision or are exploring how to increase revenue at an independent hotel, the work begins with understanding where the greatest opportunity exists.
               </p>
             </div>
           </div>

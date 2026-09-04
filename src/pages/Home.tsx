@@ -91,7 +91,7 @@ function Home() {
                 </div>
                 <div className="w-32 h-px bg-[#8B6F47]/40 mx-auto my-6" />
                 <div className="space-y-3 text-lg md:text-xl font-semibold text-[#2E2A26] leading-relaxed max-w-2xl mx-auto px-4">
-                  <p>Executive leadership and strategic advisory for owners, boards, and leadership teams at critical moments—when performance has plateaued, reinvestment is being considered, or the path forward is no longer clear.</p>
+                  <p>As a boutique and independent hotel advisor, Heidi Stone provides executive leadership and strategic advisory for owners, boards, and leadership teams at critical moments—when performance has plateaued, reinvestment is being considered, or the path forward is no longer clear.</p>
                 </div>
               </div>
             </div>
@@ -166,7 +166,8 @@ function Home() {
               <div className="md:w-3/5 p-8 md:p-10 flex flex-col justify-center">
                 <h3 className="font-bold text-2xl md:text-3xl text-[#1F2A44] mb-4">Experience Shapes Perspective</h3>
                 <p className="text-[#2E2A26]/80 text-base md:text-lg leading-relaxed mb-4">The most valuable leadership isn't measured by years alone—it's measured by the challenges you've navigated, the organizations you've transformed, and the decisions you've helped owners make when the path forward wasn't clear.</p>
-                <p className="text-[#2E2A26]/80 text-base md:text-lg leading-relaxed mb-6">For more than 35 years, Heidi Stone has led independent hotels and hospitality organizations through growth, reinvestment, operational change, and strategic transformation. Today, she partners with owners, boards, and leadership teams to help organizations recognize possibility, create alignment, and achieve lasting performance.</p>
+                <p className="text-[#2E2A26]/80 text-base md:text-lg leading-relaxed mb-4">For more than 35 years, Heidi Stone has led independent hotels and hospitality organizations through growth, reinvestment, operational change, and strategic transformation. Today, as a consultant for independent hotels, she partners with owners, boards, and leadership teams to help organizations recognize possibility, create alignment, and achieve lasting performance.</p>
+                <p className="text-[#2E2A26]/80 text-base md:text-lg leading-relaxed mb-6">For owners wondering how to increase revenue at an independent hotel, the work begins with clarity—understanding where opportunity exists, aligning leadership around a shared direction, and executing with discipline to turn possibility into measurable results.</p>
                 <p className="text-[#8B6F47] text-base md:text-lg font-semibold group-hover:text-[#6F5838] transition-colors">Read the Story →</p>
               </div>
             </div>
