@@ -189,7 +189,16 @@ function About() {
             </div>
 
             <div>
-              <p className="text-lg font-semibold mb-1">National Small Business Association</p>
+              <p className="text-lg font-semibold mb-1">
+                <a
+                  href="https://www.nsbaadvocate.org"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[#8B6F47] hover:text-[#B87333] transition-colors"
+                >
+                  National Small Business Association
+                </a>
+              </p>
               <p className="text-base text-[#2E2A26]/70">Executive Committee (2026)</p>
               <p className="text-base text-[#2E2A26]/70">Vice Chair, Membership (2026)</p>
               <p className="text-base text-[#2E2A26]/70">Board Member (2025–Present)</p>
