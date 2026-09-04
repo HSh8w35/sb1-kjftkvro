@@ -175,7 +175,16 @@ function About() {
 
           <div className="max-w-4xl mx-auto space-y-6 text-[#2E2A26] text-center">
             <div>
-              <p className="text-lg font-semibold mb-1">American Hotel & Lodging Association</p>
+              <p className="text-lg font-semibold mb-1">
+                <a
+                  href="https://www.ahla.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[#8B6F47] hover:text-[#B87333] transition-colors"
+                >
+                  American Hotel & Lodging Association
+                </a>
+              </p>
               <p className="text-base text-[#2E2A26]/70">Inaugural Member, Independent & Boutique Committee (2024–Present)</p>
             </div>
 
