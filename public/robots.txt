@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
 
-# Sitemap location (update when sitemap is generated)
-# Sitemap: https://heidistonehospitality.com/sitemap.xml
+Sitemap: https://heidistonehospitality.com/sitemap.xml
