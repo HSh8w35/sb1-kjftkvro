@@ -323,7 +323,7 @@ function FieldNotes() {
                   A wide-ranging conversation with Glenn Haussman about independent hospitality, leadership, reinvention, and what decades of operating hotels taught me about seeing possibility where others see limits.
                 </p>
                 <a
-                  href="https://www.linkedin.com/feed/update/urn:li:ugcPost:7493387600188289024/"
+                  href="https://novacancynews.com/the-dirty-dancing-hotel-lost-its-lake-heres-what-happened-next/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 bg-[#8B6F47] hover:bg-[#B87333] transition-colors text-white font-semibold px-6 py-3 rounded-lg"
