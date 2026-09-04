@@ -91,7 +91,7 @@ function Home() {
                 </div>
                 <div className="w-32 h-px bg-[#8B6F47]/40 mx-auto my-6" />
                 <div className="space-y-3 text-lg md:text-xl font-semibold text-[#2E2A26] leading-relaxed max-w-2xl mx-auto px-4">
-                  <p>As a boutique and independent hotel advisor, Heidi Stone provides executive leadership and strategic advisory for owners, boards, and leadership teams at critical moments—when performance has plateaued, reinvestment is being considered, or the path forward is no longer clear.</p>
+                  <p>Executive leadership and strategic advisory for boutique and independent hotel owners, boards, and leadership teams at critical moments—when performance has plateaued, reinvestment is being considered, or the path forward is no longer clear.</p>
                 </div>
               </div>
             </div>
