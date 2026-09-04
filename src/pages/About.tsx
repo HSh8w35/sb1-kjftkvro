@@ -51,7 +51,7 @@ function About() {
               <div className="rounded-2xl overflow-hidden shadow-xl border border-[#8B6F47]/20">
                 <img
                   src="/gemini_generated_image_hu7jpthu7jpthu7j.webp"
-                  alt="Heidi Stone, Founder of Heidi Stone Hospitality"
+                  alt="Heidi Stone, boutique and independent hotel advisor and founder of Heidi Stone Hospitality"
                   className="w-full h-auto object-cover"
                 />
               </div>

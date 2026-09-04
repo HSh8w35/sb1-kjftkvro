@@ -159,7 +159,7 @@ function Home() {
               <div className="md:w-2/5 flex-shrink-0">
                 <img
                   src="/gemini_generated_image_hu7jpthu7jpthu7j.webp"
-                  alt="Heidi Stone"
+                  alt="Heidi Stone, consultant for independent hotels, at a strategic advisory engagement"
                   className="w-full h-64 md:h-full object-cover md:rounded-l-2xl rounded-t-2xl md:rounded-tr-none"
                 />
               </div>

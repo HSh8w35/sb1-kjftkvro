@@ -249,7 +249,7 @@ function Layout() {
             </div>
           </div>
           <div className="border-t border-[#B87333]/20 pt-8 text-center text-[#2E2A26]/60">
-            <p>&copy; 2025 Heidi Stone Hospitality LLC. All rights reserved.</p>
+            <p>&copy; 2026 Heidi Stone Hospitality LLC. All rights reserved.</p>
           </div>
         </div>
       </footer>

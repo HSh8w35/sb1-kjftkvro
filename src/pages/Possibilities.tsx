@@ -25,7 +25,7 @@ function Possibilities() {
               <div className="relative overflow-hidden shadow-lg" style={{ borderRadius: '50%', width: '220px', aspectRatio: '1/1' }}>
                 <img
                   src="/gemini_generated_image_hu7jpthu7jpthu7j.webp"
-                  alt="Professional conversation"
+                  alt="Strategic advisory conversation about how to increase revenue at an independent hotel"
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 pointer-events-none" style={{ boxShadow: 'inset 0 0 60px rgba(0, 0, 0, 0.15)' }} />
@@ -44,7 +44,7 @@ function Possibilities() {
               <div className="relative h-36 md:h-44 overflow-hidden">
                 <img
                   src="/Boardroom_Strategic_Advisory.png"
-                  alt="Strategic advisory boardroom discussion"
+                  alt="Strategic advisory boardroom discussion for independent hotel owners"
                   className="w-full h-full object-cover object-center"
                 />
                 <div className="absolute inset-0 bg-gradient-to-b from-[#2A2218]/30 via-[#2A2218]/20 to-[#2A2218]/70" />
@@ -94,7 +94,7 @@ function Possibilities() {
             <div className="relative h-44 md:h-56 rounded-2xl overflow-hidden shadow-xl mb-8">
               <img
                 src="/ChatGPT_Image_May_27,_2026,_10_33_09_AM.png"
-                alt="Executive leadership engagement"
+                alt="Executive leadership engagement for boutique and independent hotels"
                 className="w-full h-full object-cover"
                 style={{ objectPosition: '50% 20%' }}
               />
@@ -137,7 +137,7 @@ function Possibilities() {
             <div className="relative h-44 md:h-56 rounded-2xl overflow-hidden shadow-xl mb-8">
               <img
                 src="/Organizational_Alignment.png"
-                alt="Team working on organizational alignment"
+                alt="Organizational alignment session helping independent hotels increase revenue"
                 className="w-full h-full object-cover"
                 style={{ objectPosition: '50% 40%' }}
               />

@@ -12,7 +12,7 @@ function Services() {
         description={seoData?.description || "Leadership advisory for independent hotel owners and executive teams. Strategic alignment, executive advisory, and owner advisory."}
         keywords={seoData?.keywords}
         url="https://heidistonehospitality.com/lets-talk"
-        robots="index, nofollow"
+        robots="index, follow"
       />
       <section className="pt-28 pb-16 px-6 lg:px-8 relative">
       <div className="absolute inset-0 -top-48 opacity-20 pointer-events-none">
@@ -54,7 +54,7 @@ function Services() {
                   <div className="relative overflow-hidden shadow-lg" style={{ borderRadius: '50%', width: '70%', aspectRatio: '1/1' }}>
                     <img
                       src="/gemini_generated_image_hu7jpthu7jpthu7j.webp"
-                      alt="Professional conversation"
+                      alt="Strategic advisory conversation about how to increase revenue at an independent hotel"
                       className="w-full h-full object-cover"
                     />
                     <div className="absolute inset-0 pointer-events-none" style={{
