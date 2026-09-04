@@ -205,7 +205,16 @@ function About() {
             </div>
 
             <div>
-              <p className="text-lg font-semibold mb-1">Virginia Restaurant, Lodging & Travel Association</p>
+              <p className="text-lg font-semibold mb-1">
+                <a
+                  href="https://www.vrlta.org"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[#8B6F47] hover:text-[#B87333] transition-colors"
+                >
+                  Virginia Restaurant, Lodging & Travel Association
+                </a>
+              </p>
               <p className="text-base text-[#2E2A26]/70">Chair, Blue Ridge Chapter (2025–2027)</p>
             </div>
 
